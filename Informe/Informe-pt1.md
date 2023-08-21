@@ -57,6 +57,39 @@ Visión: Ser la plataforma numero uno que tenga la reputación de brindar manera
 #### 1.2.2.2 Lean UX Assumptions  
 
 #### 1.2.2.3 Lean UX Hyphotesis Statements  
+a. ***Business Assumptions***
+
+- **Creo que mis clientes necesitan**: Una plataforma que permita a los habitantes de Lima y a pequeñas empresas visualizar y gestionar cómo están utilizando la energía, identificando oportunidades para optimizar su consumo y, por ende, disminuir sus facturas energéticas.
+- **Estas necesidades se pueden resolver con**: Una plataforma innovadora que involucra un adaptador inteligente de enchufe para evaluar el consumo energético de su establecimiento. Una vez realizado este proceso de medición, se generará un panel de control personalizado. Aquí, el usuario podrá acceder a información detallada y recursos útiles para adoptar prácticas de ahorro energético.
+- **Mis clientes iniciales son**: Los ciudadanos de Lima, quienes son grandes consumidores de energía en el país, junto con pequeñas empresas que buscan recortar sus costos operativos.
+- **El valor #1 que un cliente quiere obtener de mi servicio es**: Información variada, que abarca desde contenido multimedia hasta detalles específicos sobre su propio consumo, que le ayude a planear un método de consumo energético que sea tanto económico como adecuado a las necesidades individuales.
+- **El cliente también puede obtener estos beneficios adicionales**: Comprando la membresia premium obtienes 3 funcionalidades extra: mayor nivel de información que puede ser de gran utilidad para economizar el uso de energía dentro de su establecimiento, el bloque de anuncios, y el acceso a un historial más amplio de datos de consumo que permite una evaluación más completa de las tendencias y mejoras a lo largo del tiempo.
+- **Voy a adquirir la mayoría de mis clientes a través de**: Marketing digital y publicidad a través de redes sociales
+- **Ganaré dinero a través de:**: Anuncios dentro de la plataforma y las membresías premium.
+- **Mi principal competencia en el mercado será:**: Otras aplicaciones de seguimiento de consumo eléctrico. Los venceremos debido a que nuestra plataforma sobresale al proporcionar una visión completa de los patrones de consumo, permitiendo tomar medidas informadas. A diferencia de aplicaciones que simplemente muestran datos, nosotros brindamos un conjunto de soluciones prácticas y consejos personalizados para lograr una disminución real en el gasto energético. Esta ventaja competitiva nos posiciona como líderes en ayudar a los usuarios a tomar el control de su consumo de energía de manera efectiva y sostenible.
+- **Mi mayor riesgo de producto es**: La posibilidad de que nuestros usuarios no perciban valor o interes en la plataforma.
+- **Resolveremos esto a través de**: Ofreciendo un servicio excepcional a través de la plataforma al proporcionar datos pertinentes y valiosos para cada perfil de usuario. Ademas, se agregara en el landing page una seccion para los casos de exitos, para que los usuarios lean eso y se animen a probar nuestra plataforma.
+
+b. ***User Assumptions***
+
+- **¿Quién es el usuario?**: Todos los ciudadanos limeños mayores de edad que deseen disminuir sus costos de energía, junto con pequeñas empresas que buscan reducir su consumo energético.
+- **¿Dónde encaja nuestro producto en su trabajo o en su vida?**: Nuestra solución tiene un efecto significativo en la vida de los usuarios al posibilitar un ahorro sustancial al disminuir y optimizar su uso de energía. 
+- **¿Qué problemas resuelve nuestro producto?**: Ofrece a los habitantes de Lima una forma fácil y eficaz de controlar su consumo de electricidad. Al fomentar la eficiencia energética, disminuye los importes que los usuarios tendrán que desembolsar por su consumo eléctrico.
+- **¿Cuándo y cómo se utiliza nuestro producto?**: Nuestro producto permitirá a los usuarios acceder y utilizarlo desde sus ordenadores para administrar su consumo de energía. Ofrecerá contenido multimedia diseñado para ayudarles a reducir su consumo energético y les brindará información detallada sobre su propio uso, ademas de generar reportes de este.
+- **¿Qué características son importantes?**: Destaca por proporcionar información pertinente acerca del consumo energético del usuario, así como estrategias para ahorrar energía.
+- **¿Cómo debe verse y comportarse nuestro producto?**: El producto debe presentar una interfaz amigable y de fácil comprensión, funcionando como una herramienta que guíe al usuario en la reducción de su consumo energético en casa o en la empresa en que trabaja. Además, debe ser adaptable a diversos dispositivos, manteniendo su funcionalidad y diseño.
+  
+c. ***User Outcomes***
+
+A continuación, se detallarán las metas que nuestros usuarios aspiran alcanzar al utilizar nuestra plataforma:
+
+- Administrar con eficacia el uso de energía en sus hogares o empresas, logrando una gestión más consciente y controlada.
+- Reducir sus costos al adoptar prácticas que disminuyan los montos a pagar por el consumo energético.
+- Visualizar y comprender los patrones de consumo, permitiéndoles tomar decisiones informadas sobre sus hábitos energéticos.
+- Contribuir al cuidado del medio ambiente al reducir la huella de carbono a través de la reducción del consumo de energía.
+- Establecer metas de ahorro energético a corto y largo plazo, impulsando la disciplina en el control de su consumo.
+
+Nuestra plataforma tiene como objetivo respaldar a los usuarios en la consecución de estas metas, proporcionando herramientas y recursos que los empoderen en su búsqueda de eficiencia energética y ahorro económico.
 
 #### 1.2.2.4 Lean UX Canvas  
 
