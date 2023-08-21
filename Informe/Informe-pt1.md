@@ -2,7 +2,7 @@ Universidad Peruana de ciencias aplicadas
 Ingenieria de Sistemas y Comunicaciones | Ingenieria de Software  
 
 Para el curso de Desarrollo de Aplicaciones Open Source  
-WS53 - Elio Jefferson Navarrete Vilca  
+SW53 - Elio Jefferson Navarrete Vilca  
 # Course Project - Final Report TB1  
 
 Integrantes:
