@@ -112,12 +112,12 @@ Nuestra plataforma tiene como objetivo respaldar a los usuarios en la consecuci�
 #### 1.2.2.4 Lean UX Canvas  
 
 ## 1.3 Segmentos Objetivo  
-* Los ciudadanos Limeños
+* Individuos de 18 a 50 años
   
-El primer segmento objetivo son los residentes de la ciudad de Lima. Es precisamente en esta ciudad donde más energía se consume en el Perú por cada vivienda. En esta ciudad, habitan aproximadamente el 36% de la población total en el Perú, con un total de 12,053 millones de peruanos (CPI, 2022). Debido a esto, existen una mayor cantidad de personas interesadas en disminuir el consumo de energía en sus viviendas de manera más eficiente para reducir los gastos mensuales que hacen.
-* Empresas Limeñas
+El primer segmento objetivo son los individuos de 18 a 50 años, quienes usualmente son los que requieren servicios de mudanza y carga
+* Empresas de mudanza 
   
-Nuestro segundo segmento objetivo sería negocios pequeños a medianos en la ciudad de lima que busquen reducir los gastos energía que consumen mediante sus dispositivos electrónicos (heladeras, ventiladores, etc.) y por la iluminación del lugar, asi como por funcionamiento en otras areas.  
+Nuestro segundo segmento objetivo sería Empresas de mudanzas quienes quieran una nueva avenida para promocionar sus servicios
 
 # Capitulo 2: Requirements Elicitation & Analysis
 
