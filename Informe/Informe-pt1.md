@@ -18,6 +18,7 @@ Ciclo 2023-02
  :-----|:-----:|:-----:|-----:
  TB1 | 21/08/23 | Eric Cuevas| Se añadio la descripcion de la startup asi como los Lean UX problem statements y los segmentos objetivos.
  TB1 | 21/08/23 | Lucero Obispo| Se añadio los user outcomes, business assumptions y user assumptions.
+  TB1 | 21/08/23 | Javier Sebastian| Se añadio...
 ---
 1. Capitulo 1: Introduccion   
    1.1 Startup Profile   
@@ -39,29 +40,29 @@ Ciclo 2023-02
 # Capitulo 1 : Introducción  
 ## 1.1 Startup profile  
 ### 1.1.1 Descripción de la startup  
-Nuestra startup se trata de una plataforma de  que mide el consumo de energía del usuario utilizando datos que estos proveen a partir de un dispositivo instalado en su hogar, y en base a esto en la plataforma podrán ver los detalles de este consumo, crear un plan de egestión para volver el uso de energia en su vivienda más eficiente, visualizar contenido que le ayudara e instruira a como ahorrar en su consumo de nergia, etc.  
-Misión: Reducir el consumo energetico de los usuarios por medio de la concientización en base a los datos e información proporcionados.  
-Visión: Ser la plataforma numero uno que tenga la reputación de brindar maneras de reducir el consumo energetico, economizar el uso de energía y aliviar el bolsillo de los usuarios.   
+Nuestra startup, "Nombre de la startup", se especializa en una innovadora plataforma que conecta a los clientes con empresas de mudanzas, ofreciendo un servicio integral. Por un lado, permite a los usuarios interactuar de manera eficiente con las empresas de mudanza, optimizando el proceso completo. A través de la plataforma, los clientes pueden describir sus necesidades de mudanza y recibir propuestas detalladas de empresas de mudanzas asociadas. Por otro lado, las empresas de mudanzas obtienen cierta visibilidad y prestigio por un servicio satisfactorio.
+
+Misión: Nuestra misión es simplificar y mejorar el proceso de mudanza para los usuarios, al mismo tiempo que brindamos nuevas oportunidades de negocio para las empresas de mudanzas, todo esto a través de una plataforma accesible y fácil de usar.
+
+Visión: Buscamos convertirnos en la principal plataforma en la industria de mudanzas, siendo reconocidos por nuestra capacidad para conectar de manera eficaz a los clientes con las empresas de mudanzas, proporcionando una experiencia sin problemas y confiable para todos los involucrados.   
 
 ### 1.1.2 Perfiles de los integrantes del equipo  
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
 
-- En la actualidad, uno de los servicios más elementales de todo hogar y negocio en el Perú, es el consumo eléctrico.  Más del 99% de los hogares en lima región cuentan con algún tipo de servicio eléctrico mediante red pública (ERCUE,2020). Nacionalmente, el 95% de todos los hogares en el Perú cuentan con red eléctrica (MINEM, 2019).
-- En Lima metropolitana, el hogar promedio consume 172 kWh aproximadamente, mientras que en demás lugares fue aproximadamente la mitad o menos. Con esto podemos concluir que Lima metropolitana, es el territorio con mayor consumo energético en todo el Perú (ERCUE,2020, Gráfico 12).  Este consumo promedio incluye: iluminación, refrigeración, electrodomésticos, etc. Es decir, dispositivos electrónicos básicos y comunes en una casa promedio. 
-- El gasto promedio en energía eléctrica fue de s/.100 a más en lima metropolitana, s/.13 a más en Perú rural, s/.65 a más en Perú urbano y un promedio de s/.58 nacionalmente (ERCUE,2020, Grafico 9). Este gasto representa aproximadamente un 2.6 a más % de los ingresos promedio en el Perú (ERCUE,2020, Cuadro 2). 
-- Cabe resaltar que en el gráfico 19 de ERCUE,2020, se puede evidenciar, que muchos de los encuestados no realizan muchas prácticas para ahorrar energía.
-- Las MYPEs consumen bastante energía debido a que “existe mucha informalidad en sus instalaciones y los procesos operativos. El ahorro en conjunto, como costo de producción, podría llegar hasta un 5%” (Stakeholders,2011). Además, “El alza del dólar ha puesto en la encrucijada a miles de MYPEs, cuyos costos de energía eléctrica se les está incrementado y muchas tienen riesgo de no asumirlos y salir del mercado” (Correo,2021).
-- Osinergmin ha creado varias propuestas para poder reducir estos costos a las MYPEs, dependiendo de su consumo eléctrico. Sin embargo, este costo todavía sigue siendo relevante para varias microempresas.
+- En la actualidad, una de las actividades presentes en la vida de las personas es el cambio de lugar de residencia. Sea por diferentes motivos, como acercarse al centro de estudios o de trabajo. Aproximadamente 200,000 indiviudos migran internamente en Lima. Entre esta cantidad, un 58% se muda a una ubicación relativamente nueva, mientras que un 42% prefiere mudarse a una zona cercana a su ubicación anterior (IPSOS, 2019). 
+- ( )
+- ( )
+- ( )
 
-o	**What (Qué):** En el Perú y en el mundo, el consumo de energía está aumentando a medida que más personas adoptan un estilo de vida moderno y consumen más dispositivos electrónicos. El aumento del consumo de energía se debe, en parte, a la falta de conciencia y comprensión de cómo se utiliza la energía en los hogares.  
-o	**When (Cuándo)**: En los últimos años, el aumento del consumo de energía ha sido una tendencia constante en todo el mundo.  
-o	**Why (Por qué)**: A medida que más personas modernizan su estilo de vida y dependen cada vez más de los dispositivos electrónicos, el consumo de energía ha aumentado significativamente. Además, muchas personas no son conscientes del impacto financiero de su consumo de energía.    
-o	**Who (Quién)**: Las personas afectadas por esta problemática son todas aquellas que utilizan energía en sus hogares, especialmente aquellas que no son conscientes del impacto ambiental y financiero de su consumo de energía.    
-o	**Where (Dónde)**: El aumento del consumo de energía es un problema global, que afecta a todos los países y regiones del mundo.  
-o	**How (Cómo)**: Los hogares consumen energía de diversas formas, incluyendo la iluminación, internet, calefacción, el uso de electrodomésticos, entre otros. Muchas personas no son conscientes de cómo se utiliza la energía en sus hogares, lo que contribuye al aumento del consumo.   
-o	**How much (Cuánto)**: Según el INEI, el consumo promedio de energía eléctrica en el Perú en el 2010 fue de 3,9 Terajoules por 1000 habitantes, mientras que en el 2019 fue de 6,4 Terajoules por 1000 habitantes. Esto nos demuestra como cada vez aumentamos nuestro consumo de energía eléctrica sin tener consciencia del impacto que este genera tanto ambiental como económicamente y que, producto de este, muchas personas pagan facturas de energía elevadas debido a un consumo ineficiente.
+o	**What (Qué):**  En el Perú, la migración interna se desenvuelve con mayor frecuencia. Por ese motivo, a dia de hoy la informalidad abarca tambien las mudanzas. Producto de ello, este servicio no siempre cumple con las medidas necesarias para asegurar un traslado adecuado y seguro.    
+o	**When (Cuándo):** Desde ultimas decadas, en el Peru, la migración interna ha ido en incremento, exceptuando el periodo de confinamiento ocurrido entre 2019-2021.     
+o	**Why (Por qué):** Existe una falta de regularizacion en el mercado de mudanzas. Por otro lado, muchas personas no tiene conocimiento sobre el protocolo que debe de ser cumplido para un transporte efectivo.       
+o	**Who (Quién):**  Las personas que buscan mudarse internamente en el Perú, así como los trabajadores y empresas informales en el sector de mudanzas.  
+o	**Where (Dónde):**  Esta problemática ocurre a lo largo de todo el territorio peruano.     
+o	**How (Cómo):**    Los operadores de mudanza informales no están registrados ni regulados, por lo cual, no se garantiza la seguridad ni el profesionalismo. Además , no existen contratos y documentación adecuada en las transacciones de mudanza, lo que dificulta resolver disputas y reclamos.      
+o	**How much (Cuánto):** 
 
 
 ### 1.2.2 Lean UX Process  
@@ -118,3 +119,16 @@ El primer segmento objetivo son los residentes de la ciudad de Lima. Es precisam
 Nuestro segundo segmento objetivo sería negocios pequeños a medianos en la ciudad de lima que busquen reducir los gastos energía que consumen mediante sus dispositivos electrónicos (heladeras, ventiladores, etc.) y por la iluminación del lugar, asi como por funcionamiento en otras areas.  
 
 # Capitulo 2: Requirements Elicitation & Analysis
+
+
+
+
+
+
+
+
+
+**Bibliografia**
+--
+Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
+https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf
