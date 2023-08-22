@@ -73,7 +73,6 @@ o	**How much (Cuánto):**
 
 #### 1.2.2.2 Lean UX Assumptions  
 
-#### 1.2.2.3 Lean UX Hyphotesis Statements  
 a. ***Business Assumptions***
 
 - **Creo que mis clientes necesitan**: Una plataforma que permita a los habitantes de Lima y a pequeñas empresas visualizar y gestionar cómo están utilizando la energía, identificando oportunidades para optimizar su consumo y, por ende, disminuir sus facturas energéticas.
@@ -107,6 +106,8 @@ A continuación, se detallarán las metas que nuestros usuarios aspiran alcanzar
 - Establecer metas de ahorro energético a corto y largo plazo, impulsando la disciplina en el control de su consumo.
 
 Nuestra plataforma tiene como objetivo respaldar a los usuarios en la consecución de estas metas, proporcionando herramientas y recursos que los empoderen en su búsqueda de eficiencia energética y ahorro económico.
+
+#### 1.2.2.3 Lean UX Hyphotesis Statements  
 
 #### 1.2.2.4 Lean UX Canvas  
 
