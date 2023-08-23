@@ -131,12 +131,11 @@ Nuestro segundo segmento objetivo sería Empresas de mudanzas quienes quieran un
 |PERFIL|
 |-------------|
 
-|| **Mi Proyecto**| **Competidor A**| **Competidor B**| **Competidor C**|
+|| **Mi Proyecto**| **Infoisinfo**| **Macingo**| **PegaCargo**|
 |---------------|--------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
-| **Overview**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
-| **Ventaja Competitiva ¿Qué valor ofrece a los  clientes?**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
+| **Overview**| - ( )| - Motor de búsqueda online, que localiza empresas y profesionales| - Empresa italiana especializada en el transporte de mercancía a nivel internacional | - Startup que facilita la búsqueda de transportistas de carga de forma conveniente, expedita y confiable, adaptándose a los requerimientos del cliente|
+| **Ventaja Competitiva ¿Qué valor ofrece a los  clientes?**| - ( )| - Filtro de búsqueda por ubicación | - Servicio orientado según preferencias del cliente y alcance de la empresa| - Filtros de búsqueda por ubicación y rango de presupuesto|
+|| - ( )| - Costo gratuito o de bajo coste para la promoción de MYPES| - Las ofertas de servicios disponibles son recibidos por SMS o vía correo electrónico| - No existe intermediario entre las transacciones|
 
 |PERFIL DE MARKETING|
 |-------------|
