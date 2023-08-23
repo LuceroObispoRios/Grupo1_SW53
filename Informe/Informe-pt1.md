@@ -9,16 +9,17 @@ Integrantes:
 - Cuevas Rios, Eric Fernando
 - Obispo Rios, Lucero Abigail
 - Sebastian Tasayco, Javier Martin
-- a
+- O'Higgins Rosales, Andrea Namie
 - a
 
 Ciclo 2023-02
 ---  
  Versión| Fecha| Integrante| Descripcion de modificación|
- :-----|:-----:|:-----:|-----:
+ :-----:|:-----:|:-----:|:-----
  TB1 | 21/08/23 | Eric Cuevas| Se añadio la descripcion de la startup asi como los Lean UX problem statements y los segmentos objetivos.
  TB1 | 21/08/23 | Lucero Obispo| Se añadio los user outcomes, business assumptions y user assumptions.
   TB1 | 21/08/23 | Javier Sebastian| Se añadio...
+  TB1 | 23/08/23 | Andrea O'Higgins| ...
 ---
 1. Capitulo 1: Introduccion   
    1.1 Startup Profile   
