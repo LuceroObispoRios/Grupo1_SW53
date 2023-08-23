@@ -72,7 +72,7 @@ o	**How much (Cuánto):**
 
 - Hemos observado que los usuarios a menudo tienen dificultades para encontrar y seleccionar opciones de mudanza y carga que se adapten a sus necesidades y presupuestos. ¿Cómo podríamos lograr que los ciudadanos busquen con seguridad, facilidad y rapidez a personas que ofrecen servicios de mudanza y carga?  
 - Hemos observado que los usuarios sienten inseguridad al confiar sus objetos de valor a los proveedores de mudanza. ¿Cómo podríamos hacer que los clientes tengan seguridad en todo el proceso de mudanza?
-- Hemos notado que los trabajadores de empresas de mudanzas a veces experimentan problemas de comunicación y expectativas con los clientes durante el proceso de mudanza o carga. ¿Cómo podriamos mejorar la comunicación con sus clientes y ayudarle a que brindar un buen servicio?
+- Hemos notado que los trabajadores de empresas de mudanzas a veces experimentan problemas de comunicación y expectativas con los clientes durante el proceso de mudanza o carga. ¿Cómo podriamos mejorar la comunicación con sus clientes y ayudarles a brindar un buen servicio?
 
 #### 1.2.2.2 Lean UX Assumptions  
 
