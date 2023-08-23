@@ -17,7 +17,7 @@ Ciclo 2023-02
  Versión| Fecha| Integrante| Descripcion de modificación|
  :-----:|:-----:|:-----:|:-----
  TB1 | 23/08/23 | Lucero Obispo| Se añadio los lean ux problem statements, assumptions y hypothesis statements
- TB1 | 23/08/23 | Eric Cuevas| Se añadio ...
+ TB1 | 23/08/23 | Eric Cuevas| Se añadio los antecedentes y problematica, el lean UX canvas y los segmentos objetivo
  TB1 | 23/08/23 | Javier Sebastian| Se añadio...
  TB1 | 23/08/23 | Andrea O'Higgins| ...
 ---
@@ -41,30 +41,37 @@ Ciclo 2023-02
 # Capitulo 1 : Introducción  
 ## 1.1 Startup profile  
 ### 1.1.1 Descripción de la startup  
-Nuestra startup, "Nombre de la startup", se especializa en una innovadora plataforma que conecta a los clientes con empresas de mudanzas, ofreciendo un servicio integral. Por un lado, permite a los usuarios interactuar de manera eficiente con las empresas de mudanza, optimizando el proceso completo. A través de la plataforma, los clientes pueden describir sus necesidades de mudanza y recibir propuestas detalladas de empresas de mudanzas asociadas. Por otro lado, las empresas de mudanzas obtienen cierta visibilidad y prestigio por un servicio satisfactorio.
+Nuestra startup, "Carga sin estres", se especializa en una innovadora plataforma que conecta a los clientes con empresas de mudanzas, ofreciendo un servicio integral. Por un lado, permite a los usuarios interactuar de manera eficiente con las empresas de mudanza, optimizando el proceso completo. A través de la plataforma, los clientes pueden describir sus necesidades de mudanza y recibir propuestas detalladas de empresas de mudanzas asociadas. Por otro lado, las empresas de mudanzas obtienen visibilidad y prestigio por un servicio satisfactorio, lo que ayudara en el funcionamiento de estas.
 
 Misión: Nuestra misión es simplificar y mejorar el proceso de mudanza para los usuarios, al mismo tiempo que brindamos nuevas oportunidades de negocio para las empresas de mudanzas, todo esto a través de una plataforma accesible y fácil de usar.
 
-Visión: Buscamos convertirnos en la principal plataforma en la industria de mudanzas, siendo reconocidos por nuestra capacidad para conectar de manera eficaz a los clientes con las empresas de mudanzas, proporcionando una experiencia sin problemas y confiable para todos los involucrados.   
+Visión: Buscamos convertirnos en la principal plataforma en la industria de mudanzas y transporte de bienes grandes como muebles, siendo reconocidos por nuestra capacidad para conectar de manera eficaz a los clientes con las empresas de mudanzas, proporcionando una experiencia sin problemas y confiable para todos los involucrados.    
 
 ### 1.1.2 Perfiles de los integrantes del equipo  
+* Nombres y Apellidos: Eric Fernando Cuevas Rios  
+Carrera: Ingenieria de Software  
+Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
+Fotografia de Perfil: [foto]()  
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
 
-- En la actualidad, una de las actividades presentes en la vida de las personas es el cambio de lugar de residencia. Sea por diferentes motivos, como acercarse al centro de estudios o de trabajo. Aproximadamente 200,000 indiviudos migran internamente en Lima. Entre esta cantidad, un 58% se muda a una ubicación relativamente nueva, mientras que un 42% prefiere mudarse a una zona cercana a su ubicación anterior (IPSOS, 2019). 
-- ( )
-- ( )
-- ( )
+En la actualidad, una de las actividades presentes en la vida de las personas es el cambio de lugar de residencia. Sea por diferentes motivos, como acercarse al centro de estudios o de trabajo, como resultado de sus metas a corto o largo plazo, e inclusive para mejorar su propia calidad de vida. Esto se refleja, como ejemplo, en el hecho de que aproximadamente 200,000 indiviudos migran internamente en Lima. Entre esta cantidad, un 58% se muda a una ubicación relativamente nueva, mientras que un 42% prefiere mudarse a una zona cercana a su ubicación anterior (IPSOS, 2019), asi como en la realidad que, aparte de la migración interna, el numero de inmigrantes que vienen a residir en Perú aumenta cada año, siendo el aumento en 2020 de 1.069.745 personas (Expansion, 2020).  
+Aun asi, dentro del propio sector de mudanza y transpote de carga como serian muebles o electrodomesticos, se presentan problemas para ambos las empresas de mudanza y transporte de bienes asi como para los propiops usuarios de estos servicios.
+  
+En cuanto a las empresas, estas tienen que esforzarse para ganar su lugar en el mercado para sus marcas, más la mayor parte de la competencia que se encuentra en el país es informal, como indica el diario Gestion (2020), negocios que al tener un camión disponible se dedican a la mudanza unos días, pero en otro momento cargan otras cosas. Estando estos ultimos sin seguros ni garantias, estos en si tambien pueden traer perjuicio a los usuarios. Esto junto a los perjucios de otros eventos como lo fueron la pandemia del Covid-19 y otros factores economicos o politicos, hieren el negocio de las mudanzas, dejandoles con la necesidad de buscar nuevas maneras de expandir servicios. 
+  
+Por su parte los usuarios, en muchos casos, no presentan suficiente conocimiento sobre el sector de mudanzas por lo que suelen escoger el servicio a ultimo minuto, con poca información y de manera apresurada, llevando este accionar incluso a gastos adicionales para ellos.
+  
+En base a lo expuesto anteriormente nace la iniciativa de "Carga sin estres", una applicación que permitira conectar a los usuarios a servicios de mudanzas y transporte de bienes, brindando mayor información de manera más eficiente a los usuarios y una nueva avenida de promoción para las empresas.
 
-o	**What (Qué):**  En el Perú, la migración interna se desenvuelve con mayor frecuencia. Por ese motivo, a dia de hoy la informalidad abarca tambien las mudanzas. Producto de ello, este servicio no siempre cumple con las medidas necesarias para asegurar un traslado adecuado y seguro.    
-o	**When (Cuándo):** Desde ultimas decadas, en el Peru, la migración interna ha ido en incremento, exceptuando el periodo de confinamiento ocurrido entre 2019-2021.     
-o	**Why (Por qué):** Existe una falta de regularizacion en el mercado de mudanzas. Por otro lado, muchas personas no tiene conocimiento sobre el protocolo que debe de ser cumplido para un transporte efectivo.       
+o	**What (Qué):**  En el Perú, la migración interna e inmigración no son factores poco comunes, pero existe aun una dificultad de los usuarios de los servicios de mudanzas para encontrar opciones formales y que se adapten a sus propias preferencias. Producto de ello, los servicios que suelen tomar las personas son de ultimo momento, apresurados y no siempre capaces de cumplir con las medidas necesarias para asegurar un traslado adecuado y seguro.    
+o	**When (Cuándo):** Desde ultimas decadas, en el Peru, el movimiento poblacional ha ido en incremento, exceptuando el periodo de confinamiento ocurrido entre 2019-2021.     
+o	**Why (Por qué):** Existe una falta de regularizacion en el mercado de mudanzas, asi como una falta de visibilidad de empresas formales y una falta de conocimiento de los usuarios sobre el sector, derivando en que estos no siempre usen servicios que lleguen a los estandares.      
 o	**Who (Quién):**  Las personas que buscan mudarse internamente en el Perú, así como los trabajadores y empresas informales en el sector de mudanzas.  
 o	**Where (Dónde):**  Esta problemática ocurre a lo largo de todo el territorio peruano.     
-o	**How (Cómo):**    Los operadores de mudanza informales no están registrados ni regulados, por lo cual, no se garantiza la seguridad ni el profesionalismo. Además , no existen contratos y documentación adecuada en las transacciones de mudanza, lo que dificulta resolver disputas y reclamos.      
-o	**How much (Cuánto):** 
-
+o	**How (Cómo):**    Los operadores de mudanza informales no están registrados ni regulados, por lo cual, no se garantiza la seguridad ni el profesionalismo. Además , no existen contratos y documentación adecuada en las transacciones de mudanza, lo que dificulta resolver disputas y reclamos. Por ultimo, existe una falta de conocimieto de los usuarios sobre las empresas calificadas asi como de los servicios que estas proponen.     
+o	**How much (Cuánto):**  Entre inmigrantes y migración interna, más de 1 millon de personas acceden a servicios de mudanza cada año.
 
 ### 1.2.2 Lean UX Process  
 
@@ -113,14 +120,15 @@ c. ***User Outcomes***
 - **Creemos que** nuestras ganancias económicas vendrán por parte de comisiones por transaccion (cada vez que un usuario solicite un servicio), así como de las membresías premium brindadas a los usuarios que son trabajadores de empresas de mudanzas y carga. **Sabremos que** hemos tenido éxito cuando incrementen en un 10% el número de usuarios con membresías respecto al mes anterior.
 
 #### 1.2.2.4 Lean UX Canvas  
+[Lean UX Canvas de "Carga sin estres"](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Ericcuevas03-patch-1/Informe/Canvas%20carga%20sin%20estres.jpg?raw=true)  
 
 ## 1.3 Segmentos Objetivo  
 * Individuos de 18 a 50 años
   
-El primer segmento objetivo son los individuos de 18 a 50 años, quienes usualmente son los que requieren servicios de mudanza y carga
+El primer segmento objetivo son los individuos de 18 a 50 años, quienes usualmente son los que requieren servicios de mudanza y carga, además de información sobre las empresas y servicios de mudanza a los que pueden acceder. 
 * Empresas de mudanza 
   
-Nuestro segundo segmento objetivo sería Empresas de mudanzas quienes quieran una nueva avenida para promocionar sus servicios
+Nuestro segundo segmento objetivo serían las Empresas de mudanzas y carga formales, quienes desean nuevas avenidas para promocionar sus servicios asi como una manera de reslatar del resto del sector.
 
 # Capitulo 2: Requirements Elicitation & Analysis
 
@@ -175,4 +183,13 @@ Nuestro segundo segmento objetivo sería Empresas de mudanzas quienes quieran un
 **Bibliografia**
 --
 Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
-https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf
+https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf  
+  
+Archivo El comercio. (s.f.). Diario Gestion. Los agentes especializados para mudarte a otro espacio.  
+https://archivo.elcomercio.pe/especial/50-ideas-de-negocios/noticias/agentes-especializados-cambiar-espacios-noticia-1992612  
+
+Expansion. (2020). Datosmacro. Sube el número de inmigrantes que viven en Perú.
+https://datosmacro.expansion.com/demografia/migracion/inmigracion/peru#:~:text=En%20los%20últimos%20años%2C%20el,%2C%20un%20691%2C17%25.  
+
+Expresso. (2019). ¿Sabías que la mayoría de personas busca una empresa de mudanza a último momento?  
+https://www.expreso.com.pe/opinion/sabias-que-la-mayoria-de-personas-busca-una-empresa-de-mudanza-a-ultimo-momento/  
