@@ -174,6 +174,25 @@ Nuestro segundo segmento objetivo serían las Empresas de mudanzas y carga forma
 || - ( )| - ( )| - ( )|  ( )|
 
 
+### 2.3.4 Empathy Mapping
+**Empathy Mapping Ciudadano**
+
+![Empathy Mapping ciudadano](EmpathyMap_Ciudadano.png)
+
+**Empathy Mapping Empresa**
+
+![Empathy Mapping empresa](EmpathyMap_Empresa.png)
+
+### 2.3.5 As-is Scenario Mapping
+**As Is Ciudadano**
+
+![as is segmento ciudadano](As-is_Ciudadano.png)
+
+**As Is Empresa**
+
+![as is segmento empresa](As-is_Empresa.png)
+
+
 **Bibliografia**
 --
 Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
