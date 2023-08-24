@@ -145,30 +145,24 @@ Nuestro segundo segmento objetivo serían las Empresas de mudanzas y carga forma
 | **Ventaja Competitiva ¿Qué valor ofrece a los  clientes?**| - ( )| - Filtro de búsqueda por ubicación | - Servicio orientado según preferencias del cliente y alcance de la empresa| - Filtros de búsqueda por ubicación y rango de presupuesto|
 || - ( )| - Costo gratuito o de bajo coste para la promoción de MYPES| - Las ofertas de servicios disponibles son recibidos por SMS o vía correo electrónico| - No existe intermediario entre las transacciones|
 
-|PERFIL DE MARKETING|
-|-------------|
 
-|| **Mi Proyecto**| **Competidor A**| **Competidor B**| **Competidor C**|
+
+|**PERFIL DE MARKETING**|||||
 |---------------|--------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
-| **Mercado Objetivo**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
-| **Estrategias de marketing**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
+| **Mercado Objetivo**| - ()| - Usuarios en busqueda de productos y servicios en 33 paises y disponible en 11 idiomas| - Empresas de servicio de transporte| - Transportistas de bienes entre ciudades |
+|| - ( )| - Empresas y profesionales| - Usuarios en busqueda de productos y servicios| - Usuarios en busqueda de productos y servicios|
+| **Estrategias de marketing**| - Programas de Lealtad y Recompensas: Ofrece incentivos a los clientes existentes para que vuelvan y soliciten el servicio de mudanza.| - Optimizacion de motores de busqueda:  Utiliza palabras clave relevantes en las busquedas (mudanzas/transporte/   movimiento...etc).| - Personalización: Utiliza datos y comportamientos del cliente para ofrecer contenido y ofertas personalizadas.| - Redes Sociales: Utiliza plataformas como Facebook, Instagram y LinkedIn para interactuar con la audiencia, publicar anuncios y construir una comunidad en línea.|
+|| - ( )| - Campañas de Publicidad en Línea: Utiliza anuncios de pago por clic (PPC) en plataformas como Google Ads puede aumentar la visibilidad del sitio y atraer usuarios que buscan información sobre empresas y servicios locales.| - Email Marketing: Envia correos electrónicos a una lista de suscriptores con contenido informativo, promociones, actualizaciones y noticias relevantes para mantener el compromiso con los clientes.| - Personalización: Utilizar datos y comportamientos del cliente para ofrecer contenido y ofertas personalizadas.|
+|| - ( )| - Reseñas: Fomenta reseñas de usuarios satisfechos.| - Marketing de Referencia: Fomentar a los clientes actuales a referir nuevos clientes.| - Marketing de Contenido Generado por el Usuario: Animar a los clientes a crear y compartir contenido relacionado con la marca, como reseñas, fotos de productos o testimonios.|
 
-|PERFIL DE PRODUCTO|
-|-------------|
-
-|| **Mi Proyecto**| **Competidor A**| **Competidor B**| **Competidor C**|
+|PERFIL DE PRODUCTO|||||
 |---------------|--------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
-| **Precios & Costos**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
-| **Canales de Distribución (Web y/o Móvil)**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
+| **Precios & Costos**| - ( )| - Libre acceso a sitio web| - Libre acceso a sitio web| - Libre acceso a sitio web|
+|| - ( )| - Publicación gratuita del negocio | - Publicación gratuita del negocio| - Para negocios inscritos: Inversiones desde  S/20,00 hasta S/9601,00 para publicidad.
+| **Canales de Distribuciócn (Web y/o Móvil)**| - ( )| - Canal de distribucion: web| - Canal de distribucion: web| - Canal de distribucion: web|
+|| - ventas por internet| - ventas por internet| - ventas por internet | - ventas por internet|
 
-|ANÁLISIS SWOT|
-|-------------|
-
-|| **Mi Proyecto**| **Competidor A**| **Competidor B**| **Competidor C**|
+|ANÁLISIS SWOT|||||
 |---------------|--------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
 | **Fortalezas**| - ( )| - ( )| - ( )| - ( )|
 || - ( )| - ( )| - ( )| - ( )|
