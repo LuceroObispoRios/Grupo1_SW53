@@ -171,7 +171,7 @@ Nuestro segundo segmento objetivo serían las Empresas de mudanzas y carga forma
 
 ### 2.1.2 Estrategias y tácticas frente a los competidores
 
-La estrategia planteada en este caso, inicia con la construcción de un servicio robusto y confiable. En primer lugar, desarrollar una interfaz de usuario intuitiva y fácil de usar, donde los usuarios puedan comparar no solo precios, sino también la calidad del servicio y reseñas de los clientes acompañado opcionalmente de imágenes. En segundo lugar, es primordial implementar un sistema de verificación riguroso para los transportistas o empresas asociadas, asegurando que solo aquellos que cumplan con altos estándares de calidad puedan ofrecer sus servicios a través de tu plataforma.
+La estrategia planteada en este caso, inicia con la construcción de un servicio robusto y confiable. En primer lugar, desarrollar una interfaz de usuario intuitiva y fácil de usar, donde los usuarios puedan comparar no solo precios, sino también la calidad del servicio y reseñas de los clientes acompañado opcionalmente de imágenes. En segundo lugar, es primordial implementar un sistema de verificación riguroso para los transportistas o empresas asociadas, asegurando que solo aquellos que cumplan con altos estándares de calidad puedan ofrecer sus servicios a través de la plataforma.
 
 Por otro lado, incorporar funciones de seguimiento en tiempo real, opción de cotización de servicio virtual o presencial, actualizaciones de estado y notificaciones proactivas durante el proceso de mudanza o envío de carga.
 Finalmente, integrar herramientas de inteligencia artificial para mejorar la asignación de rutas y estimaciones de tiempos.
