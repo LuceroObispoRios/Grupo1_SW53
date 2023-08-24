@@ -120,7 +120,7 @@ c. ***User Outcomes***
 - **Creemos que** nuestras ganancias económicas vendrán por parte de comisiones por transaccion (cada vez que un usuario solicite un servicio), así como de las membresías premium brindadas a los usuarios que son trabajadores de empresas de mudanzas y carga. **Sabremos que** hemos tenido éxito cuando incrementen en un 10% el número de usuarios con membresías respecto al mes anterior.
 
 #### 1.2.2.4 Lean UX Canvas  
-![Lean UX Canvas](LeanUXCanvas.png)  
+![Lean UX Canvas](/Informe/Imagenes/LeanUXCanvas.png)  
 
 ## 1.3 Segmentos Objetivo  
 * Individuos de 18 a 50 años
@@ -180,20 +180,20 @@ Finalmente, integrar herramientas de inteligencia artificial para mejorar la asi
 ### 2.3.4 Empathy Mapping
 **Empathy Mapping Ciudadano**
 
-![Empathy Mapping ciudadano](EmpathyMap_Ciudadano.png)
+![Empathy Mapping ciudadano](/Informe/Imagenes/EmpathyMap_Ciudadano.png)
 
 **Empathy Mapping Empresa**
 
-![Empathy Mapping empresa](EmpathyMap_Empresa.png)
+![Empathy Mapping empresa](/Informe/Imagenes/EmpathyMap_Empresa.png)
 
 ### 2.3.5 As-is Scenario Mapping
 **As Is Ciudadano**
 
-![as is segmento ciudadano](As-is_Ciudadano.png)
+![as is segmento ciudadano](/Informe/Imagenes/As-is_Ciudadano.png)
 
 **As Is Empresa**
 
-![as is segmento empresa](As-is_Empresa.png)
+![as is segmento empresa](/Informe/Imagenes/As-is_Empresa.png)
 
 
 **Bibliografia**
