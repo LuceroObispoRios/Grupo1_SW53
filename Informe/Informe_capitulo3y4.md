@@ -3,8 +3,8 @@
 
 **To Be Ciudadano**
 
-![to be segmento ciudadano](To-be_Ciudadano.png)
+![to be segmento ciudadano](/Informe/Imagenes/To-be_Ciudadano.png)
 
 **To Be Empresa**
 
-![to be segmento empresa](To-be_Empresa.png)
+![to be segmento empresa](/Informe/Imagenes/To-be_Empresa.png)
