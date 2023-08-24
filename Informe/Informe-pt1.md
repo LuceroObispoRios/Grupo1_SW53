@@ -164,14 +164,17 @@ Nuestro segundo segmento objetivo serían las Empresas de mudanzas y carga forma
 
 |ANÁLISIS SWOT|||||
 |---------------|--------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
-| **Fortalezas**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
-| **Debilidades**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
-| **Oportunidades**| - ( )| - ( )| - ( )| - ( )|
-|| - ( )| - ( )| - ( )| - ( )|
-| **Amenazas**| - ( )| - ( )| - ( ) | - ( )|
-|| - ( )| - ( )| - ( )|  ( )|
+| **Fortalezas**| - ( )| - Plataforma establecida con una amplia base de datos y experiencia en proporcionar información empresarial. Por otro lado, tiene presencia en 33 paises y está disponible en 11 idiomas.| - Macingo cuenta con una extensa red de transportistas y empresas de mudanza, lo que brinda a los clientes una variedad de opciones. Además, La plataforma ofrece una interfaz amigable y sencilla que facilita la búsqueda, comparación y reserva de servicios.| - Proceso de busqeuda y reserva de transportistas simplificado, seguimiento de los bienes en tiempo real, flexibilidad.|
+| **Debilidades**| - ( )| - Posible necesidad de actualización y mejora constante para mantenerse competitivos en un mercado cambiante.| - La competencia en el espacio de conexiones de transporte podría aumentar, lo que podría afectar la participación en el mercado.| - La calidad y el prestigio dependen de los transportistas. Además, la posible desconfianza.|
+| **Oportunidades**| - ( )| - La demanda de servicios de mudanza y transporte sigue siendo constante, lo que crea oportunidades para la expansión.| - Expandirse a otras regiones o países para aumentar su alcance y cuota de mercado.| - Expandirse a nivel internacional, aliarse a empresas reconocidas.|
+| **Amenazas**| - ( )| - Posibilidad de competidores en el mercado de Infoisinfo y las empresas de conexión, lo que podría afectar su cuota de mercado.| - Cambios en las regulaciones del transporte y la mudanza vía online podrían requerir adaptaciones y ajustes. | - En el mercado actual, el cliente puede priorizar un precio bajo a una atencion de calidad. En este caso, los competidores pueden representar una amenaza.|
+
+### 2.1.2 Estrategias y tácticas frente a los competidores
+
+La estrategia planteada en este caso, inicia con la construcción de un servicio robusto y confiable. En primer lugar, desarrollar una interfaz de usuario intuitiva y fácil de usar, donde los usuarios puedan comparar no solo precios, sino también la calidad del servicio y reseñas de los clientes acompañado opcionalmente de imágenes. En segundo lugar, es primordial implementar un sistema de verificación riguroso para los transportistas o empresas asociadas, asegurando que solo aquellos que cumplan con altos estándares de calidad puedan ofrecer sus servicios a través de tu plataforma.
+
+Por otro lado, incorporar funciones de seguimiento en tiempo real, opción de cotización de servicio virtual o presencial, actualizaciones de estado y notificaciones proactivas durante el proceso de mudanza o envío de carga.
+Finalmente, integrar herramientas de inteligencia artificial para mejorar la asignación de rutas y estimaciones de tiempos.
 
 
 ### 2.3.4 Empathy Mapping
