@@ -176,6 +176,34 @@ La estrategia planteada en este caso, inicia con la construcción de un servicio
 Por otro lado, incorporar funciones de seguimiento en tiempo real, opción de cotización de servicio virtual o presencial, actualizaciones de estado y notificaciones proactivas durante el proceso de mudanza o envío de carga.
 Finalmente, integrar herramientas de inteligencia artificial para mejorar la asignación de rutas y estimaciones de tiempos.
 
+## 2.3 Needfinding
+
+### 2.3.1 User Personas
+**User Persona Ciudadano**
+
+![User Persona Ciudadano](/Informe/Imagenes/UserPersona_ciudadano.png)
+
+**User Persona Empresa**
+
+![User Persona Ciudadano](/Informe/Imagenes/UserPersona_empresa.png)
+
+### 2.3.2 User Task Matrix
+**User Task Matrix Ciudadano**
+
+![User Task Matrix Ciudadano](/Informe/Imagenes/UserTaskMatrix_ciudadano.png)
+
+**User Task Matrix Empresa**
+
+![User Task Matrix Ciudadano](/Informe/Imagenes/UserTaskMatrix_empresa.png)
+
+### 2.3.3 User Journey Mapping
+**User Journey Mapping Ciudadano**
+
+![User Journey Mapping Ciudadano](/Informe/Imagenes/UserJourneyMap_ciudadano.png)
+
+**User Journey Mapping Empresa**
+
+![User Journey Mapping Empresa](/Informe/Imagenes/UserJourneyMap_empresa.png)
 
 ### 2.3.4 Empathy Mapping
 **Empathy Mapping Ciudadano**
