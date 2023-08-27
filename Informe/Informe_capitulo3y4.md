@@ -82,23 +82,31 @@ Los colores definidos para la marca son:
 
 Los íconos a continuación se pueden visualizar correctamente en la interfaz de la aplicación web. 
 
-<div style="width: 20px; height: 20px; background-color: #3c3c3c;"></div> 
-ícono de ejemplo 20x20      
+ícono de ejemplo 20x20 px      
+<svg width="20" height="20">
+  <rect width="20" height="20" style="fill:#ffffff;">
+</svg>
 
-<br>
-<div style="width: 32px; height: 32px; background-color: #3c3c3c;"></div>
-ícono de ejemplo 32x32
+ícono de ejemplo 32x32 px   
+<svg width="32" height="32">
+  <rect width="32" height="32" style="fill:#ffffff;">
+</svg>
 
-<br>
-<div style="width: 40px; height: 40px; background-color: #3c3c3c;"></div>
-ícono de ejemplo 40x40
+ícono de ejemplo 40x40 px   
+<svg width="40" height="40">
+  <rect width="40" height="40" style="fill:#ffffff;">
+</svg>
+
 
 <br>
 Para los botones de forma rectangular se mantiene un largo proporcional a 4 veces el alto. En este caso:
 
 <br>
-<div style="width: 160px; height: 40px; background-color: #3c3c3c;"></div>
-ícono de ejemplo 160x40
+
+ícono de ejemplo 160x40     
+<svg width="160" height="40">
+  <rect width="160" height="40" style="fill:#ffffff;">
+</svg>
 
 <br>
 
