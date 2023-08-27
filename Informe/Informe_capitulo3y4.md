@@ -88,6 +88,7 @@
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagram.
+![Database](informe/imagenes/Carga_sin_estres-DB.png)
 
 
 
