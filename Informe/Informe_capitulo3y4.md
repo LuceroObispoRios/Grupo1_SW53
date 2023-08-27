@@ -55,7 +55,25 @@
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems.
+En esta parte, se establece la conexión entre el sistema visual de organización y los grupos de información del programa de manera apropiada. Además, se determinará cuándo se aplicarán los esquemas de categorización de contenido.
+
+***Organizacion jerarquica***
+
+Proximidad: Se trata sobre colocar elementos relacionados juntos y hacer que los usuarios perciban que están conectados de alguna manera. Este principio se puede utilizar en nuestro programa a la hora de agrupar los reviews que dejan los clientes en las empresas. También, luego de obtener los resultados de búsqueda, es importante colocar toda la información relacionada a una empresa de tal forma que quede junta, pero separado a la información de las otras empresas que también salieron como resultado de la búsqueda.
+Color: El color negro es aquel que brinda mayor contraste, por tanto, para este programa se utilizarán fuentes de letra de color negro, mientras que los colores del fondo serán más claros para llevar a cabo el contraste.
+Organizar fuentes: Con el objetivo de hacer que la página web sea fácil de leer y entender para el usuario, se deberá crear una jerarquía de tipo de letra que consiste en fuentes de título, subtítulos, encabezados graduados y demás texto. Entonces, para destacar los títulos se utilizará la variación de tamaño de letra, así como el peso de la fuente seleccionada.
+
+***Esquemas de categorización***
+
+- Según audiencia: El contenido del programa será categorizado para 2 audiencias, los cuales son los usuarios que desean solicitar servicios de mudanza o carga y los que brindan estos servicios.
+- Por tópicos: Cuando se lleva a cabo la búsqueda de trabajadores que brinden estos servicios, los usuarios clientes tienen a su disposición distintos filtros y campos como criterios de búsqueda.
+- Cronológico: Si el usuario desea ver las reservas de los servicios que realizó, entonces estas aparecerán en una lista de forma cronológica, siendo la solicitud más antigua la que aparece en la parte de arriba y la solicitud realizada recientemente en la parte de abajo.
+
 ### 4.2.2. Labeling Systems.
+A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos de información, así como las asociaciones entre las mismas.
+
+![General Style Guidelines](/Informe/Imagenes/LabelingSystems.png)
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems.
 ### 4.2.5. Navigation Systems.
@@ -96,8 +114,11 @@
 ![Notification Component Diagram](/Informe/Imagenes/NotificationComponents.png)
 
 ## 4.7. Software Object-Oriented Design.
+![Notification Component Diagram](/Informe/Imagenes/DiagramaDeClases.png)
 
 ### 4.7.1. Class Diagrams.
+
+
 ### 4.7.2. Class Dictionary.
 
 ## 4.8. Database Design.
