@@ -36,7 +36,7 @@
 | 15| ( )    | Visualización de disponibilidad  | Como usuario cliente quiero encontrar empresas que estén disponibles para una fecha específica para tener la seguridad que mi mudanza se realizará en un horario y fecha conveniente.    | ( )|
 | 16| ( )    | Visualizar perfil de empresa | Como usuario cliente quiero poder visualizar el perfil de cada empresa para conocer su información detallada y así tomar una decisión informada y confiable al seleccionar la empresa adecuada para mis necesidades.   | ( )|
 | 17| ( )    | Ingresar a la reserva del servicio | Como cliente quiero ingresar a la información de los servicios para ver si esa empresa es la que me conviene reservar.  | ( )|
-| 18| ( )    | Seleccionar servicios a reservar | Como cliente quiero poder seleccionar los servicios que necesito de la lista ofrecida por la empresa para reservarlos.  | ( )|
+| 18| ( )    | Seleccionar servicios a reservar | **Como** cliente **quiero** poder seleccionar los servicios que necesito de la lista ofrecida por la empresa **para** reservarlos.  | ( )|
 | 19| ( )    | Envío de información sobre la posible reserva | **Como** cliente **quiero** que la información de los servicios que escogí se envíe a la empresa de mudanza **para** que estos tengan más detalle de la reserva que quiero.   | ( )|
 | 20| ( )    | Contactar con el trabajador de la empresa | **Como** trabajador de una empresa de mudanza **quiero** poder comunicarme con el cliente una vez haya enviado los servicios que quiere **para** aclarar detalles adicionales.   | ( )|
 | 21| ( )    | Acordar un precio por servicio reservado | **Como** cliente **quiero** acordar detalles y precio por los servicios tras conversar con el trabajador **para** realizar mi mudanza en otro momento.  | ( )|
@@ -49,8 +49,92 @@
 
 ## 4.1. Style Guidelines
 
+
+
+
+
 ### 4.1.1. General Style Guidelines
+A continuación, se presentará los materiales gráficos a emplear para el reconocimiento de la marca.
+
+**Main Logo**      
+El logo está conformado por: Un camión caracteriztico del transporte de objetos. Este objeto simboliza el agente principal de la marca (lo que el usuario desea/espera encontrar).
+Por otro lado, este camión esta encerrado por un círculo el cual representa movimiento y globalidad. El acoplamiento de estos ítems, inspira optimismo y energía. Derivado de ello transmitimos la idea de que la aplicación ofrece servicios eficaces, ágiles y accesible.
+Los colores usados como rojo y guinda creean un ambiente de colores que refuerza el mensaje de entusiasmo, prosperidad, elegancia y solidez.
+![logo](/Informe/Imagenes/logo.png)
+
+**Branding**  
+En este caso el logo es fusionado con el nombre de la marca.
+![logo](/Informe/Imagenes/logo+nombre.png)
+![logo](/Informe/Imagenes/logo+nombre_bw.png)
+
+**Typography**
+Se definieron dos tipos de tipografías que cumpliesen con el propósito definido de mostrar optimismo y elegancia. Estas son: Open Sans y Robot.
+![tipografía](/Informe/Imagenes/Typography.png)
+
+**Colors**  
+Los colores definidos para la marca son:
+
+HEX: #910b0e    
+RGB: rgba(145,11,14,255)    
+<span style="color:#910b0e">■</span> 
+
+HEX: #f81b10    
+RGB: rgba(248,27,16,255)    
+<span style="color:#f81b10">■</span>      
+
+HEX: #009c8c   
+RGB: rgba(0,156,140,255)    
+<span style="color:#009c8c">■</span> 
+
+HEX: #1f3a3d     
+RGB: rgba(31,58,61,255)    
+<span style="color:#1f3a3d">■</span> 
+
+HEX: #3c3c3c   
+RGB: rgba(60,60,60,255)    
+<span style="color:#3c3c3c">■</span> 
+
+HEX: #4ab77d  
+RGB: rgba(74,183,125,255)    
+<span style="color:#4ab77d">■</span> 
+
+**Spacing**
+
+Los íconos a continuación se pueden visualizar correctamente en la interfaz de la aplicación web. 
+
+<div style="width: 20px; height: 20px; background-color: #3c3c3c;"></div> 
+ícono de ejemplo 20x20      
+
+<br>
+<div style="width: 32px; height: 32px; background-color: #3c3c3c;"></div>
+ícono de ejemplo 32x32
+
+<br>
+<div style="width: 40px; height: 40px; background-color: #3c3c3c;"></div>
+ícono de ejemplo 40x40
+
+<br>
+Para los botones de forma rectangular se mantiene un largo proporcional a 4 veces el alto. En este caso:
+
+<br>
+<div style="width: 160px; height: 40px; background-color: #3c3c3c;"></div>
+ícono de ejemplo 160x40
+
+<br>
+
+**Icons**
+
+Dado las condiciones necesarias para una experiencia adaptable e intuitiva del usuario. Los botones cumplen con transmitir la idea principal del rol que cumplen.
+
+![íconos](/Informe/Imagenes/iconos.png)
+
 ### 4.1.2. Web Style Guidelines
+
+
+**Representativo Icons**
+
+**Buttons**
+
 
 ## 4.2. Information Architecture
 
