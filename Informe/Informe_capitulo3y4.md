@@ -60,6 +60,7 @@ A continuación, se presentará los materiales gráficos a emplear para el recon
 El logo está conformado por: Un camión caracteriztico del transporte de objetos. Este objeto simboliza el agente principal de la marca (lo que el usuario desea/espera encontrar).
 Por otro lado, este camión esta encerrado por un círculo el cual representa movimiento y globalidad. El acoplamiento de estos ítems, inspira optimismo y energía. Derivado de ello transmitimos la idea de que la aplicación ofrece servicios eficaces, ágiles y accesible.
 Los colores usados como rojo y guinda creean un ambiente de colores que refuerza el mensaje de entusiasmo, prosperidad, elegancia y solidez.
+
 ![logo](/Informe/Imagenes/logo.png)
 
 **Branding**  
@@ -69,34 +70,13 @@ En este caso el logo es fusionado con el nombre de la marca.
 
 **Typography**
 Se definieron dos tipos de tipografías que cumpliesen con el propósito definido de mostrar optimismo y elegancia. Estas son: Open Sans y Robot.
+
 ![tipografía](/Informe/Imagenes/Typography.png)
 
 **Colors**  
 Los colores definidos para la marca son:
 
-HEX: #910b0e    
-RGB: rgba(145,11,14,255)    
-<span style="color:#910b0e">■</span> 
-
-HEX: #f81b10    
-RGB: rgba(248,27,16,255)    
-<span style="color:#f81b10">■</span>      
-
-HEX: #009c8c   
-RGB: rgba(0,156,140,255)    
-<span style="color:#009c8c">■</span> 
-
-HEX: #1f3a3d     
-RGB: rgba(31,58,61,255)    
-<span style="color:#1f3a3d">■</span> 
-
-HEX: #3c3c3c   
-RGB: rgba(60,60,60,255)    
-<span style="color:#3c3c3c">■</span> 
-
-HEX: #4ab77d  
-RGB: rgba(74,183,125,255)    
-<span style="color:#4ab77d">■</span> 
+![tipografía](/Informe/Imagenes/Colors.png)
 
 **Spacing**
 
