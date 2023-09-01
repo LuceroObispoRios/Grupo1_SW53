@@ -14,19 +14,19 @@ Integrantes:
 
 Ciclo 2023-02
 ---  
- Versión| Fecha| Integrante| Descripcion de modificación|
+ Versión| Fecha| Integrante| Descripción de modificación|
  :-----:|:-----:|:-----:|:-----
- TB1 | 23/08/23 | Lucero Obispo| Se añadio los lean ux problem statements, assumptions y hypothesis statements
- TB1 | 23/08/23 | Eric Cuevas| Se añadio los antecedentes y problematica, el lean UX canvas y los segmentos objetivo
- TB1 | 23/08/23 | Javier Sebastian| Se añadio...
- TB1 | 23/08/23 | Andrea O'Higgins| ...
+ TB1 | 23/08/23 | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements
+ TB1 | 23/08/23 | Eric Cuevas| Se añadió los antecedentes y problematica, el lean UX canvas y los segmentos objetivo
+ TB1 | 23/08/23 | Javier Sebastian| Se añadió...
+ TB1 | 23/08/23 | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams.
 ---
-1. Capitulo 1: Introduccion   
+1. Capitulo 1: Introducción   
    1.1 Startup Profile   
    1.1.1 Descripcion de la startup  
    1.1.2 Perfiles de los integrantes del equipo  
    1.2 Solution profile  
-   1.2.1 Antecedentes y problematica   
+   1.2.1 Antecedentes y problemática   
    1.2.2 Lean UX process  
    1.2.2.1 Lean UX Problem Statements   
    1.2.2.2 Lean UX Assumptions   
