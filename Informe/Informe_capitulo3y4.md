@@ -40,9 +40,6 @@
 | 19| HU19   | Envío de información sobre la posible reserva | **Como** cliente **quiero** que la información de los servicios que escogí se envíe a la empresa de mudanza **para** que estos tengan más detalle de la reserva que quiero.   | 5|
 | 20| HU20   | Contactar con el trabajador de la empresa | **Como** trabajador de una empresa de mudanza **quiero** poder comunicarme con el cliente una vez haya enviado los servicios que quiere **para** aclarar detalles adicionales.   | 2|
 | 21| HU21   | Acordar un precio por servicio reservado | **Como** cliente **quiero** acordar detalles y precio por los servicios tras conversar con el trabajador **para** realizar mi mudanza en otro momento.  | 2|
-| 22| ( )    | () | ()    | ( )|
-| 23| ( )    | () | ()    | ( )|
-| 24| ( )    | () | ()    | ( )|
 
 
 # Capítulo 4: Product Design
@@ -127,9 +124,35 @@ A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos d
 ### 4.2.5. Navigation Systems.
 
 ## 4.3. Landing Page UI Design.
-
 ### 4.3.1. Landing Page Wireframe.
+A continuación, los wireframes realizados para el proyecto:
+
+**Landing Page Wireframe (escritorio)**    
+Para el presente trabajo, se realizó el wireframe correspondiente para el diseño de la landing page para "Carga sin Estres".    
+Desde una primera instancia, se definen secciones de interés como: Inicio, servicios, planes, testimonios y los botones CTA (Iniciar sesión y Registrarse).
+
+![Landing Page Wireframe](/Informe/Imagenes/LandinPageWireframe.png)
+
+**Landing Page Wireframe (Mobile)**   
+Además se elaboró el diseño de una landing page adaptable a la resolución de cualquier pantalla (Responsive) desde el cual el usuario visualiza correctamente el contenido de "Carga sin Estres".   
+Dado este motivo, se presenta la vista desde un dispositivo móvil:
+
+![Landing Page Wireframe Mobile](/Informe/Imagenes/LandingPageWireframeResponsive.png)
+
+
 ### 4.3.2. Landing Page Mock-up.
+Una vez definido el wireframe, aplicamos los estilos definidos previamente en el punto 4.1 (Styles guidelines). 
+A continuación, los mock-ups realizados para el proyecto:
+
+**Landing Page Mock-Up (escritorio)**   
+Estilos aplicados para resolución de pantalla de escritorio.
+
+![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockUp.png)
+
+**Landing Page Wireframe (Mobile)**  
+Estilos aplicados para resolución de pantalla mobile.
+
+![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockupResponsive.png)
 
 ## 4.4. Web Applications UX/UI Design.
 
@@ -162,17 +185,16 @@ A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos d
 ![Notification Component Diagram](/Informe/Imagenes/NotificationComponents.png)
 
 ## 4.7. Software Object-Oriented Design.
-![Notification Component Diagram](/Informe/Imagenes/DiagramaDeClases.png)
 
 ### 4.7.1. Class Diagrams.
-
+![Notification Component Diagram](/Informe/Imagenes/DiagramaDeClases.png)
 
 ### 4.7.2. Class Dictionary.
 
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagram.
-![Database](informe/imagenes/Carga_sin_estres-DB.png)
+![Database](/Informe/Imagenes/CargaSinEstresDB.png)
 
 
 
