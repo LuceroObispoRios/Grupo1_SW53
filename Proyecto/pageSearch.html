@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carga Sin Estrés</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="styleSearch.css">
+</head>
+
+<body>
+<a href="https://wa.me/51950457066?text=Me%20gustaría%20saber%20los%20planes%20que%20ofrecen" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo.png" width="50px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="pageSearch.html"style="color:rgb(255, 255, 255);"><font face="Sans serif">Busqueda de empresas</font></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"style="color:rgb(255, 255, 255);"><font face="Sans serif">Carga Rapida</font></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"style="color:rgb(255, 255, 255);"><font face="Sans serif">Reservas</font></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"style="color:rgb(255, 255, 255);"><font face="Sans serif">Editar Perfil</font></a></li>
+          <li class="nav-item"><a class="nav-link" href="#" style="color:rgb(255, 255, 255);"><font face="Sans serif">Contacto</font></a></li>
+          <li class="nav-item"><a class="nav-link btn btn-outline-orange" href="#" style="color: white;"><font face="Sans serif">Cerrar sesion</font></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="busqueda" class="busqueda">
+    <div class="container">
+      <h2 class="text-center"><font face="Sans serif">BUSQUEDA DE EMPRESAS</font></h2>
+      <div id="busqueda-container">
+        <input  id="inputBusqueda" type="text" placeholder="Buscar por nombre de empresa aqui.." />
+      </div>
+      <h3 class="text-danger mt-5 text-center" id="sinResultados" style="display:none;">No se encontraron resultados</h3>
+      <div class="row mt-3" id="card"> </div>
+    </div>
+  </section>
+
+  <div class="scroll-top" onclick="scrollToTop()">&#9650;</div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+            <font face="Sans serif">
+            <a href="index.html" style="color: white;">CARGA SIN ESTRÉS</a><br>
+          <img src="image/visa-icon.png" alt="Visa" width="50px">
+          <img src="image/mastercard-icon.png" alt="Mastercard" width="57px">
+          </font>
+        </div>
+        <div class="col-md-3">
+            <font face="Sans serif">
+                <a href="#" style="color: white;">Sobre Nosotros</a><br>
+                <a href="#" style="color: white;">Preguntas Frecuentes</a>
+            </font>
+        </div>
+        <div class="col-md-3">
+            <font face="Sans serif">
+                <a href="#" style="color: white;">Mi Cuenta</a><br>
+                <a href="#" style="color: white;">Registrarse</a>
+            </font>
+        </div>
+        <div class="col-md-3">
+            <font face="Sans serif">
+                <p>Contacto: <br> +51 123-456-789</p>
+                <p>Lima, Perú</p>
+            </font>
+            <a href="#"><img src="image/facebook-icon.webp" alt="Facebook"></a>
+            <a href="#"><img src="image/instagram-icon.webp" alt="Instagram"></a>
+            <a href="#"><img src="image/linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="#"><img src="image/youtube-icon.png" alt="YouTube"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scriptSearch.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  
+</body>
+</html>

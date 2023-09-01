@@ -1,0 +1,133 @@
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #1f1e1e;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+
+  /* Estilos para los botones */
+  .btn-outline-dark {
+    color: #333;
+    background-color: #000000;
+    border-color: #000000;
+  }
+
+  .btn-outline-dark:hover {
+    color: #000000;
+    background-color: #30302f;
+    border-color: #ffffff;
+  }
+  
+  .btn-outline-orange {
+    color: #fff;
+    background-color: #ff8800;
+    border-color: #ff8800;
+  }
+  
+  .btn-outline-orange:hover {
+    color: #ff8800;
+    background-color: #30302f;
+    border-color: #ff8800;
+  }
+  
+  /* Estilos para los botones de busqueda */
+  .busqueda {
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  
+  .busqueda h2 {
+    color: #333;
+  }
+
+  #busqueda-container input {
+    background-color: transparent;
+    width: 30%;
+    border: 0px;
+    border-bottom: 2px solid #000000;
+    padding: 1em 0.3em;
+  }
+
+  #busqueda-container input:focus {
+    outline: none;
+    border-bottom-color: #ff8800;
+  }
+
+  /* Estilos para las tarjetas de busqueda */
+  .card {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.50);
+    min-height: 200px;
+  }
+
+  .card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+  }
+
+  /* Estilos para el footer */
+  .footer {
+    background-color: #1f1e1e;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .footer img {
+    margin-right: 10px;
+  }
+  
+  .footer a img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  
+  .footer .whatsapp-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Estilos para el botón de WhatsApp */
+  .whatsapp {
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:40px;
+    left:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:70px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:12px;
+  }  
+
+  /* Estilos para el botón de scroll */
+  .scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    background-color: #ff8800;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 40%;
+    cursor: pointer;
+    z-index: 999;
+  }
