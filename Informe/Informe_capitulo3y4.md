@@ -120,6 +120,25 @@ A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos d
 ![General Style Guidelines](/Informe/Imagenes/LabelingSystems.png)
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+***Landing page:***
+* Titulo:
+~~~
+<title>Carga Sin Estrés</title>
+~~~
+* Meta tags description:
+~~~
+<meta name="description" content="Encuentra a los expertos en mudanza y carga que necesitas. Nuestra plataforma te conecta con profesionales de confianza para simplificar tu próxima mudanza. Cotiza, compara y elige la solución perfecta para tus necesidades de transporte en un solo lugar"/>
+~~~
+* Keywords:
+~~~
+<meta name="keywords" content="carga, mudanza, busqueda, empresas, embalaje, transporte, montaje, desmontaje"/>
+~~~
+* Author:
+~~~
+<meta name="author" content="Lucero Obispo, Andrea O'Higgins, Eric Cuevas, Javier Sebastian" />
+~~~
+
 ### 4.2.4. Searching Systems.
 ### 4.2.5. Navigation Systems.
 
