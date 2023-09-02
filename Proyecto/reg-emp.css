@@ -1,0 +1,127 @@
+html {
+	overflow-y: scroll; 
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto; /* Ajusta el valor según tus necesidades */
+    background: #D9D9D9;
+    padding: 40px 30px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    perspective: 2700px;
+    max-width: 1500px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container .forms{
+    height: auto;
+    width: 100%;
+    background: #FFF9F9;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+.forms form{
+    margin: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#registro .input-control{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.input-control input{
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding: 8px 60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FDAE39;
+    outline: none;
+    border-radius: 10px;
+    
+}
+
+.service-boxes{
+    max-width: 80%;
+    margin: auto auto 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service-boxes .checkboxes{
+    border-radius: 5px;
+    border: 1px solid #FDAE39;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-box label{
+    margin-left: 10%;
+}
+
+.description-box #description{
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #FDAE39;
+    width: 70%;
+}
+
+.warnings{
+    width: 20rem;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
+
+#registro-button{
+   position: relative;
+   padding: 10px;
+   margin: auto auto auto 25%;
+   width: 50%;
+   color: white;
+   background-color: #FDAE39;
+   border: 1px solid black;
+   border-radius: 4px; 
+}
