@@ -10,7 +10,6 @@ Integrantes:
 - Obispo Rios, Lucero Abigail
 - Sebastian Tasayco, Javier Martin
 - O'Higgins Rosales, Andrea Namie
-- a
 
 Ciclo 2023-02
 ---  
@@ -20,9 +19,10 @@ Ciclo 2023-02
  TB1 | 23/08/23 | Eric Cuevas| Se añadió los antecedentes y problematica, el lean UX canvas y los segmentos objetivo
  TB1 | 23/08/23 | Javier Sebastian| Se añadió...
  TB1 | 23/08/23 | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams.
+ TB1 | 01/09/23 | Lucero Obispo| Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags.
 ---
-1. Capitulo 1: Introducción   
-   1.1 Startup Profile   
+1. Capitulo 1: Introducción  
+   1.1 Startup Profile     
    1.1.1 Descripcion de la startup  
    1.1.2 Perfiles de los integrantes del equipo  
    1.2 Solution profile  
@@ -32,11 +32,74 @@ Ciclo 2023-02
    1.2.2.2 Lean UX Assumptions   
    1.2.2.3 Lean UX Hyphotesis Statemenets   
    1.2.2.4 Lean UX Canvas  
-   1.3 Segmentos objetivo
+   1.3 Segmentos objetivo.
+2. Capítulo 1: Requirements Elicitation & Analysis  
+   2.1 Competidores.  
+   2.1.1 Análisis competitivo.  
+   2.1.2 Estrategias y tácticas frente a competidores.  
+   2.2. Entrevistas.  
+   2.2.1. Diseño de entrevistas.  
+   2.2.2. Registro de entrevistas.  
+   2.2.3. Análisis de entrevistas.  
+   2.3. Needfinding.  
+   2.3.1. User Personas.  
+   2.3.2. User Task Matrix.  
+   2.3.3. User Journey Mapping.  
+   2.3.4. Empathy Mapping.  
+   2.3.5. As-is Scenario Mapping.  
+3. Capítulo 3: Requirements Specification  
+   3.1. To-Be Scenario Mapping.  
+   3.2. User Stories.  
+   3.3. Impact Mapping.  
+   3.4. Product Backlog.  
+4. Capítulo 4: Product Design  
+   4.1. Style Guidelines.  
+   4.1.1. General Style Guidelines.  
+   4.1.2. Web Style Guidelines.  
+   4.2. Information Architecture.  
+   4.2.1. Organization Systems.  
+   4.2.2. Labeling Systems.  
+   4.2.3. SEO Tags and Meta Tags.  
+   4.2.4. Searching Systems.  
+   4.2.5. Navigation Systems.  
+   4.3. Landing Page UI Design.  
+   4.3.1. Landing Page Wireframe.  
+   4.3.2. Landing Page Mock-up.  
+   4.4. Web Applications UX/UI Design.  
+   4.4.1. Web Applications Wireframes.  
+   4.4.2. Web Applications Wireflow Diagrams.  
+   4.4.2. Web Applications Mock-ups.  
+   4.4.3. Web Applications User Flow Diagrams.  
+   4.5. Web Applications Prototyping.  
+   4.6. Domain-Driven Software Architecture.  
+   4.6.1. Software Architecture Context Diagram.  
+   4.6.2. Software Architecture Container Diagrams.  
+   4.6.3. Software Architecture Components Diagrams.  
+   4.7. Software Object-Oriented Design.  
+   4.7.1. Class Diagrams.  
+   4.7.2. Class Dictionary.  
+   4.8. Database Design.  
+   4.8.1. Database Diagram.  
+5. Capítulo 5: Product Implementation, Validation & Deployment  
+   5.1. Software Configuration Management.  
+   5.1.1. Software Development Environment Configuration.  
+   5.1.2. Source Code Management.  
+   5.1.3. Source Code Style Guide & Conventions.  
+   5.1.4. Software Deployment Configuration.  
+   5.2. Landing Page, Services & Applications Implementation.  
+   5.2.1. Sprint 1  
+   5.2.1.1. Sprint Planning 1.  
+   5.2.1.2. Sprint Backlog 1.  
+   5.2.1.3. Development Evidence for Sprint Review.  
+   5.2.1.4. Testing Suite Evidence for Sprint Review.  
+   5.2.1.5. Execution Evidence for Sprint Review.  
+   5.2.1.6. Services Documentation Evidence for Sprint Review.  
+   5.2.1.7. Software Deployment Evidence for Sprint Review.  
+   5.2.1.8. Team Collaboration Insights during Sprint.  
 ---
  Criterio Especifico| Acciones Realizadas| Conclusiones|
  :-----|:-----:|-----:
- criterio | TB1- | En conclusion...
+Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | TB1-  | En conclusion...
 ---
 # Capitulo 1 : Introducción  
 ## 1.1 Startup profile  
@@ -52,6 +115,11 @@ Visión: Buscamos convertirnos en la principal plataforma en la industria de mud
 Carrera: Ingenieria de Software  
 Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
 Fotografia de Perfil: [foto]()  
+
+* Nombres y Apellidos: Lucero Abigail Obispo Rios  
+Carrera: Ingenieria de Software  
+Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
+Fotografia de Perfil: [foto]() 
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
@@ -226,10 +294,7 @@ Finalmente, integrar herramientas de inteligencia artificial para mejorar la asi
 
 **Bibliografia**
 --
-Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
-https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf  
-  
-Archivo El comercio. (s.f.). Diario Gestion. Los agentes especializados para mudarte a otro espacio.  
+El comercio. (s.f.). Diario Gestion. Los agentes especializados para mudarte a otro espacio.  
 https://archivo.elcomercio.pe/especial/50-ideas-de-negocios/noticias/agentes-especializados-cambiar-espacios-noticia-1992612  
 
 Expansion. (2020). Datosmacro. Sube el número de inmigrantes que viven en Perú.
@@ -237,3 +302,6 @@ https://datosmacro.expansion.com/demografia/migracion/inmigracion/peru#:~:text=E
 
 Expresso. (2019). ¿Sabías que la mayoría de personas busca una empresa de mudanza a último momento?  
 https://www.expreso.com.pe/opinion/sabias-que-la-mayoria-de-personas-busca-una-empresa-de-mudanza-a-ultimo-momento/  
+
+Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
+https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf  
