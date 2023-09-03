@@ -15,11 +15,10 @@ Ciclo 2023-02
 ---  
  Versión| Fecha| Integrante| Descripción de modificación|
  :-----:|:-----:|:-----:|:-----
- TB1 | 23/08/23 | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements
- TB1 | 23/08/23 | Eric Cuevas| Se añadió los antecedentes y problematica, el lean UX canvas y los segmentos objetivo
- TB1 | 23/08/23 | Javier Sebastian| Se añadió...
- TB1 | 23/08/23 | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams.
- TB1 | 01/09/23 | Lucero Obispo| Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags.
+ TB1 | 23/08/23 - 03/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se avanzo con los wirframes y mockups. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags.
+ TB1 | 23/08/23 - 03/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos.
+ TB1 | 23/08/23 - 03/09/23  | Javier Sebastian| Se añadió...
+ TB1 | 23/08/23 - 03/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se avanzo con los wirframes y mockups. 
 ---
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
@@ -114,12 +113,12 @@ Visión: Buscamos convertirnos en la principal plataforma en la industria de mud
 * Nombres y Apellidos: Eric Fernando Cuevas Rios  
 Carrera: Ingenieria de Software  
 Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
-Fotografia de Perfil: [foto]()  
+Fotografia de Perfil: ![foto]()  
 
 * Nombres y Apellidos: Lucero Abigail Obispo Rios  
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
-Fotografia de Perfil: [foto]() 
+Fotografia de Perfil: ![foto]() 
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
