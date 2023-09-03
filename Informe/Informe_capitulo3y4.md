@@ -232,7 +232,14 @@ El prototipo de secuencia mobile se encuentra en el siguiente enlace :
 ### 4.7.1. Class Diagrams.
 ![Notification Component Diagram](/Informe/Imagenes/DiagramaDeClases.png)
 
-### 4.7.2. Class Dictionary.
+### 4.7.2. Class Dictionary.  
+![Class_Dictionary_1](/Informe/Imagenes/ClassDictionary1.JPG)  
+![Class_Dictionary_2](/Informe/Imagenes/ClassDictionary2.JPG)  
+![Class_Dictionary_3](/Informe/Imagenes/ClassDictionary3.JPG)  
+![Class_Dictionary_4](/Informe/Imagenes/ClassDictionary4.JPG)  
+![Class_Dictionary_5](/Informe/Imagenes/ClassDictionary5.JPG)  
+![Class_Dictionary_6](/Informe/Imagenes/ClassDictionary6.JPG)  
+![Class_Dictionary_7](/Informe/Imagenes/ClassDictionary7.JPG)  
 
 ## 4.8. Database Design.
 
