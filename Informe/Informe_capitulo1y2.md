@@ -243,6 +243,50 @@ La estrategia planteada en este caso, inicia con la construcción de un servicio
 Por otro lado, incorporar funciones de seguimiento en tiempo real, opción de cotización de servicio virtual o presencial, actualizaciones de estado y notificaciones proactivas durante el proceso de mudanza o envío de carga.
 Finalmente, integrar herramientas de inteligencia artificial para mejorar la asignación de rutas y estimaciones de tiempos.
 
+## 2.2 Entrevistas
+### 2.2.1 Diseño de entrevistas
+
+**Segmento de individuos de 18 a 50 años, peruanos:**
+1. ¿Con qué frecuencia ha tenido que mudarse en los últimos cinco años?
+2. ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles(embalaje, desmontaje/montaje, etc.)
+3. ¿Prefiere realizar la mayoría del embalaje por su cuenta o armar sus propios muebles a que lo haga la empresa de mudanza?
+4. ¿Qué medidas de seguridad y protección de sus pertenencias son prioritarias para usted durante la mudanza o transporte de sus muebles?
+5. ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted?
+6. ¿Tiene alguna experiencia previa negativa o preocupaciones con respecto a las empresas de mudanzas o transporte de muebles que le gustaría evitar en el futuro?
+7. ¿Qué métodos de pago prefiere utilizar al reservar y pagar por servicios de mudanza?
+8. ¿Cómo imagina que una aplicación web podría simplificar y mejorar su experiencia general durante el proceso de mudanza?
+9. ¿Qué características considera importantes en una aplicación web de búsqueda y reserva de servicios de mudanza?
+
+
+**Segmento de empresas de mudanza/transporte:**
+1. ¿Cuál es el medio actual por el cual capta a sus potenciales clientes?
+2. ¿Cuántos servicios de transporte realizó aproximadamente en los últimos 12 meses?
+3. ¿Cómo comunica y mantiene informados a sus clientes durante todo el proceso de mudanza?
+4. ¿De qué manera garantiza que los bienes de los clientes son transportados de manera segura?
+5. ¿Sus clientes suelen requerir que ustedes hagan los servicios de embalaje o armado de muebles?
+6. ¿Cuáles son los mayores desafíos que ha enfrentado su empresa al llevar a cabo sus servicios en los últimos años?
+7. ¿Cómo considera que una aplicación web podría mejorar la interacción con sus clientes y aumentar la satisfacción del cliente?
+8. ¿Qué características o funcionalidades le gustaría ver en una aplicación web diseñada para empresas de mudanzas y transporte?
+9. ¿Qué opinas sobre la idea de tener una membresía premium que coloque tu empresa en una lista destacada para captar clientes en nuestra página web?
+
+### 2.2.2 Registro de entrevistas
+
+-
+-
+-
+-
+-
+-
+
+### 2.2.3 Análisis de entrevistas
+
+-
+-
+-
+-
+-
+-
+
 ## 2.3 Needfinding
 
 ### 2.3.1 User Personas
