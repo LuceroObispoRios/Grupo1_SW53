@@ -173,14 +173,38 @@ Estilos aplicados para resolución de pantalla mobile.
 
 ![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockupResponsive.png)
 
-## 4.4. Web Applications UX/UI Design.
+## 4.4. Web Applications UX/UI Design.  
+### 4.4.1. Web Applications Wireframes.  
+![registro-cliente-wireframe](/Informe/Imagenes/wireframe-registro-cliente.png)  
+![registro-empresa-wireframe](/Informe/Imagenes/wireframe-registro-empresa.png)  
+![inicio-sesion-wireframe](/Informe/Imagenes/wireframe-login.png)  
+![busqueda-wireframe](/Informe/Imagenes/wireframe-busqueda.png)  
 
-### 4.4.1. Web Applications Wireframes.
-### 4.4.2. Web Applications Wireflow Diagrams.
-### 4.4.2. Web Applications Mock-ups.
-### 4.4.3. Web Applications User Flow Diagrams.
+### 4.4.2. Web Applications Wireflow Diagrams.  
+![wireframe-flow1](/Informe/Imagenes/wireframes-flow1.png)  
+  
+![wireframe-flow2](/Informe/Imagenes/wireframes-flow2.png)  
 
-## 4.5. Web Applications Prototyping.
+### 4.4.2. Web Applications Mock-ups.  
+![registro-cliente-mockup](/Informe/Imagenes/mockup-registro-cliente.png)  
+![registro-empresa-mockup](/Informe/Imagenes/mockup-registro-empresa.png)  
+![inicio-sesion-mockup](/Informe/Imagenes/mockup_login.png)  
+![busqueda-mockup](/Informe/Imagenes/mockup-busqueda.png)  
+![mobile-login-mockup](/Informe/Imagenes/login-mobile.png)
+![mobile-cliente-mockup](/Informe/Imagenes/registro-cliente-mobile.png)  
+![mobile-empresa-mockup](/Informe/Imagenes/registro-empresa.mobile.png)  
+
+### 4.4.3. Web Applications User Flow Diagrams.  
+![mockup-flow1](/Informe/Imagenes/mockup-flow1.png)  
+  
+![mockup-flow2](/Informe/Imagenes/mockup-flow2.png) 
+
+## 4.5. Web Applications Prototyping.  
+El prototipo de secuencia web se encuentra en el siguiente enlace :   
+[https://www.figma.com/proto/FFKvovSKPyL6LW7e2DDSph/Wireframes?type=design&node-id=26-453&t=wLRuXHHBxMj8lVew-1&scaling=min-zoom&page-id=2%3A3&starting-point-node-id=26%3A453&show-proto-sidebar=1&mode=design]  
+
+El prototipo de secuencia mobile se encuentra en el siguiente enlace :  
+[https://www.figma.com/proto/FFKvovSKPyL6LW7e2DDSph/Wireframes?type=design&node-id=26-885&t=1YhgDvhIeuMcfiDB-1&scaling=min-zoom&page-id=2%3A3&starting-point-node-id=26%3A885&show-proto-sidebar=1&mode=design]  
 
 ## 4.6. Domain-Driven Software Architecture.
 
