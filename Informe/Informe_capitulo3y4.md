@@ -10,7 +10,13 @@
 ![to be segmento empresa](/Informe/Imagenes/To-be_Empresa.png)
 
 ## 3.2. User Stories
-
+  
+![TUser Stories Parte 1](/Informe/Imagenes/Userstories1.png)
+![TUser Stories Parte 2](/Informe/Imagenes/Userstories2.png)
+![TUser Stories Parte 3](/Informe/Imagenes/Userstories3.png)
+![TUser Stories Parte 4](/Informe/Imagenes/Userstories4.png)
+![TUser Stories Parte 5](/Informe/Imagenes/Userstories5.png)
+  
 ## 3.3. Impact Mapping
 
 ![impact map](/Informe/Imagenes/ImpactMap.png)
