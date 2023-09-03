@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style-reg-cliente.css">
+    <title>Carga Sin Estres</title>
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+            <h3>Esta cuenta pertenece a:</h3>
+            <div class="radio-option">
+                <input type="radio" name="tipo" id="cliente">
+                <label for="cliente">Cliente</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" name="tipo" id="empresa">
+                <label for="empresa">Empresa de mudanza o carga</label>
+            </div>
+        </div>
+
+        <div class="container-back"> 
+            <div class="user-info">
+                <div class="left-section">
+                    <img src="image\logo2.png" alt="Avatar">
+                    <h5>Carga sin Estres</h5>
+                </div>
+                <form id="myForm" action="tu_destino.php" method="post">
+                    <div class="right-section">
+                        <input type="text" placeholder="Nombre" id="nombre" required>
+                        <input type="text" placeholder="Apellido Materno" id="apellidoMaterno" required>
+                        <input type="text" placeholder="Apellido Paterno" id="apellidoPaterno" required>
+                        <input type="text" placeholder="Celular" id="celular" required>
+                        <input type="text" placeholder="Dirección" id="direccion" required>
+                    </div>
+                    <div class="right-section">
+                        <input type="email" placeholder="Correo electrónico" id="correo" required>
+                        <input type="password" placeholder="Contraseña" id="contrasena" required>
+                        <input type="password" placeholder="Repetir contraseña" id="confirmarContrasena" required>
+                    </div>
+                    <button id="registrarButton" type="button">Registrar ➜</button>
+                </form>
+            </div>
+            <div id="errorMessages" class="error-messages"></div>
+        </div>
+    </div>
+
+    <script src="reg-cliente.js"></script>
+</body>
+</html>
