@@ -137,12 +137,15 @@ A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos d
 <meta name="author" content="Lucero Obispo, Andrea O'Higgins, Eric Cuevas, Javier Sebastian" />
 ~~~
 
-### 4.2.4. Searching Systems.
-### 4.2.5. Navigation Systems.
+### 4.2.4. Searching Systems.  
 
-## 4.3. Landing Page UI Design.
-### 4.3.1. Landing Page Wireframe.
-A continuación, los wireframes realizados para el proyecto:
+  
+### 4.2.5. Navigation Systems.  
+Se dispondra de un menu despegable en la parte superior de la de la aplicación, el cual mostrara las secciones de contenido disponibles. El “navbar” permitirá al usuario podernavegar a cualquier sección de la página, en cualquier momento, esto permitirá a los usuarios ver todo el contenido sin tener que volver al principio y cuando sea necesario, con un botón, volver a desplegar el navbar en mobile, o de manera incluso más sencilla en web dirigiendose al menu directamente.  
+  
+## 4.3. Landing Page UI Design.  
+### 4.3.1. Landing Page Wireframe.  
+A continuación, los wireframes realizados para el proyecto:  
 
 **Landing Page Wireframe (escritorio)**    
 Para el presente trabajo, se realizó el wireframe correspondiente para el diseño de la landing page para "Carga sin Estres".    
