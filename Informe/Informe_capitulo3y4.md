@@ -138,7 +138,7 @@ A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos d
 ~~~
 
 ### 4.2.4. Searching Systems.  
-
+La aplicación de mudanzas y transporte contará con un sistema de búsqueda que permitirá visualizar todas las empresas de mudanza y transporte. Al inicio de la página principal, se visualizarán las empresas destacadas, aquellas que han adquirido una membresía para poder aparecer en esta sección, y debajo de ellas se listarán las demás empresas. Además, con el objetivo de simplificar la elección de la empresa por parte de los usuarios, se visualizarán los datos principales de cada empresa, incluyendo su nombre, logotipo y los servicios que ofrecen. Asimismo, los usuarios podrán explorar fácilmente las distintas opciones de empresas a través de filtros. Éstos permitirán la búsqueda de empresas por cercanía, en función de los servicios que el usuario haya seleccionado, la calificación por estrellas y las reseñas de la empresa, así como su disponibilidad.
   
 ### 4.2.5. Navigation Systems.  
 Se dispondra de un menu despegable en la parte superior de la de la aplicación, el cual mostrara las secciones de contenido disponibles.   
