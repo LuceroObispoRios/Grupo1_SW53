@@ -52,24 +52,16 @@
 
 ## 4.1. Style Guidelines
 
-
-
-
-
 ### 4.1.1. General Style Guidelines
 A continuación, se presentará los materiales gráficos a emplear para el reconocimiento de la marca.
 
-**Main Logo**      
+**Main Logo & Branding**      
 El logo está conformado por: Un camión caracteriztico del transporte de objetos. Este objeto simboliza el agente principal de la marca (lo que el usuario desea/espera encontrar).
-Por otro lado, este camión esta encerrado por un círculo el cual representa movimiento y globalidad. El acoplamiento de estos ítems, inspira optimismo y energía. Derivado de ello transmitimos la idea de que la aplicación ofrece servicios eficaces, ágiles y accesible.
-Los colores usados como rojo y guinda creean un ambiente de colores que refuerza el mensaje de entusiasmo, prosperidad, elegancia y solidez.
+Por otro lado, este camión esta encerrado por un círculo el cual representa movimiento y globalidad. La complementación de estos ítems, inspira optimismo y energía. Derivado de ello transmitimos la idea de que la aplicación ofrece servicios eficaces, ágiles y accesible.
+Los colores usados como amarillo y azul crean un ambiente de confianza, profesionalidad, elegancia y solidez.    
+Del mismo modo se considera el nombre del proyecto para relacionarlo con la imagen del camión.
 
-![logo](/Informe/Imagenes/logo.png)
-
-**Branding**  
-En este caso el logo es fusionado con el nombre de la marca.
-![logo](/Informe/Imagenes/logo+nombre.png)
-![logo](/Informe/Imagenes/logo+nombre_bw.png)
+![logo](/Proyecto/image/Cargalogo.png)
 
 **Typography**
 Se definieron dos tipos de tipografías que cumpliesen con el propósito definido de mostrar optimismo y elegancia. Estas son: Open Sans y Robot.
@@ -79,7 +71,7 @@ Se definieron dos tipos de tipografías que cumpliesen con el propósito definid
 **Colors**  
 Los colores definidos para la marca son:
 
-![tipografía](/Informe/Imagenes/Colors.png)
+![LogoColor](/Informe/Imagenes/LogoColors.png)
 
 **Spacing**
 
