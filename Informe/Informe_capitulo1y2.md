@@ -17,7 +17,7 @@ Ciclo 2023-02
  :-----:|:-----:|:-----:|:-----
  TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags. Se realizo 1 entrevista a trabajador de empresa, su registro y analisis. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
  TB1 | 23/08/23 - 03/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams.  
- TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1.
+ TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1. En codigo, se hizo el registro de empresas.
  TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió General Style Guidelines, Impact map, Product Backlog y Development Evidence for Sprint Review.
  TB1 | 19/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se avanzo con los wireframes y mockups. 
 ---
@@ -372,8 +372,8 @@ Residencia: Lima
 
 ***Representantes de Empresas:***    
 - En cuanto a la pregunta respecto a los medios para captar potenciales clientes, todos los entrevistados indicaron que utilizan frecuentemente la forma tradicional como avisos publicitarios, ya sea en los periódicos,  paredes o en los vehículos de la empresa en donde trabajan. Asimismo, dos de los tres entrevistados afirmaron que su empresa cuenta con una página web en donde se publicitan ocasionalmente, pues no es su medio principal para captar clientes.
-- 
--
+- Se pudo rescatar que todos los entrevistados afirmaron que su empresa de mudanza o carga ya poseia protocolos para el transporte de objetos pesados y/o fragiles, asi como politicas para mantener informados a los clientes de la posición de sus pertenencias.
+- Se puede afirmar que los entrevistados piensan que una aplicación/pagina web que sirva para promocionar sus negocios y ayudarlos a conectar con más clientes seria de mucha ayuda, siendo que una de las principales dificultades que han encontrado este tipo de negocios en los ultimos años es la competencia.
   
 ***Individuos de 18 a 50 años***  
 - En la entrevista realizada a Italo Rodrigo Mendoza Apolaya, este sostiene su preocupación principal
