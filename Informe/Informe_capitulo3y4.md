@@ -234,6 +234,7 @@ El prototipo de secuencia mobile se encuentra en el siguiente enlace :
 ## 4.7. Software Object-Oriented Design.
 
 ### 4.7.1. Class Diagrams.
+El diagrama de clases se realizo con la pagina Lucidchart, este es el enlace del diagrama: [https://lucid.app/lucidchart/c9014eb0-9946-4bec-94b9-7b2daffbd7ea/edit?viewport_loc=-668%2C-172%2C3028%2C1565%2C0_0&invitationId=inv_178b2402-cdb0-42b0-ad04-ffbc706d72ae]  
 ![Notification Component Diagram](/Informe/Imagenes/DiagramaDeClases.png)
 
 ### 4.7.2. Class Dictionary.  
