@@ -171,6 +171,8 @@ Link al video de ejecución:
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
+*Para este **primer** avance, el cual abarcaba la landing page, asi como el registro y login de usuarios, no se llevo a cabo un despliegue de la aplicación.*  
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ***Primer Sprint***  
 Durante el primer sprint, el equipo optó por dividir los puntos entre todos los integrantes por cada capítulo para completar el informe. También, se optó por dividir las páginas por integrante teniendo en cuenta que estas deberán ser responsive y funcionales. Para asegurar que todo esté realizado correctamente, se organizaron reuniones constantes que se llevaron a cabo a través de Google Meet, donde se logró completar el informe y el código de las páginas landing page, registro para cuenta de empresa, registro para cuenta de cliente, inicio de sesión y la página de búsqueda de empresas.  
