@@ -139,6 +139,27 @@ Acceptance Tests de los User Stories, archivos .feature utilizando el lenguaje G
 
 ![feature 11](/Informe/Imagenes/feature-us11.png)
 
+![feature 12](/Informe/Imagenes/US012.jpg)
+
+![feature 13](/Informe/Imagenes/US013.jpg)
+
+![feature 14](/Informe/Imagenes/US014.jpg)
+
+![feature 15](/Informe/Imagenes/US015.jpg)
+
+![feature 16](/Informe/Imagenes/US016.jpg)
+
+![feature 17](/Informe/Imagenes/US017.jpg)
+
+![feature 18](/Informe/Imagenes/US018.jpg)
+
+![feature 19](/Informe/Imagenes/US019.jpg)
+
+![feature 20](/Informe/Imagenes/US020.jpg)
+
+![feature 21](/Informe/Imagenes/US021.jpg)
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.  
 
 ***Primer Sprint***  
