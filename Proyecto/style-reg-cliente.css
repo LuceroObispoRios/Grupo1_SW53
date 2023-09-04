@@ -44,6 +44,11 @@ body {
     margin-right: 5px;
 }
 
+.radio-empresa {
+    color:#000000;
+    text-decoration: none;
+}   
+
 .user-info {
     display: flex;
     align-items: center;
