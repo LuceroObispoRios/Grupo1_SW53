@@ -77,7 +77,7 @@ Otras cuestiones del manejo del codigo son utilizar letras minusculas, para mant
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 1 sera terminar la Landing Page, asi como los sistemas de registro y login de la aplicación, desarrollandolos de manera que sean responsive y coherentes con el Diseño de Carga sin Estres, además de empezar las preparaciones para desplegar el suigiente sprint. |
 | Sprint & Velocity | Debido al alcanze establecido para este sprint, asi como el tiempo que se tiene para realizar este considerando el trabajo anterior, el Velocity establecido para este sprint es 35 |
-| Sum of Story Point | La suma de Story points que el equipo estara desarrollano este sprint es 30 |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 30 |
 
 #### 5.2.1.2. Sprint Backlog 1.
 
