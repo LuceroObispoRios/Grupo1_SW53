@@ -76,8 +76,10 @@ Descripción: Lenguaje de programación que se usa para poder darle funcionalida
 Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la comprensión del código, se utilizaran nombre de variables y funciones en minúscula, no abreviados y que describan su propósito. Asimismo, se dividirán funciones largas en funciones más pequeñas para facilitar la lectura.  
 
 ### 5.1.4. Software Deployment Configuration.
-
-
+Para almacenar y manejar el flujo de trabajo del equipo, hemos creado un repositorio en GitHub. Utilizaremos "main" como la rama principal para el desarrollo.
+Para su configuración es necesario clonar el repositorio desde GitHub con el URL: https://github.com/LuceroObispoRios/Grupo1_SW53.git.  Este proceso descargará todo el contenido del repositorio en la máquina local.
+Para el entorno de desarrollo se utilizará el Visual Studio Code.
+A medida que el proyecto avance, se agregarán más elementos de configuración, incluyendo configuración para la base de datos relacional, configuración de pruebas y configuración de gestión de paquetes y dependencias.
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
@@ -113,6 +115,29 @@ Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la comprensión del
 
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
+Acceptance Tests de los User Stories con el código de .feature
+
+![feature 1](/Informe/Imagenes/feature-us01.png)
+
+![feature 2](/Informe/Imagenes/feature-us02.png)
+
+![feature 3](/Informe/Imagenes/feature-us03.png)
+
+![feature 4](/Informe/Imagenes/feature-us04.png)
+
+![feature 5](/Informe/Imagenes/feature-us05.png)
+
+![feature 6](/Informe/Imagenes/feature-us06.png)
+
+![feature 7](/Informe/Imagenes/feature-us07.png)
+
+![feature 8](/Informe/Imagenes/feature-us08.png)
+
+![feature 9](/Informe/Imagenes/feature-us09.png)
+
+![feature 10](/Informe/Imagenes/feature-us10.png)
+
+![feature 11](/Informe/Imagenes/feature-us11.png)
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.  
 
