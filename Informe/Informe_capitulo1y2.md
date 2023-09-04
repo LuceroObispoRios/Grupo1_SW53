@@ -270,13 +270,42 @@ Finalmente, integrar herramientas de inteligencia artificial para mejorar la asi
 9. ¿Qué opinas sobre la idea de tener una membresía premium que coloque tu empresa en una lista destacada para captar clientes en nuestra página web?
 
 ### 2.2.2 Registro de entrevistas
+*Representantes de Empresas:*  
 
--
--
--
--
--
--
+1. ![empresa-entrevista1](/Informe/Imagenes/empresa-entrevista1.JPG)  
+[https://www.youtube.com/watch?v=IIlxXJBREP8]  
+  
+Transcripción de la entrevista :  
+0:16 - "¿Cual es el medio actual por el cual capta a sus potenciales clientes?"  
+"La forma de captar tradicional es aquella que esta referida a los carteles publicitarios, no solo en el pequeño local sino tambien en otros vehiculos que disponemos propios, tenemos digamos referencias con información del servicio que brindamos en nuestro negocio y en estos ultimos tiempos hemos apelado mucho a los medios tecnologicos y aparecemos en una pequeña pagina web que actualizamos cada cierto tiempo"  
+  
+3:56 - "¿Sus clientes suelen requerir que ustedes hagan los servicios de embalaje o armado de muebles?"  
+"Es un servicio adicional que brindamos con respecto al tema del embalaje cuando asi lo requieran los clientes y en ciertas circunstancias porque asi lo requiere el protocolo con respecto a aquellos bienes que son son fragiles, y con respecto al armado de los muebles digamos que lo brindamos como un servicio adicional, no es frecuente" 
+  
+4:35 - "¿Cuales son los mayores desafios que ha enfrentado su empresa al llevar a cabo sus servicios en los ultimos años?"  
+"Si bien es cierto que en los ultimos años ha habido un incremento importante con respecto a los servicios que demandan nuestros clientes, tambien hemos visto un crecimiento en cuanto al tema de la competencia, entonces frente a estas circunstancias es impotante llegar a los clientes a travez de los medios tecnologicos"  
+
+2. ![empresa-entrevista2](/Informe/Imagenes/empresa-entrevista2.JPG)  
+[https://www.youtube.com/watch?v=AEatPrxvBlo]  
+  
+0:15 - "¿Cual es el medio actual por el cual capta a sus potenciales clientes?"  
+"Tenemos una politica de comunicación via el uso de periodicos, via uso de avisos publicados y tambien de manera minima a travez de los medios de internet en una pagina web que tenemos."  
+  
+1:35 - "¿De qué manera garantiza que los bienes de los clientes son transportados de manera segura?"  
+"La empresa tiene un protocolo para el traslado de todos estos bienes, ya sean bienes de uso que son sensibles, productos que son bienes duros, nosotros lo que hacemos es empacamos previamente todos los bienes, o en todo caso los desarmamos si son muy grandes y se adecua su transporte de manera que nulo o el minimo daño posible"  
+  
+4:59 - "¿Que opina usted sobre la idea de tener una membresía premium que coloque tu empresa en una lista destacada para captar clientes en nuestra página web?"  
+"Nosotros con el transcurrir de los años hemos crecido y yo creo que estar incluidos en una lisyta premiun nos ayudara a aumentar nuestra cartera de clientes y de paso promocionar nuestra empresa lo que conllevaria a un crecimiento que es lo que buscamos."  
+
+3. 
+
+*Individuos de 18 a 50 años*
+
+1.
+
+2.
+
+3.
 
 ### 2.2.3 Análisis de entrevistas
 
