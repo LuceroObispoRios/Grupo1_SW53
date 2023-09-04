@@ -115,7 +115,7 @@ A medida que el proyecto avance, se agregarán más elementos de configuración,
 
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
-Acceptance Tests de los User Stories con el código de .feature
+Acceptance Tests de los User Stories, archivos .feature utilizando el lenguaje Gherkin
 
 ![feature 1](/Informe/Imagenes/feature-us01.png)
 
