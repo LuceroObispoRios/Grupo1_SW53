@@ -141,7 +141,10 @@ A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos d
 
   
 ### 4.2.5. Navigation Systems.  
-Se dispondra de un menu despegable en la parte superior de la de la aplicación, el cual mostrara las secciones de contenido disponibles. El “navbar” permitirá al usuario podernavegar a cualquier sección de la página, en cualquier momento, esto permitirá a los usuarios ver todo el contenido sin tener que volver al principio y cuando sea necesario, con un botón, volver a desplegar el navbar en mobile, o de manera incluso más sencilla en web dirigiendose al menu directamente.  
+Se dispondra de un menu despegable en la parte superior de la de la aplicación, el cual mostrara las secciones de contenido disponibles.   
+El “navbar” permitirá al usuario podernavegar a cualquier sección de la página, en cualquier momento, esto permitirá a los usuarios ver todo  
+el contenido sin tener que volver al principio y cuando sea necesario, con un botón, volver a desplegar el navbar en mobile, o de manera  
+incluso más sencilla en web dirigiendose al menu directamente.  
   
 ## 4.3. Landing Page UI Design.  
 ### 4.3.1. Landing Page Wireframe.  
