@@ -55,6 +55,26 @@ Otras cuestiones del manejo del codigo son utilizar letras minusculas, para mant
   
 ### 5.1.3. Source Code Style Guide & Conventions.
 
+***Gherkin:***   
+(user Story).feature  
+Descripción: Es un lenguaje específico de Dominio (DSL), diseñado para resolver un problema muy específico en “pasos”. Está diseñado para ser legible y comprensible tanto por técnicos como por personas no técnicas como perfiles de negocio.  
+Convenciones: De acuerdo a Cucumber (s.f.), Gherkin utiliza palabras clave específicas como “Given” (dado), “When” (cuando), “Then” (entonces) y “And” (y) para estructurar escenarios claros y comprensibles; mientras que, las tablas se utilizan para representar datos de entrada y salida usados en los escenarios. Asimismo, se deben tener en cuenta sólo agregar comentarios significativos (líneas que comienza con ”#”) y que cada archivo Gherkin contiene una única característica, y esta contiene uno o más escenarios.  
+
+***HTML:***    
+(file).html  
+Descripción: Hypertext Makeup Language es el lenguaje estándar que se utiliza para crear y estructurar el contenido de páginas web. Consiste en una serie de etiquetas y elementos que definen diferentes partes del contenido para que se vean o comporten de una determinada manera. 
+Convenciones: De acuerdo a W3Schools (s.f.), para facilitar la lectura y la coherencia en el código, es necesario usar espacios o tabulaciones de manera consistente, escribir los nombres de las etiquetas y de los archivos en minúsculas, usar comillas dobles para definir atributos en las etiquetas, usar el elemento <link> y <script> para relacion el archivo html con los archivos css y javascript respectivamente. Asimismo, es importante que cada elemento esté cerrado y que se agreguen solo comentarios significativos (“<!--” para iniciar un comentario y “-->” para cerrarlo).  
+
+***CSS:***  
+(file).css  
+Descripción: Cascading Style Sheets en un lenguaje de hojas de estilo que es utilizado para dar formato y diseño a las páginas web.  
+Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la legibilidad, se debe mantener los espacios adecuados, se usarán nombres de clases y selectores en minúscula y claros que reflejen su función, se debe procurar agrupar propiedades relacionadas juntas en el mismo bloque, y se usarán los id’s para poder modificar algún atributo en específico.  
+
+***JavaScript:***  
+(file).js  
+Descripción: Lenguaje de programación que se usa para poder darle funcionalidades a las páginas web y que permita manipular su contenido y responder a acciones del usuario.  
+Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la comprensión del código, se utilizaran nombre de variables y funciones en minúscula, no abreviados y que describan su propósito. Asimismo, se dividirán funciones largas en funciones más pequeñas para facilitar la lectura.  
+
 ### 5.1.4. Software Deployment Configuration.
 
 
@@ -94,7 +114,31 @@ Otras cuestiones del manejo del codigo son utilizar letras minusculas, para mant
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 
-#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.  
+
+***Primer Sprint***  
+Durante este sprint, nos enfocamos en completar el landing page y en las páginas de registro para cuenta de empresa, registro para cuenta de cliente, inicio de sesión y la página de búsqueda de empresas.  
+![landing page](/Informe/Imagenes/execution_sprint1.JPG)  
+
+![landing page](/Informe/Imagenes/execution2_sprint1.JPG)  
+
+![landing page](/Informe/Imagenes/execution3_sprint1.JPG)  
+
+![inicio sesion](/Informe/Imagenes/execution4_sprint1.JPG)  
+
+![busqueda empresa](/Informe/Imagenes/execution5_sprint1.JPG)  
+
+![busqueda empresa](/Informe/Imagenes/execution6_sprint1.JPG)  
+
+![registro cliente](/Informe/Imagenes/execution7_sprint1.JPG) 
+
+![registro empresa](/Informe/Imagenes/execution8_sprint1.JPG) 
+
+![registro empresa](/Informe/Imagenes/execution9_sprint1.JPG) 
+
+Link al repositorio de codigo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git]  
+Link a la plataforma:  
+Link al video de ejecución:  
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -103,5 +147,13 @@ Otras cuestiones del manejo del codigo son utilizar letras minusculas, para mant
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+***Primer Sprint***  
+Durante el primer sprint, el equipo optó por dividir los puntos entre todos los integrantes por cada capítulo para completar el informe. También, se optó por dividir las páginas por integrante teniendo en cuenta que estas deberán ser responsive y funcionales. Para asegurar que todo esté realizado correctamente, se organizaron reuniones constantes que se llevaron a cabo a través de Google Meet, donde se logró completar el informe y el código de las páginas landing page, registro para cuenta de empresa, registro para cuenta de cliente, inicio de sesión y la página de búsqueda de empresas.  
+A continuación, se presentan screenshots que reflejan el trabajo realizado durante este sprint.  
 
+![team collaboration](/Informe/Imagenes/teamcollaboration_sprint1.png)   
+
+![team collaboration](/Informe/Imagenes/teamcollaboration2_sprint1.png)   
+
+![team collaboration](/Informe/Imagenes/teamcollaboration3_sprint1.png)   
 
