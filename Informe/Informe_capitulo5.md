@@ -70,13 +70,12 @@ Otras cuestiones del manejo del codigo son utilizar letras minusculas, para mant
 #### 5.2.1.3. Development Evidence for Sprint Review.
 
 | **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
-|--------------|--------------|--------------|--------------|--------------|--------------|
-| ( )   | ( )   | ( )   | ( )   | ( )   | ( )  |
-| ( )   | ( )   | ( )   | ( )   | ( )   | ( )  |
-| ( )   | ( )   | ( )   | ( )   | ( )   | ( )  |
-| ( )   | ( )   | ( )   | ( )   | ( )   | ( )  |
-| ( )   | ( )   | ( )   | ( )   | ( )   | ( )  |
-| ( )   | ( )   | ( )   | ( )   | ( )   | ( )  |
+|--------|----------|--------|-------|-------|--------|
+| https://github.com/LuceroObispoRios/Grupo1_SW53.git   | main  |  3b6e981055c0120a6b25f0bba205656250d84836  |  Create index.html | -   |  29/08/2023 |
+|    | main  | e19687997459a00e8648a07ebf95406e94adda0d   | Add files via upload (Add login)  | -   | 31/08/2023  |
+|    | main  | 4a38865e64891a2c073d059c1a4311c089d79e56   | Add files via upload (Search)  | -   | 31/08/2023  |
+|    | main  | 8d57461a769e4092ba68f220ed197f09be3ba397   | Add files via upload (Company-Reg)  | -   | 02/09/2023  |
+|    | main  | b09be2e234097dc8a890375794befb1cab343595   | Add Registro de cliente   | -   | 03/09/2023  |
 
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
@@ -84,6 +83,8 @@ Otras cuestiones del manejo del codigo son utilizar letras minusculas, para mant
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+*Para este **primer** Sprint no fue contemplado la evidencia de la documentación de nuestros servicios.*
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
