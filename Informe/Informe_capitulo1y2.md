@@ -15,10 +15,10 @@ Ciclo 2023-02
 ---  
  Versión| Fecha| Integrante| Descripción de modificación|
  :-----:|:-----:|:-----:|:-----
- TB1 | 23/08/23 - 03/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se avanzo con los wirframes y mockups. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags.
- TB1 | 23/08/23 - 03/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos.
- TB1 | 23/08/23 - 03/09/23  | Javier Sebastian| Se añadió General Style Guidelines, Impact map, Product Backlog y Development Evidence for Sprint Review.
- TB1 | 23/08/23 - 03/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se avanzo con los wireframes y mockups. 
+ TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se avanzo con los wirframes y mockups. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags.
+ TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1. 
+ TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió General Style Guidelines, Impact map, Product Backlog y Development Evidence for Sprint Review.
+ TB1 | 19/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se avanzo con los wireframes y mockups. 
 ---
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
