@@ -95,10 +95,15 @@ Ciclo 2023-02
    5.2.1.6. Services Documentation Evidence for Sprint Review.  
    5.2.1.7. Software Deployment Evidence for Sprint Review.  
    5.2.1.8. Team Collaboration Insights during Sprint.  
----
- Criterio Especifico| Acciones Realizadas| Conclusiones|
- :-----|:-----:|-----:
-Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | TB1-  | En conclusion...
+
+
+| Criterio Específico | Acciones realizadas | Conclusiones |
+|---------|---------|---------|
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> acciones realizadas<br><br> *Eric .....* <br> acciones realizadas<br><br> *Lucero ....* <br> acciones realizadas<br><br> *Andrea....* <br> acciones realizadas | Por un lado, concluimos que es importante manejar un lenguaje en común con los clientes. Necesitamos transferir y receptar ideas a fin de construir una solución hacia un problema identificado. Por ejemplo, al realizar entrevistas. Por otro lado, también es relevante comunicarse con el equipo de manera que se tiene un proceso de trabajo estratégico y coordinado. Además, concluimos que dado un análisis y especificaciones de requisitos como también el diseño, la implementación, validación y despliegue del producto logramos definir una estructura robusta para el desarrollo del aplicativo web "Carga sin Estrés". |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> acciones realizadas <br><br> *Eric...* <br> acciones realizadas <br><br> *Lucero ....* <br> acciones realizadas <br><br> *Andrea....* <br> acciones realizadas  | Por un lado, concluimos que es importante manejar un lenguaje en común con los clientes. Necesitamos transmitir mensajes legibles, limpios e intuitivos. Por ejemplo, al documentar una descripción de "Carga sin Estrés". Por otro lado, también es relevante transmitir mensajes en los medios remotos con el equipo de manera que se tiene un proceso de trabajo estratégico y coordinado. |
+
+
+
 ---
 # Capitulo 1 : Introducción  
 ## 1.1 Startup profile  
@@ -317,9 +322,29 @@ Tengo varios medios: propagandas instaladas en la movilidad de la empresa, a vec
 02:51 - ¿Cuáles son los mayores desafíos que ha enfrentado su empresa al llevar a cabo sus servicios en los últimos años?  
 Son 2 puntos fuertes. El primero es cuando se transportan los objetos a lugares alejados como a otras provincias. El segundo es la baja comunicación porque la empresa en donde trabaja no tiene una plataforma (página web), ni muchas redes sociales, por lo que se les hace difícil contactarse con más clientes.
 
-*Individuos de 18 a 50 años*
+**Individuos de 18 a 50 años**
 
-1.
+1. ![Individuo-entrevista1](/Informe/Imagenes/individuo-entrevista1.png)
+[https://youtu.be/JBW9fpnAYws]
+
+Nombre y apellido: Italo Mendoza  
+Edad: 19  
+Distrito: Lima  
+Duración: 07:09 min  
+
+1:11 - ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles? (embalaje, desmontaje/montaje, etc.)
+"Considero que es muy importante el embalaje de los
+objetos frágiles y valiosos, desmontaje y montaje de
+muebles grandes, también un seguro quizás para que cubra algunos posibles daños que sufran los objetos,un personal capacitado y profesional, un etiquetado"
+
+3:16 - ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted? 
+"Para mí es la incertidumbre no de saber si mis pertenencias en buen estado"
+
+
+5:34 - Qué características considera importantes en
+una aplicación web de búsqueda y reserva
+de servicios de mudanza?   
+"... pienso que debe incluir una interfaz fácil y sencilla de usar, también que tenga buena información detallada de las empresas de mudanzas como de reseñas de clientes y las tarifas la capacidad de poder obtener cotizaciones personalizadas, opciones de reserva, un seguimiento en tiempo real, un sistema de pago seguro y de protección de datos personales para que la mudanza sea de manera exitosa y sin inconvenientes"
 
 2.
 
@@ -327,12 +352,14 @@ Son 2 puntos fuertes. El primero es cuando se transportan los objetos a lugares 
 
 ### 2.2.3 Análisis de entrevistas
 
--
--
--
--
--
--
+- 
+- 
+- 
+- En la entrevista realizada a Italo Rodrigo Mendoza Apolaya, este sostiene su preocupación principal
+relacionado al negocio: El bienestar de los bienes a transportar. Por otro lado, indica que prefiere
+realizar el embalado de sus bienes por cuenta propia. Finalmente indica que los atractivos principales en una aplicación web, segun su criterio son: Interfaz intuitiva, Información relevante de empresas de mudanza, cotizaciones personalizadas, reservas de servicio, seguimiento en tiempo real del traslado, sistema de pago seguro, comunicación activa. 
+- 
+- 
 
 ## 2.3 Needfinding
 
