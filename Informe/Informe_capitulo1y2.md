@@ -354,9 +354,19 @@ una aplicación web de búsqueda y reserva
 de servicios de mudanza?   
 "... pienso que debe incluir una interfaz fácil y sencilla de usar, también que tenga buena información detallada de las empresas de mudanzas como de reseñas de clientes y las tarifas la capacidad de poder obtener cotizaciones personalizadas, opciones de reserva, un seguimiento en tiempo real, un sistema de pago seguro y de protección de datos personales para que la mudanza sea de manera exitosa y sin inconvenientes"
 
-2.
+2. ![Individuo-entrevista2](/Informe/Imagenes/cliente-entrevista2.jpg)
+[https://youtu.be/NQDztyjvZPk]
 
-3.
+Nombre y apellido: Sergio Leandro  
+Edad: 19  
+Distrito: Lima   
+
+3. ![Individuo-entrevista3](/Informe/Imagenes/cliente-entrevista3.jpg)
+[https://youtu.be/XEo_xdtp6bQ]
+
+Nombre y apellido: Virginia Borja  
+Edad: 22   
+Residencia: Lima  
 
 ### 2.2.3 Análisis de entrevistas  
 
