@@ -15,8 +15,9 @@ Ciclo 2023-02
 ---  
  Versión| Fecha| Integrante| Descripción de modificación|
  :-----:|:-----:|:-----:|:-----
- TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se avanzo con los wirframes y mockups. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags.
- TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1. 
+ TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags. Se realizo 1 entrevista a trabajador de empresa, su registro y analisis. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
+ TB1 | 23/08/23 - 03/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams.  
+ TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1.
  TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió General Style Guidelines, Impact map, Product Backlog y Development Evidence for Sprint Review.
  TB1 | 19/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se avanzo con los wireframes y mockups. 
 ---
@@ -123,7 +124,8 @@ Fotografia de Perfil: ![foto]()
 * Nombres y Apellidos: Lucero Abigail Obispo Rios  
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
-Fotografia de Perfil: ![foto]() 
+Fotografia de Perfil:  
+[<img src="/Informe/Imagenes/integrante1.jpg" width="150"/>](/Informe/Imagenes/integrante1.jpg)
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
@@ -275,7 +277,7 @@ Finalmente, integrar herramientas de inteligencia artificial para mejorar la asi
 9. ¿Qué opinas sobre la idea de tener una membresía premium que coloque tu empresa en una lista destacada para captar clientes en nuestra página web?
 
 ### 2.2.2 Registro de entrevistas
-*Representantes de Empresas:*  
+***Representantes de Empresas:***  
 
 1. ![empresa-entrevista1](/Informe/Imagenes/empresa-entrevista1.JPG)  
 [https://www.youtube.com/watch?v=IIlxXJBREP8]  
@@ -322,7 +324,7 @@ Tengo varios medios: propagandas instaladas en la movilidad de la empresa, a vec
 02:51 - ¿Cuáles son los mayores desafíos que ha enfrentado su empresa al llevar a cabo sus servicios en los últimos años?  
 Son 2 puntos fuertes. El primero es cuando se transportan los objetos a lugares alejados como a otras provincias. El segundo es la baja comunicación porque la empresa en donde trabaja no tiene una plataforma (página web), ni muchas redes sociales, por lo que se les hace difícil contactarse con más clientes.
 
-**Individuos de 18 a 50 años**
+***Individuos de 18 a 50 años***
 
 1. ![Individuo-entrevista1](/Informe/Imagenes/individuo-entrevista1.png)
 [https://youtu.be/JBW9fpnAYws]
@@ -350,11 +352,14 @@ de servicios de mudanza?
 
 3.
 
-### 2.2.3 Análisis de entrevistas
+### 2.2.3 Análisis de entrevistas  
 
+***Representantes de Empresas:***    
+- En cuanto a la pregunta respecto a los medios para captar potenciales clientes, todos los entrevistados indicaron que utilizan frecuentemente la forma tradicional como avisos publicitarios, ya sea en los periódicos,  paredes o en los vehículos de la empresa en donde trabajan. Asimismo, dos de los tres entrevistados afirmaron que su empresa cuenta con una página web en donde se publicitan ocasionalmente, pues no es su medio principal para captar clientes.
 - 
-- 
-- 
+-
+  
+***Individuos de 18 a 50 años***  
 - En la entrevista realizada a Italo Rodrigo Mendoza Apolaya, este sostiene su preocupación principal
 relacionado al negocio: El bienestar de los bienes a transportar. Por otro lado, indica que prefiere
 realizar el embalado de sus bienes por cuenta propia. Finalmente indica que los atractivos principales en una aplicación web, segun su criterio son: Interfaz intuitiva, Información relevante de empresas de mudanza, cotizaciones personalizadas, reservas de servicio, seguimiento en tiempo real del traslado, sistema de pago seguro, comunicación activa. 
