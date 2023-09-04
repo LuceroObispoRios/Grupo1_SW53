@@ -101,7 +101,7 @@ function SaveUserJSON(){
 
     localStorage.setItem("users", JSON.stringify(users));
     alert("Empresa registrada con exito");
-    window.location.href = "Index.html";
+    window.location.href = "inicio-sesion.html";
 } //application-localstorage-file//:
 
 function SaveUserLocalMemory(){
@@ -129,6 +129,7 @@ function SaveUserLocalMemory(){
     var empresaDesc = localStorage.setItem("empresaDesc", description);
     var empresaServices = localStorage.setItem("empresaServices", services);
 
+    window.location.href = "inicio-sesion.html";
     //la data guardada de nombre de empresa (empresaID) y contraseña (empresaContrasena)
     //se debe igualar en login para que funcione este ultimo
 
