@@ -216,8 +216,8 @@ Durante este sprint, nos enfocamos en completar el landing page y en las página
 ![registro empresa](/Informe/Imagenes/execution9_sprint1.JPG) 
 
 Link al repositorio de codigo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git]  
-Link a la plataforma:  
-Link al video de ejecución:  
+Link a la plataforma:  [https://luceroobisporios.github.io/Grupo1_SW53/Proyecto/index.html]
+Link al video de ejecución:  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/Ec9MST7T0FdKif_wwyg4Qv0BzdIxDk2OLVc9u-MLUXRWag?e=TDbCvF]
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
