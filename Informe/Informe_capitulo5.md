@@ -81,11 +81,10 @@ Para su configuración es necesario clonar el repositorio desde GitHub con el UR
 Para el entorno de desarrollo se utilizará el Visual Studio Code.
 Para este sprint, hemos desarrollado la landing page, y su despliegue se realizó en la plataforma de GitHub Pages. 
 
-Primero se eligió la rama en donde se alojará y desplegará el landing page. Este será la rama deployment con la carpeta origen en el /root ,
+Primero se eligió la rama en donde se alojará y desplegará el landing page. Este será la rama deployment con la carpeta origen en el /root.
 Guardamos la configuración y github nos proporcionó el link de la página. Luego de unos minutos la página pudo visualizarse correctamente.
 
 ![landing page deployment configuration](/Informe/Imagenes/landing-page-deployment.jpeg)
-
 
 A medida que el proyecto avance, se agregarán más elementos de configuración, incluyendo configuración para la base de datos relacional, configuración de pruebas y configuración de gestión de paquetes y dependencias.
 
