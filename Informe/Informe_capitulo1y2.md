@@ -345,12 +345,12 @@ Edad: 19
 Distrito: Lima  
 Duración: 07:09 min  
 
-1:11 - ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles? (embalaje, desmontaje/montaje, etc.)
+1:11 - ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles? (embalaje, desmontaje/montaje, etc.)  
 "Considero que es muy importante el embalaje de los
 objetos frágiles y valiosos, desmontaje y montaje de
 muebles grandes, también un seguro quizás para que cubra algunos posibles daños que sufran los objetos,un personal capacitado y profesional, un etiquetado"
 
-3:16 - ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted? 
+3:16 - ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted?  
 "Para mí es la incertidumbre no de saber si mis pertenencias en buen estado"
 
 
@@ -368,13 +368,13 @@ Distrito: Lima
 Duración: 03:24
 
 Resumen de entrevista:  
-0:21 - ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles? (embalaje, desmontaje/montaje, etc.)
+0:21 - ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles? (embalaje, desmontaje/montaje, etc.)  
 Considero esencial que la empresa de mudanzas ofrezca servicios de embalaje profesional , así como servicio de desmontaje/montaje de muebles. No tengo mucho tiempo ni experiencia en hacerlo yo mismo, así que prefiero que los expertos lo hagan.
 
-01:35 - ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted?
+01:35 - ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted?  
 Sería no saber si todo llegará en buenas condiciones. También me preocuparía que haya retrasos en la entrega, especialmente si tengo poco tiempo debido a que voy a la universidad y en caso no pueda estar esperando mucho tiempo.
 
-03:01 - ¿Qué características considera importantes en una aplicación web de búsqueda y reserva de servicios de mudanza? 
+03:01 - ¿Qué características considera importantes en una aplicación web de búsqueda y reserva de servicios de mudanza?   
 Creo que sería importante poder ver reseñas de otras personas para poder informarme sobre cómo es la calidad del servicio de la empresa. También sería útil si la aplicación ofrece una forma fácil de comunicarme con la empresa si surge algún problema.
 
 3. ![Individuo-entrevista3](/Informe/Imagenes/cliente-entrevista3.jpg)
@@ -386,13 +386,13 @@ Distrito: Lima
 Duración: 07:54
 
 Resumen de entrevista:  
-0:16 - ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles? (embalaje, desmontaje/montaje, etc.)
+0:16 - ¿Qué servicios considera esenciales al contratar una empresa de mudanzas o transporte de muebles? (embalaje, desmontaje/montaje, etc.)  
 Creo que el montaje y desmontaje de muebles. Creo que es esencial porque en mi caso cuando he requerido de este servicio, ha sido porque son muebles muy grandes que no caben en una camioneta o en un auto. Entonces he necesitado no solamente que lo deje en la dirección, sino que,... el hecho de mover tu mueble hasta el elevador y del elevador a tu cocina era esencial que venga alguien que pueda desmontarlo y montarlo, un equipo en todo caso.
 
-02:30 - ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted?
+02:30 - ¿Cuál es la parte más estresante del proceso de transporte de sus bienes para usted?  
 El hecho de que te lo lleven,... creo que una gran ayuda es que te lleven tus pertenencias a tu nuevo inmueble, no me gustaría que me lo dejen en la puerta o en un lobby, me parece que el servicio estaría incompleto.
 
-07:05 - ¿Qué características considera importantes en una aplicación web de búsqueda y reserva de servicios de mudanza? 
+07:05 - ¿Qué características considera importantes en una aplicación web de búsqueda y reserva de servicios de mudanza?   
 Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo más difícil porque asi no más no encuentras gente que te cargue las cosas.
 
 ### 2.2.3 Análisis de entrevistas  
