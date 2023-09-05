@@ -212,6 +212,8 @@ El prototipo de secuencia mobile se encuentra en el siguiente enlace :
 
 ## 4.6. Domain-Driven Software Architecture.
 
+Los diagramas c4 se realizaron con Structurizr.   Enlace:[https://www.structurizr.com/share/85676/294b91b5-fde5-4ad9-bb61-11105de941e6]
+
 ### 4.6.1. Software Architecture Context Diagram.
 
 ![Context Diagram](/Informe/Imagenes/Contexto.png)
