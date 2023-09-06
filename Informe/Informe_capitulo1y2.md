@@ -12,7 +12,9 @@ Integrantes:
 - O'Higgins Rosales, Andrea Namie
 
 Ciclo 2023-02
----  
+---
+## Registro de versiones del Informe  
+
  Versión| Fecha| Integrante| Descripción de modificación|
  :-----:|:-----:|:-----:|:-----
  TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags. Se realizo 1 entrevista a trabajador de empresa, su registro y analisis. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
@@ -96,7 +98,8 @@ Ciclo 2023-02
    5.2.1.7. Software Deployment Evidence for Sprint Review.  
    5.2.1.8. Team Collaboration Insights during Sprint.  
 
-
+## Student Outcome  
+  
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---------|---------|---------|
 | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se realizó una entrevista donde donde el entrevistado recibió información sobre el proyecto. Además, se realizaron meetings con el equipo<br><br> *Eric Fernando Cuevas* <br>- Se desarrollo una presentación en video que explcia los resultados del informe. <br>  <br> *Lucero Abigail Obispo* <br> acciones realizadas<br><br> *Andrea Namie O´Higgins* <br> acciones realizadas | Por un lado, concluimos que es importante manejar un lenguaje en común con los clientes. Necesitamos transferir y receptar ideas a fin de construir una solución hacia un problema identificado. Por ejemplo, al realizar entrevistas. Por otro lado, también es relevante comunicarse con el equipo de manera que se tiene un proceso de trabajo estratégico y coordinado. Además, concluimos que dado un análisis y especificaciones de requisitos como también el diseño, la implementación, validación y despliegue del producto logramos definir una estructura robusta para el desarrollo del aplicativo web "Carga sin Estrés". |
