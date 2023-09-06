@@ -96,7 +96,7 @@
     margin-right: 10px;
   }
   
-  .login-form .action button {
+  .login-form .action .btn {
     width: 20%;
     border: none;
     display: inline;
@@ -112,12 +112,13 @@
     -webkit-transition: all .3s;
     transition: all .3s;
     margin: 0 10px;
+    text-decoration: none;
   }
   
   .login-form .action {
     text-align: center;
   }
   
-  .login-form .action button:hover {
+  .login-form .action .btn:hover {
     background: #d8d8d8;
   }
