@@ -122,8 +122,6 @@ Visión: Buscamos convertirnos en la principal plataforma en la industria de mud
 Carrera: Ingenieria de Software  
 Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
 Fotografia de Perfil:  
-[<img src="/Informe/Imagenes/integrante2.JPG" width="150"/>](/Informe/Imagenes/integrante2.JPG)
-
 [<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true" width="150"/>](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true)
 
 * Nombres y Apellidos: Lucero Abigail Obispo Rios  
