@@ -462,25 +462,3 @@ realizar el embalado de sus bienes por cuenta propia. Finalmente indica que los 
 
 ![as is segmento empresa](/Informe/Imagenes/As-is_Empresa.png)
 
-
-**Bibliografia**
---
-Cucumber. (s.f.). Gherkin Reference. Recuperado de: https://cucumber.io/docs/gherkin/reference/ [Fecha de consulta: 04 de septiembre de 2023]  
-
-El comercio. (s.f.). Diario Gestion. Los agentes especializados para mudarte a otro espacio.  
-https://archivo.elcomercio.pe/especial/50-ideas-de-negocios/noticias/agentes-especializados-cambiar-espacios-noticia-1992612  
-
-Expansion. (2020). Datosmacro. Sube el número de inmigrantes que viven en Perú.
-https://datosmacro.expansion.com/demografia/migracion/inmigracion/peru#:~:text=En%20los%20últimos%20años%2C%20el,%2C%20un%20691%2C17%25.   
-
-Expresso. (2019). ¿Sabías que la mayoría de personas busca una empresa de mudanza a último momento?  
-https://www.expreso.com.pe/opinion/sabias-que-la-mayoria-de-personas-busca-una-empresa-de-mudanza-a-ultimo-momento/  
-
-Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
-https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf    
-
-MDN Web Docs. (s.f.). CSS Coding Style Guide. Recuperado de: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/CSS [Fecha de consulta: 04 de septiembre de 2023]  
-
-MDN Web Docs. (s.f.). Code Style Guide. Recuperado de: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide [Fecha de consulta: 04 de septiembre de 2023]  
-
-W3Schools. (s.f.). HTML5 Syntax. Recuperado de: https://www.w3schools.com/html/html5_syntax.asp [Fecha de consulta: 04 de septiembre de 2023]   
