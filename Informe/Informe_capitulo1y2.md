@@ -460,8 +460,3 @@ realizar el embalado de sus bienes por cuenta propia. Finalmente indica que los 
 
 ![as is segmento empresa](/Informe/Imagenes/As-is_Empresa.png)
 
----
-[<img src="/Informe/Imagenes/integrante3.JPG" width="150"/>](/Informe/Imagenes/integrante2.JPG)
-![eric](/Informe/Imagenes/integrante2.JPG)
-![foto de perfil](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true)
-
