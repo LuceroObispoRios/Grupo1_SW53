@@ -420,11 +420,11 @@ realizar el embalado de sus bienes por cuenta propia. Finalmente indica que los 
 ### 2.3.1 User Personas
 **User Persona Ciudadano**
 
-![User Persona Ciudadano](/Informe/Imagenes/UserPersona_ciudadano.png)
+![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true)
 
 **User Persona Empresa**
 
-![User Persona Ciudadano](/Informe/Imagenes/UserPersona_empresa.png)
+![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true)
 
 ### 2.3.2 User Task Matrix
 **User Task Matrix Ciudadano**
