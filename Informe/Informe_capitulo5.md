@@ -225,7 +225,7 @@ Link al video de ejecución:  [https://upcedupe-my.sharepoint.com/:v:/g/personal
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-*Para este **primer** avance, el cual abarcaba la landing page, asi como el registro y login de usuarios, no se llevo a cabo un despliegue de la aplicación.*  
+Para este **primer** avance, el cual abarcaba la landing page, asi como el registro y login de usuarios, se llevo a cabo un desplegue por medio de GitHub Pages.
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ***Primer Sprint***  
