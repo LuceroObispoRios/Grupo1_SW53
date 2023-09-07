@@ -124,6 +124,10 @@ Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experienci
 Fotografia de Perfil:  
 [<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true" width="150"/>](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true)
 
+![foto de perfil](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true)
+  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true" width="150"/>
+
 * Nombres y Apellidos: Lucero Abigail Obispo Rios  
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
