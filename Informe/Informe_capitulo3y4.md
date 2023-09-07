@@ -11,7 +11,7 @@
 
 ## 3.2. User Stories
   
-![TUser Stories Parte 1](/Informe/Imagenes/Userstories1.png)
+![TUser Stories Parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories1.png?raw=true)
 ![TUser Stories Parte 2](/Informe/Imagenes/Userstories2.png)
 ![TUser Stories Parte 3](/Informe/Imagenes/Userstories3.png)
 ![TUser Stories Parte 4](/Informe/Imagenes/Userstories4.png)
