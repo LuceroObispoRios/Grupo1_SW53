@@ -160,7 +160,7 @@ Desde una primera instancia, se definen secciones de interés como: Inicio, serv
 Además se elaboró el diseño de una landing page adaptable a la resolución de cualquier pantalla (Responsive) desde el cual el usuario visualiza correctamente el contenido de "Carga sin Estres".   
 Dado este motivo, se presenta la vista desde un dispositivo móvil:
 
-![Landing Page Wireframe Mobile](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageWireframeResponsive.png?raw=true)
+![Landing Page Wireframe Mobile](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-mobile-landing.png?raw=true)
 
 
 ### 4.3.2. Landing Page Mock-up.
