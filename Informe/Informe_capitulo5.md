@@ -215,18 +215,19 @@ Durante este sprint, nos enfocamos en completar el landing page y en las página
 
 ![registro empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution9_sprint1.JPG?raw=true)  
 
-Link al repositorio de codigo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git]  
-Link a la plataforma:  [https://luceroobisporios.github.io/Grupo1_SW53/Proyecto/index.html]
-Link al video de ejecución:  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/Ec9MST7T0FdKif_wwyg4Qv0BzdIxDk2OLVc9u-MLUXRWag?e=TDbCvF]
-
+Link al repositorio de codigo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git](https://github.com/LuceroObispoRios/Grupo1_SW53.git)  
+Link a la plataforma:  [https://luceroobisporios.github.io/Grupo1_SW53/Proyecto/index.html](https://luceroobisporios.github.io/Grupo1_SW53/Proyecto/index.html)  
+Link al video de ejecución:  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/Ec9MST7T0FdKif_wwyg4Qv0BzdIxDk2OLVc9u-MLUXRWag?e=TDbCvF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/Ec9MST7T0FdKif_wwyg4Qv0BzdIxDk2OLVc9u-MLUXRWag?e=TDbCvF)  
+  
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-*Para este **primer** Sprint no fue contemplado la evidencia de la documentación de nuestros servicios.*
+*Para este **primer** Sprint no fue contemplado la evidencia de la documentación de nuestros servicios.*  
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-Para este **primer** avance, el cual abarcaba la landing page, asi como el registro y login de usuarios, se llevo a cabo un desplegue por medio de GitHub Pages.
-
+Para este **primer** avance, el cual abarcaba la landing page, asi como el registro y login de usuarios, se llevo a cabo un desplegue por medio de GitHub Pages.  
+![Page_deployment](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/landing-page-deployment.jpeg?raw=true)  
+  
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ***Primer Sprint***  
 Durante el primer sprint, el equipo optó por dividir los puntos entre todos los integrantes por cada capítulo para completar el informe. También, se optó por dividir las páginas por integrante teniendo en cuenta que estas deberán ser responsive y funcionales. Para asegurar que todo esté realizado correctamente, se organizaron reuniones constantes que se llevaron a cabo a través de Google Meet, donde se logró completar el informe y el código de las páginas landing page, registro para cuenta de empresa, registro para cuenta de cliente, inicio de sesión y la página de búsqueda de empresas.  
