@@ -3,19 +3,19 @@
 
 **To Be Ciudadano**
 
-![to be segmento ciudadano](/Informe/Imagenes/To-be_Ciudadano.png)
+![to be segmento ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/To-be_Ciudadano.png?raw=true)
 
 **To Be Empresa**
 
-![to be segmento empresa](/Informe/Imagenes/To-be_Empresa.png)
+![to be segmento empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/To-be_Empresa.png?raw=true)
 
 ## 3.2. User Stories
   
 ![TUser Stories Parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories1.png?raw=true)
-![TUser Stories Parte 2](/Informe/Imagenes/Userstories2.png)
-![TUser Stories Parte 3](/Informe/Imagenes/Userstories3.png)
-![TUser Stories Parte 4](/Informe/Imagenes/Userstories4.png)
-![TUser Stories Parte 5](/Informe/Imagenes/Userstories5.png)
+![TUser Stories Parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories2.png?raw=true)
+![TUser Stories Parte 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories3.png?raw=true)
+![TUser Stories Parte 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories4.png?raw=true)
+![TUser Stories Parte 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories5.png?raw=true)
   
 ## 3.3. Impact Mapping
 
@@ -61,27 +61,27 @@ Por otro lado, este camión esta encerrado por un círculo el cual representa mo
 Los colores usados como amarillo y azul crean un ambiente de confianza, profesionalidad, elegancia y solidez.    
 Del mismo modo se considera el nombre del proyecto para relacionarlo con la imagen del camión.
 
-![logo](/Proyecto/image/Cargalogo.png)
+![logo](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Proyecto/image/Cargalogo.png?raw=true)
 
 **Typography**
 Se definieron dos tipos de tipografías que cumpliesen con el propósito definido de mostrar optimismo y elegancia. Estas son: Open Sans y Robot.
 
-![tipografía](/Informe/Imagenes/Typography.png)
+![tipografía](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Typography.png?raw=true)
 
 **Colors**  
 Los colores definidos para la marca son:
 
-![LogoColor](/Informe/Imagenes/LogoColors.png)
+![LogoColor](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LogoColors.png?raw=true)
 
 **Spacing**
 
-![íconos](/Informe/Imagenes/Spacing.png)
+![íconos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Spacing.png?raw=true)
 
 **Icons**
 
 Dado las condiciones necesarias para una experiencia adaptable e intuitiva del usuario. Los botones cumplen con transmitir la idea principal del rol que cumplen.
 
-![íconos](/Informe/Imagenes/iconos.png)
+![íconos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/iconos.png?raw=true)
 
 ### 4.1.2. Web Style Guidelines
 
@@ -89,7 +89,7 @@ Dado las condiciones necesarias para una experiencia adaptable e intuitiva del u
 
 A continuación, los íconos presentes comunican al usuario sobre la sección en la que se encuentran. Por este motivo, es esencial que el significado de cada ícono sea deductible y adaptable para cada dispositivo (responsive). 
 
-![íconos](/Informe/Imagenes/RepresentativeIcons.png)
+![íconos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/RepresentativeIcons.png?raw=true)
 
 
 **Buttons**     
@@ -115,7 +115,7 @@ Organizar fuentes: Con el objetivo de hacer que la página web sea fácil de lee
 ### 4.2.2. Labeling Systems.
 A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos de información, así como las asociaciones entre las mismas.
 
-![General Style Guidelines](/Informe/Imagenes/LabelingSystems.png)
+![General Style Guidelines](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LabelingSystems.png?raw=true)
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -154,13 +154,13 @@ A continuación, los wireframes realizados para el proyecto:
 Para el presente trabajo, se realizó el wireframe correspondiente para el diseño de la landing page para "Carga sin Estres".    
 Desde una primera instancia, se definen secciones de interés como: Inicio, servicios, planes, testimonios y los botones CTA (Iniciar sesión y Registrarse).
 
-![Landing Page Wireframe](/Informe/Imagenes/LandinPageWireframe.png)
+![Landing Page Wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandinPageWireframe.png?raw=true)
 
 **Landing Page Wireframe (Mobile)**   
 Además se elaboró el diseño de una landing page adaptable a la resolución de cualquier pantalla (Responsive) desde el cual el usuario visualiza correctamente el contenido de "Carga sin Estres".   
 Dado este motivo, se presenta la vista desde un dispositivo móvil:
 
-![Landing Page Wireframe Mobile](/Informe/Imagenes/LandingPageWireframeResponsive.png)
+![Landing Page Wireframe Mobile](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageWireframeResponsive.png?raw=true)
 
 
 ### 4.3.2. Landing Page Mock-up.
@@ -170,38 +170,38 @@ A continuación, los mock-ups realizados para el proyecto:
 **Landing Page Mock-Up (escritorio)**   
 Estilos aplicados para resolución de pantalla de escritorio.
 
-![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockUp.png)
+![Landing Page Mock-up](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageMockUp.png?raw=true)
 
 **Landing Page Wireframe (Mobile)**  
 Estilos aplicados para resolución de pantalla mobile.
 
-![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockupResponsive.png)
+![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockupResponsive.png)(https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageMockupResponsive.png?raw=true)  
 
 ## 4.4. Web Applications UX/UI Design.  
 ### 4.4.1. Web Applications Wireframes.  
-![registro-cliente-wireframe](/Informe/Imagenes/wireframe-registro-cliente.png)  
-![registro-empresa-wireframe](/Informe/Imagenes/wireframe-registro-empresa.png)  
-![inicio-sesion-wireframe](/Informe/Imagenes/wireframe-login.png)  
-![busqueda-wireframe](/Informe/Imagenes/wireframe-busqueda.png)  
+![registro-cliente-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-registro-cliente.png?raw=true)  
+![registro-empresa-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-registro-empresa.png?raw=true)  
+![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true)  
+![busqueda-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-busqueda.png?raw=true)  
 
 ### 4.4.2. Web Applications Wireflow Diagrams.  
-![wireframe-flow1](/Informe/Imagenes/wireframes-flow1.png)  
+![wireframe-flow1](/Informe/Imagenes/wireframes-flow1.png)(https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow1.png?raw=true)  
   
-![wireframe-flow2](/Informe/Imagenes/wireframes-flow2.png)  
+![wireframe-flow2](/Informe/Imagenes/wireframes-flow2.png)(https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow2.png?raw=true)  
 
 ### 4.4.2. Web Applications Mock-ups.  
-![registro-cliente-mockup](/Informe/Imagenes/mockup-registro-cliente.png)  
-![registro-empresa-mockup](/Informe/Imagenes/mockup-registro-empresa.png)  
-![inicio-sesion-mockup](/Informe/Imagenes/mockup_login.png)  
-![busqueda-mockup](/Informe/Imagenes/mockup-busqueda.png)  
-![mobile-login-mockup](/Informe/Imagenes/login-mobile.png)
-![mobile-cliente-mockup](/Informe/Imagenes/registro-cliente-mobile.png)  
-![mobile-empresa-mockup](/Informe/Imagenes/registro-empresa.mobile.png)  
+![registro-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-cliente.png?raw=true)  
+![registro-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-empresa.png?raw=true)  
+![inicio-sesion-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup_login.png?raw=true)  
+![busqueda-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-busqueda.png?raw=true)  
+![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
+![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mobile.png?raw=true)  
+![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa.mobile.png?raw=true)  
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
-![mockup-flow1](/Informe/Imagenes/mockup-flow1.png)  
+![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow1.png?raw=true)    
   
-![mockup-flow2](/Informe/Imagenes/mockup-flow2.png) 
+![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow2.png?raw=true)   
 
 ## 4.5. Web Applications Prototyping.  
 El prototipo de secuencia web se encuentra en el siguiente enlace :   
@@ -216,43 +216,39 @@ Los diagramas c4 se realizaron con Structurizr.   Enlace:[https://www.structuriz
 
 ### 4.6.1. Software Architecture Context Diagram.
 
-![Context Diagram](/Informe/Imagenes/Contexto.png)
+![Context Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Contexto.png?raw=true)  
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
-![Container Diagram](/Informe/Imagenes/Contenedor.png)
+![Container Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Contenedor.png?raw=true)  
 
 ### 4.6.3. Software Architecture Components Diagrams.
 **Service Context**
 
-![Service Component Diagram](/Informe/Imagenes/ServiceComponents.png)
+![Service Component Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ServiceComponents.png?raw=true)  
 
 **Account Context**
-![Account Component Diagram](/Informe/Imagenes/AccountComponents.png)
+![Account Component Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/AccountComponents.png?raw=true)  
 
 **Notification Context**
-![Notification Component Diagram](/Informe/Imagenes/NotificationComponents.png)
+![Notification Component Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/NotificationComponents.png?raw=true)  
 
 ## 4.7. Software Object-Oriented Design.
 
 ### 4.7.1. Class Diagrams.
 El diagrama de clases se realizo con la pagina Lucidchart, este es el enlace del diagrama: [https://lucid.app/lucidchart/c9014eb0-9946-4bec-94b9-7b2daffbd7ea/edit?viewport_loc=-668%2C-172%2C3028%2C1565%2C0_0&invitationId=inv_178b2402-cdb0-42b0-ad04-ffbc706d72ae]  
-![Notification Component Diagram](/Informe/Imagenes/DiagramaDeClases.png)
+![Notification Component Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/DiagramaDeClases.png?raw=true)  
 
 ### 4.7.2. Class Dictionary.  
-![Class_Dictionary_1](/Informe/Imagenes/ClassDictionary1.JPG)  
-![Class_Dictionary_2](/Informe/Imagenes/ClassDictionary2.JPG)  
-![Class_Dictionary_3](/Informe/Imagenes/ClassDictionary3.JPG)  
-![Class_Dictionary_4](/Informe/Imagenes/ClassDictionary4.JPG)  
-![Class_Dictionary_5](/Informe/Imagenes/ClassDictionary5.JPG)  
-![Class_Dictionary_6](/Informe/Imagenes/ClassDictionary6.JPG)  
-![Class_Dictionary_7](/Informe/Imagenes/ClassDictionary7.JPG)  
+![Class_Dictionary_1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ClassDictionary1.JPG?raw=true)  
+![Class_Dictionary_2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ClassDictionary2.JPG?raw=true)  
+![Class_Dictionary_3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ClassDictionary3.JPG?raw=true)  
+![Class_Dictionary_4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ClassDictionary4.JPG?raw=true)  
+![Class_Dictionary_5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ClassDictionary5.JPG?raw=true)  
+![Class_Dictionary_6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ClassDictionary6.JPG?raw=true)  
+![Class_Dictionary_7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ClassDictionary7.JPG?raw=true)  
 
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagram.
-![Database](/Informe/Imagenes/CargaSinEstresDB.png)
-
-
-
-
+![Database](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/CargaSinEstresDB.png?raw=true)  
