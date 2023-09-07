@@ -128,20 +128,21 @@ Fotografia de Perfil:
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
 Fotografia de Perfil:  
-[<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpg?raw=true" width="150"/>](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpg?raw=true.jpg)
 ![profile1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpg?raw=true)
+
 
 * Nombres y Apellidos: Javier Martin Sebastian Tasayco  
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesto a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.  
 Fotografia de Perfil:  
-[<img src="/Informe/Imagenes/integrante3.jpg" width="150"/>](/Informe/Imagenes/integrante3.jpg)
+![image](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante3.jpg?raw=true)
+
 
 * Nombres y Apellidos: Andrea Namie O'Higgins Rosales  
 Carrera: Ingenieria de Software  
 Acerca De: Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
 Fotografia de Perfil:  
-[<img src="/Informe/Imagenes/integrante4.jpg" width="150"/>](/Informe/Imagenes/integrante4.jpg) 
+![image](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true)
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
@@ -210,7 +211,7 @@ c. ***User Outcomes***
 - **Creemos que** nuestras ganancias económicas vendrán por parte de comisiones por transaccion (cada vez que un usuario solicite un servicio), así como de las membresías premium brindadas a los usuarios que son trabajadores de empresas de mudanzas y carga. **Sabremos que** hemos tenido éxito cuando incrementen en un 10% el número de usuarios con membresías respecto al mes anterior.
 
 #### 1.2.2.4 Lean UX Canvas  
-![Lean UX Canvas](/Informe/Imagenes/LeanUXCanvas.png)  
+![Canvas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LeanUXCanvas.png?raw=true) 
 
 ## 1.3 Segmentos Objetivo  
 * Individuos de 18 a 50 años
@@ -295,8 +296,8 @@ Finalmente, integrar herramientas de inteligencia artificial para mejorar la asi
 ### 2.2.2 Registro de entrevistas
 ***Representantes de Empresas:***  
 
-1. ![empresa-entrevista1](/Informe/Imagenes/empresa-entrevista1.JPG)  
-[https://www.youtube.com/watch?v=IIlxXJBREP8]  
+1. ![empresa-entrevista1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/empresa-entrevista1.JPG?raw=true)  
+[https://www.youtube.com/watch?v=IIlxXJBREP8](https://www.youtube.com/watch?v=IIlxXJBREP8)  
   
 Transcripción de la entrevista :  
 0:16 - "¿Cual es el medio actual por el cual capta a sus potenciales clientes?"  
@@ -308,8 +309,8 @@ Transcripción de la entrevista :
 4:35 - "¿Cuales son los mayores desafios que ha enfrentado su empresa al llevar a cabo sus servicios en los ultimos años?"  
 "Si bien es cierto que en los ultimos años ha habido un incremento importante con respecto a los servicios que demandan nuestros clientes, tambien hemos visto un crecimiento en cuanto al tema de la competencia, entonces frente a estas circunstancias es impotante llegar a los clientes a travez de los medios tecnologicos"  
 
-2. ![empresa-entrevista2](/Informe/Imagenes/empresa-entrevista2.JPG)  
-[https://www.youtube.com/watch?v=AEatPrxvBlo]  
+2. ![empresa-entrevista2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/empresa-entrevista2.JPG?raw=true)  
+[https://www.youtube.com/watch?v=AEatPrxvBlo](https://www.youtube.com/watch?v=AEatPrxvBlo)  
   
 0:15 - "¿Cual es el medio actual por el cual capta a sus potenciales clientes?"  
 "Tenemos una politica de comunicación via el uso de periodicos, via uso de avisos publicados y tambien de manera minima a travez de los medios de internet en una pagina web que tenemos."  
@@ -320,8 +321,8 @@ Transcripción de la entrevista :
 4:59 - "¿Que opina usted sobre la idea de tener una membresía premium que coloque tu empresa en una lista destacada para captar clientes en nuestra página web?"  
 "Nosotros con el transcurrir de los años hemos crecido y yo creo que estar incluidos en una lisyta premiun nos ayudara a aumentar nuestra cartera de clientes y de paso promocionar nuestra empresa lo que conllevaria a un crecimiento que es lo que buscamos."  
 
-3. ![empresa-entrevista3](/Informe/Imagenes/empresa-entrevista3.JPG)
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/Ea9mRd3nFgJArirTrr6W4xcBgCUQABn-OynwWffnpxCjIw?e=3fkGlu]
+3. ![empresa-entrevista3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/empresa-entrevista3.JPG?raw=true)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/Ea9mRd3nFgJArirTrr6W4xcBgCUQABn-OynwWffnpxCjIw?e=3fkGlu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/Ea9mRd3nFgJArirTrr6W4xcBgCUQABn-OynwWffnpxCjIw?e=3fkGlu)
 
 Nombre y apellido: Alfredo Lozano  
 Edad: 51  
@@ -342,8 +343,8 @@ Son 2 puntos fuertes. El primero es cuando se transportan los objetos a lugares 
 
 ***Individuos de 18 a 50 años***
 
-1. ![Individuo-entrevista1](/Informe/Imagenes/individuo-entrevista1.png)
-[https://youtu.be/JBW9fpnAYws]
+1. ![Individuo-entrevista1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/individuo-entrevista1.png?raw=true)
+[https://youtu.be/JBW9fpnAYws](https://youtu.be/JBW9fpnAYws)
 
 Nombre y apellido: Italo Mendoza  
 Edad: 19  
@@ -364,8 +365,8 @@ una aplicación web de búsqueda y reserva
 de servicios de mudanza?   
 "... pienso que debe incluir una interfaz fácil y sencilla de usar, también que tenga buena información detallada de las empresas de mudanzas como de reseñas de clientes y las tarifas la capacidad de poder obtener cotizaciones personalizadas, opciones de reserva, un seguimiento en tiempo real, un sistema de pago seguro y de protección de datos personales para que la mudanza sea de manera exitosa y sin inconvenientes"
 
-2. ![Individuo-entrevista2](/Informe/Imagenes/cliente-entrevista2.jpg)
-[https://youtu.be/NQDztyjvZPk]
+2. ![Individuo-entrevista2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/cliente-entrevista2.jpg?raw=true)
+[https://youtu.be/NQDztyjvZPk](https://youtu.be/NQDztyjvZPk)
 
 Nombre y apellido: Sergio Leandro  
 Edad: 19  
@@ -382,8 +383,8 @@ Sería no saber si todo llegará en buenas condiciones. También me preocuparía
 03:01 - ¿Qué características considera importantes en una aplicación web de búsqueda y reserva de servicios de mudanza?   
 Creo que sería importante poder ver reseñas de otras personas para poder informarme sobre cómo es la calidad del servicio de la empresa. También sería útil si la aplicación ofrece una forma fácil de comunicarme con la empresa si surge algún problema.
 
-3. ![Individuo-entrevista3](/Informe/Imagenes/cliente-entrevista3.jpg)
-[https://youtu.be/XEo_xdtp6bQ]
+3. ![Individuo-entrevista3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/cliente-entrevista3.jpg?raw=true)
+[https://youtu.be/XEo_xdtp6bQ](https://youtu.be/XEo_xdtp6bQ)
 
 Nombre y apellido: Virginia Borja  
 Edad: 22   
@@ -428,36 +429,36 @@ realizar el embalado de sus bienes por cuenta propia. Finalmente indica que los 
 ### 2.3.2 User Task Matrix
 **User Task Matrix Ciudadano**
 
-![User Task Matrix Ciudadano](/Informe/Imagenes/UserTaskMatrix_ciudadano.png)
+![User Task Matrix Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_ciudadano.png?raw=true)
 
 **User Task Matrix Empresa**
 
-![User Task Matrix Ciudadano](/Informe/Imagenes/UserTaskMatrix_empresa.png)
+![User Task Matrix Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_empresa.png?raw=true)
 
 ### 2.3.3 User Journey Mapping
 **User Journey Mapping Ciudadano**
 
-![User Journey Mapping Ciudadano](/Informe/Imagenes/UserJourneyMap_ciudadano.png)
+![User Journey Mapping Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserJourneyMap_ciudadano.png?raw=true)
 
 **User Journey Mapping Empresa**
 
-![User Journey Mapping Empresa](/Informe/Imagenes/UserJourneyMap_empresa.png)
+![User Journey Mapping Empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserJourneyMap_empresa.png?raw=true)
 
 ### 2.3.4 Empathy Mapping
 **Empathy Mapping Ciudadano**
 
-![Empathy Mapping ciudadano](/Informe/Imagenes/EmpathyMap_Ciudadano.png)
+![Empathy Mapping ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Ciudadano.png?raw=true)
 
 **Empathy Mapping Empresa**
 
-![Empathy Mapping empresa](/Informe/Imagenes/EmpathyMap_Empresa.png)
+![Empathy Mapping empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Empresa.png?raw=true)
 
 ### 2.3.5 As-is Scenario Mapping
 **As Is Ciudadano**
 
-![as is segmento ciudadano](/Informe/Imagenes/As-is_Ciudadano.png)
+![as is segmento ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Ciudadano.png?raw=true)
 
 **As Is Empresa**
 
-![as is segmento empresa](/Informe/Imagenes/As-is_Empresa.png)
+![as is segmento empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true)
 
