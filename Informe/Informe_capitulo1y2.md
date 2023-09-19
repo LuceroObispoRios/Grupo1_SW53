@@ -122,27 +122,27 @@ Visión: Buscamos convertirnos en la principal plataforma en la industria de mud
 Carrera: Ingenieria de Software  
 Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
 Fotografia de Perfil:
-![profile2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true)
+![profile1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.JPG?raw=true)
 
 * Nombres y Apellidos: Lucero Abigail Obispo Rios  
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
 Fotografia de Perfil:  
-![profile1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpg?raw=true)
+![profile2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpg?raw=true)
 
 
 * Nombres y Apellidos: Javier Martin Sebastian Tasayco  
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesto a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.  
 Fotografia de Perfil:  
-![image](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante3.jpg?raw=true)
+![profile3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante3.jpg?raw=true)
 
 
 * Nombres y Apellidos: Andrea Namie O'Higgins Rosales  
 Carrera: Ingenieria de Software  
 Acerca De: Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
 Fotografia de Perfil:  
-![image](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true)
+![profile4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true)
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
