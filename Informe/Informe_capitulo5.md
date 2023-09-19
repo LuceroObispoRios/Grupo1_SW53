@@ -254,6 +254,8 @@ https://datosmacro.expansion.com/demografia/migracion/inmigracion/peru#:~:text=E
 Expresso. (2019). ¿Sabías que la mayoría de personas busca una empresa de mudanza a último momento?  
 https://www.expreso.com.pe/opinion/sabias-que-la-mayoria-de-personas-busca-una-empresa-de-mudanza-a-ultimo-momento/  
 
+GoDaddy. (2019). Informe GoDaddy: ¿Tu negocio tiene web? Recuperado de: https://img1.wsimg.com/blobby/go/0af37ff4-e18c-457e-a87e-f75b2e2d9046/downloads/Informe%20Empower%20by%20GoDaddy%20(Baja).pdf?ver=1590580281046
+
 Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
 https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf    
 
