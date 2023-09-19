@@ -121,7 +121,7 @@ Visión: Buscamos convertirnos en la principal plataforma en la industria de mud
 * Nombres y Apellidos: Eric Fernando Cuevas Rios  
 Carrera: Ingenieria de Software  
 Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
-Fotografia de Perfil:
+Fotografia de Perfil:  
 ![profile1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/b61a7927917e1dab8195a4684e2b1c9d66c3c330/Informe/Imagenes/integrante2.jpg)
 
 * Nombres y Apellidos: Lucero Abigail Obispo Rios  
