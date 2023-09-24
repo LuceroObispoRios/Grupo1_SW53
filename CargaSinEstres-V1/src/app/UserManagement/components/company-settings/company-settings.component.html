@@ -1,0 +1,76 @@
+<app-toolbar-company></app-toolbar-company>
+<mat-toolbar class="public-toolbar" aria-label="toolbar">
+    <mat-toolbar-row>
+        <img src="image\logo2.png" alt="Logo de Carga sin Estres">
+        <br>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+    </mat-toolbar-row>
+</mat-toolbar>
+<!--toolbar-->
+
+<div class="container">
+    <div class="container-back"> 
+        <div class="user-info">
+
+            <form [formGroup]="companySettingsForm" id="registro" action="" method="POST" (ngSubmit)="onSubmit()">
+                <h2>Editar Datos de Perfil de Empresa</h2>
+
+                <div class="right-section">
+                    <input type="text" placeholder="Nombre de la empresa" formControlName="companyName" id="nombre">
+                    <input type="text" placeholder="correo" formControlName="correo" id="correo">
+                    <input type="text" placeholder="Dirección" formControlName="direccion" id="direccion" >
+                    <input type="text" placeholder="Telefono" formControlName="numeroContacto" id="numeroContacto">
+                    <input type="password" placeholder="Contraseña" formControlName="contrasena" id="contrasena">
+                    <input type="password" placeholder="Confirmar contraseña" formControlName="confirmarContrasena" id="confirmarContrasena">
+                </div>
+    
+                <div class="service-boxes">
+                    <p>Marque los servicios que ofrece su empresa:</p>
+                    <div class="checkboxes col">
+                        <div class="check row-1">
+                            <input type="checkbox" name="transporte" formControlName="transporte" value="transporte" id="transporte">
+                            <label for="transporte">Transporte</label>                           
+                        </div>
+                        
+                        <div class="check row-1">
+                            <input type="checkbox" name="carga" formControlName="carga" value="carga" id="carga">
+                            <label for="carga">Carga</label>                            
+                        </div>
+                        
+                        <div class="check row-1">
+                            <input type="checkbox" name="embalaje" formControlName="embalaje" value="embalaje" id="embalaje">
+                            <label for="embalaje">Embalaje</label>                           
+                        </div>
+                        
+                        <div class="check row-1">
+                            <input type="checkbox" name="montaje" formControlName="montaje" value="montaje" id="montaje">
+                            <label for="montaje">Montaje</label>                        
+                        </div>
+                        
+                        <div class="check row-1">
+                            <input type="checkbox" name="desmontaje" formControlName="desmontaje" value="desmontaje" id="desmontaje">
+                            <label for="desmontaje">Desmontaje</label>                          
+                        </div>
+                        
+                    </div>       
+                </div>
+    
+                <div class="description-box">
+                    <label for="description">Descripción corta de la empresa:</label>
+                    <textarea name="description" formControlName="description" rows="6"  id="description"></textarea>
+                </div>
+    
+                <button id="submitButton" type="submit">Guardar cambios</button>
+                <button id="cancelButton" type="button" href="">Cancelar</button>
+                <div id="errorMessages" class="error-messages" [innerHTML]="errorMessage">{{errorMessage}}</div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<footer class ="public-footer" aria-label="footer">
+    <p text-align="center"> Copyright <span>&copy;</span> Carga sin Estres, All rights reserved.</p>
+    <br>
+    <p>   Developed by Eric Cuevas - U202112766   </p>
+</footer>

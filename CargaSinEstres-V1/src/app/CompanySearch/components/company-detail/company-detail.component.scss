@@ -1,0 +1,58 @@
+/* CARD */
+
+.custom-card {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+}
+
+.custom-card mat-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.custom-card img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.custom-card mat-card-content{
+    margin-top: 30px;
+}
+
+.custom-card .label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.custom-card .value{
+    font-size: 16px;
+}
+
+/* FORM RESERVATION */
+
+.custom-addReservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 15px;
+    
+}
+
+.reservation-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+    width: 350px;
+}

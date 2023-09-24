@@ -1,68 +1,68 @@
-const username = document.getElementById("username") // sirve para el nombre de la empresa
-const email = document.getElementById("email")
-const ubicacion = document.getElementById("ubicacion")
-const contactNumber = document.getElementById("contactNumber")
-const contrasena = document.getElementById("contrasena")
-const contrasena2 = document.getElementById("contrasena2")
-
-const textarea = document.getElementById("description")
-
-const registro = document.getElementById("registro") //formulario en si
-const warning = document.getElementById("warnings")
-
-registro.addEventListener("submit", (e) => {
-    e.preventDefault()
-    let warnings = "";
-    let entrar = false;
-    let regexEmail = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
-    let regexContact = /^[0-9]{9}$/;
-
-    let services = [];
-
-    if(username.value.length < 1){
-        warnings += `El nombre no es valido <br>`
-        entrar = true
-    }
-
-    if(!regexEmail.test(email.value)){
-        warnings += `El email no es valido <br>`
-        entrar = true
-    }
-
-    if(ubicacion.value.length < 1){
-        warnings += `La ubicacion no es valida <br>`
-        entrar = true
-    }
-
-    if(!regexContact.test(contactNumber.value)){
-        warnings += `El numero de contacto no es valido <br>`
-        entrar = true
-    }
-
-    if(contrasena.value.length < 6){
-        warnings += `La contraseña no es valida <br>`
-        entrar = true
-    }
-    if(contrasena.value != contrasena2.value){
-        warnings += `No se confirmo la contraseña correctamente <br>`
-        entrar = true
-    }
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('registro').addEventListener('click', function(e) {
+        e.preventDefault()
     
-    registro.querySelectorAll('[type="checkbox"]').forEach(item => {
-        if(item.checked == true){
-            services.push(item.value) // el atributo valor del checkbox
+        const username = document.getElementById("username") // sirve para el nombre de la empresa
+        const email = document.getElementById("email")
+        const ubicacion = document.getElementById("ubicacion")
+        const contactNumber = document.getElementById("contactNumber")
+        const contrasena = document.getElementById("contrasena")
+        const contrasena2 = document.getElementById("contrasena2")
+        const textarea = document.getElementById("description")
+        const warning = document.getElementById("warnings")
+    
+        let warnings = "";
+        let entrar = false;
+        let regexEmail = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+        let regexContact = /^[0-9]{9}$/;
+    
+        let services = [];
+    
+        if(username.value.length < 1){
+            warnings += `El nombre no es valido <br>`
+            entrar = true
         }
+    
+        if(!regexEmail.test(email.value)){
+            warnings += `El email no es valido <br>`
+            entrar = true
+        }
+    
+        if(ubicacion.value.length < 1){
+            warnings += `La ubicacion no es valida <br>`
+            entrar = true
+        }
+    
+        if(!regexContact.test(contactNumber.value)){
+            warnings += `El numero de contacto no es valido <br>`
+            entrar = true
+        }
+    
+        if(contrasena.value.length < 6){
+            warnings += `La contraseña no es valida <br>`
+            entrar = true
+        }
+        if(contrasena.value != contrasena2.value){
+            warnings += `No se confirmo la contraseña correctamente <br>`
+            entrar = true
+        }
+        
+        document.querySelectorAll('[type="checkbox"]').forEach(item => {
+            if(item.checked == true){
+                services.push(item.value) // el atributo valor del checkbox
+            }
+        })
+    
+        if(textarea.value.length < 1){
+            warnings += `La descripcion no es valida <br>`
+            entrar = true
+        }
+    
+        if(entrar){
+            warning.innerHTML = warnings
+        }
+    
     })
-
-    if(textarea.value.length < 1){
-        warnings += `La descripcion no es valida <br>`
-        entrar = true
-    }
-
-    if(entrar){
-        warning.innerHTML = warnings
-    }
-
 })
 
 function SaveUserJSON(){
@@ -75,7 +75,7 @@ function SaveUserJSON(){
 
     var services = [];
 
-    registro.querySelectorAll('[type="checkbox"]').forEach(item => {
+    document.querySelectorAll('[type="checkbox"]').forEach(item => {
         if(item.checked == true){
             services.push(item.value) // el atributo valor del checkbox
         }
@@ -105,7 +105,7 @@ function SaveUserJSON(){
 } //application-localstorage-file//:
 
 function SaveUserLocalMemory(){
-    //data recogida del registro - por usar
+    
     var username = document.getElementById("username").value;
     var email = document.getElementById("email").value;
     var ubicacion = document.getElementById("ubicacion").value;
