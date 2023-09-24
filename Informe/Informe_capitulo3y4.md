@@ -16,7 +16,12 @@
 ![TUser Stories Parte 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories3.png?raw=true)
 ![TUser Stories Parte 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories4.png?raw=true)
 ![TUser Stories Parte 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories5.png?raw=true)
-  
+
+| Epic/Story ID | Título                               | Descripción                                                                                                  | Criterios de Aceptación                                                                                                                                      | Relacionado con (Epic ID) |
+|---------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------:|    
+| Historial de reservas | Visualizar historial de reservas | Como usuario cliente quiero poder ver los servicios de mudanza contratados para tener control y seguimiento de mis transacciones dentro de la aplicación. | Escenario 1: El usuario ingresa a reservas. Dado que el usuario ingresa a la sección de reservas. Cuando seleccione el botón ver historial de reservas. Entonces aparecerá la página del historial. Escenario 2: El usuario visualiza su historial de reservas. Dado que el usuario se encuentra en la página del historial de reservas. Cuando el usuario haga scroll. Entonces la página le permitirá ver más reservas hechas anteriormente. Escenario 3: El usuario busca una reserva anterior. Dado que el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza un paginador con botones con flechas hacia adelante y atrás. Cuando el usuario seleccione uno de los botones. Entonces la página le permitirá ver sus reservas anteriores o posteriores. Escenario 4: El usuario visualiza sus últimas reservas. Dado que el usuario ingresa a la sección de reservas. Cuando la plataforma carga la página. Entonces las últimas reservas se visualizarán primero y las más antiguas al último. | #5 |
+| Historial de reservas | Visualizar varias reservas en una página | Como usuario cliente quiero visualizar varias reservas en una sola página para que pueda tener una vista panorámica de todos mis servicios de mudanza contratados de manera fácil y rápida. | Escenario 1: El usuario cambia la cantidad de reservas que se visualiza en una página. Dado que el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza el paginador Y al lado derecho se encuentra la opción desplegable Cuando el usuario seleccione esta opción. Entonces se visualizará el desplegable con las opciones de visualización de 4, 8 y 12 páginas. Escenario 2: El usuario selecciona el número de reservas para visualizarse en la página. Dado que el usuario seleccionó el desplegable del paginador. Cuando el usuario seleccione el número de reservas que se visualizará 4, 8 o 12. Entonces la página mostrará la cantidad de reservas que eligió el usuario. | #5 |
+
 ## 3.3. Impact Mapping
 
 ![impact map](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ImpactMap.png?raw=true)
@@ -184,6 +189,9 @@ Estilos aplicados para resolución de pantalla mobile.
 ![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true)  
 ![busqueda-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-busqueda.png?raw=true)  
 
+![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png) 
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams.  
 ![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow1.png?raw=true)
   
@@ -197,6 +205,8 @@ Estilos aplicados para resolución de pantalla mobile.
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
 ![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mobile.png?raw=true)  
 ![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa.mobile.png?raw=true)  
+
+![historial-reservas-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-historial-reservas.png)
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
 ![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow1.png?raw=true)    
