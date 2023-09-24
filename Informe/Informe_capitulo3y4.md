@@ -251,4 +251,4 @@ El diagrama de clases se realizo con la pagina Lucidchart, este es el enlace del
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagram.
-![Database](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/CargaSinEstresDB.png?raw=true)  
+![Database](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Eric/feature/Informe/Imagenes/Carga_sin_estresDB.png?raw=true)  
