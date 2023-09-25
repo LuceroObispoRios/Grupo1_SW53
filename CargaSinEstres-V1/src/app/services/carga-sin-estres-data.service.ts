@@ -69,4 +69,23 @@ export class CargaSinEstresDataService {
     return this.http.get(`${this.base_url}/companies?email=${email}&password=${password}`);
   }
 
+  //for registration
+  createClient(data: any): Observable<any> {
+    return this.http.post(`${this.base_url}/clients`, JSON.stringify(data), this.httpOptions);
+  }
+
+  createCompany(data: any): Observable<any> {
+    return this.http.post(`${this.base_url}/companies`, JSON.stringify(data), this.httpOptions);
+  }
+
+  //for settings
+  updateClient(id: any, data: any): Observable<any> {
+    return this.http.put(`${this.base_url}/clients/${id}`, JSON.stringify(data), this.httpOptions);
+  }
+
+  updateCompany(id: any, data: any): Observable<any> {
+    return this.http.put(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
+  }
+
+
 }

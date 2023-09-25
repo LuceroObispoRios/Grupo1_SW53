@@ -22,7 +22,7 @@
         </div>
         <div class="action" id="actionButtons">
           <button id="login-button" type="submit">Iniciar Sesión</button>
-          <button id="cancel-button" type="button" (click)="cancelar">Cancelar</button>
+          <button id="cancel-button" type="button" (click)="cancelar()">Cancelar</button>
         </div>
         <div id="errorMessages" class="error-messages" [innerHTML]="errorMessage">{{errorMessage}}</div>
       </div>
@@ -30,4 +30,3 @@
     </form>
 
 </div>
-
