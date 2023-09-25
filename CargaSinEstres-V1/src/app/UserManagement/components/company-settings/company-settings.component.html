@@ -1,13 +1,5 @@
 <app-toolbar-company></app-toolbar-company>
-<mat-toolbar class="public-toolbar" aria-label="toolbar">
-    <mat-toolbar-row>
-        <img src="image\logo2.png" alt="Logo de Carga sin Estres">
-        <br>
-        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
-    </mat-toolbar-row>
-</mat-toolbar>
-<!--toolbar-->
-
+<br>
 <div class="container">
     <div class="container-back"> 
         <div class="user-info">
@@ -16,12 +8,13 @@
                 <h2>Editar Datos de Perfil de Empresa</h2>
 
                 <div class="right-section">
-                    <input type="text" placeholder="Nombre de la empresa" formControlName="companyName" id="nombre">
-                    <input type="text" placeholder="correo" formControlName="correo" id="correo">
+                    <input type="text" placeholder="Nombre de la empresa" formControlName="name" id="name">
+                    <input type="text" placeholder="Correo" formControlName="email" id="email">
                     <input type="text" placeholder="Dirección" formControlName="direccion" id="direccion" >
                     <input type="text" placeholder="Telefono" formControlName="numeroContacto" id="numeroContacto">
-                    <input type="password" placeholder="Contraseña" formControlName="contrasena" id="contrasena">
-                    <input type="password" placeholder="Confirmar contraseña" formControlName="confirmarContrasena" id="confirmarContrasena">
+                    <input type="password" placeholder="Contraseña" formControlName="password" id="password">
+                    <input type="password" placeholder="Confirmar contraseña" formControlName="confirmarpassword" id="confirmarpassword">
+                    <input type="text" placeholder="Link al nuevo Logo" formControlName="photo" id="photo">
                 </div>
     
                 <div class="service-boxes">
@@ -61,16 +54,10 @@
                 </div>
     
                 <button id="submitButton" type="submit">Guardar cambios</button>
-                <button id="cancelButton" type="button" href="">Cancelar</button>
+                <button id="cancelButton" type="button" (click)="cancelar()">Cancelar</button>
                 <div id="errorMessages" class="error-messages" [innerHTML]="errorMessage">{{errorMessage}}</div>
             </form>
         </div>
     </div>
 </div>
-
-<!--footer-->
-<footer class ="public-footer" aria-label="footer">
-    <p text-align="center"> Copyright <span>&copy;</span> Carga sin Estres, All rights reserved.</p>
-    <br>
-    <p>   Developed by Eric Cuevas - U202112766   </p>
-</footer>
+<br><br><br>

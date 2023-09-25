@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { HttpDataService } from '../../services/http-data.service';
 import { Chat } from 'src/app/models/chat.model';
 import { NgForm } from '@angular/forms';
 import { HistoryCardsComponent } from '../history-cards/history-cards.component';
@@ -7,7 +7,7 @@ import { HistoryCardsComponent } from '../history-cards/history-cards.component'
 @Component({
   selector: 'app-chat-dialog',
   templateUrl: './chat-dialog.component.html',
-  styleUrls: ['./chat-dialog.component.scss'],
+  styleUrls: ['./chat-dialog.component.css'],
 })
 export class ChatDialogComponent {
 
@@ -16,7 +16,7 @@ export class ChatDialogComponent {
 
   @ViewChild('chatForm',{static: false}) chatForm!: NgForm;
 
-  constructor(private httpDataService: CargaSinEstresDataService){
+  constructor(private httpDataService: HttpDataService){
     this.chatData = {} as Chat;
   }
 
@@ -40,4 +40,5 @@ export class ChatDialogComponent {
     })
     this.chatForm.reset();
   }
+
 }

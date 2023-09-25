@@ -1,16 +1,17 @@
 import { Component, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { HttpDataService } from '../../services/http-data.service';
 import { BookingHistory } from 'src/app/models/booking-history.model';
 import { MatPaginator } from '@angular/material/paginator';
 import { PageEvent } from '@angular/material/paginator';
 import { MatDialog } from '@angular/material/dialog';
 import { ChatDialogComponent } from '../chat-dialog/chat-dialog.component';
 
+
 @Component({
   selector: 'app-history-cards',
   templateUrl: './history-cards.component.html',
-  styleUrls: ['./history-cards.component.scss']
+  styleUrls: ['./history-cards.component.css']
 })
 export class HistoryCardsComponent {
 
@@ -23,7 +24,7 @@ export class HistoryCardsComponent {
   @ViewChild(MatPaginator, {static: true}) 
   paginator!: MatPaginator;
 
-  constructor(private httpDataService: CargaSinEstresDataService, private router: Router, private dialog: MatDialog) {
+  constructor(private httpDataService: HttpDataService, private router: Router, private dialog: MatDialog) {
     this.bookingData = {} as BookingHistory;
     this.pageSlice = [];
     this.elementData = [];

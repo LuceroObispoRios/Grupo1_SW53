@@ -13,7 +13,7 @@ import { MembershipComponent } from './Memberships/components/membership/members
 import { PaymentFormComponent } from './Memberships/components/payment-form/payment-form.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginFormComponent },
+  {path: 'login', component: LoginFormComponent},
   {path: 'landing-page', component: LandingPageComponent},
   {path: 'client-form', component: ClientFormComponent},
   {path: 'company-form', component: CompanyFormComponent},

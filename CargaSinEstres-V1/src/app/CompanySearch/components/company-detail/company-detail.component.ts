@@ -2,8 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { ActivatedRoute } from '@angular/router';
 import { NgForm } from '@angular/forms';
-import { Reservation } from 'src/app/models/reservation.model';
-
+import { BookingHistory } from 'src/app/models/booking-history.model';
 
 @Component({
   selector: 'app-company-detail',
@@ -14,11 +13,29 @@ export class CompanyDetailComponent implements OnInit {
     @ViewChild('reservationForm', {static: false})
     reservationForm!: NgForm;
 
-    reservation: any = '';
     company: any = '';
 
+    reservation: BookingHistory = {
+      id: undefined,
+      idCompany: '',
+      bookingDate: undefined,
+      pickupAddress: undefined,
+      destinationAddress: undefined,
+      movingDate: undefined,
+      movingTime: undefined,
+      status: 'En curso',
+      services: undefined,
+      hiredCompany: {
+        name: '',
+        logo: ''
+      },
+      payment: {
+        totalAmount: 0,
+        paymentMethod: 'Por definir'
+      }
+    };
+
     constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute) { 
-      this.reservation ={} as Reservation;
       this.activatedRoute.params.subscribe(
         params => {
           this.getCompany(params['id']);
@@ -33,13 +50,11 @@ export class CompanyDetailComponent implements OnInit {
       this.companyDataService.getCompanyById(id).subscribe(
         (res: any) => 
         {
-          console.log("Company detail:");
-          console.log(res[id-1]);
+          console.log("Company detail:", (res[id-1]));
           this.company = res[id-1];
         },
         err => {
-          console.log("Error:");
-          console.log(err);
+          console.log("Error:", err);
         }
       );
     }
@@ -47,6 +62,12 @@ export class CompanyDetailComponent implements OnInit {
 
     addReservation() {
       this.reservation.idCompany = this.company.id;
+      this.reservation.hiredCompany.name = this.company.name;
+      console.log('name:', this.company.name);
+      this.reservation.hiredCompany.logo = this.company.photo;
+      this.reservation.status="En curso";
+      this.reservation.payment.totalAmount=0;
+      this.reservation.payment.paymentMethod="Por definir";
       this.companyDataService.createReservation(this.reservation).subscribe(
         (res: any) => 
         {
