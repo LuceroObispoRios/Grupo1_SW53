@@ -200,10 +200,7 @@ Estilos aplicados para resolución de pantalla mobile.
 ![Chat de una reserva - wireframe](/Informe/Imagenes/chat-reserva-wireframe.png) 
 ![Formulario membresia - wireframe](/Informe/Imagenes/formulario-membresia-wireframe.png)  
 ![Boleta Compra - wireframe](/Informe/Imagenes/boleta-wireframe.png)
-
-![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png) 
-![chat-reserva-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-chat-reserva.png)  
-
+![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png)   
 
 ### 4.4.2. Web Applications Wireflow Diagrams.  
 ![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow1.png?raw=true)
@@ -217,8 +214,7 @@ Estilos aplicados para resolución de pantalla mobile.
 ![Busqueda de empresas](/Informe/Imagenes/busqueda-empresas-mockup.png)
 ![Chat de una reserva](/Informe/Imagenes/chat-reserva.png) 
 ![Formulario membresia](/Informe/Imagenes/formulario-membresia.png)  
-![Boleta Compra](/Informe/Imagenes/boleta-compra.png)
-
+![Boleta Compra](/Informe/Imagenes/boleta-compra.png)  
 
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
 ![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mobile.png?raw=true)  
