@@ -40,7 +40,7 @@ export class CargaSinEstresDataService {
   }
 
   createReservation(item: any): Observable<Reservation>{
-    return this.http.post<Reservation>(this.base_url+"/"+"reservations", JSON.stringify(item), this.httpOptions).pipe(retry(2),catchError(this.handleError));
+    return this.http.post<Reservation>(this.base_url+"/"+"bookingHistory", JSON.stringify(item), this.httpOptions).pipe(retry(2),catchError(this.handleError));
   }
 
   // Get all booking history
