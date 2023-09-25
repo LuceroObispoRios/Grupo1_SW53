@@ -1,11 +1,15 @@
 <div>
-    <nav>
-      <img src="#">
-        <ul>
-          <li><a routerLink="/login">Inicio de Sesión</a></li>
-          <li><a routerLink="/landing-page">Landing Page</a></li>
-          <li><a routerLink="/client-form">Registro de Cliente</a></li>
-          <li><a routerLink="/company-form">Registro de Empresa</a></li>
-        </ul>
-      </nav>
+    <pv-toast></pv-toast>
+    <mat-toolbar color="primary">
+      <h3>Carga Sin Estres</h3>
+      <span class="spacer"></span> <!-- To push items to the right -->
+  
+      <ng-container *ngFor="let item of items">
+        <a [routerLink]="item.to" custom>
+          <mat-button class="text-white" (click)="navigate(item.to)">
+            {{ item.label }}
+          </mat-button>
+        </a>
+      </ng-container>
+    </mat-toolbar>
   </div>

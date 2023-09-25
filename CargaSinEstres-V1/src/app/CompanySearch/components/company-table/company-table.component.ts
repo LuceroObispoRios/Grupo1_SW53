@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Company } from 'src/app/models/company.model';
 import { MatTableDataSource } from '@angular/material/table';
-import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { CompanyDataService } from 'src/app/services/company-data.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { Router } from '@angular/router';
 
@@ -19,7 +19,7 @@ export class CompanyTableComponent{
   @ViewChild(MatPaginator, {static: true})
   paginator!: MatPaginator;
 
-  constructor(private companyDataService: CargaSinEstresDataService, private router: Router) { 
+  constructor(private companyDataService: CompanyDataService, private router: Router) { 
     this.companyData = {} as Company;
   }
 

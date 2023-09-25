@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+//import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-client-form',
   templateUrl: './client-form.component.html',
   styleUrls: ['./client-form.component.scss']
 })
+
 export class ClientFormComponent {
   clientRegistrationForm: FormGroup;
   errorMessage: string = '';
@@ -51,8 +52,6 @@ export class ClientFormComponent {
 
     this.errorMessage = warnings;
 
-    if (!this.errorMessage) {
-      
-    }
+    /*if (!this.errorMessage) { //pasar info del nuevo usuario a JSON*/
   }
 }

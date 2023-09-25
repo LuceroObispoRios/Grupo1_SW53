@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { CompanyDataService } from 'src/app/services/company-data.service';
 import { ActivatedRoute } from '@angular/router';
 import { NgForm } from '@angular/forms';
 import { Reservation } from 'src/app/models/reservation.model';
@@ -17,7 +17,7 @@ export class CompanyDetailComponent implements OnInit {
     reservation: any = '';
     company: any = '';
 
-    constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute) { 
+    constructor(private companyDataService: CompanyDataService, private activatedRoute: ActivatedRoute) { 
       this.reservation ={} as Reservation;
       this.activatedRoute.params.subscribe(
         params => {
@@ -64,4 +64,3 @@ export class CompanyDetailComponent implements OnInit {
       this.addReservation();
     }
 }
-

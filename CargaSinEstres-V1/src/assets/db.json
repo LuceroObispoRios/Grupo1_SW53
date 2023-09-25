@@ -1,212 +1,170 @@
 {
-  "companies": [
-    {
-      "id": 1,
-      "name": "Transporte y mudanzas Rapi2",
-      "photo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647",
-      "services": "Transporte, Carga, Embalaje, Montaje, Desmontaje"
-    },
-    {
-      "id": 2,
-      "name": "Romabe transporte",
-      "photo": "https://transporteromabe.com/wp-content/uploads/2021/07/Mudanzas-de-Arequipa-a-Lima-2.jpg",
-      "services": "Transporte, Carga"
-    },
-    {
-      "id": 3,
-      "name": "J&G Transporte y mudanzas",
-      "photo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg",
-      "services": "Transporte, Carga, Embalaje"
-    },
-    {
-      "id": 4,
-      "name": "Mudate facil",
-      "photo": "https://www.zarla.com/images/zarla-mdate-fcil-1x1-2400x2400-20220329-q9j6rjmbw347xwbwmy3g.png?crop=1:1,smart&width=250&dpr=2",
-      "services": "Transporte, Carga, Embalaje, Montaje, Desmontaje"
-    },
-    {
-      "id": 5,
-      "name": "Bodegas y mudanzas Santana",
-      "photo": "https://www.santanamudanzasybodegas.com/wp-content/uploads/2021/07/SANTANA-BODEGAS-Y-MUDANZAS-MUDANZAS-EN-CALI-MUDANZAS-NACIONALES-01.jpg",
-      "services": "Transporte, Carga"
-    },
-    {
-      "id": 6,
-      "name": "Practi Mudanza",
-      "photo": "https://practimudanza.com/wp-content/uploads/2020/11/LOGO-RECTANGULAR-PRACTIMUDANZA-RGB-LOGO-MUDANZAS-MUDANZAS-EN-CALI-EMPRESAS-DE-MUDANZAS-EN-CALI-01.png",
-      "services": "Transporte, Carga, Embalaje"
-    },
-    {
-      "id": 7,
-      "name": "Mudanzas Jurado",
-      "photo": "https://www.mudanzasjurado.com/uploads/UFOLSqyA/353x0_387x0/logo.jpg",
-      "services": "Transporte"
-    },
-    {
-      "id": 8,
-      "name": "Mudanzas Plata",
-      "photo": "https://mudanzasplata.com/wp-content/uploads/2021/07/cropped-logo-mudannzas-plata-transparente.png",
-      "services": "Transporte, Carga"
-    },
-    {
-      "name": "transporte seguro",
-      "email": "test@gmail.com",
-      "direccion": "test",
-      "numeroContacto": "912345678",
-      "password": "123456",
-      "confirmarpassword": "123456",
-      "transporte": true,
-      "carga": true,
-      "embalaje": false,
-      "montaje": false,
-      "desmontaje": false,
-      "description": "empresa",
-      "id": 9
-    }
-  ],
-  "reservations": [
-    {
-      "id": 1,
-      "idCompany": 1,
-      "services": "Transporte, Carga"
-    },
-    {
-      "services": "Carga, transporte",
-      "idCompany": 1,
-      "id": 2
-    }
-  ],
-  "bookingHistory": [
-    {
-      "id": "1",
-      "bookingDate": "2023-07-15",
-      "pickupAddress": "Ate",
-      "destinationAddress": "Barranco",
-      "movingDate": "2023-07-25",
-      "movingTime": "08:00",
-      "status": "Finalizado",
-      "payment": {
-        "totalAmount": 350,
-        "paymentMethod": "Tarjeta de Crédito"
-      },
-      "hiredCompany": {
+    "companies": [
+      {
+        "id": 1,
         "name": "Transporte y mudanzas Rapi2",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo1.jpg"
-      }
-    },
-    {
-      "id": "2",
-      "bookingDate": "2023-08-16",
-      "pickupAddress": "Lince",
-      "destinationAddress": "Barranco",
-      "movingDate": "2023-08-21",
-      "movingTime": "11:30",
-      "status": "Finalizado",
-      "payment": {
-        "totalAmount": 250,
-        "paymentMethod": "Tarjeta de Crédito"
+        "photo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647",
+        "services": "Transporte, Carga, Embalaje, Montaje, Desmontaje"
       },
-      "hiredCompany": {
+      {
+        "id": 2,
         "name": "Romabe transporte",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo2.jpg"
-      }
-    },
-    {
-      "id": "3",
-      "bookingDate": "2023-09-10",
-      "pickupAddress": "Barranco",
-      "destinationAddress": "Barranco",
-      "movingDate": "2023-09-10",
-      "movingTime": "16:00",
-      "status": "Finalizado",
-      "payment": {
-        "totalAmount": 50,
-        "paymentMethod": "Tarjeta de Crédito"
+        "photo": "https://transporteromabe.com/wp-content/uploads/2021/07/Mudanzas-de-Arequipa-a-Lima-2.jpg",
+        "services": "Transporte, Carga"
       },
-      "hiredCompany": {
-        "name": "Mudate Facil",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo3.png"
-      }
-    },
-    {
-      "id": "4",
-      "bookingDate": "2023-09-10",
-      "pickupAddress": "Barranco",
-      "destinationAddress": "Barranco",
-      "movingDate": "2023-09-10",
-      "movingTime": "16:00",
-      "status": "Finalizado",
-      "payment": {
-        "totalAmount": 350,
-        "paymentMethod": "Tarjeta de Crédito"
+      {
+        "id": 3,
+        "name": "J&G Transporte y mudanzas",
+        "photo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg",
+        "services": "Transporte, Carga, Embalaje"
       },
-      "hiredCompany": {
+      {
+        "id": 4,
+        "name": "Mudate facil",
+        "photo": "https://www.zarla.com/images/zarla-mdate-fcil-1x1-2400x2400-20220329-q9j6rjmbw347xwbwmy3g.png?crop=1:1,smart&width=250&dpr=2",
+        "services": "Transporte, Carga, Embalaje, Montaje, Desmontaje"
+      },
+      {
+        "id": 5,
         "name": "Bodegas y mudanzas Santana",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo4.png"
-      }
-    },
-    {
-      "id": "5",
-      "bookingDate": "2023-09-10",
-      "pickupAddress": "Barranco",
-      "destinationAddress": "Barranco",
-      "movingDate": "2023-09-10",
-      "movingTime": "16:00",
-      "status": "Finalizado",
-      "payment": {
-        "totalAmount": 350,
-        "paymentMethod": "Tarjeta de Crédito"
+        "photo": "https://www.santanamudanzasybodegas.com/wp-content/uploads/2021/07/SANTANA-BODEGAS-Y-MUDANZAS-MUDANZAS-EN-CALI-MUDANZAS-NACIONALES-01.jpg",
+        "services": "Transporte, Carga"
       },
-      "hiredCompany": {
+      {
+        "id": 6,
         "name": "Practi Mudanza",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo5.png"
-      }
-    },
-    {
-      "id": "6",
-      "bookingDate": "2023-09-10",
-      "pickupAddress": "Barranco",
-      "destinationAddress": "Barranco",
-      "movingDate": "2023-09-10",
-      "movingTime": "16:00",
-      "status": "En curso",
-      "payment": {
-        "totalAmount": 350,
-        "paymentMethod": "Tarjeta de Crédito"
+        "photo": "https://practimudanza.com/wp-content/uploads/2020/11/LOGO-RECTANGULAR-PRACTIMUDANZA-RGB-LOGO-MUDANZAS-MUDANZAS-EN-CALI-EMPRESAS-DE-MUDANZAS-EN-CALI-01.png",
+        "services": "Transporte, Carga, Embalaje"
       },
-      "hiredCompany": {
-        "name": "Malpartida Carga y mudanza",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo6.png"
+      {
+        "id": 7,
+        "name": "Mudanzas Jurado",
+        "photo": "https://www.mudanzasjurado.com/uploads/UFOLSqyA/353x0_387x0/logo.jpg",
+        "services": "Transporte"
+      },
+      {
+        "id": 8,
+        "name": "Mudanzas Plata",
+        "photo": "https://mudanzasplata.com/wp-content/uploads/2021/07/cropped-logo-mudannzas-plata-transparente.png",
+        "services": "Transporte, Carga"
       }
-    }
-  ],
-  "chat": [
-    {
-      "id": 1,
-      "message": "Primer mensaje",
-      "dateTime": "2019-10-10 10:10:10"
-    },
-    {
-      "message": "Hello",
-      "id": 2,
-      "dateTime": "23/9/2023"
-    },
-    {
-      "message": "hola",
-      "id": 3,
-      "dateTime": "23/9/2023"
-    }
-  ],
-  "clients": [
-    {
-      "name": "eric",
-      "apellidoMaterno": "rios",
-      "apellidoPaterno": "cuevas",
-      "celular": "912345678",
-      "direccion": "monterrico",
-      "email": "e@gmail.com",
-      "password": "123456",
-      "id": 1
-    }
-  ]
-}
+    ],
+    "reservations": [
+      {
+        "id": 1,
+        "idCompany": 1,
+        "services": "Transporte, Carga"
+      }
+    ],
+    "bookingHistory": [
+      {
+        "id": "1",
+        "bookingDate": "2023-07-15",
+        "pickupAddress": "Ate",
+        "destinationAddress": "Barranco",
+        "movingDate": "2023-07-25",
+        "movingTime": "08:00",
+        "status": "Finalizado",
+        "payment": {
+          "totalAmount": 350,
+          "paymentMethod": "Tarjeta de Crédito"
+        },
+        "hiredCompany": {
+          "name": "Transporte y mudanzas Rapi2",
+          "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo1.jpg"
+        }
+      },
+      {
+        "id": "2",
+        "bookingDate": "2023-08-16",
+        "pickupAddress": "Lince",
+        "destinationAddress": "Barranco",
+        "movingDate": "2023-08-21",
+        "movingTime": "11:30",
+        "status": "Finalizado",
+        "payment": {
+          "totalAmount": 250,
+          "paymentMethod": "Tarjeta de Crédito"
+        },
+        "hiredCompany": {
+          "name": "Romabe transporte",
+          "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo2.jpg"
+        }
+      },
+      {
+        "id": "3",
+        "bookingDate": "2023-09-10",
+        "pickupAddress": "Barranco",
+        "destinationAddress": "Barranco",
+        "movingDate": "2023-09-10",
+        "movingTime": "16:00",
+        "status": "Finalizado",
+        "payment": {
+          "totalAmount": 50,
+          "paymentMethod": "Tarjeta de Crédito"
+        },
+        "hiredCompany": {
+          "name": "Mudate Facil",
+          "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo3.png"
+        }
+      },
+      {
+        "id": "4",
+        "bookingDate": "2023-09-10",
+        "pickupAddress": "Barranco",
+        "destinationAddress": "Barranco",
+        "movingDate": "2023-09-10",
+        "movingTime": "16:00",
+        "status": "Finalizado",
+        "payment": {
+          "totalAmount": 350,
+          "paymentMethod": "Tarjeta de Crédito"
+        },
+        "hiredCompany": {
+          "name": "Bodegas y mudanzas Santana",
+          "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo4.png"
+        }
+      },
+      {
+        "id": "5",
+        "bookingDate": "2023-09-10",
+        "pickupAddress": "Barranco",
+        "destinationAddress": "Barranco",
+        "movingDate": "2023-09-10",
+        "movingTime": "16:00",
+        "status": "Finalizado",
+        "payment": {
+          "totalAmount": 350,
+          "paymentMethod": "Tarjeta de Crédito"
+        },
+        "hiredCompany": {
+          "name": "Practi Mudanza",
+          "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo5.png"
+        }
+      },
+      {
+        "id": "6",
+        "bookingDate": "2023-09-10",
+        "pickupAddress": "Barranco",
+        "destinationAddress": "Barranco",
+        "movingDate": "2023-09-10",
+        "movingTime": "16:00",
+        "status": "En curso",
+        "payment": {
+          "totalAmount": 350,
+          "paymentMethod": "Tarjeta de Crédito"
+        },
+        "hiredCompany": {
+          "name": "Malpartida Carga y mudanza",
+          "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo6.png"
+        }
+      }
+    ],
+    "chat": [
+      {
+        "id": 1,
+        "message": "Primer mensaje",
+        "dateTime": "2019-10-10 10:10:10"
+      }
+    ]
+  }

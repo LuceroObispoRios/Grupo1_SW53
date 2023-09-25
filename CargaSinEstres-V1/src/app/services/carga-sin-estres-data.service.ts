@@ -45,29 +45,19 @@ export class CargaSinEstresDataService {
 
   // Get all booking history
   getAllBookingHistory(): Observable<BookingHistory> {
-    return this.http.get<BookingHistory>(`${this.base_url}/bookingHistory`)
+    return this.http.get<BookingHistory>(`${this.baseUrl}/bookingHistory`)
       .pipe(retry(2),catchError(this.handleError))
   }
 
   // Get all messages 
   getItems(): Observable<Chat> {
-    return this.http.get<Chat>(`${this.base_url}/chat`)
+    return this.http.get<Chat>(`${this.baseUrl}/chat`)
       .pipe(retry(2),catchError(this.handleError))
   }
   
   //createMessage
   createItem(item:any): Observable<Chat>{
-    return this.http.post<Chat>(`${this.base_url}/chat`, JSON.stringify(item), this.httpOptions)
+    return this.http.post<Chat>(`${this.baseUrl}/chat`, JSON.stringify(item), this.httpOptions)
     .pipe(retry(2),catchError(this.handleError))
   }
-  
-  //for login
-  getClientsForLogin(email: string, password: string): Observable<any> {
-    return this.http.get(`${this.base_url}/clients?email=${email}&password=${password}`);
-  }
-
-  getCompaniesForLogin(email: string, password: string): Observable<any> {
-    return this.http.get(`${this.base_url}/companies?email=${email}&password=${password}`);
-  }
-
 }

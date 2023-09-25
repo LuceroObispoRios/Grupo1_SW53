@@ -1,13 +1,10 @@
-<app-toolbar-company></app-toolbar-company>
 <h1>FORMULARIO MEMBRESÍA</h1>
 <div class="container">
   <form (ngSubmit)="onSubmit()">
   <img class="logo-img" src="./assets/images/logo.png" alt="logo Carga sin estres">
-
-  <label for="nombre">Ingrese su nombre completo</label> <!--javier lo hizo mal-->
-  <mat-form-field class="form-group" appearance="fill" id="nombre">
+  <mat-form-field class="form-group" appearance="fill">
       <mat-label>Nombre</mat-label>
-      
+      <mat-hint>Ingrese su nombre completo</mat-hint>
       <input matInput [(ngModel)]="nombre" name="nombre" required>
   </mat-form-field>
 

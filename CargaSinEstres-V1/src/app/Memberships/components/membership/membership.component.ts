@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-membership',
@@ -8,16 +7,4 @@ import { Router } from '@angular/router';
 })
 export class MembershipComponent {
 
-  vigencia1: string = '3 mes';
-  vigencia2: string = '6 meses';
-  vigencia3: string = '12 meses';
-
-  constructor(private router: Router) { }
-
-  IrAFormulario() {
-    this.router.navigate(['/payment-form']);
-  }
-
-
 }
-
