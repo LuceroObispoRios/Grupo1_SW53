@@ -30,27 +30,27 @@
 
 | **# Orden** | **User Story Id** | **Título** | **Descripción** | **Story Points (1/2/3/5/8)** |
 |--------------|--------------|--------------|--------------|--------------|
-| 1| HU01    | Creación de cuenta  | **Como** gerente de una empresa de mudanzas, **quiero** poder crear una cuenta en "Carga sin Estrés" desde la landing page, **para** tener acceso a la plataforma y gestionar eficientemente los servicios de mudanza que ofrecemos.    | 1|
-| 2| HU02   | Selección de tipo de cuenta    | **Como** gerente de una empresa de mudanzas,**quiero** tener la opción de seleccionar que estoy creando una cuenta para mi empresa al registrarme en "Carga sin Estrés", **para** asegurarme de que la plataforma comprenda que represento a una empresa y facilite la gestión de los servicios de mudanza ofrecidos.   | 1|
-| 3| HU03    | Ingreso de Datos    | **Como** universitario, **quiero** ingresar los datos requeridos **para** crear mi cuenta en “Carga sin estrés”     | 2|
-| 4| HU04   | Inicio de Sesión   | **Como** oficinista con una cuenta en "Carga sin estrés", **quiero** tener la capacidad de iniciar sesión directamente desde la página de inicio , **para** acceder de manera rápida y conveniente a mi cuenta y utilizar los servicios ofrecidos.    | 1|
-| 5| HU05   | Ajustes de Cuenta   | **Como** universitario **quiero** poder ajustar los detalles de mi cuenta desde dentro de “Carga sin estrés” **para** cambiar datos que ya no reflejan mi estado actual    | 2|
-| 6| HU06   | Editar Perfil de Trabajador   | **Como** trabajador de una empresa de carga **quiero** tener la capacidad de editar mi perfil **para** proporcionar detalles precisos que presenten una imagen más confiable y profesional de mi.   | 2|
-| 7| HU07   | Cerrar Sesión    | **Como** trabajador de una empresa de carga **quiero** cerrar la sesión de la cuenta empresarial **para** mantener la seguridad de la cuenta.    | 1|
-| 8| HU08    | Elección de membresía de empresa  | **Como** usuario empresa **quiero** una opción que permita aumentar mi visibilidad dentro de la plataforma **para** captar clientes.   | 2|
-| 9| HU09   | Pago de membresía   | **Como** usuario empresa **quiero** poder ingresar los detalles de mi tarjeta **para** pagar la membresía.   | 3|
-| 10| HU10    | Selección de método de pago   | **Como** cliente **quiero** poder elegir entre diferentes métodos de pago al reservar el servicio de mudanza **para** elegir el que más se acomode a mi preferencia.   | 3|
-| 11| HU11   | Detalles de pago  | **Como** usuario cliente **quiero** poder revisar los detalles de pago **para** poder ver los costos de los servicios contratados.   | 1|
-| 12| HU12   | Búsqueda de empresas cercanas  | **Como** usuario cliente **quiero** poder buscar empresas que ofrezcan servicios de mudanza o carga cercanos a mi ubicación actual **para** asegurarme que el servicio sea conveniente.   | 3|
-| 13| HU13   | Filtrar por servicios ofrecidos | **Como** usuario cliente **quiero** poder filtrar las empresas por los servicios que ofrecen **para** encontrar aquellas que ofrecen el servicio que deseo.   | 2|
-| 14| HU14    | Filtrar por calificación    | **Como** usuario cliente **quiero** poder ordenar a las empresas de acuerdo por la cantidad de estrellas promedio y número de reseñas **para** tener la seguridad de encontrar calidad y confiabilidad en el servicio. | 1|
-| 15| HU15   | Visualización de disponibilidad  | **Como** usuario cliente **quiero** encontrar empresas que estén disponibles para una fecha específica **para** tener la seguridad que mi mudanza se realizará en un horario y fecha conveniente.    | 3|
-| 16| HU16   | Visualizar perfil de empresa | **Como** usuario cliente **quiero** poder visualizar el perfil de cada empresa **para** conocer su información detallada y así tomar una decisión informada y confiable al seleccionar la empresa adecuada para mis necesidades.   | 2|
-| 17| HU17   | Ingresar a la reserva del servicio | **Como** cliente **quiero** ingresar a la información de los servicios **para** ver si esa empresa es la que me conviene reservar.  | 3|
-| 18| HU18   | Seleccionar servicios a reservar | **Como** cliente **quiero** poder seleccionar los servicios que necesito de la lista ofrecida por la empresa **para** reservarlos.  | 2|
+| 1| HU01    | Creación de cuenta  | **Como** gerente de una empresa de mudanzas, **quiero** poder crear una cuenta en "Carga sin Estrés" desde la landing page, **para** tener acceso a la plataforma y gestionar eficientemente los servicios de mudanza que ofrecemos.    | 3|
+| 2| HU02   | Selección de tipo de cuenta    | **Como** gerente de una empresa de mudanzas,**quiero** tener la opción de seleccionar que estoy creando una cuenta para mi empresa al registrarme en "Carga sin Estrés", **para** asegurarme de que la plataforma comprenda que represento a una empresa y facilite la gestión de los servicios de mudanza ofrecidos.   | 2|
+| 3| HU03    | Ingreso de Datos    | **Como** universitario, **quiero** ingresar los datos requeridos **para** crear mi cuenta en “Carga sin estrés”     | 3|
+| 4| HU04   | Inicio de Sesión   | **Como** oficinista con una cuenta en "Carga sin estrés", **quiero** tener la capacidad de iniciar sesión directamente desde la página de inicio , **para** acceder de manera rápida y conveniente a mi cuenta y utilizar los servicios ofrecidos.    | 2|
+| 5| HU05   | Ajustes de Cuenta   | **Como** universitario **quiero** poder ajustar los detalles de mi cuenta desde dentro de “Carga sin estrés” **para** cambiar datos que ya no reflejan mi estado actual    | 3|
+| 6| HU06   | Editar Perfil de Trabajador   | **Como** trabajador de una empresa de carga **quiero** tener la capacidad de editar mi perfil **para** proporcionar detalles precisos que presenten una imagen más confiable y profesional de mi.   | 3|
+| 7| HU07   | Cerrar Sesión    | **Como** trabajador de una empresa de carga **quiero** cerrar la sesión de la cuenta empresarial **para** mantener la seguridad de la cuenta.    | 2|
+| 8| HU08    | Elección de membresía de empresa  | **Como** usuario empresa **quiero** una opción que permita aumentar mi visibilidad dentro de la plataforma **para** captar clientes.   | 3|
+| 9| HU09   | Pago de membresía   | **Como** usuario empresa **quiero** poder ingresar los detalles de mi tarjeta **para** pagar la membresía.   | 5|
+| 10| HU10    | Selección de método de pago   | **Como** cliente **quiero** poder elegir entre diferentes métodos de pago al reservar el servicio de mudanza **para** elegir el que más se acomode a mi preferencia.   | 5|
+| 11| HU11   | Detalles de pago  | **Como** usuario cliente **quiero** poder revisar los detalles de pago **para** poder ver los costos de los servicios contratados.   | 2|
+| 12| HU12   | Búsqueda de empresas cercanas  | **Como** usuario cliente **quiero** poder buscar empresas que ofrezcan servicios de mudanza o carga cercanos a mi ubicación actual **para** asegurarme que el servicio sea conveniente.   | 5|
+| 13| HU13   | Filtrar por servicios ofrecidos | **Como** usuario cliente **quiero** poder filtrar las empresas por los servicios que ofrecen **para** encontrar aquellas que ofrecen el servicio que deseo.   | 3|
+| 14| HU14    | Filtrar por calificación    | **Como** usuario cliente **quiero** poder ordenar a las empresas de acuerdo por la cantidad de estrellas promedio y número de reseñas **para** tener la seguridad de encontrar calidad y confiabilidad en el servicio. | 2|
+| 15| HU15   | Visualización de disponibilidad  | **Como** usuario cliente **quiero** encontrar empresas que estén disponibles para una fecha específica **para** tener la seguridad que mi mudanza se realizará en un horario y fecha conveniente.    | 5|
+| 16| HU16   | Visualizar perfil de empresa | **Como** usuario cliente **quiero** poder visualizar el perfil de cada empresa **para** conocer su información detallada y así tomar una decisión informada y confiable al seleccionar la empresa adecuada para mis necesidades.   | 3|
+| 17| HU17   | Ingresar a la reserva del servicio | **Como** cliente **quiero** ingresar a la información de los servicios **para** ver si esa empresa es la que me conviene reservar.  | 5|
+| 18| HU18   | Seleccionar servicios a reservar | **Como** cliente **quiero** poder seleccionar los servicios que necesito de la lista ofrecida por la empresa **para** reservarlos.  | 3|
 | 19| HU19   | Envío de información sobre la posible reserva | **Como** cliente **quiero** que la información de los servicios que escogí se envíe a la empresa de mudanza **para** que estos tengan más detalle de la reserva que quiero.   | 5|
-| 20| HU20   | Contactar con el trabajador de la empresa | **Como** trabajador de una empresa de mudanza **quiero** poder comunicarme con el cliente una vez haya enviado los servicios que quiere **para** aclarar detalles adicionales.   | 2|
-| 21| HU21   | Acordar un precio por servicio reservado | **Como** cliente **quiero** acordar detalles y precio por los servicios tras conversar con el trabajador **para** realizar mi mudanza en otro momento.  | 2|
+| 20| HU20   | Contactar con el trabajador de la empresa | **Como** trabajador de una empresa de mudanza **quiero** poder comunicarme con el cliente una vez haya enviado los servicios que quiere **para** aclarar detalles adicionales.   | 3|
+| 21| HU21   | Acordar un precio por servicio reservado | **Como** cliente **quiero** acordar detalles y precio por los servicios tras conversar con el trabajador **para** realizar mi mudanza en otro momento.  | 3|
 
 
 # Capítulo 4: Product Design
@@ -184,10 +184,14 @@ Estilos aplicados para resolución de pantalla mobile.
 
 ## 4.4. Web Applications UX/UI Design.  
 ### 4.4.1. Web Applications Wireframes.  
-![registro-cliente-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-registro-cliente.png?raw=true)  
-![registro-empresa-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-registro-empresa.png?raw=true)  
+![Registro de cliente - wireframe](/Informe/Imagenes/registro-cliente-wireframe.png) 
+![Registro de empresa - wireframe](/Informe/Imagenes/registro-empresa-wireframe.png) 
 ![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true)  
-![busqueda-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-busqueda.png?raw=true)  
+![Busqueda de empresas - wireframe](/Informe/Imagenes/busqueda-empresas-wireframe.png)
+![Chat de una reserva - wireframe](/Informe/Imagenes/chat-reserva-wireframe.png) 
+![Formulario membresia - wireframe](/Informe/Imagenes/formulario-membresia-wireframe.png)  
+![Boleta Compra - wireframe](/Informe/Imagenes/boleta-wireframe.png)
+
 ![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png) 
 ![chat-reserva-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-chat-reserva.png)  
 
@@ -199,9 +203,14 @@ Estilos aplicados para resolución de pantalla mobile.
 
 ### 4.4.2. Web Applications Mock-ups.  
 ![registro-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-cliente.png?raw=true)  
-![registro-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-empresa.png?raw=true)  
+![registro-empresa-mockup](/Informe/Imagenes/registro-empresa-mockup.png)  
 ![inicio-sesion-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup_login.png?raw=true)  
-![busqueda-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-busqueda.png?raw=true)  
+![Busqueda de empresas](/Informe/Imagenes/busqueda-empresas-mockup.png)
+![Chat de una reserva](/Informe/Imagenes/chat-reserva.png) 
+![Formulario membresia](/Informe/Imagenes/formulario-membresia.png)  
+![Boleta Compra](/Informe/Imagenes/boleta-compra.png)
+
+
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
 ![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mobile.png?raw=true)  
 ![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa.mobile.png?raw=true)  
