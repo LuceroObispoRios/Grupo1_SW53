@@ -1,3 +1,8 @@
+<app-toolbar-client></app-toolbar-client>
+<br><br><br>
+
+<h1 class="title">Información de empresa</h1>
+
 <!--INFORMACION DE LA EMPRESA-->
 <mat-card class="custom-card">
     <img mat-card-image src="{{company.photo}}" alt="Logo Company">
@@ -43,16 +48,44 @@
   
       <form (ngSubmit)="onSubmit()" #reservationForm="ngForm">
         <div class="reservation-info">
+          <mat-label>Fecha de hoy:</mat-label>
           <mat-form-field>
-            <mat-label>Servicios</mat-label>
-            <input type="text" matInput placeholder="Ex.Carga" required [(ngModel)]="reservation.services" name="services">
+            <input type="text" matInput placeholder="Ex. 2023/09/25" required [(ngModel)]="reservation.bookingDate" name="bookingData">
+          </mat-form-field>
+
+          <mat-label>Servicios:</mat-label>
+          <mat-form-field>
+            
+            <input type="text" matInput placeholder="Ex. Carga" required [(ngModel)]="reservation.services" name="services">
+          </mat-form-field>
+
+          <mat-label>Dirección de entrega:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. Monterrico" required [(ngModel)]="reservation.pickupAddress" name="pickupAddress">
+          </mat-form-field>
+
+          <mat-label>Dirección de destino:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. Monterrico" required [(ngModel)]="reservation.destinationAddress" name="destinationAddress">
+          </mat-form-field>
+
+          <mat-label>Fecha cuando el servicio se lleva a cabo:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. 2023-09-30" required [(ngModel)]="reservation.movingDate" name="movingDate">
+          </mat-form-field>
+
+          <mat-label>Hora cuando el servicio se lleva a cabo:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. 16:00" required [(ngModel)]="reservation.movingTime" name="movingTime">
           </mat-form-field>
           
           <ng-container>
-            <button mat-raised-button color="primary" type="submit">Realizar reserva</button>
+            <button type="submit">Realizar reserva</button>
           </ng-container>
         </div>
       </form>
       
     </mat-expansion-panel>
   </section>
+
+
