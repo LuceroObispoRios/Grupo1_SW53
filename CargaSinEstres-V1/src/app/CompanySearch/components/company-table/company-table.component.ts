@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Company } from 'src/app/models/company.model';
 import { MatTableDataSource } from '@angular/material/table';
-import { CompanyDataService } from 'src/app/services/company-data.service';
+import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { Router } from '@angular/router';
 
@@ -19,7 +19,7 @@ export class CompanyTableComponent{
   @ViewChild(MatPaginator, {static: true})
   paginator!: MatPaginator;
 
-  constructor(private companyDataService: CompanyDataService, private router: Router) { 
+  constructor(private companyDataService: CargaSinEstresDataService, private router: Router) { 
     this.companyData = {} as Company;
   }
 
@@ -32,6 +32,15 @@ export class CompanyTableComponent{
     this.companyDataService.getAllCompanies().subscribe((res: any) => {
       this.dataSource_company.data = res;
     })
+  }
+
+  searchByCompanyName(event: Event){
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource_company.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource_company.paginator) {
+      this.dataSource_company.paginator.firstPage();
+    }
   }
 
   getRow(row: { id: any; }){

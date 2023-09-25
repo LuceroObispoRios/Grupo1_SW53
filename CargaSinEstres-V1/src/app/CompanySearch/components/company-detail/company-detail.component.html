@@ -1,3 +1,8 @@
+<app-toolbar-client></app-toolbar-client>
+<br><br><br>
+
+<h1 class="title">Información de empresa</h1>
+
 <!--INFORMACION DE LA EMPRESA-->
 <mat-card class="custom-card">
     <img mat-card-image src="{{company.photo}}" alt="Logo Company">
@@ -7,8 +12,28 @@
     </mat-card-header>
     
     <mat-card-content>
-      <p class="label">Servicios: </p>
-      <p class="value">{{company.services}}</p>
+      <div>
+        <p class="label">Descripción: </p>
+        <p class="value">{{company.description}}</p>
+      </div>
+      <div>
+        <p class="label">Servicios: </p>
+        <ul>
+          <li class="value" *ngIf="company.transporte">Transporte</li>
+          <li class="value" *ngIf="company.carga">Carga</li>
+          <li class="value" *ngIf="company.embalaje">Embalaje</li>
+          <li class="value" *ngIf="company.montaje">Montaje</li>
+          <li class="value" *ngIf="company.desmontaje">Desmontaje</li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">Dirección: </p>
+        <p class="value">{{company.direccion}}</p>
+      </div>
+      <div>
+        <p class="label">Número de contacto: </p>
+        <p class="value">{{company.numeroContacto}}</p>
+      </div>
     </mat-card-content>
   </mat-card>
   
@@ -23,16 +48,44 @@
   
       <form (ngSubmit)="onSubmit()" #reservationForm="ngForm">
         <div class="reservation-info">
+          <mat-label>Fecha de hoy:</mat-label>
           <mat-form-field>
-            <mat-label>Servicios</mat-label>
-            <input type="text" matInput placeholder="Ex.Carga" required [(ngModel)]="reservation.services" name="services">
+            <input type="text" matInput placeholder="Ex. 2023/09/25" required [(ngModel)]="reservation.bookingDate" name="bookingData">
+          </mat-form-field>
+
+          <mat-label>Servicios:</mat-label>
+          <mat-form-field>
+            
+            <input type="text" matInput placeholder="Ex. Carga" required [(ngModel)]="reservation.services" name="services">
+          </mat-form-field>
+
+          <mat-label>Dirección de entrega:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. Monterrico" required [(ngModel)]="reservation.pickupAddress" name="pickupAddress">
+          </mat-form-field>
+
+          <mat-label>Dirección de destino:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. Monterrico" required [(ngModel)]="reservation.destinationAddress" name="destinationAddress">
+          </mat-form-field>
+
+          <mat-label>Fecha cuando el servicio se lleva a cabo:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. 2023-09-30" required [(ngModel)]="reservation.movingDate" name="movingDate">
+          </mat-form-field>
+
+          <mat-label>Hora cuando el servicio se lleva a cabo:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. 16:00" required [(ngModel)]="reservation.movingTime" name="movingTime">
           </mat-form-field>
           
           <ng-container>
-            <button mat-raised-button color="primary" type="submit">Realizar reserva</button>
+            <button type="submit">Realizar reserva</button>
           </ng-container>
         </div>
       </form>
       
     </mat-expansion-panel>
   </section>
+
+
