@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-//import { HttpClient } from '@angular/common/http';
+import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-company-form',
@@ -12,14 +13,15 @@ export class CompanyFormComponent {
   companyRegistrationForm: FormGroup;
   errorMessage: string = '';
 
-  constructor(private fb: FormBuilder) {//private http: HttpClient
+  constructor(private fb: FormBuilder, private router: Router, private api: CargaSinEstresDataService) {//private http: HttpClient
     this.companyRegistrationForm = this.fb.group({
-      companyName: ['', Validators.required],
-      correo: ['', [Validators.required, Validators.email]],
+      name: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
       direccion: ['', Validators.required],
       numeroContacto: ['', Validators.pattern(/^\d+$/)],
-      contrasena: ['', [Validators.required, Validators.minLength(6)]],
-      confirmarContrasena: ['', Validators.required],
+      password: ['', [Validators.required, Validators.minLength(6)]],
+      confirmarpassword: ['', Validators.required],
+      photo: ['', Validators.required],
       transporte: [false],
       carga: [false],
       embalaje: [false],
@@ -34,11 +36,11 @@ export class CompanyFormComponent {
     const formData = this.companyRegistrationForm.value;
     let warnings = "";
 
-    if (formData.companyName.length < 1) {
+    if (formData.name.length < 1) {
       warnings += `El nombre no es valido <br>`;
     }
 
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.correo)) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       warnings += `El email no es valido <br>`;
     }
 
@@ -50,40 +52,60 @@ export class CompanyFormComponent {
       warnings += `El numero de contacto no es valido <br>`;
     }
 
-    if (formData.contrasena.length < 6) {
+    if (formData.password.length < 6) {
       warnings += `La contraseña no es valida <br>`;
     }
 
-    if (formData.contrasena !== formData.confirmarContrasena) {
+    if (formData.password !== formData.confirmarpassword) {
       warnings += `No se confirmo la contraseña correctamente <br>`;
     }
 
+    if (!formData.photo){
+      warnings += `No se ingreso un link a la imagen de logo de la empresa <br>`;
+    }
+
     // Handle checkbox validation
-    const services = [];
-    const checkboxes = [
-      'transporte', 'carga', 'embalaje', 'montaje', 'desmontaje'
-    ];
-
-    checkboxes.forEach(checkboxName => {
-      const control = this.companyRegistrationForm.get(checkboxName);
-      if (control && control.value) {
-        services.push(checkboxName);
-      }
-      
-    });
-
-    if (services.length === 0) {
+    if (!formData.transporte && !formData.carga && !formData.embalaje && !formData.montaje && !formData.desmontaje) {
       warnings += 'Seleccione al menos un servicio <br>';
-      
     }
 
     if (!formData.description || formData.description.length < 1) {
       warnings += `La descripcion no es valida <br>`;
-      
     }
 
     this.errorMessage = warnings; // Update the error message with the current errors
 
-    //si no hay errores, Subir la data de usuario nuevo a JSON
+    if(this.errorMessage == ''){
+      const companyData = {
+        name: formData.name,
+        email: formData.email,
+        direccion: formData.direccion,
+        numeroContacto: formData.numeroContacto,
+        password: formData.password,
+        confirmarpassword: formData.confirmarpassword,
+        photo: formData.photo,
+        transporte: formData.transporte,
+        carga: formData.carga,
+        embalaje: formData.embalaje,
+        montaje: formData.montaje,
+        desmontaje: formData.desmontaje,
+        description: formData.description
+      };
+
+      console.log(companyData);
+      this.api.createCompany(companyData).subscribe((response: any) => {
+        console.log(response);
+        if (response && response.id) { //se crea automaticamente el id de la compañia
+          this.router.navigate(['login']);
+        }
+      });
+
+    }
+
   }
+  
+  cancelar(){
+    this.router.navigate(['/landing-page'])
+  }
+
 }
