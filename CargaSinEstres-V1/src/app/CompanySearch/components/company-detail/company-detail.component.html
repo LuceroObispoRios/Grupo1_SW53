@@ -7,8 +7,28 @@
     </mat-card-header>
     
     <mat-card-content>
-      <p class="label">Servicios: </p>
-      <p class="value">{{company.services}}</p>
+      <div>
+        <p class="label">Descripción: </p>
+        <p class="value">{{company.description}}</p>
+      </div>
+      <div>
+        <p class="label">Servicios: </p>
+        <ul>
+          <li class="value" *ngIf="company.transporte">Transporte</li>
+          <li class="value" *ngIf="company.carga">Carga</li>
+          <li class="value" *ngIf="company.embalaje">Embalaje</li>
+          <li class="value" *ngIf="company.montaje">Montaje</li>
+          <li class="value" *ngIf="company.desmontaje">Desmontaje</li>
+        </ul>
+      </div>
+      <div>
+        <p class="label">Dirección: </p>
+        <p class="value">{{company.direccion}}</p>
+      </div>
+      <div>
+        <p class="label">Número de contacto: </p>
+        <p class="value">{{company.numeroContacto}}</p>
+      </div>
     </mat-card-content>
   </mat-card>
   
