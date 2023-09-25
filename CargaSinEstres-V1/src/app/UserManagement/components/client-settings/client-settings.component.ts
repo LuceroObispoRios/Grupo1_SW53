@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-client-settings',
@@ -14,7 +15,7 @@ export class ClientSettingsComponent {
   errorMessage: string = '';
   id: any;
 
-  constructor(private fb: FormBuilder, private api: CargaSinEstresDataService, private route: ActivatedRoute) {
+  constructor(private fb: FormBuilder, private api: CargaSinEstresDataService, private route: ActivatedRoute, private router: Router) {
     this.userSettingsForm = this.fb.group({
       name: ['', Validators.required],
       apellidoMaterno: ['', Validators.required],
@@ -92,6 +93,10 @@ export class ClientSettingsComponent {
 
     }
     
+  }
+
+  cancelar(){
+    this.router.navigate(['/company-table']);
   }
 
 }
