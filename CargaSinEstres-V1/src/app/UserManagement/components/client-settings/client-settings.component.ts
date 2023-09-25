@@ -46,7 +46,7 @@ export class ClientSettingsComponent {
 
     this.errorMessage = warnings;
 
-    if(!this.errorMessage){
+    if(this.errorMessage == ''){
       console.log('Nuevos ajustes validos: ', formData)
       //editar el json en el objeto que corresponde
     }
