@@ -1,27 +1,27 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-//import { HttpClient } from '@angular/common/http';
+import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-client-form',
   templateUrl: './client-form.component.html',
   styleUrls: ['./client-form.component.scss']
 })
-
 export class ClientFormComponent {
   clientRegistrationForm: FormGroup;
   errorMessage: string = '';
 
-  constructor(private fb: FormBuilder) { //private http: HttpClient
+  constructor(private fb: FormBuilder, private router: Router, private api: CargaSinEstresDataService) { //private http: HttpClient
     this.clientRegistrationForm = this.fb.group({
-      nombre: ['', Validators.required],
+      name: ['', Validators.required],
       apellidoMaterno: ['', Validators.required],
       apellidoPaterno: ['', Validators.required],
       celular: ['', [Validators.required, Validators.pattern(/^\d+$/)]],
       direccion: ['', Validators.required],
-      correo: ['', [Validators.required, Validators.email]],
-      contrasena: ['', [Validators.required, Validators.pattern(/^(?=.*[A-Z])(?=.*\d).{12,}$/)]],
-      confirmarContrasena: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.pattern(/^(?=.*[A-Z])(?=.*\d).{12,}$/)]],
+      confirmarpassword: ['', Validators.required],
     });
   }
 
@@ -30,7 +30,7 @@ export class ClientFormComponent {
     const formData = this.clientRegistrationForm.value;
     let warnings = '';
     
-    if (!formData.nombre || !formData.apellidoMaterno || !formData.apellidoPaterno || !formData.celular || !formData.direccion || !formData.correo || !formData.contrasena || !formData.confirmarContrasena) {
+    if (!formData.name || !formData.apellidoMaterno || !formData.apellidoPaterno || !formData.celular || !formData.direccion || !formData.email || !formData.password || !formData.confirmarpassword) {
       warnings += 'Todos los campos son obligatorios. <br>';
     }
 
@@ -38,20 +38,43 @@ export class ClientFormComponent {
       warnings += 'El celular debe contener solo dígitos enteros.<br>';
     }
 
-    if (!formData.correo || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.correo)) {
-      warnings += 'El correo electrónico no es válido.<br>';
+    if (!formData.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      warnings += 'El email electrónico no es válido.<br>';
     }
 
-    if (!formData.contrasena || !/^(?=.*[A-Z])(?=.*\d).{12,}$/.test(formData.contrasena)) {
+    if (!formData.password || formData.password.length < 6) {
       warnings += 'La contraseña debe tener al menos una letra en mayúscula, 12 caracteres y al menos 2 números.<br>';
     }
 
-    if (formData.contrasena !== formData.confirmarContrasena) {
+    if (formData.password !== formData.confirmarpassword) {
       warnings += 'Las contraseñas no coinciden.<br>';
     }
 
     this.errorMessage = warnings;
 
-    /*if (!this.errorMessage) { //pasar info del nuevo usuario a JSON*/
+    if (this.errorMessage == '') { // Si no hay errores, se registra el usuario
+      const clientData={
+        name: formData.name,
+        apellidoMaterno: formData.apellidoMaterno,
+        apellidoPaterno: formData.apellidoPaterno,
+        celular: formData.celular,
+        direccion: formData.direccion,
+        email: formData.email,
+        password: formData.password
+      }
+      console.log(clientData);
+      this.api.createClient(clientData).subscribe((clientResponse: any) => {
+        console.log(clientResponse);
+        if (clientResponse && clientResponse.id) { //se crea automaticamente el id del cliente
+          this.router.navigate(['login']);
+        }
+      });
+
+    }
+
+  }
+
+  cancelar(){
+    this.router.navigate(['landing-page']);
   }
 }
