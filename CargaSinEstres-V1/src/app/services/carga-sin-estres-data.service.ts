@@ -1,0 +1,63 @@
+import { Injectable } from '@angular/core';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
+import { Company } from '../models/company.model';
+import { Reservation } from '../models/reservation.model';
+import { Observable, catchError, retry, throwError } from 'rxjs';
+import { environment } from '../../environments/environment';
+import { BookingHistory } from '../models/booking-history.model';
+import { Chat } from '../models/chat.model';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class CargaSinEstresDataService {
+  base_url = environment.baseURL;
+
+  constructor( private http: HttpClient) { }
+  
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json',
+    })
+  }
+
+  handleError(error: HttpErrorResponse) {
+    if (error.error instanceof ErrorEvent) {
+      console.log(`Ocurrió un error: ${error.status}, el cuerpo fue: ${error.error}`);
+    }
+    else {
+      console.log(`El servidor respondió con el código ${error.status}, el cuerpo fue: ${error.error}`);
+    }
+    return throwError('Ha ocurrido un problema con la solicitud, por favor inténtalo de nuevo más tarde');
+  }
+
+  getAllCompanies(): Observable<Company> {
+    return this.http.get<Company>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
+  }
+
+  getCompanyById(id: any): Observable<Company> {
+    return this.http.get<Company>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
+  }
+
+  createReservation(item: any): Observable<Reservation>{
+    return this.http.post<Reservation>(this.base_url+"/"+"reservations", JSON.stringify(item), this.httpOptions).pipe(retry(2),catchError(this.handleError));
+  }
+
+  // Get all booking history
+  getAllBookingHistory(): Observable<BookingHistory> {
+    return this.http.get<BookingHistory>(`${this.baseUrl}/bookingHistory`)
+      .pipe(retry(2),catchError(this.handleError))
+  }
+
+  // Get all messages 
+  getItems(): Observable<Chat> {
+    return this.http.get<Chat>(`${this.baseUrl}/chat`)
+      .pipe(retry(2),catchError(this.handleError))
+  }
+  
+  //createMessage
+  createItem(item:any): Observable<Chat>{
+    return this.http.post<Chat>(`${this.baseUrl}/chat`, JSON.stringify(item), this.httpOptions)
+    .pipe(retry(2),catchError(this.handleError))
+  }
+}

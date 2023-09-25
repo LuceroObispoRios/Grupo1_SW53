@@ -1,0 +1,71 @@
+<h1>FORMULARIO MEMBRESÍA</h1>
+<div class="container">
+  <form (ngSubmit)="onSubmit()">
+  <img class="logo-img" src="./assets/images/logo.png" alt="logo Carga sin estres">
+  <mat-form-field class="form-group" appearance="fill">
+      <mat-label>Nombre</mat-label>
+      <mat-hint>Ingrese su nombre completo</mat-hint>
+      <input matInput [(ngModel)]="nombre" name="nombre" required>
+  </mat-form-field>
+
+  <mat-form-field class="form-group" appearance="fill">
+      <mat-label>Apellidos</mat-label>
+      <mat-hint>Ingrese su apellido completo</mat-hint>
+      <input matInput [(ngModel)]="apellidos" name="apellidos" required>
+  </mat-form-field>
+
+  <mat-form-field class="form-group" appearance="fill">
+      <mat-label>RUC</mat-label>
+      <mat-hint>Ingrese su RUC</mat-hint>
+      <input matInput [(ngModel)]="ruc" name="ruc" required>
+  </mat-form-field>
+
+  <mat-form-field class="form-group" appearance="fill">
+      <mat-label>Direccion</mat-label>
+      <mat-hint>Ingrese su dirección</mat-hint>
+      <input matInput [(ngModel)]="direccion" name="direccion" required>
+  </mat-form-field>
+
+    <mat-form-field class="form-group">
+      <mat-label>Vigencia de suscripción</mat-label>
+      <mat-hint>Selecciona la vigencia de su suscripción</mat-hint>
+      <mat-select [(ngModel)]="vigenciaSuscripcion" name="vigenciaSuscripcion" required>
+        <mat-option value="3 month plan">3 Meses</mat-option>
+        <mat-option value="6 month plan">6 Meses</mat-option>
+        <mat-option value="12 month plan">12 Meses</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="form-group">
+      <mat-label>Tarjeta seleccionada </mat-label>
+      <mat-hint>Selecciona una tarjeta</mat-hint>
+      <mat-select [(ngModel)]="tarjetaSeleccionada" name="tarjetaSeleccionada" required>
+        <mat-option value="Visa Payment">Visa **** **** **** 2342</mat-option>
+        <mat-option value="Mastercard Payment">Mastercard **** **** **** 8152</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-button class="btn">Continuar</button>
+  </form>
+</div>
+
+<div class="confirmation-card" *ngIf="confirmacionVisible">
+  <mat-card>
+    <mat-card-content>
+      <h2>Boleta de Confirmación</h2>
+      <p><strong>Nombre:</strong> {{ nombre }} {{ apellidos }}</p>
+      <p><strong>RUC:</strong> {{ ruc }}</p>
+      <p><strong>Dirección:</strong> {{ direccion }}</p>
+      <p><strong>Vigencia de Suscripción:</strong> {{ vigenciaSuscripcion }}</p>
+      <p><strong>Tarjeta Seleccionada:</strong> {{ tarjetaSeleccionada }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button class="btn" (click)="firmar()">Firmar</button>
+    </mat-card-actions>
+  </mat-card>
+
+  <div class="confirm-message">
+    <p>Confirmado </p>
+    <p>Firma autentificadora: {{ firma }}</p>
+  </div>
+  <button mat-button class="btn" (click)="descargarBoleta()">Descargar Boleta</button>
+</div>
