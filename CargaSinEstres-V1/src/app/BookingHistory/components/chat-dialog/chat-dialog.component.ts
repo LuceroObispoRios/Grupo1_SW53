@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { HttpDataService } from '../../services/http-data.service';
+import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { Chat } from 'src/app/models/chat.model';
 import { NgForm } from '@angular/forms';
 import { HistoryCardsComponent } from '../history-cards/history-cards.component';
@@ -7,7 +7,7 @@ import { HistoryCardsComponent } from '../history-cards/history-cards.component'
 @Component({
   selector: 'app-chat-dialog',
   templateUrl: './chat-dialog.component.html',
-  styleUrls: ['./chat-dialog.component.css'],
+  styleUrls: ['./chat-dialog.component.scss'],
 })
 export class ChatDialogComponent {
 
@@ -16,7 +16,7 @@ export class ChatDialogComponent {
 
   @ViewChild('chatForm',{static: false}) chatForm!: NgForm;
 
-  constructor(private httpDataService: HttpDataService){
+  constructor(private companyDataService: CargaSinEstresDataService){
     this.chatData = {} as Chat;
   }
 
@@ -25,7 +25,7 @@ export class ChatDialogComponent {
   }
 
   getMessages(){
-    this.httpDataService.getItems().subscribe((response: any) => {
+    this.companyDataService.getItems().subscribe((response: any) => {
       console.log(response);
     })
   }
@@ -35,7 +35,7 @@ export class ChatDialogComponent {
     this.chatData.id=0;
     this.chatData.dateTime = new Date().toLocaleDateString();
     console.log(this.chatData);
-    this.httpDataService.createItem(this.chatData).subscribe((response: any) => {
+    this.companyDataService.createItem(this.chatData).subscribe((response: any) => {
       console.log(response);
     })
     this.chatForm.reset();
