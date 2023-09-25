@@ -1,26 +1,34 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-client-settings',
   templateUrl: './client-settings.component.html',
   styleUrls: ['./client-settings.component.scss']
 })
+
 export class ClientSettingsComponent {
   userSettingsForm: FormGroup;
   errorMessage: string = '';
+  id: any;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private api: CargaSinEstresDataService, private route: ActivatedRoute) {
     this.userSettingsForm = this.fb.group({
-      nombre: ['', Validators.required],
+      name: ['', Validators.required],
       apellidoMaterno: ['', Validators.required],
       apellidoPaterno: ['', Validators.required],
       celular: ['', [Validators.required, Validators.pattern(/^\d+$/)]],
       direccion: ['', Validators.required],
-      correo: ['', [Validators.required, Validators.email]],
-      contrasena: ['', [Validators.required, Validators.minLength(6)]],
-      confirmarContrasena: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(6)]],
+      confirmarpassword: ['', Validators.required],
     });
+  }
+
+  ngOnInit(){
+    this.id = this.route.snapshot.paramMap.get('id');
   }
 
   onSubmit(){
@@ -28,27 +36,60 @@ export class ClientSettingsComponent {
     const formData = this.userSettingsForm.value;
     let warnings = '';
 
+    if (!formData.name) {
+      warnings += 'El nuevo nombre no puede estar vacío.<br>';
+    }
+
+    if (!formData.apellidoPaterno) {
+      warnings += 'El nuevo apellido paterno no puede estar vacío.<br>';
+    }
+
+    if (!formData.apellidoMaterno) {
+      warnings += 'El nuevo apellido materno no puede estar vacío.<br>';
+    }
+
     if (!formData.celular || !/^\d+$/.test(formData.celular)) {
       warnings += 'El nuevo celular debe contener solo dígitos enteros.<br>';
     }
 
-    if (!formData.correo || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.correo)) {
-      warnings += 'La nueva dirección de correo electronico no es válida.<br>';
+    if (!formData.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      warnings += 'La nueva dirección de email electronico no es válida.<br>';
     }
 
-    if (formData.contrasena.length < 6) {
+    if (formData.password.length < 6) {
       warnings += `La nueva contraseña no es valida <br>`;
     }
 
-    if (formData.contrasena !== formData.confirmarContrasena) {
+    if (formData.password !== formData.confirmarpassword) {
       warnings += 'La confirmación de la nueva contraseña no coincide.<br>';
     }
 
     this.errorMessage = warnings;
 
-    if(!this.errorMessage){
-      console.log('Nuevos ajustes validos: ', formData)
-      //editar el json en el objeto que corresponde
+    if(this.errorMessage == ''){
+      const newClientSettings={
+        name: formData.name,
+        apellidoMaterno: formData.apellidoMaterno,
+        apellidoPaterno: formData.apellidoPaterno,
+        celular: formData.celular,
+        direccion: formData.direccion,
+        email: formData.email,
+        password: formData.password,
+        id: this.id
+      }
+      console.log('Nuevos ajustes validos: ', newClientSettings)
+
+      this.api.updateClient(this.id, newClientSettings).subscribe(
+        (response) => {
+          console.log('Respuesta del servidor: ', response);
+          alert('Tus ajustes se han guardado exitosamente');
+        },
+        (error) => {
+          console.log('Error al actualizar los ajustes: ', error);
+          alert('Ha ocurrido un error al actualizar tus ajustes, por favor intenta de nuevo más tarde');
+        }
+      );
+
     }
     
   }
