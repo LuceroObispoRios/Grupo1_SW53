@@ -1,8 +1,9 @@
 <app-toolbar-landing></app-toolbar-landing>
+<br><br><br>
 <div class="login-form"> 
 
     <form id="loginForm" [formGroup] ="loginForm" (ngSubmit)="onSubmit()">
-      <img src="image/logo2.png" class="logo">
+      <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Proyecto/image/logo2.png?raw=true" class="logo">
       <h1>Carga Sin Estrés</h1>
 
       <div class="content">
@@ -21,7 +22,7 @@
         </div>
         <div class="action" id="actionButtons">
           <button id="login-button" type="submit">Iniciar Sesión</button>
-          <button id="cancel-button" type="button" href="">Cancelar</button>
+          <button id="cancel-button" type="button" (click)="cancelar">Cancelar</button>
         </div>
         <div id="errorMessages" class="error-messages" [innerHTML]="errorMessage">{{errorMessage}}</div>
       </div>
@@ -29,3 +30,4 @@
     </form>
 
 </div>
+

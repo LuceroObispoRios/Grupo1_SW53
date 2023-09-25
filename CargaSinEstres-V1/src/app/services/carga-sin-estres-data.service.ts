@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { Company } from '../models/company.model';
-import { Reservation } from '../models/reservation.model';
 import { Observable, catchError, retry, throwError } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { BookingHistory } from '../models/booking-history.model';
@@ -39,8 +38,8 @@ export class CargaSinEstresDataService {
     return this.http.get<Company>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
   }
 
-  createReservation(item: any): Observable<Reservation>{
-    return this.http.post<Reservation>(this.base_url+"/"+"reservations", JSON.stringify(item), this.httpOptions).pipe(retry(2),catchError(this.handleError));
+  createReservation(item: any): Observable<BookingHistory>{
+    return this.http.post<BookingHistory>(this.base_url+"/"+"bookingHistory", JSON.stringify(item), this.httpOptions).pipe(retry(2),catchError(this.handleError));
   }
 
   // Get all booking history
@@ -69,5 +68,24 @@ export class CargaSinEstresDataService {
   getCompaniesForLogin(email: string, password: string): Observable<any> {
     return this.http.get(`${this.base_url}/companies?email=${email}&password=${password}`);
   }
+
+  //for registration
+  createClient(data: any): Observable<any> {
+    return this.http.post(`${this.base_url}/clients`, JSON.stringify(data), this.httpOptions);
+  }
+
+  createCompany(data: any): Observable<any> {
+    return this.http.post(`${this.base_url}/companies`, JSON.stringify(data), this.httpOptions);
+  }
+
+  //for settings
+  updateClient(id: any, data: any): Observable<any> {
+    return this.http.put(`${this.base_url}/clients/${id}`, JSON.stringify(data), this.httpOptions);
+  }
+
+  updateCompany(id: any, data: any): Observable<any> {
+    return this.http.put(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
+  }
+
 
 }

@@ -90,4 +90,8 @@ export class LoginFormComponent {
   
   }
 
+  cancelar(){
+    this.router.navigate(['/landing-page']);
+  }
+
 }

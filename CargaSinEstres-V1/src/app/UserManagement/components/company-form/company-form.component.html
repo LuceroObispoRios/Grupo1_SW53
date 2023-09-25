@@ -5,7 +5,7 @@
 
             <form [formGroup]="companyRegistrationForm" id="registro" action="" method="POST" (ngSubmit)="onSubmit()">
                 <h2>Registrar Cuenta de Empresa</h2>
-                <img src="image/Cargalogo.png" alt="Logo de Carga sin estres" class="logo">
+                <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Proyecto/image/Cargalogo.png?raw=true" alt="Logo de Carga sin estres" class="logo">
 
                 <div class="right-section">
                     <input type="text" placeholder="Nombre de la empresa" formControlName="companyName" id="nombre">
@@ -14,6 +14,7 @@
                     <input type="text" placeholder="Telefono" formControlName="numeroContacto" id="numeroContacto">
                     <input type="password" placeholder="Contraseña" formControlName="contrasena" id="contrasena">
                     <input type="password" placeholder="Confirmar contraseña" formControlName="confirmarContrasena" id="confirmarContrasena">
+                    <input type="text" placeholder="Link al logo" formControlName="logo" id="logo">
                 </div>
     
                 <div class="service-boxes">
@@ -59,3 +60,4 @@
         </div>
     </div>
 </div>
+<br><br><br>

@@ -34,6 +34,15 @@ export class CompanyTableComponent{
     })
   }
 
+  searchByCompanyName(event: Event){
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource_company.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource_company.paginator) {
+      this.dataSource_company.paginator.firstPage();
+    }
+  }
+
   getRow(row: { id: any; }){
     console.log("Row clicked: ");
     console.log(row);

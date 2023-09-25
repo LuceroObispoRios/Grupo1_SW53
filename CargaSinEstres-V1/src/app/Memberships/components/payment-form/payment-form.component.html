@@ -1,37 +1,37 @@
 <app-toolbar-company></app-toolbar-company>
+<br><br><br>
 <h1>FORMULARIO MEMBRESÍA</h1>
 <div class="container">
   <form (ngSubmit)="onSubmit()">
-  <img class="logo-img" src="./assets/images/logo.png" alt="logo Carga sin estres">
+  <img class="logo-img" src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Proyecto/image/Cargalogo.png?raw=true" alt="logo Carga sin estres">
 
   <label for="nombre">Ingrese su nombre completo</label> <!--javier lo hizo mal-->
   <mat-form-field class="form-group" appearance="fill" id="nombre">
       <mat-label>Nombre</mat-label>
-      
       <input matInput [(ngModel)]="nombre" name="nombre" required>
   </mat-form-field>
 
-  <mat-form-field class="form-group" appearance="fill">
+  <label for="apellidos">Ingrese su apellido completo</label>
+  <mat-form-field class="form-group" appearance="fill" id="apellidos">
       <mat-label>Apellidos</mat-label>
-      <mat-hint>Ingrese su apellido completo</mat-hint>
       <input matInput [(ngModel)]="apellidos" name="apellidos" required>
   </mat-form-field>
 
-  <mat-form-field class="form-group" appearance="fill">
+  <label for="ruc">Ingrese su RUC</label>
+  <mat-form-field class="form-group" appearance="fill" id="ruc">
       <mat-label>RUC</mat-label>
-      <mat-hint>Ingrese su RUC</mat-hint>
       <input matInput [(ngModel)]="ruc" name="ruc" required>
   </mat-form-field>
 
-  <mat-form-field class="form-group" appearance="fill">
-      <mat-label>Direccion</mat-label>
-      <mat-hint>Ingrese su dirección</mat-hint>
-      <input matInput [(ngModel)]="direccion" name="direccion" required>
+  <label for="direccion">Ingrese su dirección</label>
+  <mat-form-field class="form-group" appearance="fill" id="direccion">
+    <mat-label>Dirección</mat-label>
+    <input matInput [(ngModel)]="direccion" name="direccion" required>
   </mat-form-field>
 
-    <mat-form-field class="form-group">
+  <label for="vigenciaSuscripcion">Selecciona la vigencia de su suscripción</label>
+    <mat-form-field class="form-group" id="vigenciaSuscripcion">
       <mat-label>Vigencia de suscripción</mat-label>
-      <mat-hint>Selecciona la vigencia de su suscripción</mat-hint>
       <mat-select [(ngModel)]="vigenciaSuscripcion" name="vigenciaSuscripcion" required>
         <mat-option value="3 month plan">3 Meses</mat-option>
         <mat-option value="6 month plan">6 Meses</mat-option>
@@ -39,9 +39,9 @@
       </mat-select>
     </mat-form-field>
 
-    <mat-form-field class="form-group">
-      <mat-label>Tarjeta seleccionada </mat-label>
-      <mat-hint>Selecciona una tarjeta</mat-hint>
+    <label for="tarjetaSeleccionada">Selecciona una tarjeta</label>
+    <mat-form-field class="form-group" id="tarjetaSeleccionada">
+      <mat-label>Tarjeta seleccionada</mat-label>
       <mat-select [(ngModel)]="tarjetaSeleccionada" name="tarjetaSeleccionada" required>
         <mat-option value="Visa Payment">Visa **** **** **** 2342</mat-option>
         <mat-option value="Mastercard Payment">Mastercard **** **** **** 8152</mat-option>
@@ -72,3 +72,4 @@
   </div>
   <button mat-button class="btn" (click)="descargarBoleta()">Descargar Boleta</button>
 </div>
+<br><br><br>

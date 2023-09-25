@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-toolbar-client',
   templateUrl: './toolbar-client.component.html',
@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class ToolbarClientComponent {
 
+  constructor(private router: Router) { }
+
+  pageLanding(){
+    this.router.navigateByUrl('/landing-page');
+  }
+
+  pageHistoryCards(){
+    this.router.navigateByUrl('/history-cards');
+  }
+  pageCompanyTable(){
+    this.router.navigateByUrl('/company-table');
+  }
+  pageSettings(){
+    this.router.navigateByUrl('/client-settings/:id');
+  }
 }
