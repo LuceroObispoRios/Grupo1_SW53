@@ -128,7 +128,7 @@ Fotografia de Perfil:
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
 Fotografia de Perfil:  
-![profile1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpg?raw=true)
+![profile1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpeg?raw=true)
 
 
 * Nombres y Apellidos: Javier Martin Sebastian Tasayco  
