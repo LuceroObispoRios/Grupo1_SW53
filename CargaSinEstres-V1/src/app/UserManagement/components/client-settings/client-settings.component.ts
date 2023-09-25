@@ -67,7 +67,7 @@ export class ClientSettingsComponent {
 
     this.errorMessage = warnings;
 
-    if(!this.errorMessage){
+    if(this.errorMessage == ''){
       const newClientSettings={
         name: formData.name,
         apellidoMaterno: formData.apellidoMaterno,
