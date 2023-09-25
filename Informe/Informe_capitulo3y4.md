@@ -115,10 +115,10 @@ Organizar fuentes: Con el objetivo de hacer que la página web sea fácil de lee
 
 - Según audiencia: El contenido del programa será categorizado para 2 audiencias, los cuales son los usuarios que desean solicitar servicios de mudanza o carga y los que brindan estos servicios.
 - Por tópicos: Cuando se lleva a cabo la búsqueda de trabajadores que brinden estos servicios, los usuarios clientes tienen a su disposición distintos filtros y campos como criterios de búsqueda.
-- Cronológico: Si el usuario desea ver las reservas de los servicios que realizó, entonces estas aparecerán en una lista de forma cronológica, siendo la solicitud más antigua la que aparece en la parte de arriba y la solicitud realizada recientemente en la parte de abajo.
+- Cronológico: Si el usuario desea ver las reservas de los servicios que realizó, entonces estas aparecerán en una lista de forma cronológica, siendo la solicitud más antigua la que aparece en la parte de abajo y la solicitud realizada recientemente en la parte de arriba.
 
 ### 4.2.2. Labeling Systems.
-A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos de información, así como las asociaciones entre las mismas.
+A continuación, se definirán las etiquetas a utilizar para agrupar conjuntos de información desde los distintos toolbar, así como las asociaciones entre las mismas.
 
 ![General Style Guidelines](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LabelingSystems.png?raw=true)
 
