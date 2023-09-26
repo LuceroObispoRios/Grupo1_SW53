@@ -103,7 +103,7 @@ export class CompanyFormComponent {
     }
 
   }
-  
+
   cancelar(){
     this.router.navigate(['/landing-page'])
   }

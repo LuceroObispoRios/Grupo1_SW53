@@ -21,11 +21,12 @@ Ciclo 2023-02
  TB1 | 23/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se realizó 2 entrevistas a ciudadanos, registro y entrevista. Se avanzó con los wireframes , mockups y código del inicio de sesion. Se añadió searching systems, el software deployment configuration y los testing suite evidence.
  TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1. En codigo, se hizo el registro de empresas.
  TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió General Style Guidelines,Web Style Guidelines, Impact map, Product Backlog. Además para el capitulo V: Software Configuration Management y Development Evidence for Sprint Review. En código, se hizo el registro de clientes (individuos). Se organizó el project Keynote.
+
  TP | 05/09/23 - 26/09/23  | Lucero Obispo| Se actualizo el diagrama de clases, labeling systems, descripcion de startup, analisis de entrevistas. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
  TP | 05/09/23 - 26/09/23  | Andrea O'Higgins| Se añadió 
- TP | 05/09/23 - 26/09/23  | Eric Cuevas| Se añadió 
+ TP | 05/09/23 - 26/09/23  | Eric Cuevas| Se desarrollo las partes de registro, login y ajustes de usuario de la app, se añadieron wireframes y mockups, se corrigio partes del sprint 1 asi como historias de Usuario, realize el deployment de la app y los puntos relazcionados a este.
  TP | 05/09/23 - 26/09/23  | Javier Sebastian| Se añadió 
----
+
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
    1.1.1 Descripcion de la startup  
@@ -103,11 +104,12 @@ Ciclo 2023-02
    5.2.1.8. Team Collaboration Insights during Sprint.  
 
 ## Student Outcome  
-  
+
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---------|---------|---------|
 | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se realizó una entrevista donde donde el entrevistado recibió información sobre el proyecto. Además, se realizaron meetings con el equipo<br><br> *Eric Fernando Cuevas* <br> Se realizó dos entrevistas al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica los resultados del informe. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizó una entrevista al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica la ejecucion del pagina web. <br><br> *Andrea Namie O´Higgins* <br> - Se realizó dos entrevistas a ciudadanos. Además, se realizaron meetings con el equipo <br><br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se realizaron meetings con el equipo <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo una presentación en video que explica los resultados del codigo.  Se realizaron meetings con el equipo. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizaron meetings con el equipo. <br><br> *Andrea Namie O´Higgins* <br> - Se realizaron meetings con el equipo. | Por un lado, concluimos que es importante manejar un lenguaje en común con los clientes. Necesitamos transferir y receptar ideas a fin de construir una solución hacia un problema identificado. Por ejemplo, al realizar entrevistas. Por otro lado, también es relevante comunicarse con el equipo de manera que se tiene un proceso de trabajo estratégico y coordinado. Además, concluimos que dado un análisis y especificaciones de requisitos como también el diseño, la implementación, validación y despliegue del producto logramos definir una estructura robusta para el desarrollo del aplicativo web "Carga sin Estrés". |
 | Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el analisis competitivo, el product backlog, historias de usuario, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo los procesos de Lean UX , historias de Usuario, diagramas de modelado, entre otras cosas. <br>  <br> *Lucero Abigail Obispo* <br> - Se desarrollo los procesos de Lean UX, historias de usuario, digrama de clases, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo los as-is y to-be scenario mapping, diagramas c4, historias de usuario, entre otros <br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el impact mapping, product backlog, team collaboration insigths, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo el modelo de la base de datos, execution evidence, sprint plannign, entre otras cosas. <br><br> *Lucero Abigail Obispo* <br> - Se desarrollo historias de usuario, digrama de clases, services documentation, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo diagramas c4, development evidence, testing envidence, entre otros | Por un lado, concluimos que es importante manejar un lenguaje en común con los clientes. Necesitamos transmitir mensajes legibles, limpios e intuitivos. Por ejemplo, al documentar una descripción de "Carga sin Estrés". Por otro lado, también es relevante transmitir mensajes en los medios remotos con el equipo de manera que se tiene un proceso de trabajo estratégico y coordinado. |
+
 
 ---
 # Capitulo 1 : Introducción  
@@ -137,25 +139,25 @@ Fotografia de Perfil:
 Carrera: Ingenieria de Software  
 Acerca De: Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesto a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.  
 Fotografia de Perfil:  
-![image](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante3.jpg?raw=true)
+![profile3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/b61a7927917e1dab8195a4684e2b1c9d66c3c330/Informe/Imagenes/integrante3.jpg)
 
 
 * Nombres y Apellidos: Andrea Namie O'Higgins Rosales  
 Carrera: Ingenieria de Software  
 Acerca De: Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
 Fotografia de Perfil:  
-![image](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true" width="300" height="356">
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
 
 En la actualidad, una de las actividades presentes en la vida de las personas es el cambio de lugar de residencia. Sea por diferentes motivos, como acercarse al centro de estudios o de trabajo, como resultado de sus metas a corto o largo plazo, e inclusive para mejorar su propia calidad de vida. Esto se refleja, como ejemplo, en el hecho de que aproximadamente 200,000 indiviudos migran internamente en Lima. Entre esta cantidad, un 58% se muda a una ubicación relativamente nueva, mientras que un 42% prefiere mudarse a una zona cercana a su ubicación anterior (IPSOS, 2019), asi como en la realidad que, aparte de la migración interna, el numero de inmigrantes que vienen a residir en Perú aumenta cada año, siendo el aumento en 2020 de 1.069.745 personas (Expansion, 2020).  
 Aun asi, dentro del propio sector de mudanza y transpote de carga como serian muebles o electrodomesticos, se presentan problemas para ambos las empresas de mudanza y transporte de bienes asi como para los propiops usuarios de estos servicios.
-  
-En cuanto a las empresas, estas tienen que esforzarse para ganar su lugar en el mercado para sus marcas, más la mayor parte de la competencia que se encuentra en el país es informal, como indica el diario Gestion (2020), negocios que al tener un camión disponible se dedican a la mudanza unos días, pero en otro momento cargan otras cosas. Estando estos ultimos sin seguros ni garantias, estos en si tambien pueden traer perjuicio a los usuarios. Esto junto a los perjucios de otros eventos como lo fueron la pandemia del Covid-19 y otros factores economicos o politicos, hieren el negocio de las mudanzas, dejandoles con la necesidad de buscar nuevas maneras de expandir servicios. 
-  
+
+En cuanto a las empresas, estas tienen que esforzarse para ganar su lugar en el mercado para sus marcas, más la mayor parte de la competencia que se encuentra en el país es informal, como indica el diario Gestion (2020), negocios que al tener un camión disponible se dedican a la mudanza unos días, pero en otro momento cargan otras cosas. Estando estos ultimos sin seguros ni garantias, estos en si tambien pueden traer perjuicio a los usuarios. Esto junto a los perjucios de otros eventos como lo fueron la pandemia del Covid-19 y otros factores economicos o politicos, hieren el negocio de las mudanzas, dejandoles con la necesidad de buscar nuevas maneras de expandir servicios.
+
 Por su parte los usuarios, en muchos casos, no presentan suficiente conocimiento sobre el sector de mudanzas por lo que suelen escoger el servicio a ultimo minuto, con poca información y de manera apresurada, llevando este accionar incluso a gastos adicionales para ellos.
-  
+
 En base a lo expuesto anteriormente nace la iniciativa de "Carga sin estres", una applicación que permitira conectar a los usuarios a servicios de mudanzas y transporte de bienes, brindando mayor información de manera más eficiente a los usuarios y una nueva avenida de promoción para las empresas.
 
 o	**What (Qué):**  En el Perú, la migración interna e inmigración no son factores poco comunes, pero existe aun una dificultad de los usuarios de los servicios de mudanzas para encontrar opciones formales y que se adapten a sus propias preferencias. Producto de ello, los servicios que suelen tomar las personas son de ultimo momento, apresurados y no siempre capaces de cumplir con las medidas necesarias para asegurar un traslado adecuado y seguro.    
@@ -213,14 +215,14 @@ c. ***User Outcomes***
 - **Creemos que** nuestras ganancias económicas vendrán por parte de comisiones por transaccion (cada vez que un usuario solicite un servicio), así como de las membresías premium brindadas a los usuarios que son trabajadores de empresas de mudanzas y carga. **Sabremos que** hemos tenido éxito cuando incrementen en un 10% el número de usuarios con membresías respecto al mes anterior.
 
 #### 1.2.2.4 Lean UX Canvas  
-![Canvas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LeanUXCanvas.png?raw=true) 
+![Canvas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LeanUXCanvas.png?raw=true)
 
 ## 1.3 Segmentos Objetivo  
 * Individuos de 18 a 50 años
-  
-El primer segmento objetivo son los individuos de 18 a 50 años, quienes usualmente son los que requieren servicios de mudanza y carga, además de información sobre las empresas y servicios de mudanza a los que pueden acceder. 
-* Empresas de mudanza 
-  
+
+El primer segmento objetivo son los individuos de 18 a 50 años, quienes usualmente son los que requieren servicios de mudanza y carga, además de información sobre las empresas y servicios de mudanza a los que pueden acceder.
+* Empresas de mudanza
+
 Nuestro segundo segmento objetivo serían las Empresas de mudanzas y carga formales, quienes desean nuevas avenidas para promocionar sus servicios asi como una manera de reslatar del resto del sector.
 
 # Capitulo 2: Requirements Elicitation & Analysis
@@ -300,26 +302,26 @@ Finalmente, integrar herramientas de inteligencia artificial para mejorar la asi
 
 1. ![empresa-entrevista1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/empresa-entrevista1.JPG?raw=true)  
 [https://www.youtube.com/watch?v=IIlxXJBREP8](https://www.youtube.com/watch?v=IIlxXJBREP8)  
-  
+
 Transcripción de la entrevista :  
 0:16 - "¿Cual es el medio actual por el cual capta a sus potenciales clientes?"  
 "La forma de captar tradicional es aquella que esta referida a los carteles publicitarios, no solo en el pequeño local sino tambien en otros vehiculos que disponemos propios, tenemos digamos referencias con información del servicio que brindamos en nuestro negocio y en estos ultimos tiempos hemos apelado mucho a los medios tecnologicos y aparecemos en una pequeña pagina web que actualizamos cada cierto tiempo"  
-  
+
 3:56 - "¿Sus clientes suelen requerir que ustedes hagan los servicios de embalaje o armado de muebles?"  
-"Es un servicio adicional que brindamos con respecto al tema del embalaje cuando asi lo requieran los clientes y en ciertas circunstancias porque asi lo requiere el protocolo con respecto a aquellos bienes que son son fragiles, y con respecto al armado de los muebles digamos que lo brindamos como un servicio adicional, no es frecuente" 
-  
+"Es un servicio adicional que brindamos con respecto al tema del embalaje cuando asi lo requieran los clientes y en ciertas circunstancias porque asi lo requiere el protocolo con respecto a aquellos bienes que son son fragiles, y con respecto al armado de los muebles digamos que lo brindamos como un servicio adicional, no es frecuente"
+
 4:35 - "¿Cuales son los mayores desafios que ha enfrentado su empresa al llevar a cabo sus servicios en los ultimos años?"  
 "Si bien es cierto que en los ultimos años ha habido un incremento importante con respecto a los servicios que demandan nuestros clientes, tambien hemos visto un crecimiento en cuanto al tema de la competencia, entonces frente a estas circunstancias es impotante llegar a los clientes a travez de los medios tecnologicos"  
 
 2. ![empresa-entrevista2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/empresa-entrevista2.JPG?raw=true)  
 [https://www.youtube.com/watch?v=AEatPrxvBlo](https://www.youtube.com/watch?v=AEatPrxvBlo)  
-  
+
 0:15 - "¿Cual es el medio actual por el cual capta a sus potenciales clientes?"  
 "Tenemos una politica de comunicación via el uso de periodicos, via uso de avisos publicados y tambien de manera minima a travez de los medios de internet en una pagina web que tenemos."  
-  
+
 1:35 - "¿De qué manera garantiza que los bienes de los clientes son transportados de manera segura?"  
 "La empresa tiene un protocolo para el traslado de todos estos bienes, ya sean bienes de uso que son sensibles, productos que son bienes duros, nosotros lo que hacemos es empacamos previamente todos los bienes, o en todo caso los desarmamos si son muy grandes y se adecua su transporte de manera que nulo o el minimo daño posible"  
-  
+
 4:59 - "¿Que opina usted sobre la idea de tener una membresía premium que coloque tu empresa en una lista destacada para captar clientes en nuestra página web?"  
 "Nosotros con el transcurrir de los años hemos crecido y yo creo que estar incluidos en una lisyta premiun nos ayudara a aumentar nuestra cartera de clientes y de paso promocionar nuestra empresa lo que conllevaria a un crecimiento que es lo que buscamos."  
 
@@ -406,6 +408,7 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m�
 ### 2.2.3 Análisis de entrevistas  
 
 ***Representantes de Empresas:***    
+
 - Respecto a la cuestión sobre los métodos empleados para atraer a posibles clientes, es esencial destacar que el **100%** de los entrevistados compartieron que recurren de manera recurrente a enfoques tradicionales de marketing y publicidad. Esta estrategia involucra el uso de medios convencionales, tales como anuncios en periódicos locales, letreros publicitarios, y la inclusión de información promocional en los vehículos que pertenecen a su empresa. Además, un dato significativo es que un **66.67%** de los entrevistados mencionó que sus respectivas empresas han establecido presencia en línea mediante la creación de una página web. Sin embargo, es importante subrayar que para la mayoría de ellos, esta presencia en línea no constituye su principal método para atraer clientes. En cambio, la página web se utiliza ocasionalmente como una herramienta adicional en su estrategia global de captación de clientes. A partir de este hallazgo, se puede deducir que es recomendable que las empresas de transporte y mudanzas exploren y optimicen aún más sus estrategias en línea. Esto no solo les permitirá mantener su presencia en los métodos tradicionales que funcionan, sino que también les abrirá las puertas para llegar a nuevos clientes que buscan servicios en la web.
 - Se pudo rescatar que el **100%** de los entrevistados afirmaron que su empresa de mudanza o carga ya poseia protocolos para el transporte de objetos pesados y/o fragiles, asi como politicas para mantener informados a los clientes de la posición de sus pertenencias. Con el objetivo de mantener ello, sabemos que nuestra plataforma necesita incluir un chat para que refuerce la interaccion entre ambas partes, lo que es esencial para la satisfacción del cliente y de la empresa.
 - Se puede afirmar que el **100%** los entrevistados piensan que una aplicación/pagina web que sirva para promocionar sus negocios y ayudarlos a conectar con más clientes seria de mucha ayuda. Esto es de gran relevancia para el desarrollo de una plataforma web de búsqueda de empresas de mudanzas, ya que demuestra que existe una demanda real en el mercado por una solución que aborde la competencia y permita a las empresas de mudanza conectarse de manera efectiva con un público más amplio.
@@ -419,13 +422,13 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m�
 
 ### 2.3.1 User Personas
 **User Persona Ciudadano**
-  
+
 ![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true)  
-  
+
 **User Persona Empresa**
-  
+
 ![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true)  
-  
+
 ### 2.3.2 User Task Matrix
 **User Task Matrix Ciudadano**
 
@@ -461,4 +464,3 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m�
 **As Is Empresa**
 
 ![as is segmento empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true)
-
