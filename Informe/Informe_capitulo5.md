@@ -419,6 +419,11 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
   
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+**GitFlow**    
+![network 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network1.png?raw=true)
+![network 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network2.png?raw=true)
+**Contribuitors**    
+![contribuitors](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/contribuitors.png?raw=true)
 
 **Bibliografia**
 --
