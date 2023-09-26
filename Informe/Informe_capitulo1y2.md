@@ -3,7 +3,7 @@ Ingenieria de Sistemas y Comunicaciones | Ingenieria de Software
 
 Para el curso de Desarrollo de Aplicaciones Open Source  
 SW53 - Elio Jefferson Navarrete Vilca  
-# Course Project - Final Report TB1  
+# Course Project - Final Report TP  
 
 Integrantes:
 - Cuevas Rios, Eric Fernando
