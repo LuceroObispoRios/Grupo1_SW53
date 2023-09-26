@@ -104,6 +104,8 @@ Ahora, para inicializar el despliegue:
 Con esto nuestra aplicación fue desplegada y se puede encontrar en el siguiente link:  
 [https://carga-sin-estres.web.app](https://carga-sin-estres.web.app)
 
+*Para que funcione correctamente se tiene que hacer json-server --watch db.json a nuestra db en json
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
