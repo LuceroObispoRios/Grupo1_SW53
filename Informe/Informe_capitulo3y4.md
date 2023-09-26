@@ -186,18 +186,18 @@ Estilos aplicados para resolución de pantalla de escritorio.
 **Landing Page Wireframe (Mobile)**  
 Estilos aplicados para resolución de pantalla mobile.
 
-![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockupResponsive.png)(https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageMockupResponsive.png?raw=true)  
+![Landing Page Mock-up](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageWireframeResponsive.png?raw=true)  
 
 ## 4.4. Web Applications UX/UI Design.  
 ### 4.4.1. Web Applications Wireframes.  
-![Registro de cliente - wireframe](/Informe/Imagenes/registro-cliente-wireframe.png) 
-![Registro de empresa - wireframe](/Informe/Imagenes/registro-empresa-wireframe.png) 
+![Registro de cliente - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-wireframe.png?raw=true) 
+![Registro de empresa - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa-wireframe.png?raw=true) 
 ![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true)  
 ![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanySearch.png?raw=true)
 ![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanyDetail.png?raw=true)
-![Chat de una reserva - wireframe](/Informe/Imagenes/chat-reserva-wireframe.png) 
-![Formulario membresia - wireframe](/Informe/Imagenes/formulario-membresia-wireframe.png)  
-![Boleta Compra - wireframe](/Informe/Imagenes/boleta-wireframe.png)
+![Chat de una reserva - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chat-reserva-wireframe.png?raw=true) 
+![Formulario membresia - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formulario-membresia-wireframe.png?raw=true)  
+![Boleta Compra - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boleta-wireframe.png?raw=true)
 ![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png)   
 ![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanySearch.png?raw=true)
 ![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanyDetail.png?raw=true)
@@ -217,9 +217,9 @@ Estilos aplicados para resolución de pantalla mobile.
 ![inicio-sesion-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup_login.png?raw=true)  
 ![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanySearch.png?raw=true)
 ![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanyDetail.png?raw=true)
-![Chat de una reserva](/Informe/Imagenes/chat-reserva.png) 
-![Formulario membresia](/Informe/Imagenes/formulario-membresia.png)  
-![Boleta Compra](/Informe/Imagenes/boleta-compra.png)  
+![Chat de una reserva](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chat-reserva.png?raw=true) 
+![Formulario membresia](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formulario-membresia.png?raw=true)  
+![Boleta Compra](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boleta-compra.png?raw=true)  
 
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
 ![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mockup-m.png)  
