@@ -251,6 +251,13 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
+Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
+
+![feature 1]() 
+
+
+
+
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
