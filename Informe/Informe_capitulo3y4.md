@@ -237,15 +237,25 @@ Los diagramas c4 se realizaron con Structurizr.   Enlace:[https://www.structuriz
   
 ### 4.6.1. Software Architecture Context Diagram.
 
+En el diagrama de contexto se observa la relación de tipos de usuarios que interactúan con la aplicación, los cuales son "Ciudadano" y "Empresa". Así como los sistemas externos que se utilizan para el funcionamiento de la aplicación como el sistema de pago Niubiz.  
+
 ![Context Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Contexto.png?raw=true)  
+
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
+En el diagrama de contenedores se observa la relación de los componentes dentro de nuestra aplicación, como el landing page, la aplicación web, los contextos, la base de datos y el API REST.
+
 ![Container Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Contenedor.png?raw=true)  
 
-### 4.6.3. Software Architecture Components Diagrams.
-**Service Context**
 
+### 4.6.3. Software Architecture Components Diagrams.
+
+Los componentes de nuestra aplicación se dividen en 3 contextos, y los patrones utilizados son los siguientes:  
+El patrón **Repository** utilizado para separar la capa de acceso a datos de la capa de la lógica de negocio. Además, ayuda a decidir si debe recuperar datos de una red o usar resultados almacenados en caché de una base de datos local, lo que mejora la gestión de datos y la eficiencia de la aplicación.  
+El patrón **Gateway** utilizado para actuar como un intermediario entre nuestra aplicación y un sistema de pago externo Niubiz. Este enfoque nos proporciona una capa de abstracción que simplifica la comunicación y gestión de pagos, al tiempo que garantiza la seguridad y la flexibilidad en nuestras transacciones financieras.  
+
+**Service Context**
 ![Service Component Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ServiceComponents.png?raw=true)  
 
 **Account Context**
