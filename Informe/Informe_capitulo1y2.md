@@ -21,6 +21,10 @@ Ciclo 2023-02
  TB1 | 23/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se realizó 2 entrevistas a ciudadanos, registro y entrevista. Se avanzó con los wireframes , mockups y código del inicio de sesion. Se añadió searching systems, el software deployment configuration y los testing suite evidence.
  TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1. En codigo, se hizo el registro de empresas.
  TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió General Style Guidelines,Web Style Guidelines, Impact map, Product Backlog. Además para el capitulo V: Software Configuration Management y Development Evidence for Sprint Review. En código, se hizo el registro de clientes (individuos). Se organizó el project Keynote.
+  TP | 05/09/23 - 26/09/23  | Lucero Obispo| Se añadió 
+ TP | 05/09/23 - 26/09/23  | Andrea O'Higgins| Se añadió 
+ TP | 05/09/23 - 26/09/23  | Eric Cuevas| Se desarrollo las partes de registro, login y ajustes de usuario de la app, se añadieron wireframes y mockups, se corrigio partes del sprint 1 asi como historias de Usuario, realize el deployment de la app y los puntos relazcionados a este.
+ TP | 05/09/23 - 26/09/23  | Javier Sebastian| Se añadió 
 ---
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
