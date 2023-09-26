@@ -15,6 +15,26 @@ export class ToolbarLandingComponent {
     this.router.navigateByUrl('/landing-page');
   }
 
+  pageLandingServices(){
+    this.router.navigateByUrl('/landing-page#services');
+  }
+
+  pageLandingAboutUs(){
+    this.router.navigateByUrl('/landing-page#aboutus');
+  }
+
+  pageLandingPlans(){
+    this.router.navigateByUrl('/landing-page#plans');
+  }
+
+  pageLandingTestimonials(){
+    this.router.navigateByUrl('/landing-page#testimonials');
+  }
+
+  pageContact(){
+    this.router.navigateByUrl('/contact');
+  }
+
   pageLoginForm(){
     this.router.navigateByUrl('/login');
   }
