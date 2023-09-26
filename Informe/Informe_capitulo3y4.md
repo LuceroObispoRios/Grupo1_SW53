@@ -217,8 +217,8 @@ Estilos aplicados para resolución de pantalla mobile.
 ![Boleta Compra](/Informe/Imagenes/boleta-compra.png)  
 
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
-![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mockup-m.png?raw=true)  
-![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa-mockup-m.png?raw=true)  
+![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mockup-m.png)  
+![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa-mockup-m.png)  
 ![historial-reservas-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-historial-reservas.png)  
 ![chat-reserva-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-chat-reserva.png)  
 
