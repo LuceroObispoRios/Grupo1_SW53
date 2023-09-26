@@ -249,14 +249,51 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
+Para este Sprint se desarrolló el Frontend de la plataforma.
+
+![Development Evidence](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/development-evidence-sprint2-os.png?raw=true) 
+
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
 
-![feature 1]() 
+![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature01.png?raw=true) 
 
+![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature02.png?raw=true)
 
+![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature03.png?raw=true)
 
+![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature04.png?raw=true)
+
+![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature05.png?raw=true)
+
+![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature06.png?raw=true)
+
+![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature07.png?raw=true)  
+
+![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature08.png?raw=true)  
+
+![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature09.png?raw=true)  
+
+![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature10.png?raw=true) 
+
+![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature11.png?raw=true) 
+
+![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature12.png?raw=true) 
+
+![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature13.png?raw=true) 
+
+![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature14.png?raw=true) 
+
+![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature15.png?raw=true) 
+
+![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature16.png?raw=true) 
+
+![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature17.png?raw=true) 
+
+![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature18.png?raw=true) 
+
+![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/feature19.png?raw=true) 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
 
