@@ -1,4 +1,4 @@
- <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/logoUPC.png?raw=true"> 
+ <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/logoUPC.png?raw=true" width="400" height="132"> 
 <br><br>  
 Ingenieria de Sistemas y Comunicaciones | Ingenieria de Software  
 
