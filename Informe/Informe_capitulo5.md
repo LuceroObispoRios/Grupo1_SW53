@@ -243,7 +243,22 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 ### 5.2.2. Sprint 2
 
-#### 5.2.2.1. Sprint Planning 2.
+#### 5.2.2.1. Sprint Planning 2.  
+
+| **Sprint 2** | |
+|:---: | :---| 
+| | **Sprint planning background** |   
+| Date | 11/09/23 |
+| Time | 08:00 PM |
+| Location | Google Meet - Virtual Meeting |
+| Prepared by | Cuevas, Eric |
+| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Tasayco, Javier  |
+| Sprint n - 1 Review Summary | Se Inicio con el desarrollo de la aplicación web, implementandose la landing page y los principios de otras partes de la aplicación, asi como se termino una primera versión del informe |
+| Sprint n - 1 Retrospective Summary | Junto con el feedback recibido, podemos acordar que varias partes del desarrollo en ambos el informe y aplicación necesitan mejoras para cumplir los estandares requeridos, aspiramos a que este sprint 2 sea mejor. |
+| | **Sprint Goal & User Stories** |
+| Sprint & Goal | El objetivo del Sprint 2 sera terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien se terminara con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.|
+| Sprint & Velocity | El Sprint Velocity establecido para este sprint es # |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es # |  
 
 #### 5.2.2.2. Sprint Backlog 1.  
 
