@@ -275,8 +275,8 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 | Sprint n - 1 Retrospective Summary | Junto con el feedback recibido, podemos acordar que varias partes del desarrollo en ambos el informe y aplicación necesitan mejoras para cumplir los estandares requeridos, aspiramos a que este sprint 2 sea mejor. |
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 2 sera terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien se terminara con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.|
-| Sprint & Velocity | El Sprint Velocity establecido para este sprint es # |
-| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es # |   
+| Sprint & Velocity | El Sprint Velocity establecido para este sprint es 60 |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 50 |   
   
 #### 5.2.2.2. Sprint Backlog 2.  
 
