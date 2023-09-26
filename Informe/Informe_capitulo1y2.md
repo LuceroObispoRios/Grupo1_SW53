@@ -24,7 +24,7 @@ Ciclo 2023-02
   TP | 05/09/23 - 26/09/23  | Lucero Obispo| Se actualizo el diagrama de clases, labeling systems, descripcion de startup, analisis de entrevistas. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
  TP | 05/09/23 - 26/09/23  | Andrea O'Higgins| Se añadió el historial de reserva y el chat en la app, se diseñaron los wireframes y mockups. Se actualizó los user stories y features, y se agregó para el sprint2 el development evidence y testing suite evidence.
  TP | 05/09/23 - 26/09/23  | Eric Cuevas| Se desarrollo las partes de registro, login y ajustes de usuario de la app, se añadieron wireframes y mockups, se corrigio partes del sprint 1 asi como historias de Usuario, realize el deployment de la app y los puntos relazcionados a este.
- TP | 05/09/23 - 26/09/23  | Javier Sebastian| Se añadió 
+ TP | 05/09/23 - 26/09/23  | Javier Sebastian| Se desarrollo la parte de las membresías y el formulario de suscripción de membresía. Se actualizó los wireframes y mock-ups según las variaciones de estilos realizados en código. Se corrigió el impact map y actualizó el product backlog. 
 ---
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
