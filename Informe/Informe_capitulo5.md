@@ -75,6 +75,10 @@ Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la legibilidad, se 
 Descripción: Lenguaje de programación que se usa para poder darle funcionalidades a las páginas web y que permita manipular su contenido y responder a acciones del usuario.  
 Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la comprensión del código, se utilizaran nombre de variables y funciones en minúscula, no abreviados y que describan su propósito. Asimismo, se dividirán funciones largas en funciones más pequeñas para facilitar la lectura.  
 
+***Angular:***    
+Descripción: Framework de desarrollo de apliciones web escalables y dinámicas, se basa en typescript.   
+Convenciones: De acuerdo a Angular (s.f.), la nomenclatura se hace con nombres descriptivos y para separa palabras se utlizan guiones. Se debe utilizar un estructura de carpeta para separar los componentes, módulos y servicios.
+
 ### 5.1.4. Software Deployment Configuration.
 Para almacenar y manejar el flujo de trabajo del equipo, hemos creado un repositorio en GitHub. Utilizaremos "main" como la rama principal para el desarrollo.
 Para su configuración es necesario clonar el repositorio desde GitHub con el URL: https://github.com/LuceroObispoRios/Grupo1_SW53.git.  Este proceso descargará todo el contenido del repositorio en la máquina local.
@@ -270,12 +274,53 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+**Introducion:**  
+Para este segundo sprint se ha logrado implementar 12 endpoints, los cuales han sido exitosamente logrados y documentados.  
+Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
+Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
+Los metodos PUT clients y companies estan relacionados a las pantallas Client Settings y Company Settings, para editar los datos de estos.  
+Los metodos GET companies y GET companies con parametro de id, estan relacionados a la pantalla de Busqueda de Empresas, donde el usuario puede ver la lista completa de empresa, y cuando le da click a una fila puede acceder a la informacion de una empresa en especifica.  
+Por ultimo, los metodos POST bookingHistory, GET booking History, asi como los metodos GET chat y POST chat permiten al usuario crear una reserva como visualizar en el historia de reservas, teniendo en cuenta que desde este historial se puede crear mensajes.
+
+**Tabla:**  
+
+|     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
+|--------|----------|--------|-------|
+|  /companies         |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  |            |
+|  /companies/{id}    |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') |            |
+|  /bookingHistory    |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              |            |
+|  /bookingHistory    |       GET       | 200 OK: Retorna la lista de todas las reservas de historial registradas                                     |            |
+|  /chat              |       GET       | 200 OK: Retorna la lista de todos los mensajes de chat registrados                                          |            |
+|  /chat              |       POST      | 201 Created: Indica que el mensaje de chat ha sido creado exitosamente                                      |            |
+|  /clients           |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             |            |
+|  /companies         |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válida                            |            |
+|  /clients           |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              |            |
+|  /companies         |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             |            |
+|  /clients/{id}      |       PUT       | 200 OK: Indica que los datos del cliente han sido actualizados exitosamente (paranetro, ejemplo: '31')      |            |
+|  /companies/{id}    |       PUT       | 200 OK: Indica que los datos de la compañía han sido actualizados exitosamente (paranetro, ejemplo: '2')    |            |  
+
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts)  
+
+**Commits de documentacion**  
+| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
+|--------|----------|--------|-------|-------|--------|
+| https://github.com/LuceroObispoRios/Grupo1_SW53.git   | main  |     |   | -   | |
+|                                                       | main  |   | | -   |   |
+|                                                       | main  |    |   | -   |   |
+|                                                       | main  |    |   | -   |  |
+|                                                       | main  |   |   | -   |  |  
+
+**Captura de interaccion con datos de prueba**  
+
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 **Bibliografia**
 --
+Angular. (s.f.). Guía de estilo. Recuperado de https://angular.io/guide/styleguide [Fecha de consulta: 25 de septiembre de 2023] 
+
 Cucumber. (s.f.). Gherkin Reference. Recuperado de: https://cucumber.io/docs/gherkin/reference/ [Fecha de consulta: 04 de septiembre de 2023]  
 
 El comercio. (s.f.). Diario Gestion. Los agentes especializados para mudarte a otro espacio.  
@@ -300,6 +345,6 @@ W3Schools. (s.f.). HTML5 Syntax. Recuperado de: https://www.w3schools.com/html/h
 --
 Video de exposición de la TB1 en microsoft stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EcuOzspz92lJtcUlIxN4FJYBjM7FOt5j5CsGr0Is2BjP-A?e=ntodCg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EcuOzspz92lJtcUlIxN4FJYBjM7FOt5j5CsGr0Is2BjP-A?e=ntodCg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19) 
 
-Video de exposición de la TB1 en google Drivea: [https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing](https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing)  
+Video de exposición de la TB1 en google Drive: [https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing](https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing)  
 
 Repositorio del Trabajo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git](https://github.com/LuceroObispoRios/Grupo1_SW53.git)
