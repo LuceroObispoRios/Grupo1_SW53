@@ -1,8 +1,8 @@
 export const environment = {
-    development: false,
+    production: true,
     baseURL: 'http://localhost:3000',
 
-    firebaseConfig : {
+    firebaseConfig: {
         apiKey: "AIzaSyA0d_Pt39uLmE3H01_5DwrkYuryIK9fjw0",
         authDomain: "carga-sin-estres.firebaseapp.com",
         projectId: "carga-sin-estres",

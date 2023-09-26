@@ -92,7 +92,7 @@ export class ClientSettingsComponent {
       );
 
     }
-    
+
   }
 
   cancelar(){
