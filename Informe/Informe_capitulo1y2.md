@@ -17,10 +17,14 @@ Ciclo 2023-02
 
  Versión| Fecha| Integrante| Descripción de modificación|
  :-----:|:-----:|:-----:|:-----
- TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags. Se realizo 1 entrevista a trabajador de empresa, su registro y analisis. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
+ TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags. Para el sprint 2, se realizo el services documentation evidence for sprint review. En codigo, se hizo la pagina busqueda de empresas e informacion de empresa, asi como se ayudo en el desarrollo del proyecto angular en general.
  TB1 | 23/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se realizó 2 entrevistas a ciudadanos, registro y entrevista. Se avanzó con los wireframes , mockups y código del inicio de sesion. Se añadió searching systems, el software deployment configuration y los testing suite evidence.
  TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1. En codigo, se hizo el registro de empresas.
  TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió General Style Guidelines,Web Style Guidelines, Impact map, Product Backlog. Además para el capitulo V: Software Configuration Management y Development Evidence for Sprint Review. En código, se hizo el registro de clientes (individuos). Se organizó el project Keynote.
+  TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se actualizo el diagrama de clases, labeling systems, descripcion de startup, analisis de entrevistas. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
+ TB1 | 23/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió 
+ TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió 
+ TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió 
 ---
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
