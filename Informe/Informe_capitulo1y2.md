@@ -142,7 +142,7 @@ Fotografia de Perfil:
 Carrera: Ingenieria de Software  
 Acerca De: Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
 Fotografia de Perfil:  
-![profile4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/b61a7927917e1dab8195a4684e2b1c9d66c3c330/Informe/Imagenes/integrante4.jpg)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true" width="300" height="356">
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
