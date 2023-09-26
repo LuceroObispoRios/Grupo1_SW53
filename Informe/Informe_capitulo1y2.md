@@ -1,5 +1,5 @@
  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/logoUPC.png?raw=true" width="400" height="132"> 
-<br><br>  
+
 Ingenieria de Sistemas y Comunicaciones | Ingenieria de Software  
 
 Para el curso de Desarrollo de Aplicaciones Open Source  
@@ -132,29 +132,29 @@ Misión: Nuestra misión es simplificar y mejorar el proceso de mudanza para los
 Visión: Buscamos convertirnos en la principal plataforma en la industria de mudanzas y transporte de bienes grandes como muebles, siendo reconocidos por nuestra capacidad para conectar de manera eficaz a los clientes con las empresas de mudanzas, proporcionando una experiencia sin problemas y confiable para todos los involucrados.    
 
 ### 1.1.2 Perfiles de los integrantes del equipo  
-* Nombres y Apellidos: Eric Fernando Cuevas Rios  
-Carrera: Ingenieria de Software  
-Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
-Fotografia de Perfil:  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.jpg?raw=true" width="300" height="460" style="margin-left:30px;">  
+* **Nombres y Apellidos:** Eric Fernando Cuevas Rios  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
+**Fotografia de Perfil:**   
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.jpg?raw=true" width="300" height="460" style="margin-left:50px;">  
 
-* Nombres y Apellidos: Lucero Abigail Obispo Rios  
-Carrera: Ingenieria de Software  
-Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
-Fotografia de Perfil:     
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpeg?raw=true" width="300" height="312" style="margin-left:30px;">
+* **Nombres y Apellidos:** Lucero Abigail Obispo Rios  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
+**Fotografia de Perfil:**       
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpeg?raw=true" width="300" height="312" style="margin-left:50px;">
 
-* Nombres y Apellidos: Javier Martin Sebastian Tasayco  
-Carrera: Ingenieria de Software  
-Acerca De: Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesto a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.  
-Fotografia de Perfil:  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante3.jpg?raw=true" width="300" height="400" style="margin-left:30px;">
+* **Nombres y Apellidos:** Javier Martin Sebastian Tasayco  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesto a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.  
+**Fotografia de Perfil:**  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante3.jpg?raw=true" width="300" height="400" style="margin-left:50px;">
 
-* Nombres y Apellidos: Andrea Namie O'Higgins Rosales  
-Carrera: Ingenieria de Software  
-Acerca De: Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
-Fotografia de Perfil:  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true" width="300" height="356" style="margin-left:30px;">
+* **Nombres y Apellidos:** Andrea Namie O'Higgins Rosales  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
+**Fotografia de Perfil:**    
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true" width="300" height="356" style="margin-left:50px;">
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
