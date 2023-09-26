@@ -82,7 +82,7 @@ Convenciones: De acuerdo a Angular (s.f.), la nomenclatura se hace con nombres d
 ### 5.1.4. Software Deployment Configuration.  
 Para el desplegue de nuestra aplicación decidimos usar firebase.  
 
-El despliegue de la aplicación se realiza primero creando una cuenta en !(https://firebase.google.com)[https://firebase.google.com], a partir de eso, se debe crear un proyecto vacio en el cual guardar el despliegue del proyecto.  
+El despliegue de la aplicación se realiza primero creando una cuenta en [https://firebase.google.com](https://firebase.google.com), a partir de eso, se debe crear un proyecto vacio en el cual guardar el despliegue del proyecto.  
 ![Proyecto en Firebase](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/FirebaseProyecto.JPG?raw=true)
 
 Para realizar el despliegue en si, se tiene que ejecutar los siguientes comandos en orden :  
