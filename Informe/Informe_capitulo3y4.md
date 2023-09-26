@@ -190,29 +190,42 @@ Estilos aplicados para resolución de pantalla mobile.
 
 ## 4.4. Web Applications UX/UI Design.  
 ### 4.4.1. Web Applications Wireframes.  
+#### DESKTOP
 ![Registro de cliente - wireframe](/Informe/Imagenes/registro-cliente-wireframe.png) 
 ![Registro de empresa - wireframe](/Informe/Imagenes/registro-empresa-wireframe.png) 
-![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true)  
-![Busqueda de empresas - wireframe](/Informe/Imagenes/busqueda-empresas-wireframe.png)
+![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true) 
+![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanySearch.png?raw=true)
+![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanyDetail.png?raw=true)
 ![Chat de una reserva - wireframe](/Informe/Imagenes/chat-reserva-wireframe.png) 
 ![Formulario membresia - wireframe](/Informe/Imagenes/formulario-membresia-wireframe.png)  
 ![Boleta Compra - wireframe](/Informe/Imagenes/boleta-wireframe.png)
 ![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png)   
+
+#### MOBILE
+![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanySearch.png?raw=true)
+![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanyDetail.png?raw=true)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.  
 ![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow1.png?raw=true)
   
 ![wireframe-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow2.png?raw=true)  
 
+![wireframe-flow3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow3.png?raw=true)
+
 ### 4.4.2. Web Applications Mock-ups.  
+#### DESKTOP
 ![registro-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-cliente.png?raw=true)  
 ![registro-empresa-mockup](/Informe/Imagenes/registro-empresa-mockup.png)  
 ![inicio-sesion-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup_login.png?raw=true)  
-![Busqueda de empresas](/Informe/Imagenes/busqueda-empresas-mockup.png)
+![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanySearch.png?raw=true)
+![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanyDetail.png?raw=true)
 ![Chat de una reserva](/Informe/Imagenes/chat-reserva.png) 
 ![Formulario membresia](/Informe/Imagenes/formulario-membresia.png)  
 ![Boleta Compra](/Informe/Imagenes/boleta-compra.png)  
 
+#### MOBILE
+![mobile-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupMobile-CompanySearch.png?raw=true)
+![mobile-companyDetail-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupMobile-CompanyDetail.png?raw=true)
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
 ![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mobile.png?raw=true)  
 ![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa.mobile.png?raw=true)  
@@ -224,6 +237,7 @@ Estilos aplicados para resolución de pantalla mobile.
   
 ![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow2.png?raw=true)   
 
+![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockup-flow3.png?raw=true)   
 ## 4.5. Web Applications Prototyping.  
 El prototipo de secuencia web se encuentra en el siguiente enlace :   
 [https://www.figma.com/proto/FFKvovSKPyL6LW7e2DDSph/Wireframes?type=design&node-id=26-453&t=wLRuXHHBxMj8lVew-1&scaling=min-zoom&page-id=2%3A3&starting-point-node-id=26%3A453&show-proto-sidebar=1&mode=design](https://www.figma.com/proto/FFKvovSKPyL6LW7e2DDSph/Wireframes?type=design&node-id=26-453&t=wLRuXHHBxMj8lVew-1&scaling=min-zoom&page-id=2%3A3&starting-point-node-id=26%3A453&show-proto-sidebar=1&mode=design)  
