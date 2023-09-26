@@ -1,4 +1,5 @@
-Universidad Peruana de ciencias aplicadas  
+ <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/logoUPC.png?raw=true"> 
+<br><br>  
 Ingenieria de Sistemas y Comunicaciones | Ingenieria de Software  
 
 Para el curso de Desarrollo de Aplicaciones Open Source  
