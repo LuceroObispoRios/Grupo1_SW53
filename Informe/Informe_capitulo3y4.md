@@ -19,7 +19,7 @@
   
 ## 3.3. Impact Mapping
 
-![impact map]()
+![impact map](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Javier/feature/Informe/Imagenes/Impact%20map%20CSE.png?raw=true)
 
 ## 3.4. Product Backlog
 
