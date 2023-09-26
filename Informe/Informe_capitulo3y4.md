@@ -201,7 +201,7 @@ Estilos aplicados para resolución de pantalla mobile.
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.  
-![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow1.png?raw=true)
+![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireflow-wireframe-1.png?raw=true)
   
 ![wireframe-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow2.png?raw=true)  
 
@@ -223,9 +223,9 @@ Estilos aplicados para resolución de pantalla mobile.
 ![chat-reserva-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-chat-reserva.png)  
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
-![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow1.png?raw=true)    
+![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireflow-mockup-1.png?raw=true)    
   
-![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow2.png?raw=true)   
+![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireflow-mockup-2.png?raw=true)   
 
 ## 4.5. Web Applications Prototyping.  
 El prototipo de secuencia web se encuentra en el siguiente enlace :   
