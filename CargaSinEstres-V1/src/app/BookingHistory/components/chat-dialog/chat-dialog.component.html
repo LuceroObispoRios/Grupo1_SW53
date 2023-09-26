@@ -1,0 +1,23 @@
+<p><button mat-icon-button mat-dialog-close class="btn-close">
+    <mat-icon>close</mat-icon>
+</button></p>
+<p>
+    <mat-dialog-content>
+        <header style="display: flex ;">
+            <mat-icon> chat_bubble</mat-icon>&nbsp;&nbsp;
+            <h1>Chat</h1>
+        </header>
+
+        <form  #chatForm='ngForm'>
+            <div class="dialog-content">
+                <div>
+                    <mat-form-field appearance="outline">
+                        <textarea class="textarea-message" matInput placeholder="Message" [(ngModel)]="chatData.message" name="message"></textarea>
+                    </mat-form-field>
+                </div>&nbsp;&nbsp;
+
+                <div><button mat-raised-button  class="btn-enviar-mensaje" (click)="sendMessage()">Enviar mensaje</button></div>
+            </div>
+        </form>
+    </mat-dialog-content>
+</p>

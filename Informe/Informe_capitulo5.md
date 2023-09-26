@@ -75,6 +75,10 @@ Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la legibilidad, se 
 Descripción: Lenguaje de programación que se usa para poder darle funcionalidades a las páginas web y que permita manipular su contenido y responder a acciones del usuario.  
 Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la comprensión del código, se utilizaran nombre de variables y funciones en minúscula, no abreviados y que describan su propósito. Asimismo, se dividirán funciones largas en funciones más pequeñas para facilitar la lectura.  
 
+***Angular:***    
+Descripción: Framework de desarrollo de apliciones web escalables y dinámicas, se basa en typescript.   
+Convenciones: De acuerdo a Angular (s.f.), la nomenclatura se hace con nombres descriptivos y para separa palabras se utlizan guiones. Se debe utilizar un estructura de carpeta para separar los componentes, módulos y servicios.
+
 ### 5.1.4. Software Deployment Configuration.
 Para almacenar y manejar el flujo de trabajo del equipo, hemos creado un repositorio en GitHub. Utilizaremos "main" como la rama principal para el desarrollo.
 Para su configuración es necesario clonar el repositorio desde GitHub con el URL: https://github.com/LuceroObispoRios/Grupo1_SW53.git.  Este proceso descargará todo el contenido del repositorio en la máquina local.
@@ -273,6 +277,7 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 |                      |                             |     WI20                  |     Contactar   con el trabajador de la empresa        |     Hacer uso de HTML para implementar el contacto con el trabajador*                        |     1h            |     Javier Tasayco     |     Completado    |
 |                      |                             |     WI21                  |     Acordar   un precio por servicio reservado         |     Hacer uso de HTML y JavaScript para aceptar la reserva.                                 |     1h            |     Javier Tasayco     |     Por completar    |
 
+
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
@@ -288,6 +293,8 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 **Bibliografia**
 --
+Angular. (s.f.). Guía de estilo. Recuperado de https://angular.io/guide/styleguide [Fecha de consulta: 25 de septiembre de 2023] 
+
 Cucumber. (s.f.). Gherkin Reference. Recuperado de: https://cucumber.io/docs/gherkin/reference/ [Fecha de consulta: 04 de septiembre de 2023]  
 
 El comercio. (s.f.). Diario Gestion. Los agentes especializados para mudarte a otro espacio.  
@@ -312,6 +319,6 @@ W3Schools. (s.f.). HTML5 Syntax. Recuperado de: https://www.w3schools.com/html/h
 --
 Video de exposición de la TB1 en microsoft stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EcuOzspz92lJtcUlIxN4FJYBjM7FOt5j5CsGr0Is2BjP-A?e=ntodCg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EcuOzspz92lJtcUlIxN4FJYBjM7FOt5j5CsGr0Is2BjP-A?e=ntodCg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19) 
 
-Video de exposición de la TB1 en google Drivea: [https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing](https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing)  
+Video de exposición de la TB1 en google Drive: [https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing](https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing)  
 
 Repositorio del Trabajo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git](https://github.com/LuceroObispoRios/Grupo1_SW53.git)
