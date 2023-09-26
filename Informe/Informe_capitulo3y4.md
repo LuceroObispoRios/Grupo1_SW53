@@ -72,7 +72,7 @@ Por otro lado, este camión esta encerrado por un círculo el cual representa mo
 Los colores usados como amarillo y azul crean un ambiente de confianza, profesionalidad, elegancia y solidez.    
 Del mismo modo se considera el nombre del proyecto para relacionarlo con la imagen del camión.
 
-![logo](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Proyecto/image/Cargalogo.png?raw=true)
+![logo](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/public-images/Cargalogo.png?raw=true)
 
 **Typography**
 Se definieron dos tipos de tipografías que cumpliesen con el propósito definido de mostrar optimismo y elegancia. Estas son: Open Sans y Robot.
