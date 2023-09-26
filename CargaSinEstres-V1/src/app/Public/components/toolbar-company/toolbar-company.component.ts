@@ -9,12 +9,17 @@ import { Router } from '@angular/router';
 export class ToolbarCompanyComponent {
 
   constructor(private router: Router) { }
-
-  pageCompanyTable(){
-    this.router.navigateByUrl('/company-table');
-  }
+  
   pageSettings(){
-    this.router.navigateByUrl('/company-settings/id:');
+    this.router.navigateByUrl('/company-settings/:id');
+  }
+
+  pageMembership(){
+    this.router.navigateByUrl('/membership');
+  }
+
+  pageLanding(){
+    this.router.navigateByUrl('/landing-page');
   }
 
 }

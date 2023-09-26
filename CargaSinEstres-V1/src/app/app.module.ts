@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from 'src/shared/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+
 import { ToolbarLandingComponent } from './Public/components/toolbar-landing/toolbar-landing.component';
 import { FooterComponent } from './Public/components/footer/footer.component';
 import { LandingPageComponent } from './Public/components/landing-page/landing-page.component';

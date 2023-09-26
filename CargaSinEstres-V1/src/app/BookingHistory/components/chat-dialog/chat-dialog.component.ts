@@ -16,7 +16,7 @@ export class ChatDialogComponent {
 
   @ViewChild('chatForm',{static: false}) chatForm!: NgForm;
 
-  constructor(private httpDataService: CargaSinEstresDataService){
+  constructor(private companyDataService: CargaSinEstresDataService){
     this.chatData = {} as Chat;
   }
 
@@ -25,7 +25,7 @@ export class ChatDialogComponent {
   }
 
   getMessages(){
-    this.httpDataService.getItems().subscribe((response: any) => {
+    this.companyDataService.getItems().subscribe((response: any) => {
       console.log(response);
     })
   }
@@ -35,9 +35,10 @@ export class ChatDialogComponent {
     this.chatData.id=0;
     this.chatData.dateTime = new Date().toLocaleDateString();
     console.log(this.chatData);
-    this.httpDataService.createItem(this.chatData).subscribe((response: any) => {
+    this.companyDataService.createItem(this.chatData).subscribe((response: any) => {
       console.log(response);
     })
     this.chatForm.reset();
   }
+
 }
