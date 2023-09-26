@@ -388,34 +388,49 @@ Por ultimo, los metodos POST bookingHistory, GET booking History, asi como los m
 
 |     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
 |--------|----------|--------|-------|
-|  /companies         |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  |            |
-|  /companies/{id}    |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') |            |
-|  /bookingHistory    |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              |            |
-|  /bookingHistory    |       GET       | 200 OK: Retorna la lista de todas las reservas de historial registradas                                     |            |
-|  /chat              |       GET       | 200 OK: Retorna la lista de todos los mensajes de chat registrados                                          |            |
-|  /chat              |       POST      | 201 Created: Indica que el mensaje de chat ha sido creado exitosamente                                      |            |
-|  /clients           |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             |            |
-|  /companies         |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válida                            |            |
-|  /clients           |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              |            |
-|  /companies         |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             |            |
-|  /clients/{id}      |       PUT       | 200 OK: Indica que los datos del cliente han sido actualizados exitosamente (paranetro, ejemplo: '31')      |            |
-|  /companies/{id}    |       PUT       | 200 OK: Indica que los datos de la compañía han sido actualizados exitosamente (paranetro, ejemplo: '2')    |            |  
+|  /companies         |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  |   [https://carga-sin-estres.web.app/company-table](https://carga-sin-estres.web.app/company-table)      |
+|  /companies/{id}    |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') |   [https://carga-sin-estres.web.app/company/1](https://carga-sin-estres.web.app/company/1)         |
+|  /bookingHistory    |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              |   [https://carga-sin-estres.web.app/company/1](https://carga-sin-estres.web.app/company/1)         |
+|  /bookingHistory    |       GET       | 200 OK: Retorna la lista de todas las reservas de historial registradas                                     |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /chat              |       GET       | 200 OK: Retorna la lista de todos los mensajes de chat registrados                                          |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /chat              |       POST      | 201 Created: Indica que el mensaje de chat ha sido creado exitosamente                                      |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /clients           |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             |   [https://carga-sin-estres.web.app/login](https://carga-sin-estres.web.app/login)         |
+|  /companies         |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válida                            |   [https://carga-sin-estres.web.app/login](https://carga-sin-estres.web.app/login)         |
+|  /clients           |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              |   [https://carga-sin-estres.web.app/client-form](https://carga-sin-estres.web.app/client-form)         |
+|  /companies         |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             |   [https://carga-sin-estres.web.app/company-form](https://carga-sin-estres.web.app/company-form)         |
+|  /clients/{id}      |       PUT       | 200 OK: Indica que los datos del cliente han sido actualizados exitosamente (paranetro, ejemplo: '31')      |   [https://carga-sin-estres.web.app/client-settings/1](https://carga-sin-estres.web.app/client-settings/1)         |
+|  /companies/{id}    |       PUT       | 200 OK: Indica que los datos de la compañía han sido actualizados exitosamente (paranetro, ejemplo: '2')    |   [https://carga-sin-estres.web.app/client-settings/8](https://carga-sin-estres.web.app/company-settings/8)         |  
 
 Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts)  
 
-**Commits de documentacion**  
-| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
-|--------|----------|--------|-------|-------|--------|
-| https://github.com/LuceroObispoRios/Grupo1_SW53.git   | main  |     |   | -   | |
-|                                                       | main  |   | | -   |   |
-|                                                       | main  |    |   | -   |   |
-|                                                       | main  |    |   | -   |  |
-|                                                       | main  |   |   | -   |  |  
+**Captura de interaccion con datos de prueba**   
 
-**Captura de interaccion con datos de prueba**  
+*Registrar Cliente*  
+- Antes de registrar cliente Lucero. Como se puede ver, el unico cliente es Eric  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services1.JPG?raw=true)
 
+- Despues de registrar cliente Lucero. Como se pueder, el db.json cambio, pues se ha agregado un nuevo registro que guarda la informacion del cliente lucero. Mediante la sintaxis POST /clients  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services2.JPG?raw=true)
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+*Obtener la informacion de una empresa por su id*  
+- Mediante la sintaxis GET /companies/{id}. En la consola se puede visualizar la informacion obtenida de esa empresa en especifico  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services3.JPG?raw=true)  
+
+*Realizar una reserva*  
+- Antes de realizar una reserva  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services4.JPG?raw=true)  
+
+- Mediante la sintaxis POST /bookingHistory. Se crea una reserva y se almacena el db.json, se puede ver en la consola la informacion de la nueva reserva.
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services5.JPG?raw=true)  
+
+**Editar datos de un cliente**  
+- Antes de presionar el boton de guardar cambios, se puede ver en la consola que la informacion del cliente actual es la informacion de Eric.  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services6.JPG?raw=true)
+
+- Mediante la sintaxis PUT /clients/{id}. Se edita los datos cliente Eric, y son reemplazados por la del cliente Celia  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services7.JPG?raw=true)  
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.  
 La aplicación desplegada se encuentra en el siguiente enlace  
 [https://carga-sin-estres.web.app](https://carga-sin-estres.web.app),  
 más para su correcto funcionamiento, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
