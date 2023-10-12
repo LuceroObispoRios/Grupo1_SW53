@@ -132,7 +132,8 @@
   "bookingHistory": [
     {
       "id": 1,
-      "idCompany": 2,
+      "idCompany": 1,
+      "idClient": 1,
       "bookingDate": "2023-07-15",
       "pickupAddress": "Ate",
       "destinationAddress": "Barranco",
@@ -151,7 +152,8 @@
     },
     {
       "id": 2,
-      "idCompany": 3,
+      "idCompany": 2,
+      "idClient": 1,
       "bookingDate": "2023-08-16",
       "pickupAddress": "Lince",
       "destinationAddress": "Barranco",
@@ -171,6 +173,7 @@
     {
       "id": 3,
       "idCompany": 4,
+      "idClient": 1,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -190,6 +193,7 @@
     {
       "id": 4,
       "idCompany": 5,
+      "idClient": 2,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -209,6 +213,7 @@
     {
       "id": 5,
       "idCompany": 6,
+      "idClient": 2,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -228,6 +233,7 @@
     {
       "id": 6,
       "idCompany": 7,
+      "idClient": 1,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -247,6 +253,7 @@
     {
       "id": 7,
       "idCompany": 8,
+      "idClient": 1,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -281,6 +288,16 @@
       "email": "e@gmail.com",
       "password": "123456",
       "id": 1
+    },
+    {
+      "name": "andrea",
+      "apellidoMaterno": "rosales",
+      "apellidoPaterno": "ohiggins",
+      "celular": "911222333",
+      "direccion": "lince",
+      "email": "a@gmail.com",
+      "password": "0123456",
+      "id": 2
     }
   ]
 }
