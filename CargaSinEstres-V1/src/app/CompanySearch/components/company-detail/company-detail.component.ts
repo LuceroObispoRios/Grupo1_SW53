@@ -18,6 +18,7 @@ export class CompanyDetailComponent implements OnInit {
     reservation: BookingHistory = {
       id: undefined,
       idCompany: '',
+      idClient: '',
       bookingDate: undefined,
       pickupAddress: undefined,
       destinationAddress: undefined,
