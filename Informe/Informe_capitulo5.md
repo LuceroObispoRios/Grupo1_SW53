@@ -79,18 +79,32 @@ Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la comprensión del
 Descripción: Framework de desarrollo de apliciones web escalables y dinámicas, se basa en typescript.   
 Convenciones: De acuerdo a Angular (s.f.), la nomenclatura se hace con nombres descriptivos y para separa palabras se utlizan guiones. Se debe utilizar un estructura de carpeta para separar los componentes, módulos y servicios.
 
-### 5.1.4. Software Deployment Configuration.
-Para almacenar y manejar el flujo de trabajo del equipo, hemos creado un repositorio en GitHub. Utilizaremos "main" como la rama principal para el desarrollo.
-Para su configuración es necesario clonar el repositorio desde GitHub con el URL: https://github.com/LuceroObispoRios/Grupo1_SW53.git.  Este proceso descargará todo el contenido del repositorio en la máquina local.
-Para el entorno de desarrollo se utilizará el Visual Studio Code.
-Para este sprint, hemos desarrollado la landing page, y su despliegue se realizó en la plataforma de GitHub Pages. 
+### 5.1.4. Software Deployment Configuration.  
+Para el desplegue de nuestra aplicación decidimos usar firebase.  
 
-Primero se eligió la rama en donde se alojará y desplegará el landing page. Este será la rama deployment con la carpeta origen en el /root.
-Guardamos la configuración y github nos proporcionó el link de la página. Luego de unos minutos la página pudo visualizarse correctamente.
+El despliegue de la aplicación se realiza primero creando una cuenta en [https://firebase.google.com](https://firebase.google.com), a partir de eso, se debe crear un proyecto vacio en el cual guardar el despliegue del proyecto.  
+![Proyecto en Firebase](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/FirebaseProyecto.JPG?raw=true)
 
-![landing page deployment configuration](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/landing-page-deployment.jpeg?raw=true)
+Para realizar el despliegue en si, se tiene que ejecutar los siguientes comandos en orden :  
+![Paso1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando1.JPG?raw=true)  
+![Paso2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando2.JPG?raw=true)  
+![Paso3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando3.JPG?raw=true)  
+  
+En este punto se generara la carpeta dist  
+![CarpetaDist](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/carpeta-dist.JPG?raw=true)    
+  
+Y se tendra que colocar las variables de entorno en environment.prod.ts  
+![Variables](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/variables-entorno.JPG?raw=true)  
+  
+Ahora, para inicializar el despliegue:  
+![Paso4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando4.JPG?raw=true)  
+![Paso5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando5.JPG?raw=true)  
+![Paso6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando6.JPG?raw=true)  
+  
+Con esto nuestra aplicación fue desplegada y se puede encontrar en el siguiente link:  
+[https://carga-sin-estres.web.app](https://carga-sin-estres.web.app)
 
-A medida que el proyecto avance, se agregarán más elementos de configuración, incluyendo configuración para la base de datos relacional, configuración de pruebas y configuración de gestión de paquetes y dependencias.
+*Para que funcione correctamente se tiene que hacer json-server --watch db.json a nuestra db en json
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
@@ -154,47 +168,47 @@ A medida que el proyecto avance, se agregarán más elementos de configuración,
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 Acceptance Tests de los User Stories, archivos .feature utilizando el lenguaje Gherkin
 
-![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us01.png?raw=true)  
+![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint1.png?raw=true)   
 
-![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us02.png?raw=true)  
+![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint1.png?raw=true)   
 
-![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us03.png?raw=true)  
+![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint1.png?raw=true)   
 
-![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us04.png?raw=true)  
+![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint1.png?raw=true)   
 
-![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us05.png?raw=true)  
+![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint1.png?raw=true)   
 
-![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us06.png?raw=true)  
+![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint1.png?raw=true)   
 
-![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us07.png?raw=true)  
+![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint1.png?raw=true)   
 
-![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us08.png?raw=true)  
+![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint1.png?raw=true)   
 
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us09.png?raw=true)  
+![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint1.png?raw=true)   
 
-![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us10.png?raw=true)  
+![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint1.png?raw=true)  
 
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us11.png?raw=true)  
+![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint1.png?raw=true)  
 
-![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US012.jpg?raw=true)  
+![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint1.jpg?raw=true)  
 
-![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US013.jpg?raw=true)  
+![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint1.jpg?raw=true)  
 
-![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US014.jpg?raw=true)  
+![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint1.jpg?raw=true)  
 
-![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US015.jpg?raw=true)  
+![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint1.jpg?raw=true)  
 
-![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US016.jpg?raw=true)  
+![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint1.jpg?raw=true)  
 
-![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US017.jpg?raw=true)  
+![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint1.jpg?raw=true)  
 
-![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US018.jpg?raw=true)  
- 
-![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US019.jpg?raw=true)  
+![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint1.jpg?raw=true)  
 
-![feature 20](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US020.jpg?raw=true)  
+![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint1.jpg?raw=true)  
 
-![feature 21](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US021.jpg?raw=true)  
+![feature 20](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint1.jpg?raw=true)  
+
+![feature 21](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature21-sprint1.jpg?raw=true)  
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.  
@@ -247,8 +261,23 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 ### 5.2.2. Sprint 2
 
-#### 5.2.2.1. Sprint Planning 2.
-
+#### 5.2.2.1. Sprint Planning 2.  
+  
+| **Sprint 2** | |
+|:---: | :---| 
+| | **Sprint planning background** |   
+| Date | 11/09/23 |
+| Time | 08:00 PM |
+| Location | Google Meet - Virtual Meeting |
+| Prepared by | Cuevas, Eric |
+| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Tasayco, Javier  |
+| Sprint n - 1 Review Summary | Se Inicio con el desarrollo de la aplicación web, implementandose la landing page y los principios de otras partes de la aplicación, asi como se termino una primera versión del informe |
+| Sprint n - 1 Retrospective Summary | Junto con el feedback recibido, podemos acordar que varias partes del desarrollo en ambos el informe y aplicación necesitan mejoras para cumplir los estandares requeridos, aspiramos a que este sprint 2 sea mejor. |
+| | **Sprint Goal & User Stories** |
+| Sprint & Goal | El objetivo del Sprint 2 sera terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien se terminara con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.|
+| Sprint & Velocity | El Sprint Velocity establecido para este sprint es # |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es # |   
+  
 #### 5.2.2.2. Sprint Backlog 2.  
 
 |     Sprint #         |     Sprint 2                |                           |                                                        |                                                                                             |                   |                         |                      |
@@ -280,14 +309,132 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
+Para este Sprint se desarrolló el Frontend de la plataforma.
+
+![Development Evidence](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/development-evidence-sprint2-os.png?raw=true) 
+
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
+Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
+
+![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true) 
+
+![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true)  
+
+![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true)  
+
+![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true)  
+
+![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true)  
+
+![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true)  
+
+![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true)  
+
+![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true)  
+
+![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true)  
+
+![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true)  
+
+![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true)  
+
+![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true)  
+
+![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true)  
+
+![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true)  
+
+![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true)  
+
+![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true)  
+
+![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true)  
+
+![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true)  
+
+![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true)  
+
+
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
+***Segundo Sprint***  
+Durante este sprint, nos enfocamos en terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.   
+![Login-sprint2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-login.JPG?raw=true)  
+![Registrar-cliente](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-registrarCliente.JPG?raw=true)
+![registrar-empresa1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-RegistrarEmpresa1.JPG?raw=true)
+![registrar-empresa2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-RegistrarEmpresa2.JPG?raw=true)
+![ajustes de cliente](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-ClientSettings.JPG?raw=true)
+![busqueda de empresas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-Busqueda.JPG?raw=true)
+![Carta de información de empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-Busqueda2.JPG?raw=true)
+![historial de reservas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-historial.JPG?raw=true)
+![historial de reservas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-historial2.JPG?raw=true)
+![ajustes de empresa 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-CompanySettings.JPG?raw=true)
+![ajustes de empresa 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-CompanySetting2.JPG?raw=true)
+![membresias](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-Membresias.JPG?raw=true)
+![formulario membresias 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-FormMembresia.JPG?raw=true)
+![formulario membresias 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-FormMembresia2.JPG?raw=true)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+**Introducion:**  
+Para este segundo sprint se ha logrado implementar 12 endpoints, los cuales han sido exitosamente logrados y documentados.  
+Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
+Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
+Los metodos PUT clients y companies estan relacionados a las pantallas Client Settings y Company Settings, para editar los datos de estos.  
+Los metodos GET companies y GET companies con parametro de id, estan relacionados a la pantalla de Busqueda de Empresas, donde el usuario puede ver la lista completa de empresa, y cuando le da click a una fila puede acceder a la informacion de una empresa en especifica.  
+Por ultimo, los metodos POST bookingHistory, GET booking History, asi como los metodos GET chat y POST chat permiten al usuario crear una reserva como visualizar en el historia de reservas, teniendo en cuenta que desde este historial se puede crear mensajes.
 
+**Tabla:**  
+
+|     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
+|--------|----------|--------|-------|
+|  /companies         |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  |   [https://carga-sin-estres.web.app/company-table](https://carga-sin-estres.web.app/company-table)      |
+|  /companies/{id}    |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') |   [https://carga-sin-estres.web.app/company/1](https://carga-sin-estres.web.app/company/1)         |
+|  /bookingHistory    |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              |   [https://carga-sin-estres.web.app/company/1](https://carga-sin-estres.web.app/company/1)         |
+|  /bookingHistory    |       GET       | 200 OK: Retorna la lista de todas las reservas de historial registradas                                     |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /chat              |       GET       | 200 OK: Retorna la lista de todos los mensajes de chat registrados                                          |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /chat              |       POST      | 201 Created: Indica que el mensaje de chat ha sido creado exitosamente                                      |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /clients           |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             |   [https://carga-sin-estres.web.app/login](https://carga-sin-estres.web.app/login)         |
+|  /companies         |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válida                            |   [https://carga-sin-estres.web.app/login](https://carga-sin-estres.web.app/login)         |
+|  /clients           |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              |   [https://carga-sin-estres.web.app/client-form](https://carga-sin-estres.web.app/client-form)         |
+|  /companies         |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             |   [https://carga-sin-estres.web.app/company-form](https://carga-sin-estres.web.app/company-form)         |
+|  /clients/{id}      |       PUT       | 200 OK: Indica que los datos del cliente han sido actualizados exitosamente (paranetro, ejemplo: '31')      |   [https://carga-sin-estres.web.app/client-settings/1](https://carga-sin-estres.web.app/client-settings/1)         |
+|  /companies/{id}    |       PUT       | 200 OK: Indica que los datos de la compañía han sido actualizados exitosamente (paranetro, ejemplo: '2')    |   [https://carga-sin-estres.web.app/client-settings/8](https://carga-sin-estres.web.app/company-settings/8)         |  
+
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts)  
+
+**Captura de interaccion con datos de prueba**   
+
+*Registrar Cliente*  
+- Antes de registrar cliente Lucero. Como se puede ver, el unico cliente es Eric  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services1.JPG?raw=true)
+
+- Despues de registrar cliente Lucero. Como se pueder, el db.json cambio, pues se ha agregado un nuevo registro que guarda la informacion del cliente lucero. Mediante la sintaxis POST /clients  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services2.JPG?raw=true)
+
+*Obtener la informacion de una empresa por su id*  
+- Mediante la sintaxis GET /companies/{id}. En la consola se puede visualizar la informacion obtenida de esa empresa en especifico  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services3.JPG?raw=true)  
+
+*Realizar una reserva*  
+- Antes de realizar una reserva  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services4.JPG?raw=true)  
+
+- Mediante la sintaxis POST /bookingHistory. Se crea una reserva y se almacena el db.json, se puede ver en la consola la informacion de la nueva reserva.
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services5.JPG?raw=true)  
+
+**Editar datos de un cliente**  
+- Antes de presionar el boton de guardar cambios, se puede ver en la consola que la informacion del cliente actual es la informacion de Eric.  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services6.JPG?raw=true)
+
+- Mediante la sintaxis PUT /clients/{id}. Se edita los datos cliente Eric, y son reemplazados por la del cliente Celia  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services7.JPG?raw=true)  
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.  
+La aplicación desplegada se encuentra en el siguiente enlace  
+[https://carga-sin-estres.web.app](https://carga-sin-estres.web.app),  
+más para su correcto funcionamiento, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
+  
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 
@@ -305,6 +452,10 @@ https://datosmacro.expansion.com/demografia/migracion/inmigracion/peru#:~:text=E
 
 Expresso. (2019). ¿Sabías que la mayoría de personas busca una empresa de mudanza a último momento?  
 https://www.expreso.com.pe/opinion/sabias-que-la-mayoria-de-personas-busca-una-empresa-de-mudanza-a-ultimo-momento/  
+
+Forgas, E. (2023). Estadísticas Ecommerce – 19 Datos y Cifras Clave Para 2023. Recuperado de https://www.salecycle.com/es/blog/guias/estadisticas-ecommerce/ [Fecha de consulta: 25 de septiembre de 2023] 
+
+IONOS. (2017). Barra de búsqueda inteligente en tu tienda online. Recuperado de https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/la-importancia-de-una-barra-de-busqueda-inteligente/ [Fecha de consulta: 04 de septiembre de 2023]
 
 Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
 https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf    

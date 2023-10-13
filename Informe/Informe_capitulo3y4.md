@@ -11,16 +11,24 @@
 
 ## 3.2. User Stories
   
-![TUser Stories Parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories1.png?raw=true)
-![TUser Stories Parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories2.png?raw=true)
-![TUser Stories Parte 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories3.png?raw=true)
-![TUser Stories Parte 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories4.png?raw=true)
-![TUser Stories Parte 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories5.png?raw=true)
-
-| Epic/Story ID | Título                               | Descripción                                                                                                  | Criterios de Aceptación                                                                                                                                      | Relacionado con (Epic ID) |
-|---------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------:|    
-| Historial de reservas | Visualizar historial de reservas | Como usuario cliente quiero poder ver los servicios de mudanza contratados para tener control y seguimiento de mis transacciones dentro de la aplicación. | Escenario 1: El usuario ingresa a reservas. Dado que el usuario ingresa a la sección de reservas. Cuando seleccione el botón ver historial de reservas. Entonces aparecerá la página del historial. Escenario 2: El usuario visualiza su historial de reservas. Dado que el usuario se encuentra en la página del historial de reservas. Cuando el usuario haga scroll. Entonces la página le permitirá ver más reservas hechas anteriormente. Escenario 3: El usuario busca una reserva anterior. Dado que el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza un paginador con botones con flechas hacia adelante y atrás. Cuando el usuario seleccione uno de los botones. Entonces la página le permitirá ver sus reservas anteriores o posteriores. Escenario 4: El usuario visualiza sus últimas reservas. Dado que el usuario ingresa a la sección de reservas. Cuando la plataforma carga la página. Entonces las últimas reservas se visualizarán primero y las más antiguas al último. | #5 |
-| Historial de reservas | Visualizar varias reservas en una página | Como usuario cliente quiero visualizar varias reservas en una sola página para que pueda tener una vista panorámica de todos mis servicios de mudanza contratados de manera fácil y rápida. | Escenario 1: El usuario cambia la cantidad de reservas que se visualiza en una página. Dado que el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza el paginador Y al lado derecho se encuentra la opción desplegable Cuando el usuario seleccione esta opción. Entonces se visualizará el desplegable con las opciones de visualización de 4, 8 y 12 páginas. Escenario 2: El usuario selecciona el número de reservas para visualizarse en la página. Dado que el usuario seleccionó el desplegable del paginador. Cuando el usuario seleccione el número de reservas que se visualizará 4, 8 o 12. Entonces la página mostrará la cantidad de reservas que eligió el usuario. | #5 |
+![User Story 01](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US01.png)
+![User Story 02](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US02.png)
+![User Story 03](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US03.png)
+![User Story 04](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US04.png)
+![User Story 05](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US05.png)
+![User Story 06](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US06.png)
+![User Story 07](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US07.png)
+![User Story 08](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US08.png)
+![User Story 09-10](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US09-10.png)
+![User Story 11](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US11.png)
+![User Story 12](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US12.png)
+![User Story 13](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US13.png)
+![User Story 14](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US14.png)
+![User Story 15](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US15.png)
+![User Story 16](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US16.png)
+![User Story 17](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US17.png)
+![User Story 18](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US18.png)
+![User Story 19](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US19.png)
 
 ## 3.3. Impact Mapping
 
@@ -64,7 +72,7 @@ Por otro lado, este camión esta encerrado por un círculo el cual representa mo
 Los colores usados como amarillo y azul crean un ambiente de confianza, profesionalidad, elegancia y solidez.    
 Del mismo modo se considera el nombre del proyecto para relacionarlo con la imagen del camión.
 
-![logo](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Proyecto/image/Cargalogo.png?raw=true)
+![logo](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/public-images/Cargalogo.png?raw=true)
 
 **Typography**
 Se definieron dos tipos de tipografías que cumpliesen con el propósito definido de mostrar optimismo y elegancia. Estas son: Open Sans y Robot.
@@ -182,33 +190,42 @@ Estilos aplicados para resolución de pantalla mobile.
 
 ## 4.4. Web Applications UX/UI Design.  
 ### 4.4.1. Web Applications Wireframes.  
+#### DESKTOP
 ![Registro de cliente - wireframe](/Informe/Imagenes/registro-cliente-wireframe.png) 
 ![Registro de empresa - wireframe](/Informe/Imagenes/registro-empresa-wireframe.png) 
-![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true)  
-![Busqueda de empresas - wireframe](/Informe/Imagenes/busqueda-empresas-wireframe.png)
+![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true) 
+![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanySearch.png?raw=true)
+![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanyDetail.png?raw=true)
 ![Chat de una reserva - wireframe](/Informe/Imagenes/chat-reserva-wireframe.png) 
 ![Formulario membresia - wireframe](/Informe/Imagenes/formulario-membresia-wireframe.png)  
 ![Boleta Compra - wireframe](/Informe/Imagenes/boleta-wireframe.png)
+![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png)   
 
-![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png) 
-![chat-reserva-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-chat-reserva.png)  
-
+#### MOBILE
+![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanySearch.png?raw=true)
+![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanyDetail.png?raw=true)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.  
-![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow1.png?raw=true)
+![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframes-flow1.png?raw=true)
   
-![wireframe-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow2.png?raw=true)  
+![wireframe-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframes-flow2.png?raw=true)  
+
+![wireframe-flow3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframes-flow3.png?raw=true)
 
 ### 4.4.2. Web Applications Mock-ups.  
+#### DESKTOP
 ![registro-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-cliente.png?raw=true)  
 ![registro-empresa-mockup](/Informe/Imagenes/registro-empresa-mockup.png)  
 ![inicio-sesion-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup_login.png?raw=true)  
-![Busqueda de empresas](/Informe/Imagenes/busqueda-empresas-mockup.png)
+![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanySearch.png?raw=true)
+![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanyDetail.png?raw=true)
 ![Chat de una reserva](/Informe/Imagenes/chat-reserva.png) 
 ![Formulario membresia](/Informe/Imagenes/formulario-membresia.png)  
-![Boleta Compra](/Informe/Imagenes/boleta-compra.png)
+![Boleta Compra](/Informe/Imagenes/boleta-compra.png)  
 
-
+#### MOBILE
+![mobile-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupMobile-CompanySearch.png?raw=true)
+![mobile-companyDetail-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupMobile-CompanyDetail.png?raw=true)
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
 ![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mobile.png?raw=true)  
 ![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa.mobile.png?raw=true)  
@@ -216,10 +233,11 @@ Estilos aplicados para resolución de pantalla mobile.
 ![chat-reserva-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-chat-reserva.png)  
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
-![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow1.png?raw=true)    
+![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockup-flow1.png?raw=true)    
   
-![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow2.png?raw=true)   
+![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockup-flow2.png?raw=true)   
 
+![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockup-flow3.png?raw=true)   
 ## 4.5. Web Applications Prototyping.  
 El prototipo de secuencia web se encuentra en el siguiente enlace :   
 [https://www.figma.com/proto/FFKvovSKPyL6LW7e2DDSph/Wireframes?type=design&node-id=26-453&t=wLRuXHHBxMj8lVew-1&scaling=min-zoom&page-id=2%3A3&starting-point-node-id=26%3A453&show-proto-sidebar=1&mode=design](https://www.figma.com/proto/FFKvovSKPyL6LW7e2DDSph/Wireframes?type=design&node-id=26-453&t=wLRuXHHBxMj8lVew-1&scaling=min-zoom&page-id=2%3A3&starting-point-node-id=26%3A453&show-proto-sidebar=1&mode=design)  
