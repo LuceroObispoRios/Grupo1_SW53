@@ -4,6 +4,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-company-table',
@@ -19,8 +20,18 @@ export class CompanyTableComponent{
   @ViewChild(MatPaginator, {static: true})
   paginator!: MatPaginator;
 
-  constructor(private companyDataService: CargaSinEstresDataService, private router: Router) { 
+  userId: string = '';
+  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute) { 
     this.companyData = {} as Company;
+
+    // Obtiene el id del usuario
+    this.route.pathFromRoot[1].url.subscribe(
+      url => {
+        console.log('url: ', url);
+        this.userId = url[1].path;
+        console.log('User id:' + this.userId);
+      }
+    ); 
   }
 
   ngOnInit(): void {
@@ -46,6 +57,6 @@ export class CompanyTableComponent{
   getRow(row: { id: any; }){
     console.log("Row clicked: ");
     console.log(row);
-    this.router.navigateByUrl(`/company/${row.id}`);
+    this.router.navigateByUrl(`client/${this.userId}/company/${row.id}`);
   }
 }
