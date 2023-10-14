@@ -5,6 +5,7 @@ import { Observable, catchError, retry, throwError } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { BookingHistory } from '../models/booking-history.model';
 import { Chat } from '../models/chat.model';
+import { Subscription } from '../models/subscription.model';
 
 @Injectable({
   providedIn: 'root'
@@ -99,5 +100,9 @@ export class CargaSinEstresDataService {
     return this.http.put(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
   }
 
+  createSubscription(subscriptionData: Subscription): Observable<Subscription> {
+    return this.http.post<Subscription>(`${this.base_url}/subscriptions`, subscriptionData, this.httpOptions)
+      .pipe(retry(2),catchError(this.handleError));
+  }
 
 }

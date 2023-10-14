@@ -299,5 +299,105 @@
       "password": "0123456",
       "id": 2
     }
+  ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "firma": "jlnMt7",
+      "idCompany": 2,
+      "subscriptionDate": "2023-10-14T17:03:31.190Z",
+      "subscriptionType": "3 month plan",
+      "payment": {
+        "paymentMethod": "Mastercard Payment"
+      },
+      "hiredCompany": {
+        "name": "Romabe transporte",
+        "logo": "https://transporteromabe.com/wp-content/uploads/2021/07/Mudanzas-de-Arequipa-a-Lima-2.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "firma": "qvJTt5",
+      "idCompany": 1,
+      "subscriptionDate": "2023-10-14T17:07:57.620Z",
+      "subscriptionType": "12 month plan",
+      "payment": {
+        "paymentMethod": "Visa Payment"
+      },
+      "hiredCompany": {
+        "name": "Transporte y mudanzas Rapi2",
+        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+      }
+    },
+    {
+      "id": 3,
+      "firma": "AQ53x2",
+      "idCompany": 3,
+      "subscriptionDate": "2023-10-14T17:19:38.167Z",
+      "subscriptionType": "3 month plan",
+      "payment": {
+        "paymentMethod": "Mastercard Payment"
+      },
+      "hiredCompany": {
+        "name": "J&G Transporte y mudanzas",
+        "logo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "firma": "AQ53x2",
+      "idCompany": 1,
+      "subscriptionDate": "2023-10-14T17:20:30.886Z",
+      "subscriptionType": "3 month plan",
+      "payment": {
+        "paymentMethod": "Mastercard Payment"
+      },
+      "hiredCompany": {
+        "name": "Transporte y mudanzas Rapi2",
+        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+      }
+    },
+    {
+      "id": 5,
+      "firma": "NGCvnk",
+      "idCompany": 1,
+      "subscriptionDate": "2023-10-14T17:21:50.208Z",
+      "subscriptionType": "6 month plan",
+      "payment": {
+        "paymentMethod": "Mastercard Payment"
+      },
+      "hiredCompany": {
+        "name": "Transporte y mudanzas Rapi2",
+        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+      }
+    },
+    {
+      "id": 6,
+      "firma": "NGCvnk",
+      "idCompany": 3,
+      "subscriptionDate": "2023-10-14T17:22:12.744Z",
+      "subscriptionType": "6 month plan",
+      "payment": {
+        "paymentMethod": "Mastercard Payment"
+      },
+      "hiredCompany": {
+        "name": "J&G Transporte y mudanzas",
+        "logo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "firma": "djnA8L",
+      "idCompany": 2,
+      "subscriptionDate": "2023-10-14T17:29:07.077Z",
+      "subscriptionType": "3 month plan",
+      "payment": {
+        "paymentMethod": "Visa Payment"
+      },
+      "hiredCompany": {
+        "name": "Romabe transporte",
+        "logo": "https://transporteromabe.com/wp-content/uploads/2021/07/Mudanzas-de-Arequipa-a-Lima-2.jpg"
+      }
+    }
   ]
 }
