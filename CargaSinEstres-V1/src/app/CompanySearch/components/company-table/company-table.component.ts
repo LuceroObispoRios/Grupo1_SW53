@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { Company } from 'src/app/models/company.model';
 import { MatTableDataSource } from '@angular/material/table';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { MatPaginator } from '@angular/material/paginator';
@@ -12,7 +11,6 @@ import { Router } from '@angular/router';
 })
 export class CompanyTableComponent{
 
-  companyData!: Company; 
   dataSource_company = new MatTableDataSource();
   displayedColumns: string[] = ['id', 'name', 'services', 'photo'];
 
@@ -21,10 +19,9 @@ export class CompanyTableComponent{
 
   selectedServices: string[] = [];
   servicesList: string[] = ['Transporte', 'Carga', 'Embalaje', 'Montaje', 'Desmontaje'];
-  originalData: Company[] = [];
+  originalData: any[] = []; //contiene todas las empresas sin ningún filtro aplicado
 
   constructor(private companyDataService: CargaSinEstresDataService, private router: Router) { 
-    this.companyData = {} as Company;
   }
 
   ngOnInit(): void {
@@ -50,26 +47,25 @@ export class CompanyTableComponent{
   }
 
   searchBySelectedServices() {
-    const filterValue = this.dataSource_company.filter;
+    const filterValue = this.dataSource_company.filter; // Almacena el valor actual del filtro
     this.dataSource_company.data = this.originalData.filter((company) => {
-      if (this.selectedServices.length > 0) {
+      if (this.selectedServices.length > 0) { // Si se han seleccionado servicios
         return this.selectedServices.every((selectedService) => {
-          const serviceProperty = selectedService.toLowerCase() as keyof Company;
-          return company[serviceProperty] === true;
+          const serviceProperty = selectedService.toLowerCase() as keyof any;
+          return company[serviceProperty] === true; //Si el servicio en la empresa es true, entonces se devuelve la empresa
         });
       } else {
         return true;
       }
     });
 
-    this.dataSource_company.filter = filterValue;
+    this.dataSource_company.filter = filterValue; //se restaura el valor del filtro para que se aplique el filtro de nombre
   }
   
   onServiceSelectionChange(event: any) {
     this.selectedServices = event.value; // Use event.value to get an array of selected values
     this.searchBySelectedServices(); 
   }
-  
 
   getRow(row: { id: any; }){
     console.log("Row clicked: ");
