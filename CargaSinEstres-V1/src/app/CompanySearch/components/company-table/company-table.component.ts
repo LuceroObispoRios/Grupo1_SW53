@@ -4,7 +4,6 @@ import { MatTableDataSource } from '@angular/material/table';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { Router } from '@angular/router';
-import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-company-table',
@@ -13,25 +12,19 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CompanyTableComponent{
 
-  companyData!: Company; //! significa que se inicializara mas adelante
+  companyData!: Company; 
   dataSource_company = new MatTableDataSource();
   displayedColumns: string[] = ['id', 'name', 'services', 'photo'];
 
   @ViewChild(MatPaginator, {static: true})
   paginator!: MatPaginator;
 
-  userId: string = '';
-  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute) { 
-    this.companyData = {} as Company;
+  selectedServices: string[] = [];
+  servicesList: string[] = ['Transporte', 'Carga', 'Embalaje', 'Montaje', 'Desmontaje'];
+  originalData: Company[] = [];
 
-    // Obtiene el id del usuario
-    this.route.pathFromRoot[1].url.subscribe(
-      url => {
-        console.log('url: ', url);
-        this.userId = url[1].path;
-        console.log('User id:' + this.userId);
-      }
-    ); 
+  constructor(private companyDataService: CargaSinEstresDataService, private router: Router) { 
+    this.companyData = {} as Company;
   }
 
   ngOnInit(): void {
@@ -41,7 +34,9 @@ export class CompanyTableComponent{
 
   getAllCompanies() {
     this.companyDataService.getAllCompanies().subscribe((res: any) => {
+      this.originalData = res;
       this.dataSource_company.data = res;
+      this.searchBySelectedServices();
     })
   }
 
@@ -54,9 +49,31 @@ export class CompanyTableComponent{
     }
   }
 
+  searchBySelectedServices() {
+    const filterValue = this.dataSource_company.filter;
+    this.dataSource_company.data = this.originalData.filter((company) => {
+      if (this.selectedServices.length > 0) {
+        return this.selectedServices.every((selectedService) => {
+          const serviceProperty = selectedService.toLowerCase() as keyof Company;
+          return company[serviceProperty] === true;
+        });
+      } else {
+        return true;
+      }
+    });
+
+    this.dataSource_company.filter = filterValue;
+  }
+  
+  onServiceSelectionChange(event: any) {
+    this.selectedServices = event.value; // Use event.value to get an array of selected values
+    this.searchBySelectedServices(); 
+  }
+  
+
   getRow(row: { id: any; }){
     console.log("Row clicked: ");
     console.log(row);
-    this.router.navigateByUrl(`client/${this.userId}/company/${row.id}`);
+    this.router.navigateByUrl(`/company/${row.id}`);
   }
 }
