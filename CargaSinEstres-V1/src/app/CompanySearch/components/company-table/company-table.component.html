@@ -1,12 +1,21 @@
-
+<app-toolbar-client></app-toolbar-client>
 <br><br><br>
 
 <div class="header">
   <h1 class="title">Busqueda de empresas</h1>
+
   <mat-form-field color="accent">
-    <mat-label >Buscar</mat-label>
+    <mat-label >Nombre</mat-label>
     <input matInput (keyup)="searchByCompanyName($event)" #input>
   </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Servicios</mat-label>
+    <mat-select (selectionChange)="onServiceSelectionChange($event)" multiple>
+      <mat-option *ngFor="let service of servicesList" [value]="service">{{ service }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
 </div>
 
 
