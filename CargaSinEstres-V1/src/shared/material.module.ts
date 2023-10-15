@@ -17,6 +17,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
     imports: [
@@ -36,7 +37,8 @@ import { MatDialogModule } from '@angular/material/dialog';
         FormsModule,
         ReactiveFormsModule,
         MatSelectModule,
-        MatDialogModule
+        MatDialogModule,
+        MatSnackBarModule
     ],
     exports: [
         BrowserAnimationsModule,
@@ -56,7 +58,8 @@ import { MatDialogModule } from '@angular/material/dialog';
         MatChipsModule,
         MatGridListModule,
         MatExpansionModule,
-        MatDialogModule
+        MatDialogModule,
+        MatSnackBarModule
     ]
 })
 export class MaterialModule { }

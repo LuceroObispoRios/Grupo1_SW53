@@ -3,6 +3,9 @@ import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-dat
 import { ActivatedRoute } from '@angular/router';
 import { NgForm } from '@angular/forms';
 import { BookingHistory } from 'src/app/models/booking-history.model';
+import { Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material/snack-bar';
+
 
 @Component({
   selector: 'app-company-detail',
@@ -35,7 +38,7 @@ export class CompanyDetailComponent implements OnInit {
       }
     };
 
-    constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute) { 
+    constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute, private router: Router, private snackBar: MatSnackBar) { 
       this.activatedRoute.params.subscribe(
         params => {
           this.getCompany(params['id']);
@@ -44,6 +47,15 @@ export class CompanyDetailComponent implements OnInit {
     }
   
     ngOnInit(): void {
+    }
+
+    openSnackBar(message: string) {
+      this.snackBar.open(message, 'Cerrar', {
+        panelClass: ['color-snackbar-created'],
+        duration: 5000,
+        horizontalPosition: 'center',
+        verticalPosition: 'bottom',
+      });
     }
   
     getCompany(id: any) {
@@ -59,7 +71,6 @@ export class CompanyDetailComponent implements OnInit {
       );
     }
 
-
     addReservation() {
       this.reservation.idCompany = this.company.id;
       this.reservation.hiredCompany.name = this.company.name;
@@ -73,6 +84,7 @@ export class CompanyDetailComponent implements OnInit {
         {
           console.log("Reservation created:");
           console.log(res);
+          this.openSnackBar('Reserva agregada exitosamente');
         },
         err => {
           console.log("Error:");
@@ -83,6 +95,8 @@ export class CompanyDetailComponent implements OnInit {
 
     onSubmit() {
       this.addReservation();
+
+      this.router.navigateByUrl('/history-cards');
     }
 }
 
