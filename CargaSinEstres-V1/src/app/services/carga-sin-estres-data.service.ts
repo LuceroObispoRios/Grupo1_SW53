@@ -48,6 +48,18 @@ export class CargaSinEstresDataService {
       .pipe(retry(2),catchError(this.handleError))
   }
 
+  // Get booking history by id for client
+  getBookingHistoryById(clientId: any): Observable<BookingHistory> {
+    return this.http.get<BookingHistory>(`${this.base_url}/bookingHistory?idClient=${clientId}`)
+      .pipe(retry(2),catchError(this.handleError))
+  }
+
+  // Get booking history by id for company
+  getBookingHistoryByCompanyId(companyId: any): Observable<BookingHistory> {
+    return this.http.get<BookingHistory>(`${this.base_url}/bookingHistory?idCompany=${companyId}`)
+      .pipe(retry(2),catchError(this.handleError))
+  }
+
   // Get all messages 
   getItems(): Observable<Chat> {
     return this.http.get<Chat>(`${this.base_url}/chat`)

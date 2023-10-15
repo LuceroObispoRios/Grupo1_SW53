@@ -52,7 +52,7 @@ export class LoginFormComponent {
             console.log("Client Response", clientResponse)
             if (clientResponse && clientResponse.length > 0) {
               // Las credenciales son válidas para un cliente, redirigir a la página correspondiente
-              this.router.navigate(['client-settings', clientResponse[0].id]);
+              this.router.navigate(['client/'+ clientResponse[0].id + '/client-settings']);
             } 
             else {
               // Intentamos buscar en empresas si no encontramos en clientes
@@ -61,7 +61,7 @@ export class LoginFormComponent {
                   console.log("Company Response", companyResponse)
                   if (companyResponse && companyResponse.length > 0) {
                     // Las credenciales son válidas para una empresa, redirigir a la página correspondiente
-                    this.router.navigate(['company-settings', companyResponse[0].id]);
+                    this.router.navigate(['company/'+ companyResponse[0].id + '/company-settings']);
                   } else {
                     // Ninguna coincidencia, mostramos mensaje de error
                     this.errorMessage = 'Credenciales incorrectas. Intente nuevamente.';

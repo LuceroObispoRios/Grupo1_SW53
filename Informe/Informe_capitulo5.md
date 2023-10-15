@@ -453,6 +453,10 @@ https://datosmacro.expansion.com/demografia/migracion/inmigracion/peru#:~:text=E
 Expresso. (2019). ¿Sabías que la mayoría de personas busca una empresa de mudanza a último momento?  
 https://www.expreso.com.pe/opinion/sabias-que-la-mayoria-de-personas-busca-una-empresa-de-mudanza-a-ultimo-momento/  
 
+Forgas, E. (2023). Estadísticas Ecommerce – 19 Datos y Cifras Clave Para 2023. Recuperado de https://www.salecycle.com/es/blog/guias/estadisticas-ecommerce/ [Fecha de consulta: 25 de septiembre de 2023] 
+
+IONOS. (2017). Barra de búsqueda inteligente en tu tienda online. Recuperado de https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/la-importancia-de-una-barra-de-busqueda-inteligente/ [Fecha de consulta: 04 de septiembre de 2023]
+
 Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
 https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf    
 

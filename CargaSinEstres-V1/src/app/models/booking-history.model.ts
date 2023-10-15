@@ -1,6 +1,7 @@
 export interface BookingHistory {
     id: any;
     idCompany: any;
+    idClient: any;
     bookingDate: any;
     pickupAddress: any;
     destinationAddress: any;
