@@ -275,8 +275,8 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 | Sprint n - 1 Retrospective Summary | Junto con el feedback recibido, podemos acordar que varias partes del desarrollo en ambos el informe y aplicación necesitan mejoras para cumplir los estandares requeridos, aspiramos a que este sprint 2 sea mejor. |
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 2 sera terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien se terminara con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.|
-| Sprint & Velocity | El Sprint Velocity establecido para este sprint es # |
-| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es # |   
+| Sprint & Velocity | El Sprint Velocity establecido para este sprint es 60 |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 50 |   
   
 #### 5.2.2.2. Sprint Backlog 2.  
 
@@ -284,27 +284,27 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 |----------------------|-----------------------------|---------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------|-------------------------|----------------------|
 |     User   Story     |                             |     Work –   Item/Task    |                                                        |                                                                                             |                   |                         |                      |
 |     Id               |     Título                  |     Id                    |     Título                                             |     Descripción                                                                             |     Estimación    |     Asignado   a        |     Estado           |
-|     HU001 – HU007    |     Manejo de Usuario       |     WI01                  |     Registro   de empresas de mudanza                  |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de empresas*            |     2h            |     Andrea O’Higgins    |     Completado       |
-|                      |                             |     WI02                  |     Registro   de cliente                              |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de cliente*             |     2h            |     Andrea O’Higgins    |     Completado       |
-|                      |                             |     WI03                  |     Iniciar   Sesión la plataforma                     |     Hacer uso de HTML, CSS y JavaScript para implementar la estructura   del login+          |     4h            |     Andrea O’Higgins    |     Completado       |
+|     HU001 – HU007    |     Manejo de Usuario       |     WI01                  |     Registro   de empresas de mudanza                  |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de empresas*            |     2h            |     Eric Cuevas    |     Completado       |
+|                      |                             |     WI02                  |     Registro   de cliente                              |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de cliente*             |     2h            |     Eric Cuevas    |     Completado       |
+|                      |                             |     WI03                  |     Iniciar   Sesión la plataforma                     |     Hacer uso de HTML, CSS y JavaScript para implementar la estructura   del login+          |     4h            |     Eric Cuevas    |     Completado       |
 |                      |                             |     WI04                  |     Solicitud   de servicio de mudanza                 |     Hacer uso de HTML, CSS y JavaScript para implementar la solicitud de   servicio         |     2h            |     Lucero Obispo       |     Por completar    |
 |                      |                             |     WI05                  |     Visualizar   empresas de mudanza                   |     Hacer uso de HTML y CSS para visualizar las empresas de mudanza*                         |     1h            |     Lucero Obispo       |     Completado       |
 |                      |                             |     WI06                  |     Seleccionar   empresa de mudanza                   |     Hacer uso de HTML, CSS y JavaScript para seleccionar la empresa de   mudanza*            |     2h            |     Lucero Obispo       |     Completado       |
-|                      |                             |     WI07                  |     Cerrar   Sesión                                    |     Hacer uso de HTML, CSS y JavaScript para implementar el cierre de   sesión.*             |     2h            |     Andrea O’Higgins    |     Completado    |
-|     HU008-HU011      |     Métodos de pago         |     WI08                  |     Elección   de membresía de empresa                 |     Hacer uso de HTML y JavaScript para implementar la elección de   membresía*              |     2h            |     Lucero Obispo       |     Completado    |
-|                      |                             |     WI09                  |     Pago   de membresía                                |     Hacer uso de HTML y JavaScript para implementar el pago de membresía                    |     2h            |     Eric Cuevas         |     Por completar    |
-|                      |                             |     WI10                  |     Selección   de método de pago                      |     Hacer uso de HTML y JavaScript para implementar la selección de método   de pago        |     3h            |     Eric Cuevas         |     Por completar    |
-|                      |                             |     WI11                  |     Detalles   de pago                                 |     Hacer uso de HTML para implementar los detalles de pago                                 |     1h            |     Eric Cuevas         |     Por completar    |
+|                      |                             |     WI07                  |     Cerrar   Sesión                                    |     Hacer uso de HTML, CSS y JavaScript para implementar el cierre de   sesión.*             |     2h            |     Eric Cuevas    |     Completado    |
+|     HU008-HU011      |     Métodos de pago         |     WI08                  |     Elección   de membresía de empresa                 |     Hacer uso de HTML y JavaScript para implementar la elección de   membresía*              |     2h            |     Javier Tasayco      |     Completado    |
+|                      |                             |     WI09                  |     Pago   de membresía                                |     Hacer uso de HTML y JavaScript para implementar el pago de membresía                    |     2h            |     Javier Tasayco        |     Por completar    |
+|                      |                             |     WI10                  |     Selección   de método de pago                      |     Hacer uso de HTML y JavaScript para implementar la selección de método   de pago        |     3h            |     Javier Tasayco         |     Por completar    |
+|                      |                             |     WI11                  |     Detalles   de pago                                 |     Hacer uso de HTML para implementar los detalles de pago                                 |     1h            |     Javier Tasayco         |     Por completar    |
 |     HU012-HU016      |     Búsqueda de empresas    |     WI12                  |     Búsqueda de empresas cercanas                      |     Hacer uso de HTML y JavaScript para implementar la búsqueda de   empresa*               |     1h            |     Javier Tasayco     |     Completado       |
-|                      |                             |     WI13                  |     Filtrar por servicios ofrecidos                    |     Hacer uso de HTML y JavaScript para implementar el filtrado por servicios*               |     2h            |     Javier Tasayco     |     Completado    |
-|                      |                             |     WI14                  |     Filtrar por calificación                           |     Hacer uso de HTML y JavaScript para implementar el filtrado por calificación            |     2h            |     Javier Tasayco     |     Por completar    |
+|                      |                             |     WI13                  |     Filtrar por servicios ofrecidos                    |     Hacer uso de HTML y JavaScript para implementar el filtrado por servicios*               |     2h            |     Lucero Obispo     |     Completado    |
+|                      |                             |     WI14                  |     Filtrar por calificación                           |     Hacer uso de HTML y JavaScript para implementar el filtrado por calificación            |     2h            |     Lucero Obispo     |     Por completar    |
 |                      |                             |     WI15                  |     Visualización de disponibilidad                    |     Hacer uso de HTML y JavaScript para implementar la visualización de   disponibilidad    |     1h            |     Lucero Obispo       |     Por completar    |
 |                      |                             |     WI16                  |     Visualizar perfil de empresa                       |     Hacer uso de HTML, CSS y JavaScript para implementar el perfil de empresa*               |     1h            |     Lucero Obispo       |     Completado       |
 |     HU017-HU021      |     Reserva de servicios    |     WI17                  |     Ingresar   a la reserva del servicio               |     Hacer uso de HTML y JavaScript para ingresar a la reserva del   servicio                |     2h            |     Eric Cuevas         |     Por completar    |
 |                      |                             |     WI18                  |     Seleccionar   servicios a reservar                 |     Hacer uso de HTML y JavaScript para implementar la selección de   servicios*             |     2h            |     Eric Cuevas         |     Completado       |
-|                      |                             |     WI19                  |     Envío   de información sobre la posible reserva    |     Hacer uso de JavaScript para implementar el envío de información                        |     1h            |     Javier Tasayco     |     Por completar    |
-|                      |                             |     WI20                  |     Contactar   con el trabajador de la empresa        |     Hacer uso de HTML para implementar el contacto con el trabajador*                        |     1h            |     Javier Tasayco     |     Completado    |
-|                      |                             |     WI21                  |     Acordar   un precio por servicio reservado         |     Hacer uso de HTML y JavaScript para aceptar la reserva.                                 |     1h            |     Javier Tasayco     |     Por completar    |
+|                      |                             |     WI19                  |     Envío   de información sobre la posible reserva    |     Hacer uso de JavaScript para implementar el envío de información                        |     1h            |     Andrea O'Higgins     |     Por completar    |
+|                      |                             |     WI20                  |     Contactar   con el trabajador de la empresa        |     Hacer uso de HTML para implementar el contacto con el trabajador*                        |     1h            |     Andrea O'Higgins     |     Completado    |
+|                      |                             |     WI21                  |     Acordar   un precio por servicio reservado         |     Hacer uso de HTML y JavaScript para aceptar la reserva.                                 |     1h            |     Andrea O'Higgins     |     Por completar    |
 
 
 #### 5.2.2.3. Development Evidence for Sprint Review.
@@ -374,7 +374,7 @@ Durante este sprint, nos enfocamos en terminar con la sección de manejo de usua
 ![formulario membresias 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-FormMembresia.JPG?raw=true)
 ![formulario membresias 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-FormMembresia2.JPG?raw=true)
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.  
 
 **Introducion:**  
 Para este segundo sprint se ha logrado implementar 12 endpoints, los cuales han sido exitosamente logrados y documentados.  
@@ -429,14 +429,19 @@ Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo
 
 - Mediante la sintaxis PUT /clients/{id}. Se edita los datos cliente Eric, y son reemplazados por la del cliente Celia  
 ![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services7.JPG?raw=true)  
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.  
+  
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 La aplicación desplegada se encuentra en el siguiente enlace  
 [https://carga-sin-estres.web.app](https://carga-sin-estres.web.app),  
 más para su correcto funcionamiento, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
   
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+**GitFlow**    
+![network 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network1.png?raw=true)
+![network 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network2.png?raw=true)
+**Contribuitors**    
+![contribuitors](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/contribuitors.png?raw=true)
 
 **Bibliografia**
 --
@@ -452,10 +457,6 @@ https://datosmacro.expansion.com/demografia/migracion/inmigracion/peru#:~:text=E
 
 Expresso. (2019). ¿Sabías que la mayoría de personas busca una empresa de mudanza a último momento?  
 https://www.expreso.com.pe/opinion/sabias-que-la-mayoria-de-personas-busca-una-empresa-de-mudanza-a-ultimo-momento/  
-
-Forgas, E. (2023). Estadísticas Ecommerce – 19 Datos y Cifras Clave Para 2023. Recuperado de https://www.salecycle.com/es/blog/guias/estadisticas-ecommerce/ [Fecha de consulta: 25 de septiembre de 2023] 
-
-IONOS. (2017). Barra de búsqueda inteligente en tu tienda online. Recuperado de https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/la-importancia-de-una-barra-de-busqueda-inteligente/ [Fecha de consulta: 04 de septiembre de 2023]
 
 Ipsos. (2019). Alrededor de 200,000 personas se mudan cada año en Lima.
 https://www.ipsos.com/sites/default/files/ct/publication/documents/2019-09/alrededor_de_200000_personas_se_mudan_cada_ano_en_lima.pdf    
