@@ -1,9 +1,10 @@
-Universidad Peruana de ciencias aplicadas  
+ <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/logoUPC.png?raw=true" width="400" height="132"> 
+
 Ingenieria de Sistemas y Comunicaciones | Ingenieria de Software  
 
 Para el curso de Desarrollo de Aplicaciones Open Source  
 SW53 - Elio Jefferson Navarrete Vilca  
-# Course Project - Final Report TB1  
+# Course Project - Final Report TP  
 
 Integrantes:
 - Cuevas Rios, Eric Fernando
@@ -17,15 +18,15 @@ Ciclo 2023-02
 
  Versión| Fecha| Integrante| Descripción de modificación|
  :-----:|:-----:|:-----:|:-----
- TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags. Para el sprint 2, se realizo el services documentation evidence for sprint review. En codigo, se hizo la pagina busqueda de empresas e informacion de empresa, asi como se ayudo en el desarrollo del proyecto angular en general.
+ TB1 | 19/08/23 - 05/09/23  | Lucero Obispo| Se añadió los lean ux problem statements, assumptions y hypothesis statements. Se añadió diagrama de clases, organization systems, labeling systems, seo tags y meta tags. Se realizo 1 entrevista a trabajador de empresa, su registro y analisis. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
  TB1 | 23/08/23 - 05/09/23  | Andrea O'Higgins| Se añadió los as-is y to-be scenario mapping, empathy maps y c4 diagrams. Se realizó 2 entrevistas a ciudadanos, registro y entrevista. Se avanzó con los wireframes , mockups y código del inicio de sesion. Se añadió searching systems, el software deployment configuration y los testing suite evidence.
  TB1 | 19/08/23 - 05/09/23  | Eric Cuevas| Se añadió los antecendentes y problematica, el lean UX canva y los segmentos objetivo, se avanzo con los wireframes y mockups, se añadio el class dictionary y el diagrama de base de datos. Se añadio el source code management, sprint planning 1 y Software deployment evidence 1. En codigo, se hizo el registro de empresas.
  TB1 | 19/08/23 - 05/09/23  | Javier Sebastian| Se añadió General Style Guidelines,Web Style Guidelines, Impact map, Product Backlog. Además para el capitulo V: Software Configuration Management y Development Evidence for Sprint Review. En código, se hizo el registro de clientes (individuos). Se organizó el project Keynote.
- TP | 05/09/23 - 26/09/23  | Lucero Obispo| Se actualizo el diagrama de clases, labeling systems, descripcion de startup, analisis de entrevistas. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
- TP | 05/09/23 - 26/09/23  | Andrea O'Higgins| Se añadió 
+  TP | 05/09/23 - 26/09/23  | Lucero Obispo| Se actualizo el diagrama de clases, labeling systems, descripcion de startup, analisis de entrevistas. Para el sprint 1, se realizo el source code style guide of conventions y el execution evidance for sprint review y team collaboration insights. En codigo, se hizo la pagina busqueda de empresas.
+ TP | 05/09/23 - 26/09/23  | Andrea O'Higgins| Se añadió el historial de reserva y el chat en la app, se diseñaron los wireframes y mockups. Se actualizó los user stories y features, y se agregó para el sprint2 el development evidence y testing suite evidence.
  TP | 05/09/23 - 26/09/23  | Eric Cuevas| Se desarrollo las partes de registro, login y ajustes de usuario de la app, se añadieron wireframes y mockups, se corrigio partes del sprint 1 asi como historias de Usuario, realize el deployment de la app y los puntos relazcionados a este.
- TP | 05/09/23 - 26/09/23  | Javier Sebastian| Se añadió 
-
+ TP | 05/09/23 - 26/09/23  | Javier Sebastian| Se desarrollo la parte de las membresías y el formulario de suscripción de membresía. Se actualizó los wireframes y mock-ups según las variaciones de estilos realizados en código. Se corrigió el impact map y actualizó el product backlog. 
+---
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
    1.1.1 Descripcion de la startup  
@@ -100,15 +101,25 @@ Ciclo 2023-02
    5.2.1.5. Execution Evidence for Sprint Review.  
    5.2.1.6. Services Documentation Evidence for Sprint Review.  
    5.2.1.7. Software Deployment Evidence for Sprint Review.  
-   5.2.1.8. Team Collaboration Insights during Sprint.  
+   5.2.1.8. Team Collaboration Insights during Sprint.
+   5.2.2. Sprint 2  
+   5.2.2.1. Sprint Planning 2.  
+   5.2.2.2. Sprint Backlog 2.  
+   5.2.2.3. Development Evidence for Sprint Review.  
+   5.2.2.4. Testing Suite Evidence for Sprint Review.  
+   5.2.2.5. Execution Evidence for Sprint Review.  
+   5.2.2.6. Services Documentation Evidence for Sprint Review.  
+   5.2.2.7. Software Deployment Evidence for Sprint Review.  
+   5.2.2.8. Team Collaboration Insights during Sprint.  
 
 ## Student Outcome  
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---------|---------|---------|
-
 | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se realizó una entrevista donde donde el entrevistado recibió información sobre el proyecto. Además, se realizaron meetings con el equipo<br><br> *Eric Fernando Cuevas* <br> Se realizó dos entrevistas al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica los resultados del informe. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizó una entrevista al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica la ejecucion del pagina web. <br><br> *Andrea Namie O´Higgins* <br> - Se realizó dos entrevistas a ciudadanos. Además, se realizaron meetings con el equipo <br><br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se realizaron meetings con el equipo <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo una presentación en video que explica los resultados del codigo.  Se realizaron meetings con el equipo. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizaron meetings con el equipo. <br><br> *Andrea Namie O´Higgins* <br> - Se realizaron meetings con el equipo. | Por un lado, concluimos que es importante manejar un lenguaje en común con los clientes. Necesitamos transferir y receptar ideas a fin de construir una solución hacia un problema identificado. Por ejemplo, al realizar entrevistas. Por otro lado, también es relevante comunicarse con el equipo de manera que se tiene un proceso de trabajo estratégico y coordinado. Además, concluimos que dado un análisis y especificaciones de requisitos como también el diseño, la implementación, validación y despliegue del producto logramos definir una estructura robusta para el desarrollo del aplicativo web "Carga sin Estrés". |
 | Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el analisis competitivo, el product backlog, historias de usuario, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo los procesos de Lean UX , historias de Usuario, diagramas de modelado, entre otras cosas. <br>  <br> *Lucero Abigail Obispo* <br> - Se desarrollo los procesos de Lean UX, historias de usuario, digrama de clases, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo los as-is y to-be scenario mapping, diagramas c4, historias de usuario, entre otros <br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el impact mapping, product backlog, team collaboration insigths, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo el modelo de la base de datos, execution evidence, sprint plannign, entre otras cosas. <br><br> *Lucero Abigail Obispo* <br> - Se desarrollo historias de usuario, digrama de clases, services documentation, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo diagramas c4, development evidence, testing envidence, entre otros | Por un lado, concluimos que es importante manejar un lenguaje en común con los clientes. Necesitamos transmitir mensajes legibles, limpios e intuitivos. Por ejemplo, al documentar una descripción de "Carga sin Estrés". Por otro lado, también es relevante transmitir mensajes en los medios remotos con el equipo de manera que se tiene un proceso de trabajo estratégico y coordinado. |
+
+
 
 ---
 # Capitulo 1 : Introducción  
@@ -116,36 +127,34 @@ Ciclo 2023-02
 ### 1.1.1 Descripción de la startup  
 Nuestra startup, "Carga sin estres", se especializa en una innovadora plataforma que conecta a los clientes con empresas de mudanzas, ofreciendo un servicio integral. En la actualidad, aproximadamente 200,000 individuos migran internamente en Lima, con un 58% eligiendo ubicaciones nuevas y un 42% mudándose cerca de sus lugares anteriores (IPSOS, 2019). Además, el aumento de inmigrantes en Perú en 2020 fue de 1.069.745 personas (Expansion, 2020). Sin embargo, el sector de mudanzas enfrenta desafíos debido a la competencia informal; mientras que, los usuarios a menudo enfrentan dificultades para identificar empresas de mudanza confiables y, en consecuencia, a veces toman decisiones apresuradas. "Carga sin estres" busca resolver estos problemas, brindando información y conexiones eficientes entre usuarios y empresas de mudanzas. Por un lado, permite a los usuarios interactuar de manera eficiente con las empresas de mudanza, optimizando el proceso completo. A través de la plataforma, los clientes pueden describir sus necesidades de mudanza y recibir propuestas detalladas de empresas de mudanzas asociadas. Por otro lado, las empresas de mudanzas obtienen visibilidad y prestigio por un servicio satisfactorio, lo que ayudara en el funcionamiento de estas.
 
-- Misión: Nuestra misión es simplificar y mejorar el proceso de mudanza para los usuarios, al mismo tiempo que brindamos nuevas oportunidades de negocio para las empresas de mudanzas, todo esto a través de una plataforma accesible y fácil de usar.
+Misión: Nuestra misión es simplificar y mejorar el proceso de mudanza para los usuarios, al mismo tiempo que brindamos nuevas oportunidades de negocio para las empresas de mudanzas, todo esto a través de una plataforma accesible y fácil de usar.
 
-- Visión: Buscamos convertirnos en la principal plataforma en la industria de mudanzas y transporte de bienes grandes como muebles, siendo reconocidos por nuestra capacidad para conectar de manera eficaz a los clientes con las empresas de mudanzas, proporcionando una experiencia sin problemas y confiable para todos los involucrados.    
+Visión: Buscamos convertirnos en la principal plataforma en la industria de mudanzas y transporte de bienes grandes como muebles, siendo reconocidos por nuestra capacidad para conectar de manera eficaz a los clientes con las empresas de mudanzas, proporcionando una experiencia sin problemas y confiable para todos los involucrados.    
 
 ### 1.1.2 Perfiles de los integrantes del equipo  
-* Nombres y Apellidos: Eric Fernando Cuevas Rios  
-Carrera: Ingenieria de Software  
-Acerca De: Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
-Fotografia de Perfil:
-![profile2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/integrante2.JPG?raw=true)
+* **Nombres y Apellidos:** Eric Fernando Cuevas Rios  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Estudiante de UPC. Al equipo puedo aportar organización y experiencia en proyectos similares. Tengo conocimiento en C++, Java, SQL y el desarrollo en HTML/CSS  
+**Fotografia de Perfil:**   
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante2.jpg?raw=true" width="300" height="460" style="margin-left:50px;">  
 
-* Nombres y Apellidos: Lucero Abigail Obispo Rios  
-Carrera: Ingenieria de Software  
-Acerca De: Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
-Fotografia de Perfil:  
-![profile1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/integrante1.jpeg?raw=true)
+* **Nombres y Apellidos:** Lucero Abigail Obispo Rios  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Para este proyecto, puedo aportar con mis conocimientos en programación, diseño y redacción. Asimismo, me considero una persona responsable, organizada y que le gusta trabajar en equipo.  
+**Fotografia de Perfil:**       
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante1.jpeg?raw=true" width="300" height="312" style="margin-left:50px;">
 
+* **Nombres y Apellidos:** Javier Martin Sebastian Tasayco  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesto a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.  
+**Fotografia de Perfil:**  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante3.jpg?raw=true" width="300" height="400" style="margin-left:50px;">
 
-* Nombres y Apellidos: Javier Martin Sebastian Tasayco  
-Carrera: Ingenieria de Software  
-Acerca De: Para este proyecto, puedo aportar mis habilidades de redacción, diseño y programación. Además, estoy dispuesto a capacitarme con las herramientas que se consideren necesarias. Por otro lado, me considero una persona responsable y comprometida con el proyecto.  
-Fotografia de Perfil:  
-![profile3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/b61a7927917e1dab8195a4684e2b1c9d66c3c330/Informe/Imagenes/integrante3.jpg)
-
-
-* Nombres y Apellidos: Andrea Namie O'Higgins Rosales  
-Carrera: Ingenieria de Software  
-Acerca De: Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
-Fotografia de Perfil:  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true" width="300" height="356">
+* **Nombres y Apellidos:** Andrea Namie O'Higgins Rosales  
+**Carrera:** Ingenieria de Software  
+**Acerca De:** Las habilidades que puedo aportar al equipo incluyen organización y responsabilidad. Dispuesta a trabajar en equipo para llevar a cabo el proyecto. Tengo conocimiento de los lenguajes de programación c + + y SQL.  
+**Fotografia de Perfil:**    
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/integrante4.jpg?raw=true" width="300" height="356" style="margin-left:50px;">
 
 ## 1.2 Solution profile  
 ### 1.2.1 Antecendentes y problematica  
@@ -407,11 +416,10 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m�
 ### 2.2.3 Análisis de entrevistas  
 
 ***Representantes de Empresas:***    
-
 - Respecto a la cuestión sobre los métodos empleados para atraer a posibles clientes, es esencial destacar que el **100%** de los entrevistados compartieron que recurren de manera recurrente a enfoques tradicionales de marketing y publicidad. Esta estrategia involucra el uso de medios convencionales, tales como anuncios en periódicos locales, letreros publicitarios, y la inclusión de información promocional en los vehículos que pertenecen a su empresa. Además, un dato significativo es que un **66.67%** de los entrevistados mencionó que sus respectivas empresas han establecido presencia en línea mediante la creación de una página web. Sin embargo, es importante subrayar que para la mayoría de ellos, esta presencia en línea no constituye su principal método para atraer clientes. En cambio, la página web se utiliza ocasionalmente como una herramienta adicional en su estrategia global de captación de clientes. A partir de este hallazgo, se puede deducir que es recomendable que las empresas de transporte y mudanzas exploren y optimicen aún más sus estrategias en línea. Esto no solo les permitirá mantener su presencia en los métodos tradicionales que funcionan, sino que también les abrirá las puertas para llegar a nuevos clientes que buscan servicios en la web.
 - Se pudo rescatar que el **100%** de los entrevistados afirmaron que su empresa de mudanza o carga ya poseia protocolos para el transporte de objetos pesados y/o fragiles, asi como politicas para mantener informados a los clientes de la posición de sus pertenencias. Con el objetivo de mantener ello, sabemos que nuestra plataforma necesita incluir un chat para que refuerce la interaccion entre ambas partes, lo que es esencial para la satisfacción del cliente y de la empresa.
 - Se puede afirmar que el **100%** los entrevistados piensan que una aplicación/pagina web que sirva para promocionar sus negocios y ayudarlos a conectar con más clientes seria de mucha ayuda. Esto es de gran relevancia para el desarrollo de una plataforma web de búsqueda de empresas de mudanzas, ya que demuestra que existe una demanda real en el mercado por una solución que aborde la competencia y permita a las empresas de mudanza conectarse de manera efectiva con un público más amplio.
-  
+
 ***Individuos de 18 a 50 años***  
 - Una coincidencia relevante entre las tres entrevistas es la preocupación por la seguridad de los bienes durante el proceso de mudanza. Italo Rodrigo Mendoza Apolaya destaca su preocupación por el bienestar de los bienes a transportar, Sergio menciona la importancia de la seguridad de los bienes y la puntualidad en la entrega, y Virginia también enfatiza la seguridad de los objetos delicados. Esta preocupación común subraya la importancia de construir una plataforma de búsqueda de empresas de mudanza que no solo facilite la conexión entre usuarios y empresas, sino que también garantice la integridad y seguridad de los objetos transportados, lo que podría ser un punto clave para atraer a los usuarios y ganar su confianza en la plataforma.
 - Un hallazgo relevante entre las tres entrevistas es la importancia que los entrevistados otorgan a la conveniencia y la eficiencia en el proceso de mudanza. Italo Rodrigo Mendoza Apolaya menciona que una de las características atractivas en una aplicación web sería el seguimiento en tiempo real del traslado y las reservas de servicio, lo que indica su interés en simplificar y agilizar el proceso. Sergio destaca la importancia de la puntualidad en la entrega debido a sus restricciones de tiempo, y Virginia ve la plataforma como una forma de ahorrar tiempo en la selección de empresas y cotizaciones. La plataforma lograra esto al proporcionar datos precisos, como la hora de entrega, la fecha de mudanza, etc a la hora de realizar una reserva para que los usuarios sepan a que hora se va a realizar esta y poder revisar estos datos cada vez que deseen desde el historial de reservas. Por otro lado, de acuerdo a IONOS (2019), un **80%** de los sitios web reconocen a los filtros y barras de busqueda como un componente esencial para alcanzar el éxito en el entorno de los negocios en línea, por eso nuestra plataforma agregara estos componentes para que puedan realizar una busqueda inteligente y eficiente de empresas de mudanza. 
