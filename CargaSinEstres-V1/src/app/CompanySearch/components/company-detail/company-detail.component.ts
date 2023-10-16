@@ -15,6 +15,10 @@ export class CompanyDetailComponent implements OnInit {
 
     company: any = '';
 
+    numeroTarjeta: string = '';
+    CVV: string = '';
+    fechaVencimiento: string = '';
+
     reservation: BookingHistory = {
       id: undefined,
       idCompany: '',
