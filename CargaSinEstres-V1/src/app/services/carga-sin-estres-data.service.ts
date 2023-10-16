@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
-import { Company } from '../models/company.model';
 import { Observable, catchError, retry, throwError } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { BookingHistory } from '../models/booking-history.model';
@@ -30,12 +29,12 @@ export class CargaSinEstresDataService {
     return throwError('Ha ocurrido un problema con la solicitud, por favor inténtalo de nuevo más tarde');
   }
 
-  getAllCompanies(): Observable<Company> {
-    return this.http.get<Company>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
+  getAllCompanies(): Observable<any> {
+    return this.http.get<any>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
   }
 
-  getCompanyById(id: any): Observable<Company> {
-    return this.http.get<Company>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
+  getCompanyById(id: any): Observable<any> {
+    return this.http.get<any>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
   }
 
   createReservation(item: any): Observable<BookingHistory>{
@@ -99,5 +98,7 @@ export class CargaSinEstresDataService {
     return this.http.put(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
   }
 
-
+  getClientById(clientId: any): Observable<any> {
+    return this.http.get<any>(`${this.base_url}/clients/${clientId}`).pipe(retry(2),catchError(this.handleError));
+  }
 }
