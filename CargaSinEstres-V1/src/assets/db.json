@@ -147,8 +147,22 @@
       },
       "hiredCompany": {
         "name": "Transporte y mudanzas Rapi2",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo1.jpg"
-      }
+        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 2,
@@ -168,7 +182,21 @@
       "hiredCompany": {
         "name": "Romabe transporte",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo2.jpg"
-      }
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 3,
@@ -188,7 +216,21 @@
       "hiredCompany": {
         "name": "Mudate Facil",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo3.png"
-      }
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 4,
@@ -208,7 +250,21 @@
       "hiredCompany": {
         "name": "Bodegas y mudanzas Santana",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo4.png"
-      }
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 5,
@@ -228,7 +284,21 @@
       "hiredCompany": {
         "name": "Practi Mudanza",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo5.png"
-      }
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 6,
@@ -248,7 +318,21 @@
       "hiredCompany": {
         "name": "Mudanzas Jurado",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo6.png"
-      }
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 7,
@@ -268,14 +352,21 @@
       "hiredCompany": {
         "name": "Mudanzas Plata",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo7.png"
-      }
-    }
-  ],
-  "chat": [
-    {
-      "id": 1,
-      "message": "Primer mensaje",
-      "dateTime": "2019-10-10 10:10:10"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     }
   ],
   "clients": [

@@ -11,4 +11,5 @@ export interface BookingHistory {
     status: any;
     payment: {totalAmount: any, paymentMethod: any};
     hiredCompany: { name: any, logo: any};
+    chat: {id: any, user: any, message: any, dateTime: any};
 }
