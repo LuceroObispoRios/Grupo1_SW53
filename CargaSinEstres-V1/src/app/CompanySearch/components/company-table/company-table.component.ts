@@ -81,7 +81,7 @@ export class CompanyTableComponent{
   }
   
   onServiceSelectionChange(event: any) {
-    this.selectedServices = event.value; // Use event.value to get an array of selected values
+    this.selectedServices = event.value; // Usa event.value para obtener un arreglo de los servicios seleccionados
     this.searchBySelectedServices(); 
   }
 
