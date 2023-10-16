@@ -6,7 +6,6 @@ import { BookingHistory } from 'src/app/models/booking-history.model';
 import { Router } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
-
 @Component({
   selector: 'app-company-detail',
   templateUrl: './company-detail.component.html',
@@ -21,6 +20,7 @@ export class CompanyDetailComponent implements OnInit {
     reservation: BookingHistory = {
       id: undefined,
       idCompany: '',
+      idClient: '',
       bookingDate: undefined,
       pickupAddress: undefined,
       destinationAddress: undefined,
@@ -38,12 +38,22 @@ export class CompanyDetailComponent implements OnInit {
       }
     };
 
+    userId: string = '';
     constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute, private router: Router, private snackBar: MatSnackBar) { 
       this.activatedRoute.params.subscribe(
         params => {
           this.getCompany(params['id']);
         }
       );
+
+        // Obtiene el id del usuario
+      this.activatedRoute.pathFromRoot[1].url.subscribe(
+        url => {
+          console.log('url: ', url);
+          this.userId = url[1].path;
+          console.log('User id:' + this.userId);
+        }
+      ); 
     }
   
     ngOnInit(): void {
@@ -71,6 +81,7 @@ export class CompanyDetailComponent implements OnInit {
       );
     }
 
+
     addReservation() {
       this.reservation.idCompany = this.company.id;
       this.reservation.hiredCompany.name = this.company.name;
@@ -79,11 +90,11 @@ export class CompanyDetailComponent implements OnInit {
       this.reservation.status="En curso";
       this.reservation.payment.totalAmount=0;
       this.reservation.payment.paymentMethod="Por definir";
+      this.reservation.idClient = this.userId;
       this.companyDataService.createReservation(this.reservation).subscribe(
         (res: any) => 
         {
-          console.log("Reservation created:");
-          console.log(res);
+          console.log("Reservation created:", res);
           this.openSnackBar('Reserva agregada exitosamente');
         },
         err => {
@@ -96,7 +107,7 @@ export class CompanyDetailComponent implements OnInit {
     onSubmit() {
       this.addReservation();
 
-      this.router.navigateByUrl('/history-cards');
+      this.router.navigateByUrl(`client/${this.userId}/history-cards`);
     }
 }
 
