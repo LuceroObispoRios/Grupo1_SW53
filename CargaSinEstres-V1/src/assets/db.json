@@ -14,7 +14,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 2,
@@ -30,7 +31,8 @@
       "embalaje": false,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 3,
@@ -46,7 +48,8 @@
       "embalaje": true,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 4,
@@ -62,7 +65,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 5,
@@ -78,7 +82,8 @@
       "embalaje": false,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 6,
@@ -94,7 +99,8 @@
       "embalaje": true,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 7,
@@ -110,7 +116,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 8,
@@ -126,7 +133,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     }
   ],
   "bookingHistory": [
@@ -280,7 +288,19 @@
       "direccion": "monterrico",
       "email": "e@gmail.com",
       "password": "123456",
+      "userType": "client",
       "id": 1
+    },
+    {
+      "name": "Lucero",
+      "apellidoMaterno": "Test",
+      "apellidoPaterno": "Test",
+      "celular": "999888777",
+      "direccion": "Lince",
+      "email": "L@gmail.com",
+      "password": "123456",
+      "userType": "client",
+      "id": 2
     }
   ]
 }
