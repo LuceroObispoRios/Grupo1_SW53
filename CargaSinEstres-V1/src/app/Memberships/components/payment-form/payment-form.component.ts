@@ -11,7 +11,9 @@ export class PaymentFormComponent {
   ruc: string = '';
   direccion: string = '';
   vigenciaSuscripcion: string = '';
-  tarjetaSeleccionada: string = '';
+  numeroTarjeta: string = '';
+  CVV: string = '';
+  fechaVencimiento: string = '';
   
   confirmacionVisible: boolean = false;
   
@@ -41,11 +43,15 @@ export class PaymentFormComponent {
   }
 
   validarDatos(): boolean {
-    if (!this.nombre || !this.apellidos || !this.ruc || !this.direccion || !this.vigenciaSuscripcion || !this.tarjetaSeleccionada) {
+    if (!this.nombre || !this.apellidos || !this.ruc || !this.direccion || !this.vigenciaSuscripcion || !this.numeroTarjeta || !this.CVV || !this.fechaVencimiento) {
       return false;
     }
 
     if (!/^\d{11}$/.test(this.ruc)) return false;
+
+    if (!/^\d{16}$/.test(this.numeroTarjeta)) return false;
+
+    if (!/^\d{3}$/.test(this.CVV)) return false;
   
     return true;
   }
@@ -73,7 +79,7 @@ export class PaymentFormComponent {
     RUC: ${this.ruc}
     Dirección: ${this.direccion}
     Vigencia de Suscripción: ${this.vigenciaSuscripcion}
-    Tarjeta seleccionada: ${this.tarjetaSeleccionada}
+    Numero de Tarjeta: ${this.numeroTarjeta}
     Firma: ${this.firma}
     `;
     return contenido;
