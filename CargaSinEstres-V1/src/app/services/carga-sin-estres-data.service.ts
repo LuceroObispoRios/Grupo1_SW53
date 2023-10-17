@@ -77,13 +77,14 @@ export class CargaSinEstresDataService {
 
   //for settings
   updateClient(id: any, data: any): Observable<any> {
-    return this.http.put(`${this.base_url}/clients/${id}`, JSON.stringify(data), this.httpOptions);
+    return this.http.patch(`${this.base_url}/clients/${id}`, JSON.stringify(data), this.httpOptions);
   }
 
   updateCompany(id: any, data: any): Observable<any> {
-    return this.http.put(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
+    return this.http.patch(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
   }
 
+  //get client by id
   getClientById(clientId: any): Observable<any> {
     return this.http.get<any>(`${this.base_url}/clients/${clientId}`).pipe(retry(2),catchError(this.handleError));
   }

@@ -98,11 +98,16 @@ export class PaymentFormComponent {
   }
 
   validarDatos(): boolean {
+
     if (!this.correo || !this.contrasenia || !this.ruc || !this.direccion || !this.vigenciaSuscripcion || !this.tarjetaSeleccionada) {
       return false;
     }
 
     if (!/^\d{11}$/.test(this.ruc)) return false;
+
+    if (!/^\d{16}$/.test(this.numeroTarjeta)) return false;
+
+    if (!/^\d{3}$/.test(this.CVV)) return false;
   
     return true;
   }
@@ -130,7 +135,7 @@ export class PaymentFormComponent {
     RUC: ${this.ruc}
     Dirección: ${this.direccion}
     Vigencia de Suscripción: ${this.vigenciaSuscripcion}
-    Tarjeta seleccionada: ${this.tarjetaSeleccionada}
+    Numero de Tarjeta: ${this.numeroTarjeta}
     Firma: ${this.firma}
     `;
     return contenido;

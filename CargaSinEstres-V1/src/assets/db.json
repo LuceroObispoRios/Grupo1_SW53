@@ -14,7 +14,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 2,
@@ -30,7 +31,8 @@
       "embalaje": false,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 3,
@@ -46,7 +48,8 @@
       "embalaje": true,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 4,
@@ -62,7 +65,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 5,
@@ -78,7 +82,8 @@
       "embalaje": false,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 6,
@@ -94,7 +99,8 @@
       "embalaje": true,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 7,
@@ -110,7 +116,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 8,
@@ -126,7 +133,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     }
   ],
   "bookingHistory": [
@@ -147,8 +155,8 @@
       },
       "hiredCompany": {
         "name": "Transporte y mudanzas Rapi2",
-        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
-      },
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo1.jpg"
+      }
       "chat": [
         {
           "id": 1,
@@ -182,7 +190,7 @@
       "hiredCompany": {
         "name": "Romabe transporte",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo2.jpg"
-      },
+      }
       "chat": [
         {
           "id": 1,
@@ -216,7 +224,7 @@
       "hiredCompany": {
         "name": "Mudate Facil",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo3.png"
-      },
+      }
       "chat": [
         {
           "id": 1,
@@ -250,7 +258,7 @@
       "hiredCompany": {
         "name": "Bodegas y mudanzas Santana",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo4.png"
-      },
+      }
       "chat": [
         {
           "id": 1,
@@ -284,7 +292,7 @@
       "hiredCompany": {
         "name": "Practi Mudanza",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo5.png"
-      },
+      }
       "chat": [
         {
           "id": 1,
@@ -318,7 +326,7 @@
       "hiredCompany": {
         "name": "Mudanzas Jurado",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo6.png"
-      },
+      }
       "chat": [
         {
           "id": 1,
@@ -352,7 +360,7 @@
       "hiredCompany": {
         "name": "Mudanzas Plata",
         "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo7.png"
-      },
+      }
       "chat": [
         {
           "id": 1,
@@ -378,6 +386,7 @@
       "direccion": "monterrico",
       "email": "e@gmail.com",
       "password": "123456",
+      "userType": "client",
       "id": 1
     },
     {
@@ -388,23 +397,8 @@
       "direccion": "lince",
       "email": "a@gmail.com",
       "password": "0123456",
+      "userType": "client",
       "id": 2
-    }
-  ],
-  "subscriptions": [
-    {
-      "id": 1,
-      "firma": "jlnMt7",
-      "idCompany": 2,
-      "subscriptionDate": "2023-10-14T17:03:31.190Z",
-      "subscriptionType": "3 month plan",
-      "payment": {
-        "paymentMethod": "Mastercard Payment"
-      },
-      "hiredCompany": {
-        "name": "Romabe transporte",
-        "logo": "https://transporteromabe.com/wp-content/uploads/2021/07/Mudanzas-de-Arequipa-a-Lima-2.jpg"
-      }
     }
   ]
 }

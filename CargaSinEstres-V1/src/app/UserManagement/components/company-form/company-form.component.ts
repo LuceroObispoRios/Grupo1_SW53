@@ -27,7 +27,8 @@ export class CompanyFormComponent {
       embalaje: [false],
       montaje: [false],
       desmontaje: [false],
-      description: ['']
+      description: [''],
+      userType: 'company'
     });
   }
 
