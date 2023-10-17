@@ -39,7 +39,8 @@ export class CompanyDetailComponent implements OnInit {
       payment: {
         totalAmount: 0,
         paymentMethod: 'Por definir'
-      }
+      },
+      chat:{id:undefined,user: undefined, message: undefined, dateTime: undefined}
     };
 
     userId: string = '';
