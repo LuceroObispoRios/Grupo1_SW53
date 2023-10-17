@@ -375,6 +375,27 @@
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
+    },
+    {
+      "idCompany": 3,
+      "idClient": {
+        "userId": "2"
+      },
+      "bookingDate": "2023-10-17T03:57:48.306Z",
+      "pickupAddress": "Locación actual",
+      "destinationAddress": "Por Definir",
+      "movingDate": "2023-10-17T03:57:48.306Z",
+      "status": "En curso",
+      "hiredCompany": {
+        "name": "J&G Transporte y mudanzas",
+        "logo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg"
+      },
+      "payment": {
+        "totalAmount": 0,
+        "paymentMethod": "Por definir"
+      },
+      "chat": {},
+      "id": 8
     }
   ],
   "clients": [
