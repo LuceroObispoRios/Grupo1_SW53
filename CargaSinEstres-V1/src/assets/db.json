@@ -390,5 +390,21 @@
       "password": "0123456",
       "id": 2
     }
+  ],
+  "subscriptions": [
+    {
+      "id": 1,
+      "firma": "jlnMt7",
+      "idCompany": 2,
+      "subscriptionDate": "2023-10-14T17:03:31.190Z",
+      "subscriptionType": "3 month plan",
+      "payment": {
+        "paymentMethod": "Mastercard Payment"
+      },
+      "hiredCompany": {
+        "name": "Romabe transporte",
+        "logo": "https://transporteromabe.com/wp-content/uploads/2021/07/Mudanzas-de-Arequipa-a-Lima-2.jpg"
+      }
+    }
   ]
 }

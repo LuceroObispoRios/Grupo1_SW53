@@ -3,6 +3,7 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http
 import { Observable, catchError, retry, throwError } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { BookingHistory } from '../models/booking-history.model';
+import { Subscription } from '../models/subscription.model';
 
 @Injectable({
   providedIn: 'root'
@@ -86,4 +87,10 @@ export class CargaSinEstresDataService {
   getClientById(clientId: any): Observable<any> {
     return this.http.get<any>(`${this.base_url}/clients/${clientId}`).pipe(retry(2),catchError(this.handleError));
   }
+
+  createSubscription(subscriptionData: Subscription): Observable<Subscription> {
+    return this.http.post<Subscription>(`${this.base_url}/subscriptions`, subscriptionData, this.httpOptions)
+      .pipe(retry(2),catchError(this.handleError));
+  }
+
 }
