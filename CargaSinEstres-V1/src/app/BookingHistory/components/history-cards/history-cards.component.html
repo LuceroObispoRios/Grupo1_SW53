@@ -38,7 +38,7 @@
         <div >
           <mat-dialog-actions >
             <ng-container *ngIf="element.status == 'En curso'">
-              <button mat-button class="btn-chat" (click)="openDialog()">
+              <button mat-button class="btn-chat" (click)="openDialog(element)">
                 <mat-icon> chat_bubble</mat-icon>
                   Chat
               </button>
