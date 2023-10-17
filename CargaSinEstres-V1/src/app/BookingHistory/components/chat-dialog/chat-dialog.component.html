@@ -7,7 +7,19 @@
             <mat-icon> chat_bubble</mat-icon>&nbsp;&nbsp;
             <h1>Chat</h1>
         </header>
-
+        <div *ngFor="let message of messages">
+            <div class="message-user">
+                <div class="message-user-content">
+                    <mat-card>
+                        <mat-card-content>
+                            <div *ngIf="message.user == 'client' ; else elseBlock "><b>Cliente</b></div>
+                            <ng-template #elseBlock><b>Compañía</b></ng-template>
+                            <p>{{message.message}}</p><p>{{message.dateTime}}</p>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
         <form  #chatForm='ngForm'>
             <div class="dialog-content">
                 <div>
