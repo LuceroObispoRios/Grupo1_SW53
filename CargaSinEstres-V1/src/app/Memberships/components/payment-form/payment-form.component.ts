@@ -22,7 +22,9 @@ export class PaymentFormComponent {
   ruc: string = '';
   direccion: string = '';
   vigenciaSuscripcion: string = '';
-  tarjetaSeleccionada: string = '';
+  numeroTarjeta: string = '';
+  CVV: string = '';
+  fechaVencimiento: string = '';
 
   //para mostrar el mensaje de confirmacion
   confirmacionVisible: boolean = false;
@@ -52,7 +54,7 @@ export class PaymentFormComponent {
               subscriptionDate: new Date().toISOString(), 
               subscriptionType: this.vigenciaSuscripcion, 
               payment: {
-                paymentMethod: this.tarjetaSeleccionada
+                paymentMethod: "Por definir",
               },
               hiredCompany: {
                 name: companyData.name, 
@@ -99,7 +101,7 @@ export class PaymentFormComponent {
 
   validarDatos(): boolean {
 
-    if (!this.correo || !this.contrasenia || !this.ruc || !this.direccion || !this.vigenciaSuscripcion || !this.tarjetaSeleccionada) {
+    if (!this.correo || !this.contrasenia || !this.ruc || !this.direccion || !this.vigenciaSuscripcion) {
       return false;
     }
 
