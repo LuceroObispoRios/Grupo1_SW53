@@ -1,14 +1,16 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild , Inject} from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
 
-import {MatDialog, MatDialogModule,MatDialogRef} from '@angular/material/dialog';
+import { MatDialog, MatDialogModule,MatDialogRef} from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button'; 
 import { MatIconModule } from '@angular/material/icon';
 import { BookingHistory } from 'src/app/models/booking-history.model';
+
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-company-table',
@@ -26,7 +28,7 @@ export class CompanyTableComponent{
   originalData: any[] = []; //contiene todas las empresas sin ningún filtro aplicado
 
   userId: string = '';
-  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute) { 
+  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute, public dialog: MatDialog) { 
 
     // Obtiene el id del usuario
     this.route.pathFromRoot[1].url.subscribe(
@@ -132,8 +134,9 @@ export class CompanyTableComponent{
   }
 
   openDialog(){
-    const dialogRef = this.dialog.open(CargaRapidaDialog);
-
+    const dialogRef = this.dialog.open(CargaRapidaDialog, {
+      data:{userId:this.userId}
+    });
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
@@ -151,11 +154,12 @@ export class CompanyTableComponent{
 })
 export class CargaRapidaDialog {
 
-  companies: Company[] = [];
+  companies: any[] = [];
 
   reservation: BookingHistory = {
     id: undefined,
     idCompany: '',
+    idClient: '',
     bookingDate: undefined,
     pickupAddress: undefined,
     destinationAddress: undefined,
@@ -170,10 +174,15 @@ export class CargaRapidaDialog {
     payment: {
       totalAmount: 0,
       paymentMethod: 'Por definir'
-    }
+    },
+    chat: {id: undefined, user: undefined, message: undefined, dateTime: undefined}
   };
 
-  constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService) {}
+  userId: string = '';
+  constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService, @Inject(MAT_DIALOG_DATA) public data: any) {
+    this.userId = data;
+    console.log('userId is: ', this.data);
+  }
 
   closeDialog(): void {
     this.dialogRef.close();
@@ -198,6 +207,7 @@ export class CargaRapidaDialog {
 
     //generar reserva a partir de randCompany
     this.reservation.idCompany = randCompany.id;
+    this.reservation.idClient = this.data;
     this.reservation.hiredCompany.name = randCompany.name;
     this.reservation.hiredCompany.logo = randCompany.photo;
     console.log('name:', randCompany.name);
