@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { Company } from 'src/app/models/company.model';
+import { Subscription } from 'src/app/models/subscription.model';
 
 @Component({
   selector: 'app-payment-form',
@@ -6,22 +9,78 @@ import { Component } from '@angular/core';
   styleUrls: ['./payment-form.component.scss']
 })
 export class PaymentFormComponent {
-  nombre: string = '';
-  apellidos: string = '';
+
+  constructor(private dataService: CargaSinEstresDataService) { }
+
+  //heredan los datos de un parent
+  @Input() companyId: any; 
+  @Input() companyName: any; 
+  @Input() companyLogo: any; 
+
+  correo: string = '';
+  contrasenia: string = '';
   ruc: string = '';
   direccion: string = '';
   vigenciaSuscripcion: string = '';
-  tarjetaSeleccionada: string = '';
-  
+  numeroTarjeta: string = '';
+  CVV: string = '';
+  fechaVencimiento: string = '';
+
+  //para mostrar el mensaje de confirmacion
   confirmacionVisible: boolean = false;
-  
+  //para desactivar el boton de confirmacion (no hacer spam de subscripciones)
+  botonDesactivado: boolean = false;
+
+  //incializar la firma aleatoria
   firma: string = this.generarCodigoAleatorio();
 
   onSubmit() {
     if (this.validarDatos()) {
       this.confirmacionVisible = true;
+      this.botonDesactivado = true;
+
+      // Obtener la información de la empresa
+      this.dataService.getCompaniesForLogin(this.correo, this.contrasenia).subscribe(
+        (CompanyArray: Company[]) => {
+
+          if (CompanyArray.length > 0) {
+
+            const companyData = CompanyArray[0];
+
+            const nuevaSuscripcion: Subscription = {
+              id: 0,
+              firma: this.firma,
+              idCompany: companyData.id,
+              subscriptionDate: new Date().toISOString(), 
+              subscriptionType: this.vigenciaSuscripcion, 
+              payment: {
+                paymentMethod: "Por definir",
+              },
+              hiredCompany: {
+                name: companyData.name, 
+                logo: companyData.photo 
+              }
+            };
+
+          // Crear la suscripción
+          this.dataService.createSubscription(nuevaSuscripcion).subscribe(
+            (response) => {
+              console.log('Suscripción creada con éxito', response);
+            },
+            (error) => {
+              console.error('Error al crear la suscripción', error);
+            }
+          );
+          }
+        },
+        (error) => {
+          console.error('Error al obtener la información de la empresa', error);
+        }
+      );
     }
   }
+  
+  
 
   generarCodigoAleatorio(): string {
     const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -41,11 +100,16 @@ export class PaymentFormComponent {
   }
 
   validarDatos(): boolean {
-    if (!this.nombre || !this.apellidos || !this.ruc || !this.direccion || !this.vigenciaSuscripcion || !this.tarjetaSeleccionada) {
+
+    if (!this.correo || !this.contrasenia || !this.ruc || !this.direccion || !this.vigenciaSuscripcion) {
       return false;
     }
 
     if (!/^\d{11}$/.test(this.ruc)) return false;
+
+    if (!/^\d{16}$/.test(this.numeroTarjeta)) return false;
+
+    if (!/^\d{3}$/.test(this.CVV)) return false;
   
     return true;
   }
@@ -68,12 +132,12 @@ export class PaymentFormComponent {
     const contenido = `
     Información de la Boleta:
 
-    Nombre: ${this.nombre}
-    Apellidos: ${this.apellidos}
+    Correo: ${this.correo}
+    contrasenia: ${this.contrasenia}
     RUC: ${this.ruc}
     Dirección: ${this.direccion}
     Vigencia de Suscripción: ${this.vigenciaSuscripcion}
-    Tarjeta seleccionada: ${this.tarjetaSeleccionada}
+    Numero de Tarjeta: ${this.numeroTarjeta}
     Firma: ${this.firma}
     `;
     return contenido;

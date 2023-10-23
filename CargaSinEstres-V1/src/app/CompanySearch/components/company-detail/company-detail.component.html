@@ -78,6 +78,22 @@
           <mat-form-field>
             <input type="text" matInput placeholder="Ex. 16:00" required [(ngModel)]="reservation.movingTime" name="movingTime">
           </mat-form-field>
+
+          <br>
+          <mat-label>Numero de tarjeta de pago:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="Ex. 0000000000000000" required [(ngModel)]="numeroTarjeta" name="numeroTarjeta">
+          </mat-form-field>
+
+          <mat-label>CVV de la tarjeta de pago</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="000" required [(ngModel)]="CVV" name="CVV">
+          </mat-form-field>
+
+          <mat-label>Fecha de vencimiento de la tarjeta:</mat-label>
+          <mat-form-field>
+            <input type="text" matInput placeholder="00/00" required [(ngModel)]="fechaVencimiento" name="fechaVencimiento">
+          </mat-form-field>
           
           <ng-container>
             <button type="submit">Realizar reserva</button>

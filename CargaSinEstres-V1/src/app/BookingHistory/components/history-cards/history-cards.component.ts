@@ -19,6 +19,7 @@ export class HistoryCardsComponent implements OnInit {
 
   elementData!: any[];
   pageSlice!: any[];
+  messages!: any[];
   
 
   @ViewChild(MatPaginator, {static: true}) 
@@ -30,6 +31,7 @@ export class HistoryCardsComponent implements OnInit {
     this.bookingData = {} as BookingHistory;
     this.pageSlice = [];
     this.elementData = [];
+    this.messages = [];
 
     this.route.pathFromRoot[1].url.subscribe(
       url => {
@@ -46,7 +48,6 @@ export class HistoryCardsComponent implements OnInit {
     );    
   }
   
-
   onPageChange(event: PageEvent) {
     console.log(event);
     const startIndex = event.pageIndex * event.pageSize;
@@ -57,26 +58,9 @@ export class HistoryCardsComponent implements OnInit {
     this.pageSlice = this.elementData.slice(startIndex, endIndex);
   }
 
-
   ngOnInit(): void {
     this.getBookingHistoryById(this.userId);
   }
-
-  // getAllBookingHistory(id: any) {
-  //   this.companyDataService.getAllBookingHistory().subscribe((response: any) => {
-  //     this.elementData = response;
-  //     console.log('data1: ', response);
-  //     this.elementData = this.elementData.filter((element: any) => element.idClient == id);
-  //     this.elementData.forEach((element, index) => {
-  //       element.counter = index + 1;
-  //     });
-
-  //     this.elementData.reverse();
-  //     console.log('data user id: ');
-  //     console.log(this.elementData);
-  //     this.pageSlice = this.elementData.slice(0, 4);
-  //   })
-  // }
 
   getBookingHistoryById(id: any) {  
     if(this.userType == 'client'){
@@ -106,10 +90,15 @@ export class HistoryCardsComponent implements OnInit {
     }
   }
 
-  openDialog() {
+  openDialog(element: BookingHistory) {
+    console.log('opening dialog element: ', element);
     this.dialog.open(ChatDialogComponent, {
-      width: '600px'
+      width: '600px',
+      data:{userId:this.userId, userType: this.userType, element}
     });
   }
+
+
+  
 
 }

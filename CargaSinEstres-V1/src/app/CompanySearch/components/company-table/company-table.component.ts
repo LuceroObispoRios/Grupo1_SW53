@@ -1,9 +1,16 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild , Inject} from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
+
+import { MatDialog, MatDialogModule,MatDialogRef} from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button'; 
+import { MatIconModule } from '@angular/material/icon';
+import { BookingHistory } from 'src/app/models/booking-history.model';
+
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-company-table',
@@ -21,7 +28,7 @@ export class CompanyTableComponent{
   originalData: any[] = []; //contiene todas las empresas sin ningún filtro aplicado
 
   userId: string = '';
-  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute) { 
+  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute, public dialog: MatDialog) { 
 
     // Obtiene el id del usuario
     this.route.pathFromRoot[1].url.subscribe(
@@ -125,4 +132,105 @@ export class CompanyTableComponent{
     console.log(row);
     this.router.navigateByUrl(`client/${this.userId}/company/${row.id}`);
   }
+
+  openDialog(){
+    const dialogRef = this.dialog.open(CargaRapidaDialog, {
+      data:{userId:this.userId}
+    });
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+}
+
+
+@Component({
+  selector: 'cargaRapida-dialog',
+  templateUrl: 'cargaRapida-dialog/cargaRapida-dialog.html',
+  styleUrls: ['cargaRapida-dialog/cargaRapida-dialog.scss'],
+  standalone: true,
+  imports: [MatDialogModule, MatButtonModule, MatIconModule]
+})
+export class CargaRapidaDialog {
+
+  companies: any[] = [];
+
+  reservation: BookingHistory = {
+    id: undefined,
+    idCompany: '',
+    idClient: '',
+    bookingDate: undefined,
+    pickupAddress: undefined,
+    destinationAddress: undefined,
+    movingDate: undefined,
+    movingTime: undefined,
+    status: 'En curso',
+    services: undefined,
+    hiredCompany: {
+      name: '',
+      logo: ''
+    },
+    payment: {
+      totalAmount: 0,
+      paymentMethod: 'Por definir'
+    },
+    chat: {id: undefined, user: undefined, message: undefined, dateTime: undefined}
+  };
+
+  userId: string = '';
+  constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService, @Inject(MAT_DIALOG_DATA) public data: any) {
+    this.userId = data;
+    console.log('userId is: ', this.data);
+  }
+
+  closeDialog(): void {
+    this.dialogRef.close();
+  }
+
+  ngOnInit(): void {
+    this.getAllCompanies();
+  }
+
+  getAllCompanies() {
+    this.companyDataService.getAllCompanies().subscribe((res: any) => {
+      this.companies = res;
+      console.log(this.companies)
+    })
+  }
+
+  generateCargaRapida(){
+    let now = new Date(); //current date al momento de hacer la reserva
+
+    let randCompanyIndex = Math.floor(Math.random() * this.companies.length); //index al azar
+    let randCompany = this.companies[randCompanyIndex]; //company al azar
+
+    //generar reserva a partir de randCompany
+    this.reservation.idCompany = randCompany.id;
+    this.reservation.idClient = this.data;
+    this.reservation.hiredCompany.name = randCompany.name;
+    this.reservation.hiredCompany.logo = randCompany.photo;
+    console.log('name:', randCompany.name);
+    this.reservation.pickupAddress = "Locación actual";
+    this.reservation.destinationAddress = "Por Definir";
+    this.reservation.status = "En curso";
+    this.reservation.payment.totalAmount = 0;
+    this.reservation.payment.paymentMethod = "Por definir";
+    this.reservation.bookingDate = now;
+    this.reservation.movingDate = now;
+    //se genera la reserva con company random y fecha actual
+    this.companyDataService.createReservation(this.reservation).subscribe(
+      (res: any) => 
+      {
+        console.log("Reservation created:");
+        console.log(res);
+      },
+      err => {
+        console.log("Error:");
+        console.log(err);
+      }
+    );
+
+  }
+
 }

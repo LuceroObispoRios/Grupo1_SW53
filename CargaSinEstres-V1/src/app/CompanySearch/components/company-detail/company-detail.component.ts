@@ -17,6 +17,10 @@ export class CompanyDetailComponent implements OnInit {
 
     company: any = '';
 
+    numeroTarjeta: string = '';
+    CVV: string = '';
+    fechaVencimiento: string = '';
+
     reservation: BookingHistory = {
       id: undefined,
       idCompany: '',
@@ -35,7 +39,8 @@ export class CompanyDetailComponent implements OnInit {
       payment: {
         totalAmount: 0,
         paymentMethod: 'Por definir'
-      }
+      },
+      chat:{id:undefined,user: undefined, message: undefined, dateTime: undefined}
     };
 
     userId: string = '';
