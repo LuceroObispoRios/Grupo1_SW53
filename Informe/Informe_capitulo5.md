@@ -428,9 +428,15 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
 
 #### 5.2.3.1. Sprint Planning 3  
 
+#### 5.2.3.3. Development Evidence for Sprint Review.
+
 ![Development Evidence - parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true) 
 ![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true) 
+![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true) 
 
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+
+Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
 
 
 
