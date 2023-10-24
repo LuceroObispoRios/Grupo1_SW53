@@ -424,6 +424,17 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
 **Contribuitors**    
 ![contribuitors](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/contribuitors.png?raw=true)
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3  
+
+![Development Evidence - parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true) 
+![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true) 
+
+
+
+
+
 **Bibliografia**
 --
 Angular. (s.f.). Guía de estilo. Recuperado de https://angular.io/guide/styleguide [Fecha de consulta: 25 de septiembre de 2023] 
