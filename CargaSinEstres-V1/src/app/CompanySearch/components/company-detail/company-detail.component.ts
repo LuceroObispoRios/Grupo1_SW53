@@ -3,6 +3,8 @@ import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-dat
 import { ActivatedRoute } from '@angular/router';
 import { NgForm } from '@angular/forms';
 import { BookingHistory } from 'src/app/models/booking-history.model';
+import { Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-company-detail',
@@ -22,6 +24,7 @@ export class CompanyDetailComponent implements OnInit {
     reservation: BookingHistory = {
       id: undefined,
       idCompany: '',
+      idClient: '',
       bookingDate: undefined,
       pickupAddress: undefined,
       destinationAddress: undefined,
@@ -36,18 +39,38 @@ export class CompanyDetailComponent implements OnInit {
       payment: {
         totalAmount: 0,
         paymentMethod: 'Por definir'
-      }
+      },
+      chat:{id:undefined,user: undefined, message: undefined, dateTime: undefined}
     };
 
-    constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute) { 
+    userId: string = '';
+    constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute, private router: Router, private snackBar: MatSnackBar) { 
       this.activatedRoute.params.subscribe(
         params => {
           this.getCompany(params['id']);
         }
       );
+
+        // Obtiene el id del usuario
+      this.activatedRoute.pathFromRoot[1].url.subscribe(
+        url => {
+          console.log('url: ', url);
+          this.userId = url[1].path;
+          console.log('User id:' + this.userId);
+        }
+      ); 
     }
   
     ngOnInit(): void {
+    }
+
+    openSnackBar(message: string) {
+      this.snackBar.open(message, 'Cerrar', {
+        panelClass: ['color-snackbar-created'],
+        duration: 5000,
+        horizontalPosition: 'center',
+        verticalPosition: 'bottom',
+      });
     }
   
     getCompany(id: any) {
@@ -72,11 +95,12 @@ export class CompanyDetailComponent implements OnInit {
       this.reservation.status="En curso";
       this.reservation.payment.totalAmount=0;
       this.reservation.payment.paymentMethod="Por definir";
+      this.reservation.idClient = this.userId;
       this.companyDataService.createReservation(this.reservation).subscribe(
         (res: any) => 
         {
-          console.log("Reservation created:");
-          console.log(res);
+          console.log("Reservation created:", res);
+          this.openSnackBar('Reserva agregada exitosamente');
         },
         err => {
           console.log("Error:");
@@ -87,6 +111,8 @@ export class CompanyDetailComponent implements OnInit {
 
     onSubmit() {
       this.addReservation();
+
+      this.router.navigateByUrl(`client/${this.userId}/history-cards`);
     }
 }
 

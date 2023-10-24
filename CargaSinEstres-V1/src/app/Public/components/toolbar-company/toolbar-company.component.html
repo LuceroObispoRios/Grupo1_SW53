@@ -9,8 +9,12 @@
         <div><h5 (click)="pageSettings()" class="toolbar-text">Editar Perfil</h5></div>
       </button>&nbsp;
 
-      <button mat-button class="toolbar-btn" aria-label="User settings page button">
+      <button mat-button class="toolbar-btn" aria-label="Membership page button">
         <div><h5 (click)="pageMembership()" class="toolbar-text">Comprar Membresia</h5></div>
+      </button>&nbsp;
+
+      <button mat-button class="toolbar-btn" aria-label="Booking history page button">
+        <div><h5 (click)="pageHistoryCards()" class="toolbar-text">Historial de reservas</h5></div>
       </button>&nbsp;
 
       <button mat-button class="toolbar-btn-logout" aria-label="Log out button">
@@ -20,3 +24,4 @@
     </div>
   </mat-toolbar>
 </div>
+<router-outlet></router-outlet>

@@ -11,24 +11,41 @@ import { ClientSettingsComponent } from './UserManagement/components/client-sett
 import { CompanySettingsComponent } from './UserManagement/components/company-settings/company-settings.component';
 import { MembershipComponent } from './Memberships/components/membership/membership.component';
 import { PaymentFormComponent } from './Memberships/components/payment-form/payment-form.component';
+import { ToolbarClientComponent } from './Public/components/toolbar-client/toolbar-client.component';
+import { ToolbarCompanyComponent } from './Public/components/toolbar-company/toolbar-company.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
   {path: 'login', component: LoginFormComponent},
   {path: 'landing-page', component: LandingPageComponent},
+
+  // Rutas para el cliente
+  {
+    path: 'client/:id', component: ToolbarClientComponent,
+    children: [
+      {path: 'client-settings', component: ClientSettingsComponent},
+      {path: 'company-table', component: CompanyTableComponent},
+      {path: 'company/:id', component: CompanyDetailComponent},
+      {path: 'history-cards', component: HistoryCardsComponent},
+    ]
+  },
+
+  // Rutas para la empresa
+  {
+    path: 'company/:id', component: ToolbarCompanyComponent,
+    children: [
+      {path: 'company-settings', component: CompanySettingsComponent},
+      {path: 'membership', component: MembershipComponent},
+      {path: 'history-cards', component: HistoryCardsComponent},
+      {path: 'payment-form', component: PaymentFormComponent}
+    ]
+  },
   {path: 'client-form', component: ClientFormComponent},
   {path: 'company-form', component: CompanyFormComponent},
-  {path: 'history-cards', component: HistoryCardsComponent},
-  {path: 'company-table', component: CompanyTableComponent},
-  {path: 'company/:id', component: CompanyDetailComponent},
-  {path: 'client-settings/:id', component: ClientSettingsComponent},
-  {path: 'company-settings/:id', component: CompanySettingsComponent},
-  {path: 'membership', component: MembershipComponent},
-  {path: 'payment-form', component: PaymentFormComponent},
-  { path: '', redirectTo: '/login', pathMatch: 'full' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

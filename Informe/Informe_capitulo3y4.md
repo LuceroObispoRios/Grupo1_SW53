@@ -11,46 +11,52 @@
 
 ## 3.2. User Stories
   
-![TUser Stories Parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories1.png?raw=true)
-![TUser Stories Parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories2.png?raw=true)
-![TUser Stories Parte 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories3.png?raw=true)
-![TUser Stories Parte 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories4.png?raw=true)
-![TUser Stories Parte 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Userstories5.png?raw=true)
-
-| Epic/Story ID | Título                               | Descripción                                                                                                  | Criterios de Aceptación                                                                                                                                      | Relacionado con (Epic ID) |
-|---------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------:|    
-| Historial de reservas | Visualizar historial de reservas | Como usuario cliente quiero poder ver los servicios de mudanza contratados para tener control y seguimiento de mis transacciones dentro de la aplicación. | Escenario 1: El usuario ingresa a reservas. Dado que el usuario ingresa a la sección de reservas. Cuando seleccione el botón ver historial de reservas. Entonces aparecerá la página del historial. Escenario 2: El usuario visualiza su historial de reservas. Dado que el usuario se encuentra en la página del historial de reservas. Cuando el usuario haga scroll. Entonces la página le permitirá ver más reservas hechas anteriormente. Escenario 3: El usuario busca una reserva anterior. Dado que el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza un paginador con botones con flechas hacia adelante y atrás. Cuando el usuario seleccione uno de los botones. Entonces la página le permitirá ver sus reservas anteriores o posteriores. Escenario 4: El usuario visualiza sus últimas reservas. Dado que el usuario ingresa a la sección de reservas. Cuando la plataforma carga la página. Entonces las últimas reservas se visualizarán primero y las más antiguas al último. | #5 |
-| Historial de reservas | Visualizar varias reservas en una página | Como usuario cliente quiero visualizar varias reservas en una sola página para que pueda tener una vista panorámica de todos mis servicios de mudanza contratados de manera fácil y rápida. | Escenario 1: El usuario cambia la cantidad de reservas que se visualiza en una página. Dado que el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza el paginador Y al lado derecho se encuentra la opción desplegable Cuando el usuario seleccione esta opción. Entonces se visualizará el desplegable con las opciones de visualización de 4, 8 y 12 páginas. Escenario 2: El usuario selecciona el número de reservas para visualizarse en la página. Dado que el usuario seleccionó el desplegable del paginador. Cuando el usuario seleccione el número de reservas que se visualizará 4, 8 o 12. Entonces la página mostrará la cantidad de reservas que eligió el usuario. | #5 |
+![User Story 01](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US01.png)
+![User Story 02](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US02.png)
+![User Story 03](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US03.png)
+![User Story 04](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US04.png)
+![User Story 05](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US05.png)
+![User Story 06](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US06.png)
+![User Story 07](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US07.png)
+![User Story 08](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US08.png)
+![User Story 09-10](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US09-10.png)
+![User Story 11](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US11.png)
+![User Story 12](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US12.png)
+![User Story 13](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US13.png)
+![User Story 14](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US14.png)
+![User Story 15](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US15.png)
+![User Story 16](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US16.png)
+![User Story 17](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US17.png)
+![User Story 18](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US18.png)
+![User Story 19](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US19.png)
 
 ## 3.3. Impact Mapping
 
-![impact map](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ImpactMap.png?raw=true)
+![impact map](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Javier/feature/Informe/Imagenes/Impact%20map%20CSE.png?raw=true)
 
 ## 3.4. Product Backlog
 
 | **# Orden** | **User Story Id** | **Título** | **Descripción** | **Story Points (1/2/3/5/8)** |
 |--------------|--------------|--------------|--------------|--------------|
-| 1| HU01    | Creación de cuenta  | **Como** gerente de una empresa de mudanzas, **quiero** poder crear una cuenta en "Carga sin Estrés" desde la landing page, **para** tener acceso a la plataforma y gestionar eficientemente los servicios de mudanza que ofrecemos.    | 1|
-| 2| HU02   | Selección de tipo de cuenta    | **Como** gerente de una empresa de mudanzas,**quiero** tener la opción de seleccionar que estoy creando una cuenta para mi empresa al registrarme en "Carga sin Estrés", **para** asegurarme de que la plataforma comprenda que represento a una empresa y facilite la gestión de los servicios de mudanza ofrecidos.   | 1|
-| 3| HU03    | Ingreso de Datos    | **Como** universitario, **quiero** ingresar los datos requeridos **para** crear mi cuenta en “Carga sin estrés”     | 2|
-| 4| HU04   | Inicio de Sesión   | **Como** oficinista con una cuenta en "Carga sin estrés", **quiero** tener la capacidad de iniciar sesión directamente desde la página de inicio , **para** acceder de manera rápida y conveniente a mi cuenta y utilizar los servicios ofrecidos.    | 1|
-| 5| HU05   | Ajustes de Cuenta   | **Como** universitario **quiero** poder ajustar los detalles de mi cuenta desde dentro de “Carga sin estrés” **para** cambiar datos que ya no reflejan mi estado actual    | 2|
-| 6| HU06   | Editar Perfil de Trabajador   | **Como** trabajador de una empresa de carga **quiero** tener la capacidad de editar mi perfil **para** proporcionar detalles precisos que presenten una imagen más confiable y profesional de mi.   | 2|
-| 7| HU07   | Cerrar Sesión    | **Como** trabajador de una empresa de carga **quiero** cerrar la sesión de la cuenta empresarial **para** mantener la seguridad de la cuenta.    | 1|
-| 8| HU08    | Elección de membresía de empresa  | **Como** usuario empresa **quiero** una opción que permita aumentar mi visibilidad dentro de la plataforma **para** captar clientes.   | 2|
-| 9| HU09   | Pago de membresía   | **Como** usuario empresa **quiero** poder ingresar los detalles de mi tarjeta **para** pagar la membresía.   | 3|
-| 10| HU10    | Selección de método de pago   | **Como** cliente **quiero** poder elegir entre diferentes métodos de pago al reservar el servicio de mudanza **para** elegir el que más se acomode a mi preferencia.   | 3|
-| 11| HU11   | Detalles de pago  | **Como** usuario cliente **quiero** poder revisar los detalles de pago **para** poder ver los costos de los servicios contratados.   | 1|
-| 12| HU12   | Búsqueda de empresas cercanas  | **Como** usuario cliente **quiero** poder buscar empresas que ofrezcan servicios de mudanza o carga cercanos a mi ubicación actual **para** asegurarme que el servicio sea conveniente.   | 3|
-| 13| HU13   | Filtrar por servicios ofrecidos | **Como** usuario cliente **quiero** poder filtrar las empresas por los servicios que ofrecen **para** encontrar aquellas que ofrecen el servicio que deseo.   | 2|
-| 14| HU14    | Filtrar por calificación    | **Como** usuario cliente **quiero** poder ordenar a las empresas de acuerdo por la cantidad de estrellas promedio y número de reseñas **para** tener la seguridad de encontrar calidad y confiabilidad en el servicio. | 1|
-| 15| HU15   | Visualización de disponibilidad  | **Como** usuario cliente **quiero** encontrar empresas que estén disponibles para una fecha específica **para** tener la seguridad que mi mudanza se realizará en un horario y fecha conveniente.    | 3|
-| 16| HU16   | Visualizar perfil de empresa | **Como** usuario cliente **quiero** poder visualizar el perfil de cada empresa **para** conocer su información detallada y así tomar una decisión informada y confiable al seleccionar la empresa adecuada para mis necesidades.   | 2|
-| 17| HU17   | Ingresar a la reserva del servicio | **Como** cliente **quiero** ingresar a la información de los servicios **para** ver si esa empresa es la que me conviene reservar.  | 3|
-| 18| HU18   | Seleccionar servicios a reservar | **Como** cliente **quiero** poder seleccionar los servicios que necesito de la lista ofrecida por la empresa **para** reservarlos.  | 2|
-| 19| HU19   | Envío de información sobre la posible reserva | **Como** cliente **quiero** que la información de los servicios que escogí se envíe a la empresa de mudanza **para** que estos tengan más detalle de la reserva que quiero.   | 5|
-| 20| HU20   | Contactar con el trabajador de la empresa | **Como** trabajador de una empresa de mudanza **quiero** poder comunicarme con el cliente una vez haya enviado los servicios que quiere **para** aclarar detalles adicionales.   | 2|
-| 21| HU21   | Acordar un precio por servicio reservado | **Como** cliente **quiero** acordar detalles y precio por los servicios tras conversar con el trabajador **para** realizar mi mudanza en otro momento.  | 2|
+| 1| HU01    | Registro de Empresa de Mudanzas  | Como empresario, quiero poder registrar mi empresa de mudanza en la plataforma para que esté disponible y así poder realizar servicios de mudanza a los clientes.    | 3|
+| 2| HU02   | Registro de Cliente    | Como usuario nuevo de Carga sin estrés, deseo registrarme en la plataforma para poder solicitar servicios de mudanza cuando los necesite.   | 2|
+| 3| HU03    | Iniciar Sesión en la plataforma    | Como usuario registrado de Carga sin estrés, quiero poder iniciar sesión en mi cuenta para acceder a mis opciones según mi tipo de cuenta.     | 3|
+| 4| HU04   | Ajustes de cuenta de cliente  | Como cliente registrado en Carga sin estrés, quiero ajustar los datos de mi cuenta para que refleje mis datos actuales.    | 2|
+| 5| HU05   | Ajustes de cuenta de empresa   | Como empresa usuaria de Carga sin estrés, quiero ajustar los datos de la cuenta de empresa para que reflejen el estado actual de esta.    | 3|
+| 6| HU06   | Cerrar Sesión   | Como usuario quiero cerrar la sesión de la cuenta empresarial para mantener la seguridad de la cuenta.   | 2|
+| 7| HU07   | Elección de membresía de empresa    | Como usuario empresa quiero una opción que permita aumentar mi visibilidad dentro de la plataforma para captar clientes.    | 2|
+| 8| HU08    | Pago de membresía  | *Como usuario empresa quiero poder ingresar los detalles de mi tarjeta para pagar la membresía.   | 3|
+| 9| HU09   | Pago para reserva de servicio   | Como usuario cliente quiero poder elegir entre diferentes métodos de pago al reservar el servicio de mudanza para elegir el que más se acomode a mi preferencia y pueda pagar el servicio exitosamente.   | 5|
+| 10| HU10    | Detalles de pago   | Como usuario cliente quiero poder revisar los detalles de pago de todas mis reservas para poder ver los costos de los servicios contratados.   | 3|
+| 11| HU11   | Búsqueda de empresas cercanas  | Como usuario cliente quiero poder buscar empresas que ofrezcan servicios de mudanza o carga cercanos a mi ubicación actual para asegurarme que el servicio sea conveniente.   | 2|
+| 12| HU12   | Filtrar por servicios ofrecidos  | Como usuario cliente quiero poder filtrar las empresas por los servicios que ofrecen para encontrar aquellas que ofrecen el servicio que deseo.   | 3|
+| 13| HU13   | Filtrar por calificación | Como usuario cliente quiero poder ordenar a las empresas de acuerdo por la cantidad de estrellas promedio y número de reseñas para tener la seguridad de encontrar calidad y confiabilidad en el servicio.   | 2|
+| 14| HU14    | Visualizar perfil de empresa    | Como usuario cliente quiero poder visualizar el perfil de cada empresa para conocer su información detallada y así tomar una decisión informada y confiable al seleccionar la empresa adecuada para mis necesidades. | 2|
+| 15| HU15   | Envío de información sobre la posible reserva  | Como cliente quiero hacer una reserva sobre los servicios que ofrece la empresa de mudanza para que estos tengan más detalle de la reserva que quiero.    | 5|
+| 16| HU16   | Acordar un precio por servicio reservado | Como empresa quiero acordar horarios y precio por los servicios tras conversar con el cliente para realizar la mudanza.   | 3|
+| 17| HU17   | Visualizar historial de reservas | Como usuario cliente quiero poder ver los servicios de mudanza contratados para tener control y seguimiento de mis transacciones dentro de la aplicación.  | 5|
+| 18| HU18   | Visualizar varias reservas en una página | Como usuario cliente quiero visualizar varias reservas en una sola página para que pueda tener una vista panorámica de todos mis servicios de mudanza contratados de manera fácil y rápida.  | 3|
+| 19| HU19   | Comunicación mediante chat con la empresa | Como usuario cliente quiero comunicarme con la empresa que reservé para poder coordinar los detalles de la mudanza.   | 5|
 
 
 # Capítulo 4: Product Design
@@ -66,7 +72,7 @@ Por otro lado, este camión esta encerrado por un círculo el cual representa mo
 Los colores usados como amarillo y azul crean un ambiente de confianza, profesionalidad, elegancia y solidez.    
 Del mismo modo se considera el nombre del proyecto para relacionarlo con la imagen del camión.
 
-![logo](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Proyecto/image/Cargalogo.png?raw=true)
+![logo](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/public-images/Cargalogo.png?raw=true)
 
 **Typography**
 Se definieron dos tipos de tipografías que cumpliesen con el propósito definido de mostrar optimismo y elegancia. Estas son: Open Sans y Robot.
@@ -180,38 +186,55 @@ Estilos aplicados para resolución de pantalla de escritorio.
 **Landing Page Wireframe (Mobile)**  
 Estilos aplicados para resolución de pantalla mobile.
 
-![Landing Page Mock-up](/Informe/Imagenes/LandingPageMockupResponsive.png)(https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageMockupResponsive.png?raw=true)  
+![Landing Page Mock-up](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/LandingPageWireframeResponsive.png?raw=true)  
 
 ## 4.4. Web Applications UX/UI Design.  
 ### 4.4.1. Web Applications Wireframes.  
-![registro-cliente-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-registro-cliente.png?raw=true)  
-![registro-empresa-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-registro-empresa.png?raw=true)  
+![Registro de cliente - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-wireframe.png?raw=true) 
+![Registro de empresa - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa-wireframe.png?raw=true) 
 ![inicio-sesion-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-login.png?raw=true)  
-![busqueda-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframe-busqueda.png?raw=true)  
-![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png) 
-![chat-reserva-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-chat-reserva.png)  
-
+![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanySearch.png?raw=true)
+![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeDesktop-CompanyDetail.png?raw=true)
+![Chat de una reserva - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chat-reserva-wireframe.png?raw=true) 
+![Formulario membresia - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formulario-membresia-wireframe.png?raw=true)  
+![Boleta Compra - wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boleta-wireframe.png?raw=true)
+![historial-reservas-wireframe](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/wireframe-historial-reservas.png)   
+![mobile-companySearch-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanySearch.png?raw=true)
+![mobile-companyDetail-wireframe](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframeMobile-CompanyDetail.png?raw=true)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.  
-![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow1.png?raw=true)
+![wireframe-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireflow-wireframe-1.png?raw=true)
   
 ![wireframe-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireframes-flow2.png?raw=true)  
 
+![wireframe-flow3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/wireframes-flow3.png?raw=true)
+
 ### 4.4.2. Web Applications Mock-ups.  
-![registro-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-cliente.png?raw=true)  
-![registro-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-registro-empresa.png?raw=true)  
+![registro-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mockup.png?raw=true)  
+![registro-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa-mockup.png?raw=true)  
+![ajustes-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ajustes-empresa-mockup.png?raw=true)
+![ajustes-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ajustes-cliente-mockup.png?raw=true)
 ![inicio-sesion-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup_login.png?raw=true)  
-![busqueda-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-busqueda.png?raw=true)  
+![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanySearch.png?raw=true)
+![destokp-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupDesktop-CompanyDetail.png?raw=true)
+![Chat de una reserva](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chat-reserva.png?raw=true) 
+![Formulario membresia](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formulario-membresia.png?raw=true)  
+![Boleta Compra](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boleta-compra.png?raw=true)  
+
 ![mobile-login-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/login-mobile.png?raw=true)
-![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mobile.png?raw=true)  
-![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa.mobile.png?raw=true)  
+![mobile-cliente-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-cliente-mockup-m.png)  
+![mobile-empresa-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registro-empresa-mockup-m.png)  
 ![historial-reservas-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-historial-reservas.png)  
-![chat-reserva-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-chat-reserva.png)  
+![chat-reserva-mockup](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/mockup-chat-reserva.png) 
+![mobile-companySearch-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupMobile-CompanySearch.png?raw=true)
+![mobile-companyDetail-mockup](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockupMobile-CompanyDetail.png?raw=true)
 
 ### 4.4.3. Web Applications User Flow Diagrams.  
-![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow1.png?raw=true)    
+![mockup-flow1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireflow-mockup-1.png?raw=true)    
   
-![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/mockup-flow2.png?raw=true)   
+![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/wireflow-mockup-2.png?raw=true)  
+
+![mockup-flow2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/mockup-flow3.png?raw=true) 
 
 ## 4.5. Web Applications Prototyping.  
 El prototipo de secuencia web se encuentra en el siguiente enlace :   
@@ -226,15 +249,25 @@ Los diagramas c4 se realizaron con Structurizr.   Enlace:[https://www.structuriz
   
 ### 4.6.1. Software Architecture Context Diagram.
 
+En el diagrama de contexto se observa la relación de tipos de usuarios que interactúan con la aplicación, los cuales son "Ciudadano" y "Empresa". Así como los sistemas externos que se utilizan para el funcionamiento de la aplicación como el sistema de pago Niubiz.  
+
 ![Context Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Contexto.png?raw=true)  
+
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
+En el diagrama de contenedores se observa la relación de los componentes dentro de nuestra aplicación, como el landing page, la aplicación web, los contextos, la base de datos y el API REST.
+
 ![Container Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Contenedor.png?raw=true)  
 
-### 4.6.3. Software Architecture Components Diagrams.
-**Service Context**
 
+### 4.6.3. Software Architecture Components Diagrams.
+
+Los componentes de nuestra aplicación se dividen en 3 contextos, y los patrones utilizados son los siguientes:  
+El patrón **Repository** utilizado para separar la capa de acceso a datos de la capa de la lógica de negocio. Además, ayuda a decidir si debe recuperar datos de una red o usar resultados almacenados en caché de una base de datos local, lo que mejora la gestión de datos y la eficiencia de la aplicación.  
+El patrón **Gateway** utilizado para actuar como un intermediario entre nuestra aplicación y un sistema de pago externo Niubiz. Este enfoque nos proporciona una capa de abstracción que simplifica la comunicación y gestión de pagos, al tiempo que garantiza la seguridad y la flexibilidad en nuestras transacciones financieras.  
+
+**Service Context**
 ![Service Component Diagram](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ServiceComponents.png?raw=true)  
 
 **Account Context**

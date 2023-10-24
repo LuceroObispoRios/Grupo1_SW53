@@ -28,7 +28,7 @@ export class CompanyFormComponent {
       montaje: [false],
       desmontaje: [false],
       description: [''],
-      userType: 'company',
+      userType: 'company'
     });
   }
 
@@ -104,7 +104,7 @@ export class CompanyFormComponent {
     }
 
   }
-  
+
   cancelar(){
     this.router.navigate(['/landing-page'])
   }

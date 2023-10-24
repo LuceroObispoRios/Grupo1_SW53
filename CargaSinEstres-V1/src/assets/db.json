@@ -140,7 +140,8 @@
   "bookingHistory": [
     {
       "id": 1,
-      "idCompany": 2,
+      "idCompany": 1,
+      "idClient": 1,
       "bookingDate": "2023-07-15",
       "pickupAddress": "Ate",
       "destinationAddress": "Barranco",
@@ -154,12 +155,27 @@
       },
       "hiredCompany": {
         "name": "Transporte y mudanzas Rapi2",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo1.jpg"
-      }
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo1.jpg"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 2,
-      "idCompany": 3,
+      "idCompany": 2,
+      "idClient": 1,
       "bookingDate": "2023-08-16",
       "pickupAddress": "Lince",
       "destinationAddress": "Barranco",
@@ -173,12 +189,27 @@
       },
       "hiredCompany": {
         "name": "Romabe transporte",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo2.jpg"
-      }
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo2.jpg"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 3,
       "idCompany": 4,
+      "idClient": 1,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -192,12 +223,27 @@
       },
       "hiredCompany": {
         "name": "Mudate Facil",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo3.png"
-      }
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo3.png"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 4,
       "idCompany": 5,
+      "idClient": 2,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -211,12 +257,27 @@
       },
       "hiredCompany": {
         "name": "Bodegas y mudanzas Santana",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo4.png"
-      }
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo4.png"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 5,
       "idCompany": 6,
+      "idClient": 2,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -230,12 +291,27 @@
       },
       "hiredCompany": {
         "name": "Practi Mudanza",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo5.png"
-      }
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo5.png"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 6,
       "idCompany": 7,
+      "idClient": 1,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -249,12 +325,27 @@
       },
       "hiredCompany": {
         "name": "Mudanzas Jurado",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo6.png"
-      }
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo6.png"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
     },
     {
       "id": 7,
       "idCompany": 8,
+      "idClient": 1,
       "bookingDate": "2023-09-10",
       "pickupAddress": "Barranco",
       "destinationAddress": "Barranco",
@@ -268,15 +359,43 @@
       },
       "hiredCompany": {
         "name": "Mudanzas Plata",
-        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/Proyecto/image/empresaLogo7.png"
-      }
-    }
-  ],
-  "chat": [
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo7.png"
+      },
+      "chat": [
+        {
+          "id": 1,
+          "user": "client",
+          "message": "Primer mensaje",
+          "dateTime": "2023-08-10 10:02:30"
+        },
+        {
+          "id": 2,
+          "user": "company",
+          "message": "Segundo mensaje",
+          "dateTime": "2023-08-10 10:07:50"
+        }
+      ]
+    },
     {
-      "id": 1,
-      "message": "Primer mensaje",
-      "dateTime": "2019-10-10 10:10:10"
+      "idCompany": 3,
+      "idClient": {
+        "userId": "2"
+      },
+      "bookingDate": "2023-10-17T03:57:48.306Z",
+      "pickupAddress": "Locación actual",
+      "destinationAddress": "Por Definir",
+      "movingDate": "2023-10-17T03:57:48.306Z",
+      "status": "En curso",
+      "hiredCompany": {
+        "name": "J&G Transporte y mudanzas",
+        "logo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg"
+      },
+      "payment": {
+        "totalAmount": 0,
+        "paymentMethod": "Por definir"
+      },
+      "chat": {},
+      "id": 8
     }
   ],
   "clients": [
@@ -292,13 +411,13 @@
       "id": 1
     },
     {
-      "name": "Lucero",
-      "apellidoMaterno": "Test",
-      "apellidoPaterno": "Test",
-      "celular": "999888777",
-      "direccion": "Lince",
-      "email": "L@gmail.com",
-      "password": "123456",
+      "name": "andrea",
+      "apellidoMaterno": "rosales",
+      "apellidoPaterno": "ohiggins",
+      "celular": "911222333",
+      "direccion": "lince",
+      "email": "a@gmail.com",
+      "password": "0123456",
       "userType": "client",
       "id": 2
     }

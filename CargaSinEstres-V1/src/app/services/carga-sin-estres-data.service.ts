@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
-import { Company } from '../models/company.model';
 import { Observable, catchError, retry, throwError } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { BookingHistory } from '../models/booking-history.model';
-import { Chat } from '../models/chat.model';
+import { Subscription } from '../models/subscription.model';
 
 @Injectable({
   providedIn: 'root'
@@ -30,34 +29,32 @@ export class CargaSinEstresDataService {
     return throwError('Ha ocurrido un problema con la solicitud, por favor inténtalo de nuevo más tarde');
   }
 
-  getAllCompanies(): Observable<Company> {
-    return this.http.get<Company>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
+  getAllCompanies(): Observable<any> {
+    return this.http.get<any>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
   }
 
-  getCompanyById(id: any): Observable<Company> {
-    return this.http.get<Company>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
+  getCompanyById(id: any): Observable<any> {
+    return this.http.get<any>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
   }
 
   createReservation(item: any): Observable<BookingHistory>{
     return this.http.post<BookingHistory>(this.base_url+"/"+"bookingHistory", JSON.stringify(item), this.httpOptions).pipe(retry(2),catchError(this.handleError));
   }
 
-  // Get all booking history
-  getAllBookingHistory(): Observable<BookingHistory> {
-    return this.http.get<BookingHistory>(`${this.base_url}/bookingHistory`)
+  // booking history
+  getBookingHistoryById(clientId: any): Observable<BookingHistory> {
+    return this.http.get<BookingHistory>(`${this.base_url}/bookingHistory?idClient=${clientId}`)
       .pipe(retry(2),catchError(this.handleError))
   }
 
-  // Get all messages 
-  getItems(): Observable<Chat> {
-    return this.http.get<Chat>(`${this.base_url}/chat`)
+  getBookingHistoryByCompanyId(companyId: any): Observable<BookingHistory> {
+    return this.http.get<BookingHistory>(`${this.base_url}/bookingHistory?idCompany=${companyId}`)
       .pipe(retry(2),catchError(this.handleError))
   }
-  
-  //createMessage
-  createItem(item:any): Observable<Chat>{
-    return this.http.post<Chat>(`${this.base_url}/chat`, JSON.stringify(item), this.httpOptions)
-    .pipe(retry(2),catchError(this.handleError))
+
+  updateBookingHistoryMessage(id: any, data: any): Observable<BookingHistory> {
+    return this.http.put<BookingHistory>(`${this.base_url}/bookingHistory/${id}`, JSON.stringify(data), this.httpOptions)
+      .pipe(retry(2),catchError(this.handleError))
   }
   
   //for login
@@ -87,5 +84,14 @@ export class CargaSinEstresDataService {
     return this.http.patch(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
   }
 
+  //get client by id
+  getClientById(clientId: any): Observable<any> {
+    return this.http.get<any>(`${this.base_url}/clients/${clientId}`).pipe(retry(2),catchError(this.handleError));
+  }
+
+  createSubscription(subscriptionData: Subscription): Observable<Subscription> {
+    return this.http.post<Subscription>(`${this.base_url}/subscriptions`, subscriptionData, this.httpOptions)
+      .pipe(retry(2),catchError(this.handleError));
+  }
 
 }

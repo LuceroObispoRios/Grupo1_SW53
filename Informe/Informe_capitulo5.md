@@ -79,18 +79,32 @@ Convenciones: De acuerdo a MDN Web Docs (s.f.), para mejorar la comprensión del
 Descripción: Framework de desarrollo de apliciones web escalables y dinámicas, se basa en typescript.   
 Convenciones: De acuerdo a Angular (s.f.), la nomenclatura se hace con nombres descriptivos y para separa palabras se utlizan guiones. Se debe utilizar un estructura de carpeta para separar los componentes, módulos y servicios.
 
-### 5.1.4. Software Deployment Configuration.
-Para almacenar y manejar el flujo de trabajo del equipo, hemos creado un repositorio en GitHub. Utilizaremos "main" como la rama principal para el desarrollo.
-Para su configuración es necesario clonar el repositorio desde GitHub con el URL: https://github.com/LuceroObispoRios/Grupo1_SW53.git.  Este proceso descargará todo el contenido del repositorio en la máquina local.
-Para el entorno de desarrollo se utilizará el Visual Studio Code.
-Para este sprint, hemos desarrollado la landing page, y su despliegue se realizó en la plataforma de GitHub Pages. 
+### 5.1.4. Software Deployment Configuration.  
+Para el desplegue de nuestra aplicación decidimos usar firebase.  
 
-Primero se eligió la rama en donde se alojará y desplegará el landing page. Este será la rama deployment con la carpeta origen en el /root.
-Guardamos la configuración y github nos proporcionó el link de la página. Luego de unos minutos la página pudo visualizarse correctamente.
+El despliegue de la aplicación se realiza primero creando una cuenta en [https://firebase.google.com](https://firebase.google.com), a partir de eso, se debe crear un proyecto vacio en el cual guardar el despliegue del proyecto.  
+![Proyecto en Firebase](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/FirebaseProyecto.JPG?raw=true)
 
-![landing page deployment configuration](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/landing-page-deployment.jpeg?raw=true)
+Para realizar el despliegue en si, se tiene que ejecutar los siguientes comandos en orden :  
+![Paso1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando1.JPG?raw=true)  
+![Paso2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando2.JPG?raw=true)  
+![Paso3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando3.JPG?raw=true)  
+  
+En este punto se generara la carpeta dist  
+![CarpetaDist](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/carpeta-dist.JPG?raw=true)    
+  
+Y se tendra que colocar las variables de entorno en environment.prod.ts  
+![Variables](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/variables-entorno.JPG?raw=true)  
+  
+Ahora, para inicializar el despliegue:  
+![Paso4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando4.JPG?raw=true)  
+![Paso5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando5.JPG?raw=true)  
+![Paso6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando6.JPG?raw=true)  
+  
+Con esto nuestra aplicación fue desplegada y se puede encontrar en el siguiente link:  
+[https://carga-sin-estres.web.app](https://carga-sin-estres.web.app)
 
-A medida que el proyecto avance, se agregarán más elementos de configuración, incluyendo configuración para la base de datos relacional, configuración de pruebas y configuración de gestión de paquetes y dependencias.
+*Para que funcione correctamente se tiene que hacer json-server --watch db.json a nuestra db en json
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
@@ -104,41 +118,28 @@ A medida que el proyecto avance, se agregarán más elementos de configuración,
 | Time | 08:00 PM |
 | Location | Google Meet - Virtual Meeting |
 | Prepared by | Cuevas, Eric |
-| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Tasayco, Javier  |
+| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Sebastian, Javier  |
 | Sprint n - 0 Review Summary | Se termino de Arreglar los contenidos de los capitulos 1 a 4, y la opinion general es que se hizo satisfactoriamente respecto al tiempo que se utilizo. |
 | Sprint n - 0 Retrospective Summary | Las opiniones del equipo indican que durante el transcurso de ese sprint se logro encontrar una manera en la cual esl grupo podria trabajar fluidamente. |
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 1 sera terminar la Landing Page, asi como los sistemas de registro y login de la aplicación, desarrollandolos de manera que sean responsive y coherentes con el Diseño de Carga sin Estres, además de empezar las preparaciones para desplegar el suigiente sprint. |
-| Sprint & Velocity | Debido al alcanze establecido para este sprint, asi como el tiempo que se tiene para realizar este considerando el trabajo anterior, el Velocity establecido para este sprint es 35 |
-| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 30 |
+| Sprint & Velocity | Lo que respecta al velocity para el primer sprint, no se puede definir puesto que no hay datos históricos sobre los story points cumplidos anteriormente. |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 12 |
 
 #### 5.2.1.2. Sprint Backlog 1.  
   
+A continuación, se describe las tareas que se realizaran durante el primer sprint.
+El objetivo del Sprint 1 sera terminar la Landing Page, asi como los sistemas de registro y login de la aplicación, desarrollandolos de manera que sean responsive y coherentes con el Diseño de Carga sin Estres, además de empezar las preparaciones para desplegar el siguiente sprint.
+
 |     Sprint #         |     Sprint 1                |                           |                                                        |                                                                                             |                   |                         |                      |
 |----------------------|-----------------------------|---------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------|-------------------------|----------------------|
 |     User   Story     |                             |     Work –   Item/Task    |                                                        |                                                                                             |                   |                         |                      |
 |     Id               |     Título                  |     Id                    |     Título                                             |     Descripción                                                                             |     Estimación    |     Asignado   a        |     Estado           |
-|     HU001 – HU007    |     Manejo de Usuario       |     WI01                  |     Registro   de empresas de mudanza                  |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de empresas            |     2h            |     Andrea O’Higgins    |     Completado       |
-|                      |                             |     WI02                  |     Registro   de cliente                              |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de cliente             |     2h            |     Andrea O’Higgins    |     Completado       |
-|                      |                             |     WI03                  |     Iniciar   Sesión la plataforma                     |     Hacer uso de HTML, CSS y JavaScript para implementar la estructura   del login          |     4h            |     Andrea O’Higgins    |     Completado       |
-|                      |                             |     WI04                  |     Solicitud   de servicio de mudanza                 |     Hacer uso de HTML, CSS y JavaScript para implementar la solicitud de   servicio         |     2h            |     Lucero Obispo       |     Por completar    |
-|                      |                             |     WI05                  |     Visualizar   empresas de mudanza                   |     Hacer uso de HTML y CSS para visualizar las empresas de mudanza                         |     1h            |     Lucero Obispo       |     Completado       |
-|                      |                             |     WI06                  |     Seleccionar   empresa de mudanza                   |     Hacer uso de HTML, CSS y JavaScript para seleccionar la empresa de   mudanza            |     2h            |     Lucero Obispo       |     Completado       |
-|                      |                             |     WI07                  |     Cerrar   Sesión                                    |     Hacer uso de HTML, CSS y JavaScript para implementar el cierre de   sesión.             |     2h            |     Andrea O’Higgins    |     Por completar    |
-|     HU008-HU011      |     Métodos de pago         |     WI08                  |     Elección   de membresía de empresa                 |     Hacer uso de HTML y JavaScript para implementar la elección de   membresía              |     2h            |     Lucero Obispo       |     Por completar    |
-|                      |                             |     WI09                  |     Pago   de membresía                                |     Hacer uso de HTML y JavaScript para implementar el pago de membresía                    |     2h            |     Eric Cuevas         |     Por completar    |
-|                      |                             |     WI10                  |     Selección   de método de pago                      |     Hacer uso de HTML y JavaScript para implementar la selección de método   de pago        |     3h            |     Eric Cuevas         |     Por completar    |
-|                      |                             |     WI11                  |     Detalles   de pago                                 |     Hacer uso de HTML para implementar los detalles de pago                                 |     1h            |     Eric Cuevas         |     Por completar    |
-|     HU012-HU016      |     Búsqueda de empresas    |     WI12                  |     Búsqueda de empresas cercanas                      |     Hacer uso de HTML y JavaScript para implementar la búsqueda de   empresa                |     1h            |     Javier Tasayco     |     Completado       |
-|                      |                             |     WI13                  |     Filtrar por servicios ofrecidos                    |     Hacer uso de HTML y JavaScript para implementar el filtrado por servicios               |     2h            |     Javier Tasayco     |     Por completar    |
-|                      |                             |     WI14                  |     Filtrar por calificación                           |     Hacer uso de HTML y JavaScript para implementar el filtrado por calificación            |     2h            |     Javier Tasayco     |     Por completar    |
-|                      |                             |     WI15                  |     Visualización de disponibilidad                    |     Hacer uso de HTML y JavaScript para implementar la visualización de   disponibilidad    |     1h            |     Lucero Obispo       |     Por completar    |
-|                      |                             |     WI16                  |     Visualizar perfil de empresa                       |     Hacer uso de HTML, CSS y JavaScript para implementar el perfil de empresa               |     1h            |     Lucero Obispo       |     Completado       |
-|     HU017-HU021      |     Reserva de servicios    |     WI17                  |     Ingresar   a la reserva del servicio               |     Hacer uso de HTML y JavaScript para ingresar a la reserva del   servicio                |     2h            |     Eric Cuevas         |     Por completar    |
-|                      |                             |     WI18                  |     Seleccionar   servicios a reservar                 |     Hacer uso de HTML y JavaScript para implementar la selección de   servicios             |     2h            |     Eric Cuevas         |     Completado       |
-|                      |                             |     WI19                  |     Envío   de información sobre la posible reserva    |     Hacer uso de JavaScript para implementar el envío de información                        |     1h            |     Javier Tasayco     |     Por completar    |
-|                      |                             |     WI20                  |     Contactar   con el trabajador de la empresa        |     Hacer uso de HTML para implementar el contacto con el trabajador                        |     1h            |     Javier Tasayco     |     Por completar    |
-|                      |                             |     WI21                  |     Acordar   un precio por servicio reservado         |     Hacer uso de HTML y JavaScript para aceptar la reserva.                                 |     1h            |     Javier Tasayco     |     Por completar    |
+|     HU001   |     Manejo de Usuario empresa       |     WT01                  |     Registro de empresas de mudanza                  |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de empresas            |     2h            |     Eric Cuevas    |     Completado       |
+|     HU002   |     Manejo de Usuario cliente       |     WT02                  |     Registro de cliente                              |     Hacer uso de HTML, CSS y JavaScript para implementar el registro de cliente             |     2h            |     Javier Sebastian    |     Completado       |
+|     HU003   |     Iniciar Sesión en la plataforma |     WT03                  |     Implementar un formulario con validación para inicio de sesión    |     Hacer uso de HTML, CSS y JavaScript para implementar la estructura   del login          |     4h            |     Andrea O’Higgins    |     Completado       |
+|     HU014   |     Visualizar perfil de empresa    |     WT04                  |     Visualizar  empresas de mudanza en Landing Page    |     Hacer uso de HTML y CSS para visualizar los perfiles de las  empresas de mudanza                         |     1h            |     Lucero Obispo       |     Por Completar       |
+|     HU011   |     Búsqueda de empresas    |     WT06                  |     Búsqueda de empresas cercanas                      |     Hacer uso de HTML y JavaScript para implementar la búsqueda de   empresa                |     1h            |     Lucero Obispo    |     Completado       |
   
 #### 5.2.1.3. Development Evidence for Sprint Review.
 
@@ -154,47 +155,47 @@ A medida que el proyecto avance, se agregarán más elementos de configuración,
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 Acceptance Tests de los User Stories, archivos .feature utilizando el lenguaje Gherkin
 
-![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us01.png?raw=true)  
+![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint1.png?raw=true)   
 
-![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us02.png?raw=true)  
+![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint1.png?raw=true)   
 
-![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us03.png?raw=true)  
+![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint1.png?raw=true)   
 
-![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us04.png?raw=true)  
+![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint1.png?raw=true)   
 
-![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us05.png?raw=true)  
+![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint1.png?raw=true)   
 
-![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us06.png?raw=true)  
+![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint1.png?raw=true)   
 
-![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us07.png?raw=true)  
+![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint1.png?raw=true)   
 
-![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us08.png?raw=true)  
+![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint1.png?raw=true)   
 
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us09.png?raw=true)  
+![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint1.png?raw=true)   
 
-![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us10.png?raw=true)  
+![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint1.png?raw=true)  
 
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature-us11.png?raw=true)  
+![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint1.png?raw=true)  
 
-![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US012.jpg?raw=true)  
+![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint1.jpg?raw=true)  
 
-![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US013.jpg?raw=true)  
+![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint1.jpg?raw=true)  
 
-![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US014.jpg?raw=true)  
+![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint1.jpg?raw=true)  
 
-![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US015.jpg?raw=true)  
+![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint1.jpg?raw=true)  
 
-![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US016.jpg?raw=true)  
+![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint1.jpg?raw=true)  
 
-![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US017.jpg?raw=true)  
+![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint1.jpg?raw=true)  
 
-![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US018.jpg?raw=true)  
- 
-![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US019.jpg?raw=true)  
+![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint1.jpg?raw=true)  
 
-![feature 20](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US020.jpg?raw=true)  
+![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint1.jpg?raw=true)  
 
-![feature 21](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/US021.jpg?raw=true)  
+![feature 20](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint1.jpg?raw=true)  
+
+![feature 21](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature21-sprint1.jpg?raw=true)  
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.  
@@ -248,7 +249,7 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2.  
-
+  
 | **Sprint 2** | |
 |:---: | :---| 
 | | **Sprint planning background** |   
@@ -261,18 +262,101 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 | Sprint n - 1 Retrospective Summary | Junto con el feedback recibido, podemos acordar que varias partes del desarrollo en ambos el informe y aplicación necesitan mejoras para cumplir los estandares requeridos, aspiramos a que este sprint 2 sea mejor. |
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 2 sera terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien se terminara con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.|
-| Sprint & Velocity | El Sprint Velocity establecido para este sprint es # |
-| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es # |  
+| Sprint & Velocity | El Sprint Velocity establecido para este sprint es 12 |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 41 |   
+  
+#### 5.2.2.2. Sprint Backlog 2.  
 
-#### 5.2.2.2. Sprint Backlog 1.  
+|     Sprint #         |     Sprint 2                |                           |                                                        |                                                                                             |                   |                         |                      |
+|----------------------|-----------------------------|---------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------|-------------------------|----------------------|
+|     User   Story     |                             |     Work –   Item/Task    |                                                        |                                                                                             |                   |                         |                      |
+|     Id               |     Título                  |     Id                    |     Título                                             |     Descripción                                                                             |     Estimación    |     Asignado   a        |     Estado           |
+|     HU016 & HU019   |     Acordar un precio por servicio reservado & Comunicación mediante chat con la empresa      |     WT01                  |     Implementar un chat entre cliente y miembro de la empresa                 |     Hacer uso de HTML, CSS y JavaScript para implementar la comunicación del servicio mediante chat         |     4h            |     Lucero Obispo       |     Completado    |
+|     HU006   |      Cerrar Sesión     |     WT02                  |     Implementar el botón de cerrar sesión                                    |     Hacer uso de HTML, CSS y JavaScript para implementar el cierre de   sesión.            |     2h            |     Eric Cuevas    |     Completado    |
+|     HU007      |     Elección   de membresía de empresa        |     WT03                  |        Visualizar y seleccionar una membresia              |     Hacer uso de HTML y JavaScript para implementar la elección de   membresía*              |     2h            |     Javier Sebastian      |     Completado    |
+|     HU008      |     Pago   de membresía        |     WT04                 |             Implementar un formulario de subscripción             |     Hacer uso de HTML y JavaScript para implementar el pago de membresía                    |     2h            |     Javier Sebastian        |     Completado    |
+|     HU008      |     Pago   de membresía        |     WT05                  |            Selección de método de pago                      |     Hacer uso de HTML y JavaScript para implementar la selección de método   de pago        |     3h            |     Javier Sebastian         |         Completado    |
+|     HU010      |      Detalles de pago            |     WT06                  |             Implementar un ticket de pago dada una subscripción         |     Hacer uso de HTML para implementar los detalles de pago                                 |     1h            |     Javier Sebastian         |     Completado    |
+|     HU012      |     Filtrar por servicios ofrecidos   |     WT07                  |           Implementar el filtrado de empresas por servicios ofrecidos              |     Hacer uso de HTML y JavaScript para implementar el filtrado por servicios*               |     2h            |     Lucero Obispo     |     Completado    |
+|     HU013      |    Filtrar por calificación      |     WT08              |              Implementar el filtrado de empresas por calificación                  |     Hacer uso de HTML y JavaScript para implementar el filtrado por calificación            |     2h            |     Lucero Obispo     |     Por completar    |
+|     HU014   |     Visualizar perfil de empresa    |     WT09                  |     Visualización de disponibilidad de empresa                    |     Hacer uso de HTML y JavaScript para implementar la visualización de   disponibilidad de una empresa    |     1h            |     Lucero Obispo       |     Completado    |
+|     HU015      |     Envío de información sobre la posible reserva    |     WT10                  |     Ingresar   a la reserva del servicio               |     Hacer uso de HTML y JavaScript para ingresar a la reserva del   servicio                |     2h            |     Eric Cuevas         |     Completado    |
+|     HU015      |     Envío de información sobre la posible reserva    |     WT18                  |     Seleccionar   servicios a reservar                 |     Hacer uso de HTML y JavaScript para implementar la selección de   servicios             |     2h            |     Eric Cuevas         |     Completado       |
+|     HU015      |     Envío de información sobre la posible reserva    |     WT11                  |     Realizar una solicitud del servicio               |     Hacer uso de HTML y JavaScript para realizar una solicitud del servicio                 |     2h            |     Eric Cuevas         |     Completado    |
+|     HU004      |     Ajustes de cuenta de cliente    |     WT12                  |     Implemetar el formulario para edición de cuenta cliente               |     Hacer uso de HTML y JavaScript para mostrar un formulario con los datos a editar dado una cuenta cliente                |     2h            |     Eric Cuevas         |     Completado    |
+|     HU005      |     Ajustes de cuenta de empresa    |     WT13                  |     Implemetar el formulario para edición de cuenta empresa               |     Hacer uso de HTML y JavaScript para mostrar un formulario con los datos a editar dado una cuenta empresa                 |     2h            |     Eric Cuevas         |     Completado    |
+|     HU017 & HU018      |    Visualizar historial de reservas     |     WT14                  |     Listar todas las reservas realizadas por un usuario cliente            |     Hacer uso de HTML y JavaScript para listar todas las reservas realizadas por un usuario cliente en cards.                 |     2h            |     Eric Cuevas         |     Completado    |
+
+
 
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
+Para este Sprint se desarrolló el Frontend de la plataforma.
+
+![Development Evidence](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/Andrea/feature/Informe/Imagenes/development-evidence-sprint2-os.png?raw=true) 
+
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
-#### 5.2.2.5. Execution Evidence for Sprint Review. 
+Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
 
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true) 
+
+![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true)  
+
+![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true)  
+
+![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true)  
+
+![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true)  
+
+![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true)  
+
+![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true)  
+
+![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true)  
+
+![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true)  
+
+![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true)  
+
+![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true)  
+
+![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true)  
+
+![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true)  
+
+![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true)  
+
+![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true)  
+
+![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true)  
+
+![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true)  
+
+![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true)  
+
+![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true)  
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review. 
+***Segundo Sprint***  
+Durante este sprint, nos enfocamos en terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.   
+![Login-sprint2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-login.JPG?raw=true)  
+![Registrar-cliente](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-registrarCliente.JPG?raw=true)
+![registrar-empresa1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-RegistrarEmpresa1.JPG?raw=true)
+![registrar-empresa2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-RegistrarEmpresa2.JPG?raw=true)
+![ajustes de cliente](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-ClientSettings.JPG?raw=true)
+![busqueda de empresas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-Busqueda.JPG?raw=true)
+![Carta de información de empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-Busqueda2.JPG?raw=true)
+![historial de reservas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-historial.JPG?raw=true)
+![historial de reservas](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-historial2.JPG?raw=true)
+![ajustes de empresa 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-CompanySettings.JPG?raw=true)
+![ajustes de empresa 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-CompanySetting2.JPG?raw=true)
+![membresias](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-Membresias.JPG?raw=true)
+![formulario membresias 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-FormMembresia.JPG?raw=true)
+![formulario membresias 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-FormMembresia2.JPG?raw=true)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.  
 
 **Introducion:**  
 Para este segundo sprint se ha logrado implementar 12 endpoints, los cuales han sido exitosamente logrados y documentados.  
@@ -286,36 +370,77 @@ Por ultimo, los metodos POST bookingHistory, GET booking History, asi como los m
 
 |     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
 |--------|----------|--------|-------|
-|  /companies         |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  |            |
-|  /companies/{id}    |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') |            |
-|  /bookingHistory    |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              |            |
-|  /bookingHistory    |       GET       | 200 OK: Retorna la lista de todas las reservas de historial registradas                                     |            |
-|  /chat              |       GET       | 200 OK: Retorna la lista de todos los mensajes de chat registrados                                          |            |
-|  /chat              |       POST      | 201 Created: Indica que el mensaje de chat ha sido creado exitosamente                                      |            |
-|  /clients           |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             |            |
-|  /companies         |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válida                            |            |
-|  /clients           |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              |            |
-|  /companies         |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             |            |
-|  /clients/{id}      |       PUT       | 200 OK: Indica que los datos del cliente han sido actualizados exitosamente (paranetro, ejemplo: '31')      |            |
-|  /companies/{id}    |       PUT       | 200 OK: Indica que los datos de la compañía han sido actualizados exitosamente (paranetro, ejemplo: '2')    |            |  
+|  /companies         |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  |   [https://carga-sin-estres.web.app/company-table](https://carga-sin-estres.web.app/company-table)      |
+|  /companies/{id}    |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') |   [https://carga-sin-estres.web.app/company/1](https://carga-sin-estres.web.app/company/1)         |
+|  /bookingHistory    |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              |   [https://carga-sin-estres.web.app/company/1](https://carga-sin-estres.web.app/company/1)         |
+|  /bookingHistory    |       GET       | 200 OK: Retorna la lista de todas las reservas de historial registradas                                     |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /chat              |       GET       | 200 OK: Retorna la lista de todos los mensajes de chat registrados                                          |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /chat              |       POST      | 201 Created: Indica que el mensaje de chat ha sido creado exitosamente                                      |   [https://carga-sin-estres.web.app/history-cards](https://carga-sin-estres.web.app/history-cards)         |
+|  /clients           |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             |   [https://carga-sin-estres.web.app/login](https://carga-sin-estres.web.app/login)         |
+|  /companies         |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válida                            |   [https://carga-sin-estres.web.app/login](https://carga-sin-estres.web.app/login)         |
+|  /clients           |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              |   [https://carga-sin-estres.web.app/client-form](https://carga-sin-estres.web.app/client-form)         |
+|  /companies         |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             |   [https://carga-sin-estres.web.app/company-form](https://carga-sin-estres.web.app/company-form)         |
+|  /clients/{id}      |       PUT       | 200 OK: Indica que los datos del cliente han sido actualizados exitosamente (paranetro, ejemplo: '31')      |   [https://carga-sin-estres.web.app/client-settings/1](https://carga-sin-estres.web.app/client-settings/1)         |
+|  /companies/{id}    |       PUT       | 200 OK: Indica que los datos de la compañía han sido actualizados exitosamente (paranetro, ejemplo: '2')    |   [https://carga-sin-estres.web.app/client-settings/8](https://carga-sin-estres.web.app/company-settings/8)         |  
 
 Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/app/services/carga-sin-estres-data.service.ts)  
 
-**Commits de documentacion**  
-| **Repository** | **Branch** | **Commit Id** | **Commit Message** | **Commit Message Body** | **Commited on (Date)** |
-|--------|----------|--------|-------|-------|--------|
-| https://github.com/LuceroObispoRios/Grupo1_SW53.git   | main  |     |   | -   | |
-|                                                       | main  |   | | -   |   |
-|                                                       | main  |    |   | -   |   |
-|                                                       | main  |    |   | -   |  |
-|                                                       | main  |   |   | -   |  |  
+**Captura de interaccion con datos de prueba**   
 
-**Captura de interaccion con datos de prueba**  
+*Registrar Cliente*  
+- Antes de registrar cliente Lucero. Como se puede ver, el unico cliente es Eric  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services1.JPG?raw=true)
 
+- Despues de registrar cliente Lucero. Como se pueder, el db.json cambio, pues se ha agregado un nuevo registro que guarda la informacion del cliente lucero. Mediante la sintaxis POST /clients  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services2.JPG?raw=true)
 
+*Obtener la informacion de una empresa por su id*  
+- Mediante la sintaxis GET /companies/{id}. En la consola se puede visualizar la informacion obtenida de esa empresa en especifico  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services3.JPG?raw=true)  
+
+*Realizar una reserva*  
+- Antes de realizar una reserva  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services4.JPG?raw=true)  
+
+- Mediante la sintaxis POST /bookingHistory. Se crea una reserva y se almacena el db.json, se puede ver en la consola la informacion de la nueva reserva.
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services5.JPG?raw=true)  
+
+**Editar datos de un cliente**  
+- Antes de presionar el boton de guardar cambios, se puede ver en la consola que la informacion del cliente actual es la informacion de Eric.  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services6.JPG?raw=true)
+
+- Mediante la sintaxis PUT /clients/{id}. Se edita los datos cliente Eric, y son reemplazados por la del cliente Celia  
+![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services7.JPG?raw=true)  
+  
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-
+La aplicación desplegada se encuentra en el siguiente enlace  
+[https://carga-sin-estres.web.app](https://carga-sin-estres.web.app),  
+más para su correcto funcionamiento, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
+  
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+**GitFlow**    
+![network 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network1.png?raw=true)
+![network 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network2.png?raw=true)
+**Contribuitors**    
+![contribuitors](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/contribuitors.png?raw=true)
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3  
+
+#### 5.2.3.3. Development Evidence for Sprint Review.
+
+![Development Evidence - parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true) 
+![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true) 
+![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true) 
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review.
+
+Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
+
+
+
 
 **Bibliografia**
 --
