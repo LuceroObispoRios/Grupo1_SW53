@@ -51,12 +51,13 @@
       <mat-label>CVV</mat-label>
       <input matInput [(ngModel)]="CVV" name="CVV" required>
     </mat-form-field>
-  
+    
     <label for="fechaVencimiento">Ingrese la fecha de vencimiento de la tarjeta</label>
     <mat-form-field class="form-group" appearance="fill" id="fechaVencimiento">
       <mat-label>Fecha de vencimiento de la tarjeta</mat-label>
       <input matInput [(ngModel)]="fechaVencimiento" name="fechaVencimiento" required>
     </mat-form-field>
+
     <button mat-button class="btn" [disabled]="botonDesactivado">Continuar</button>
 
   </form>

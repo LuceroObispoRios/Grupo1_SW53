@@ -288,6 +288,7 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 |     HU017 & HU018      |    Visualizar historial de reservas     |     WT14                  |     Listar todas las reservas realizadas por un usuario cliente            |     Hacer uso de HTML y JavaScript para listar todas las reservas realizadas por un usuario cliente en cards.                 |     2h            |     Eric Cuevas         |     Completado    |
 
 
+
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
 Para este Sprint se desarrolló el Frontend de la plataforma.

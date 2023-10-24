@@ -12,6 +12,11 @@ import { BookingHistory } from 'src/app/models/booking-history.model';
 
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
+import {MatDialog, MatDialogModule,MatDialogRef} from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button'; 
+import { MatIconModule } from '@angular/material/icon';
+import { BookingHistory } from 'src/app/models/booking-history.model';
+
 @Component({
   selector: 'app-company-table',
   templateUrl: './company-table.component.html',
@@ -137,13 +142,12 @@ export class CompanyTableComponent{
     const dialogRef = this.dialog.open(CargaRapidaDialog, {
       data:{userId:this.userId}
     });
+
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
   }
-
 }
-
 
 @Component({
   selector: 'cargaRapida-dialog',
@@ -156,10 +160,12 @@ export class CargaRapidaDialog {
 
   companies: any[] = [];
 
+
   reservation: BookingHistory = {
     id: undefined,
     idCompany: '',
     idClient: '',
+
     bookingDate: undefined,
     pickupAddress: undefined,
     destinationAddress: undefined,
@@ -183,6 +189,7 @@ export class CargaRapidaDialog {
     this.userId = data;
     console.log('userId is: ', this.data);
   }
+
 
   closeDialog(): void {
     this.dialogRef.close();
@@ -208,6 +215,7 @@ export class CargaRapidaDialog {
     //generar reserva a partir de randCompany
     this.reservation.idCompany = randCompany.id;
     this.reservation.idClient = this.data;
+
     this.reservation.hiredCompany.name = randCompany.name;
     this.reservation.hiredCompany.logo = randCompany.photo;
     console.log('name:', randCompany.name);
