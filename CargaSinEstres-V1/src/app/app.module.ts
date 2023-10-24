@@ -25,6 +25,7 @@ import { CompanyFormComponent } from './UserManagement/components/company-form/c
 import { CompanySettingsComponent } from './UserManagement/components/company-settings/company-settings.component';
 import { ToolbarClientComponent } from './Public/components/toolbar-client/toolbar-client.component';
 import { ToolbarCompanyComponent } from './Public/components/toolbar-company/toolbar-company.component';
+import { ReviewDialogComponent } from './BookingHistory/components/review-dialog/review-dialog.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ToolbarCompanyComponent } from './Public/components/toolbar-company/too
     CompanyFormComponent,
     CompanySettingsComponent,
     ToolbarClientComponent,
-    ToolbarCompanyComponent
+    ToolbarCompanyComponent,
+    ReviewDialogComponent
   ],
   imports: [
     BrowserModule,

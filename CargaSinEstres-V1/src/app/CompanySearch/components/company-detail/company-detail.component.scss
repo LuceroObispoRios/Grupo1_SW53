@@ -47,6 +47,20 @@
     font-size: 16px;
 }
 
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    width: 100%;
+}
+
+.panel-container {
+    flex: 1;
+}
+
+
 /* FORM RESERVATION */
 
 .custom-addReservation {
@@ -85,4 +99,46 @@ button:hover {
     border: 2px solid #ee8f00; 
     box-shadow: 0px 0px 10px rgba(238, 143, 0, 0.5); 
     transform: scale(1.05); 
+}
+
+//Reviews
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 15px;
+}
+
+.star-rating {
+    font-size: 24px;
+}
+  
+.star-filled {
+    color: gold;
+}
+  
+.star-empty {
+    color: #ccc; 
+}
+
+.company-logo-container img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+rating-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
 }
