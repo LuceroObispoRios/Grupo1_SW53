@@ -32,6 +32,7 @@
       "montaje": false,
       "desmontaje": false,
       "description": "empresa",
+      "tipoMembresia": "3 Meses",
       "userType": "company"
     },
     {
@@ -49,6 +50,7 @@
       "montaje": false,
       "desmontaje": false,
       "description": "empresa",
+      "tipoMembresia": "1 Año",
       "userType": "company"
     },
     {
@@ -66,6 +68,7 @@
       "montaje": true,
       "desmontaje": true,
       "description": "empresa",
+      "tipoMembresia": "1 Mes",
       "userType": "company"
     },
     {
