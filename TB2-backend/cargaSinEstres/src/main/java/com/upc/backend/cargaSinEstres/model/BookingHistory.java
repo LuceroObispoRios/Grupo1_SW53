@@ -30,7 +30,7 @@ public class BookingHistory {
     @ManyToOne
     @JoinColumn(name="idClient", nullable = false, foreignKey = @ForeignKey(name="FK_bookingHistory_client"))
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    private Client client; //Falta crear entidad Client
+    private Client client;
 
     @Column(name="bookingDate", nullable = false)
     private Date bookingDate;
