@@ -51,6 +51,19 @@ export class CompanyTableComponent{
     this.companyDataService.getAllCompanies().subscribe((res: any) => {
       this.originalData = res;
       this.dataSource_company.data = res;
+
+      //sort the companies by membership
+      if(this.dataSource_company.data){
+        this.dataSource_company.data.sort((a:any, b:any) => {
+        if (a.tipoMembresia && !b.tipoMembresia) {
+          return -1; // a viene antes que b
+        } else if (!a.tipoMembresia && b.tipoMembresia) {
+          return 1; // b viene antes que a
+        }
+        return 0; // sin cambios en el orden
+        });
+      };
+      
       this.searchBySelectedServices();
       this.searchByLocation();
     })
@@ -207,7 +220,7 @@ export class CargaRapidaDialog {
 
     //generar reserva a partir de randCompany
     this.reservation.idCompany = randCompany.id;
-    this.reservation.idClient = this.data;
+    this.reservation.idClient = this.userId;
     this.reservation.hiredCompany.name = randCompany.name;
     this.reservation.hiredCompany.logo = randCompany.photo;
     console.log('name:', randCompany.name);
@@ -216,8 +229,9 @@ export class CargaRapidaDialog {
     this.reservation.status = "En curso";
     this.reservation.payment.totalAmount = 0;
     this.reservation.payment.paymentMethod = "Por definir";
-    this.reservation.bookingDate = now;
-    this.reservation.movingDate = now;
+    this.reservation.bookingDate = now.getDate()+"-"+now.getMonth()+"-"+now.getFullYear();
+    this.reservation.movingDate = now.getDate()+"-"+now.getMonth()+"-"+now.getFullYear();
+    this.reservation.movingTime = now.getHours() + ":" + now.getMinutes();
     //se genera la reserva con company random y fecha actual
     this.companyDataService.createReservation(this.reservation).subscribe(
       (res: any) => 
