@@ -12,6 +12,8 @@ import { BookingHistory } from 'src/app/models/booking-history.model';
 
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
+import { forkJoin } from 'rxjs';
+
 @Component({
   selector: 'app-company-table',
   templateUrl: './company-table.component.html',
@@ -51,22 +53,34 @@ export class CompanyTableComponent{
     this.companyDataService.getAllCompanies().subscribe((res: any) => {
       this.originalData = res;
       this.dataSource_company.data = res;
-
-      //sort the companies by membership
-      if(this.dataSource_company.data){
-        this.dataSource_company.data.sort((a:any, b:any) => {
-        if (a.tipoMembresia && !b.tipoMembresia) {
-          return -1; // a viene antes que b
-        } else if (!a.tipoMembresia && b.tipoMembresia) {
-          return 1; // b viene antes que a
-        }
-        return 0; // sin cambios en el orden
+  
+      const observables = this.dataSource_company.data.map((company: any) => {
+        return this.companyDataService.searchExistingMembership(company.id);
+      });
+  
+      forkJoin(observables).subscribe((results: boolean[]) => {
+        this.dataSource_company.data.forEach((company: any, index: number) => {
+          const hasMembership = results[index];
+          company.hasMembership = hasMembership;
+          company.rowStyle = hasMembership ? 'golden-background' : 'default-background';
         });
-      };
-      
-      this.searchBySelectedServices();
-      this.searchByLocation();
-    })
+  
+        // Ahora que se han completado todas las llamadas
+        this.dataSource_company.data.sort((a: any, b: any) => {
+          if (a.hasMembership && !b.hasMembership) {
+            return -1; // a viene antes que b
+          } else if (!a.hasMembership && b.hasMembership) {
+            return 1; // b viene antes que a
+          }
+          return 0; // sin cambios en el orden
+        });
+  
+        this.searchBySelectedServices();
+        this.searchByLocation();
+        console.log('dataSource:', this.dataSource_company);
+      });
+    });
+
   }
 
 
