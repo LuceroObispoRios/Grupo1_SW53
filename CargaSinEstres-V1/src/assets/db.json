@@ -32,7 +32,6 @@
       "montaje": false,
       "desmontaje": false,
       "description": "empresa",
-      "tipoMembresia": "3 Meses",
       "userType": "company"
     },
     {
@@ -50,7 +49,6 @@
       "montaje": false,
       "desmontaje": false,
       "description": "empresa",
-      "tipoMembresia": "1 Año",
       "userType": "company"
     },
     {
@@ -68,7 +66,6 @@
       "montaje": true,
       "desmontaje": true,
       "description": "empresa",
-      "tipoMembresia": "1 Mes",
       "userType": "company"
     },
     {
@@ -378,6 +375,28 @@
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
+    },
+    {
+      "idCompany": 3,
+      "idClient": {
+        "userId": "1"
+      },
+      "bookingDate": "25-9-2023",
+      "pickupAddress": "Locación actual",
+      "destinationAddress": "Por Definir",
+      "movingDate": "25-9-2023",
+      "movingTime": "17:25",
+      "status": "En curso",
+      "hiredCompany": {
+        "name": "J&G Transporte y mudanzas",
+        "logo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg"
+      },
+      "payment": {
+        "totalAmount": 0,
+        "paymentMethod": "Por definir"
+      },
+      "chat": {},
+      "id": 8
     }
   ],
   "clients": [
@@ -440,6 +459,36 @@
       "comment": "Buen servicio en general, pero hubo un pequeño retraso en la entrega.",
       "companyId": 6,
       "id": 7
+    }
+  ],
+  "subscriptions": [
+    {
+      "firma": "m84pWq",
+      "idCompany": 1,
+      "subscriptionDate": "2023-10-25T21:39:09.364Z",
+      "subscriptionType": "6 month plan",
+      "payment": {
+        "paymentMethod": "1234253576585352"
+      },
+      "hiredCompany": {
+        "name": "Transporte y mudanzas Rapi2",
+        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+      },
+      "id": 1
+    },
+    {
+      "firma": "nPCqDy",
+      "idCompany": 7,
+      "subscriptionDate": "2023-10-25T21:56:58.044Z",
+      "subscriptionType": "12 month plan",
+      "payment": {
+        "paymentMethod": "7365463847592716"
+      },
+      "hiredCompany": {
+        "name": "Mudanzas Jurado",
+        "logo": "https://www.mudanzasjurado.com/uploads/UFOLSqyA/353x0_387x0/logo.jpg"
+      },
+      "id": 2
     }
   ]
 }
