@@ -421,5 +421,43 @@
       "userType": "client",
       "id": 2
     }
+  ],
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "¡Una experiencia excepcional! Entrega puntual y atención al cliente sobresaliente.",
+      "companyId": 2,
+      "id": 3
+    },
+    {
+      "rating": 3,
+      "comment": "El servicio cumplió con lo esperado, sin destacar positiva ni negativamente.",
+      "companyId": 3,
+      "id": 3
+    },
+    {
+      "rating": 5,
+      "comment": "Muy satisfecho con el servicio, superó mis expectativas.",
+      "companyId": 7,
+      "id": 4
+    },
+    {
+      "rating": 4,
+      "comment": "Buen servicio",
+      "companyId": 8,
+      "id": 5
+    },
+    {
+      "rating": 3,
+      "comment": "El servicio fue promedio, nada espectacular pero tampoco terrible.",
+      "companyId": 7,
+      "id": 6
+    },
+    {
+      "rating": 4,
+      "comment": "Buen servicio en general, pero hubo un pequeño retraso en la entrega.",
+      "companyId": 6,
+      "id": 7
+    }
   ]
 }

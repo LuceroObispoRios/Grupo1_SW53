@@ -17,6 +17,11 @@ export class CompanyDetailComponent implements OnInit {
 
     company: any = '';
 
+    reviews: any = [];
+    averageRating: any = null;
+    reviewFilter: string = 'all';
+    stars: number[] = Array(5).fill(0);
+
     numeroTarjeta: string = '';
     CVV: string = '';
     fechaVencimiento: string = '';
@@ -48,6 +53,7 @@ export class CompanyDetailComponent implements OnInit {
       this.activatedRoute.params.subscribe(
         params => {
           this.getCompany(params['id']);
+          this.reservation.idCompany = params['id'];
         }
       );
 
@@ -62,6 +68,7 @@ export class CompanyDetailComponent implements OnInit {
     }
   
     ngOnInit(): void {
+      this.fetchReviews();
     }
 
     openSnackBar(message: string) {
@@ -113,6 +120,24 @@ export class CompanyDetailComponent implements OnInit {
       this.addReservation();
 
       this.router.navigateByUrl(`client/${this.userId}/history-cards`);
+    }
+
+    fetchReviews() {
+      this.companyDataService.getReviewsByCompanyId(this.reservation.idCompany).subscribe((res: any) => 
+        {
+          console.log("Reviews:", res);
+          this.reviews = res;
+          this.averageRating = this.reviews.reduce((acc: any, review: any) => acc + review.rating, 0) / this.reviews.length;
+          this.averageRating = Math.round(this.averageRating);
+        },
+        err => {
+          console.log("Error:", err);
+        }
+      );
+    }
+
+    getStars(rating: number): number[] {
+      return Array(rating).fill(0);
     }
 }
 
