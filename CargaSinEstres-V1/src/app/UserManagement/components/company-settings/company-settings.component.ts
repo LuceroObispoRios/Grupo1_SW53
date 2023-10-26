@@ -30,11 +30,17 @@ export class CompanySettingsComponent {
       desmontaje: [false],
       description: ['']
     });
+
+    this.route.pathFromRoot[1].url.subscribe(
+      url => {
+        console.log('url: ', url);
+        this.id = url[1].path;
+        console.log('User to edit id:' + this.id);
+      }
+    ); 
   }
 
-  ngOnInit(){
-    this.id = this.route.snapshot.paramMap.get('id');
-  }
+  ngOnInit(){}
 
   onSubmit(){
     this.errorMessage = '';

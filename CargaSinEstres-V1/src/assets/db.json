@@ -14,7 +14,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 2,
@@ -30,7 +31,8 @@
       "embalaje": false,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 3,
@@ -46,7 +48,8 @@
       "embalaje": true,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 4,
@@ -62,7 +65,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 5,
@@ -78,7 +82,8 @@
       "embalaje": false,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 6,
@@ -94,7 +99,8 @@
       "embalaje": true,
       "montaje": false,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 7,
@@ -110,7 +116,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": true,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     },
     {
       "id": 8,
@@ -126,7 +133,8 @@
       "embalaje": true,
       "montaje": true,
       "desmontaje": false,
-      "description": "empresa"
+      "description": "empresa",
+      "userType": "company"
     }
   ],
   "bookingHistory": [
@@ -147,7 +155,7 @@
       },
       "hiredCompany": {
         "name": "Transporte y mudanzas Rapi2",
-        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+        "logo": "https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/main/CargaSinEstres-V1/public-images/empresaLogo1.jpg"
       },
       "chat": [
         {
@@ -367,6 +375,28 @@
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
+    },
+    {
+      "idCompany": 3,
+      "idClient": {
+        "userId": "1"
+      },
+      "bookingDate": "25-9-2023",
+      "pickupAddress": "Locación actual",
+      "destinationAddress": "Por Definir",
+      "movingDate": "25-9-2023",
+      "movingTime": "17:25",
+      "status": "En curso",
+      "hiredCompany": {
+        "name": "J&G Transporte y mudanzas",
+        "logo": "https://media.cylex.com.pe/companies/1119/5162/logo/logo56282673.jpg"
+      },
+      "payment": {
+        "totalAmount": 0,
+        "paymentMethod": "Por definir"
+      },
+      "chat": {},
+      "id": 8
     }
   ],
   "clients": [
@@ -378,6 +408,7 @@
       "direccion": "monterrico",
       "email": "e@gmail.com",
       "password": "123456",
+      "userType": "client",
       "id": 1
     },
     {
@@ -388,6 +419,75 @@
       "direccion": "lince",
       "email": "a@gmail.com",
       "password": "0123456",
+      "userType": "client",
+      "id": 2
+    }
+  ],
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "¡Una experiencia excepcional! Entrega puntual y atención al cliente sobresaliente.",
+      "companyId": 2,
+      "id": 3
+    },
+    {
+      "rating": 3,
+      "comment": "El servicio cumplió con lo esperado, sin destacar positiva ni negativamente.",
+      "companyId": 3,
+      "id": 3
+    },
+    {
+      "rating": 5,
+      "comment": "Muy satisfecho con el servicio, superó mis expectativas.",
+      "companyId": 7,
+      "id": 4
+    },
+    {
+      "rating": 4,
+      "comment": "Buen servicio",
+      "companyId": 8,
+      "id": 5
+    },
+    {
+      "rating": 3,
+      "comment": "El servicio fue promedio, nada espectacular pero tampoco terrible.",
+      "companyId": 7,
+      "id": 6
+    },
+    {
+      "rating": 4,
+      "comment": "Buen servicio en general, pero hubo un pequeño retraso en la entrega.",
+      "companyId": 6,
+      "id": 7
+    }
+  ],
+  "subscriptions": [
+    {
+      "firma": "m84pWq",
+      "idCompany": 1,
+      "subscriptionDate": "2023-10-25T21:39:09.364Z",
+      "subscriptionType": "6 month plan",
+      "payment": {
+        "paymentMethod": "1234253576585352"
+      },
+      "hiredCompany": {
+        "name": "Transporte y mudanzas Rapi2",
+        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+      },
+      "id": 1
+    },
+    {
+      "firma": "nPCqDy",
+      "idCompany": 7,
+      "subscriptionDate": "2023-10-25T21:56:58.044Z",
+      "subscriptionType": "12 month plan",
+      "payment": {
+        "paymentMethod": "7365463847592716"
+      },
+      "hiredCompany": {
+        "name": "Mudanzas Jurado",
+        "logo": "https://www.mudanzasjurado.com/uploads/UFOLSqyA/353x0_387x0/logo.jpg"
+      },
       "id": 2
     }
   ]

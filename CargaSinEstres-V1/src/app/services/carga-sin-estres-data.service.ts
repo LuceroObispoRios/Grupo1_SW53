@@ -3,6 +3,9 @@ import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http
 import { Observable, catchError, retry, throwError } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { BookingHistory } from '../models/booking-history.model';
+import { Subscription } from '../models/subscription.model';
+import { Review } from '../models/review.model';
+import { map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -34,6 +37,10 @@ export class CargaSinEstresDataService {
 
   getCompanyById(id: any): Observable<any> {
     return this.http.get<any>(this.base_url+"/"+"companies").pipe(retry(2),catchError(this.handleError));
+  }
+
+  getCompanyById2(id: any): Observable<any> {
+    return this.http.get<any>(`${this.base_url}/companies/${id}`).pipe(retry(2),catchError(this.handleError));
   }
 
   createReservation(item: any): Observable<BookingHistory>{
@@ -76,14 +83,41 @@ export class CargaSinEstresDataService {
 
   //for settings
   updateClient(id: any, data: any): Observable<any> {
-    return this.http.put(`${this.base_url}/clients/${id}`, JSON.stringify(data), this.httpOptions);
+    return this.http.patch(`${this.base_url}/clients/${id}`, JSON.stringify(data), this.httpOptions);
   }
 
   updateCompany(id: any, data: any): Observable<any> {
-    return this.http.put(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
+    return this.http.patch(`${this.base_url}/companies/${id}`, JSON.stringify(data), this.httpOptions);
   }
 
+  //get client by id
   getClientById(clientId: any): Observable<any> {
     return this.http.get<any>(`${this.base_url}/clients/${clientId}`).pipe(retry(2),catchError(this.handleError));
   }
+
+  createSubscription(subscriptionData: Subscription): Observable<Subscription> {
+    return this.http.post<Subscription>(`${this.base_url}/subscriptions`, subscriptionData, this.httpOptions)
+      .pipe(retry(2),catchError(this.handleError));
+  }
+  
+  //Memberships
+  searchExistingMembership(companyId: any): Observable<boolean> {
+    return this.http.get<any[]>(`${this.base_url}/subscriptions`)
+      .pipe(
+        map((subscriptions: any[]) => subscriptions.some(subscription => subscription.idCompany === companyId))
+      );
+  }
+  
+  //Reviews
+  addReview(companyId: any, review: any): Observable<Review> {
+    review.companyId = companyId;
+    return this.http.post<Review>(`${this.base_url}/reviews`, JSON.stringify(review), this.httpOptions)
+      .pipe(retry(2),catchError(this.handleError));
+  }
+
+  getReviewsByCompanyId(companyId: any): Observable<Review> {
+    return this.http.get<Review>(`${this.base_url}/reviews?companyId=${companyId}`)
+      .pipe(retry(2),catchError(this.handleError))
+  }
+
 }

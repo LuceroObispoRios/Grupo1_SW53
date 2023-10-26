@@ -5,6 +5,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { PageEvent } from '@angular/material/paginator';
 import { MatDialog } from '@angular/material/dialog';
 import { ChatDialogComponent } from '../chat-dialog/chat-dialog.component';
+import { ReviewDialogComponent } from '../review-dialog/review-dialog.component';
 import { ActivatedRoute } from '@angular/router';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
 
@@ -99,6 +100,17 @@ export class HistoryCardsComponent implements OnInit {
   }
 
 
-  
+  openDialogReview(element: BookingHistory) {
+    console.log('opening review dialog element: ', element);
+    console.log('idCompany: ', element.idCompany );
+    this.dialog.open(ReviewDialogComponent, {
+      width: '600px',
+      data: {
+        userId: this.userId,
+        userType: this.userType,
+        element
+      }
+    });
+  }
 
 }

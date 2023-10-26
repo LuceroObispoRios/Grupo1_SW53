@@ -1,8 +1,9 @@
 
 <br><br><br>
 
+<h1 class="title">Búsqueda de empresas</h1>
+
 <div class="header">
-  <h1 class="title">Búsqueda de empresas</h1>
   
   <!-- Buscar por nombre de empresa -->
   <mat-form-field color="accent">
@@ -33,6 +34,8 @@
     <mat-label>Ubicación Manual</mat-label>
     <input matInput [(ngModel)]="manualLocation" (keyup)="searchByLocation()">
   </mat-form-field>
+
+  <button class="btn-open" (click)="openDialog()">Carga Rapida</button>
 
 </div>
 
@@ -80,7 +83,7 @@
       </ng-container>
   
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-      <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="getRow(row)"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.hasMembership ? 'golden-background' : 'default-background'" (click)="getRow(row)"></tr>
     </table>
   
     <mat-paginator [pageSize]="5" [pageSizeOptions]="[5, 10, 15]" showFirstLastButtons></mat-paginator>
