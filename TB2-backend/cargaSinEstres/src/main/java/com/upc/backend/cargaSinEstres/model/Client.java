@@ -1,4 +1,4 @@
-package com.upc.backend.cargaSinEstres.model;
+package com.upc.cargasinestres.CargaSinEstres.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -15,9 +15,8 @@ import lombok.NoArgsConstructor;
 public class Client {
 
     @Id
-
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(name = "name", nullable = false)
     private String name;
