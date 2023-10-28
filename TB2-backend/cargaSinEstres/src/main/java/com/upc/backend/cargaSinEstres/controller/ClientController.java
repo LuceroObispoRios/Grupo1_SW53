@@ -1,66 +1,54 @@
-package com.upc.backend.cargaSinEstres.controller;
+package com.upc.cargasinestres.CargaSinEstres.controller;
 
-import com.upc.backend.cargaSinEstres.model.Client;
-import com.upc.backend.cargaSinEstres.exception.ValidationException;
-import com.upc.backend.cargaSinEstres.repository.ClientRepository;
-import com.upc.backend.cargaSinEstres.service.ClientService;
-
-import jakarta.transaction.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.upc.cargasinestres.CargaSinEstres.exception.ValidationException;
+import com.upc.cargasinestres.CargaSinEstres.model.Client;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.upc.cargasinestres.CargaSinEstres.service.IClientService;
+
+import java.util.List;
+
 @RestController
-@RequestMapping("/api/clients/v1")
+@RequestMapping("/api/v1")
 public class ClientController {
 
-    @Autowired
-    private ClientService clientService;
-    private final ClientRepository clientRepository;
+    private final IClientService clientService;
 
-    public ClientController(ClientRepository clientRepository) {
-        this.clientRepository = clientRepository;
+    public ClientController(IClientService clientService) {
+
+        this.clientService = clientService;
     }
 
-    //URL: http://localhost:8080/api/clients/v1/clients/login?email=cliente_email&password=tcliente_contraseña
     //Method: GET
-    @Transactional  ///(readOnly = true)
     @GetMapping("/clients/login")
-    public ResponseEntity<Client> getClientsForLogin(@RequestParam(name="email") String email, @RequestParam(name="password")String password){
-        Client matchingClient = clientService.getClientsForLogin(email, password);
-        if (matchingClient != null) {
-            return new ResponseEntity<>(matchingClient, HttpStatus.OK);
-        } else {
-            // Si no se encuentra un cliente que coincida con las credenciales, se devuelve un error 404 (Not Found).
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+    public ResponseEntity<List<Client>> getClientsForLogin(@RequestParam(name="email") String email, @RequestParam(name="password")String password){
+        return new ResponseEntity<List<Client>>(clientService.getClientsForLogin(email, password), HttpStatus.OK);
     }
 
-    //URL: http://localhost:8080/api/clients/v1/clients/filterById?id=cliente_id
-    //Method: GET
-    @Transactional  ///(readOnly = true)
-    @GetMapping("/clients/filterById")
-    public ResponseEntity<Client> getClientById(@RequestParam(name="id")  int id){
-        Client matchingClient = clientService.getClientById(id);
-        if (matchingClient != null) {
-            return new ResponseEntity<>(matchingClient, HttpStatus.OK);
-        } else {
-            // Si no se encuentra un cliente que coincida con el id, se devuelve un error 404 (Not Found).
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+    @GetMapping("/clients/{id}")
+    public ResponseEntity<Client> getClientById(@RequestParam(name="id") Long id){
+        return new ResponseEntity<Client>(clientService.getClientById(id), HttpStatus.OK);
     }
 
-    //URL: http://localhost:8080/api/clients/v1/clients
+
     //Method: POST
-    @Transactional
     @PostMapping("/clients")
-    public ResponseEntity<Client> createClient(@RequestBody Client client){
+    public ResponseEntity<Client> createClient(@RequestBody Client client) {
         validateClientCreated(client);
         existClientByEmailAndPassword(client);
-        return new ResponseEntity<>(clientService.createClient(client), HttpStatus.CREATED);
+        var res = clientService.createClient(client);
+        return new ResponseEntity<>(res, HttpStatus.CREATED);
     }
+
+    private boolean isValidEmail(String email) {
+        String emailRegex = "^[A-Za-z0-9+_.-]+@(.+)$";
+
+        return email.matches(emailRegex);
+    }
+
 
     private void validateClientCreated(Client client){
         if(client.getEmail() == null || client.getEmail().isEmpty()){
@@ -106,23 +94,16 @@ public class ClientController {
     }
 
     private void existClientByEmailAndPassword(Client client){
-        if(clientRepository.existsByEmailAndPassword(client.getEmail(), client.getPassword())){
+        if(clientService.existsByEmailAndPassword(client.getEmail(), client.getPassword())){
             throw new ValidationException("No se puede registrar el cliente porque ya existe uno " +
                     "con el mismo email y contraseña");
         }
     }
 
-    private boolean isValidEmail(String email) {
-        String emailRegex = "^[A-Za-z0-9+_.-]+@(.+)$";
-
-        return email.matches(emailRegex);
-    }
-
+    /*
     //URL: http://localhost:8080/api/clients/v1/clients?id=cliente_id
-    //Method: PATCH
-    @Transactional
-    @PatchMapping("/clients")
-    public ResponseEntity<Client> partialUpdateClient(@RequestParam(name = "id") int id, @RequestBody Client clientUpdate){
+    @PatchMapping("/clients/{id}")
+    public ResponseEntity<Client> partialUpdateClient(@RequestParam(name = "id") Long id, @RequestBody Client clientUpdate){
 
         // Buscar el cliente por su ID
         Client existingClient = clientService.getClientById(id);
@@ -131,7 +112,6 @@ public class ClientController {
             //El cliente no  se encontro
             throw new ValidationException("No existe el cliente con el id: " + id);
         }
-
 
         //El cliente se encontro
         if (clientUpdate.getName() != null && !clientUpdate.getName().isEmpty()) {
@@ -175,6 +155,7 @@ public class ClientController {
 
         return new ResponseEntity<>(updatedClient, HttpStatus.OK);
     }
-
+    */
 
 }
+
