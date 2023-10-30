@@ -1,4 +1,4 @@
-package com.upc.backend.cargaSinEstres.model;
+package com.upc.cargasinestres.CargaSinEstres.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
