@@ -27,7 +27,7 @@ public class ReviewServiceImpl implements IReviewService {
     }
 
     @Override
-    public Review createReview(@RequestBody Review review){
+    public Review createReview(Review review){
         validateReview(review);
         return reviewRepository.save(review);
     }
