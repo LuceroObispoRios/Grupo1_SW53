@@ -427,6 +427,23 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3  
+  
+| **Sprint 3** | |
+|:---: | :---| 
+| | **Sprint planning background** |   
+| Date | 2/10/23 |
+| Time | 10:00 PM |
+| Location | Discord - Virtual Meeting |
+| Prepared by | Cuevas, Eric |
+| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Sebastian, Javier |
+| Sprint 2 Review Summary | Se realizo el sprint 2, se mejoro el codigo y se trato de terminar el aspecto front-end de la aplicación |
+| Sprint 2 Retrospective Summary | Se trabajo fluidamente, participando todos por igual en la realización del proyecto, más en la opinión del grupo creemos que pudimos haber terminado más partes del front-end. |
+| | **Sprint Goal & User Stories** |
+| Sprint & Goal | El objetivo del Sprint 3 sera terminar Frontend de la applicación, asi como avanzar el back-end hasta un punto funcional que podamos completar el siguiente sprint. |
+| Sprint & Velocity | Debido al alcanze establecido para este sprint, el Velocity establecido para este sprint es XX. |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es XX. |  
+
+#### 5.2.3.1. Sprint Backlog 3 
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
 
@@ -445,7 +462,56 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 ![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint3.png?raw=true)  
 ![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint3.png?raw=true)  
 ![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint3.png?raw=true)  
+  
+#### 5.2.3.5. Execution Evidence for Sprint Review  
+  
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.  
+  
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
+  
+#### 5.2.3.8. Team Collaboration Insights during Sprint.  
+  
+## 5.3 Validation Interviews  
+  
+### 5.3.1 Diseño de Entrevistas  
+**Segmento de individuos de 18 a 50 años, peruanos:**
+1. ¿Cómo describirías tu experiencia al navegar en “Carga Sin Estrés”?
+2. ¿Qué características de la aplicación encontraste más útiles para tu proceso de mudanza?
+3. ¿Qué característica o herramienta sentiste que faltaba o que te hubiera gustado ver en “Carga Sin Estrés”?
+4. ¿Consideras que se proporciona suficiente información sobre las empresas de mudanza que desea reservar?¿Considera alguna característica faltante?
+5. ¿Tuvo alguna experiencia negativa o desafío al buscar una herramienta/funcionalidad?. Descríbala.
+6. ¿Considera que la manera de búsqueda de empresas de mudanza mediante tablas, logró satisfacer su búsqueda de manera ágil y satisfactoria?
+7. ¿Cree que es adecuado que la comunicación con las empresas de mudanza sea mediante chat?
+8. ¿Qué recomendaciones nos brindarías para mejorar la experiencia de usuario, de modo que la aplicación sea más fácil de usar? 
+9. ¿Recomendaría “Carga Sin Estrés” a otras personas que desean solicitar el servicio de mudanza?¿Por qué?
 
+
+**Segmento de empresas de mudanza/transporte:**
+1. ¿Qué piensa sobre la experiencia de navegación brindada por Carga sin estrés? 
+2. ¿Considera que brindamos suficiente información para que las empresas puedan guiarse y entender las funciones de la app?
+3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
+4. ¿Cree que los beneficios brindados por las membresías son útiles para su empresa mientras usa la aplicación?
+5. ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
+6. ¿Piensa que la característica de mensajería, así como la ve, mejoraría la interacción entre su empresa y sus clientes?
+7. ¿Qué característica de la página encuentra usted más útil en cuanto a contribuir con el crecimiento de su empresa?
+8. ¿Qué otras funcionalidades le gustaría ver o cree podrían mejorar en la aplicación web a futuro?.
+9. ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?
+
+### 5.3.2 Registro  de Entrevistas  
+***Representantes de Empresas:*** 
+1. 
+2. 
+3.
+***Individuos de 18 a 50 años***
+1. 
+2. 
+3.
+### 5.3.3 Evaluaciones segu heuristicas  
+  
+**UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**  
+
+## 5.4 Video About-the-Product 
+  
 
 **Bibliografia**
 --
