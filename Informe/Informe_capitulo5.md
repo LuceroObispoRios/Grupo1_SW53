@@ -499,8 +499,8 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 
 ### 5.3.2 Registro  de Entrevistas  
 ***Representantes de Empresas:*** 
-1. 
-2. 
+1. [https://youtu.be/v5w_iTNg54s]  
+2. [https://youtu.be/L5YV1R7sKcQ]
 3.
 ***Individuos de 18 a 50 años***
 1. 
