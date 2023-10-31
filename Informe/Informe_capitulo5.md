@@ -236,6 +236,10 @@ Para este **primer** avance, el cual abarcaba la landing page, asi como el regis
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ***Primer Sprint***  
 Durante el primer sprint, el equipo optó por dividir los puntos entre todos los integrantes por cada capítulo para completar el informe. También, se optó por dividir las páginas por integrante teniendo en cuenta que estas deberán ser responsive y funcionales. Para asegurar que todo esté realizado correctamente, se organizaron reuniones constantes que se llevaron a cabo a través de Google Meet, donde se logró completar el informe y el código de las páginas landing page, registro para cuenta de empresa, registro para cuenta de cliente, inicio de sesión y la página de búsqueda de empresas.  
+
+**GitFlow** 
+Durante el primer sprint, nos enfocamos en establecer una base sólida para el proyecto. Trabajamos en la rama main, donde nos dedicamos a la elaboración del informe y la creación de la landing page. Una vez que finalizamos estos elementos, procedimos a realizar el despliegue en GitHub Pages, trasladando específicamente el proyecto de la landing page a una rama llamada deployment para su implementación.  
+
 A continuación, se presentan screenshots que reflejan el trabajo realizado durante este sprint.  
 
 ![team collaboration](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/teamcollaboration_sprint1.png?raw=true)   
@@ -418,7 +422,9 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
   
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-**GitFlow**    
+**GitFlow**   
+En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de funcionalidades. Cada miembro del equipo creó y trabajó en ramas individuales denominadas nombre-del-integrante/feature para desarrollar diversas funcionalidades utilizando Angular. Luego, fusionamos estos avances en la rama develop para consolidar el progreso general del proyecto. Simultáneamente, continuamos avanzando con el informe en la rama main. Al finalizar el sprint, unimos todos los cambios de la rama develop a la rama main para presentar una versión unificada del trabajo realizado.  
+
 ![network 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network1.png?raw=true)
 ![network 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network2.png?raw=true)
 **Contribuitors**    
@@ -455,12 +461,19 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
 
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint3.png?raw=true)   
+**feature 9**  
+![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint3.png?raw=true)  
+**feature 10**    
 ![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint3.png?raw=true)   
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint3.png?raw=true)   
+**feature 11**  
+![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint3.png?raw=true)  
+**feature 16**   
 ![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint3.png?raw=true)  
+**feature 17**  
 ![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint3.png?raw=true)  
+**feature 18**  
 ![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint3.png?raw=true)  
+**feature 19**  
 ![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint3.png?raw=true)  
   
 #### 5.2.3.5. Execution Evidence for Sprint Review  
@@ -484,6 +497,11 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 7. ¿Cree que es adecuado que la comunicación con las empresas de mudanza sea mediante chat?
 8. ¿Qué recomendaciones nos brindarías para mejorar la experiencia de usuario, de modo que la aplicación sea más fácil de usar? 
 9. ¿Recomendaría “Carga Sin Estrés” a otras personas que desean solicitar el servicio de mudanza?¿Por qué?
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+**GitFlow**   
+Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborativo utilizando ramas feature individuales para cada miembro del equipo. Cada integrante llevó a cabo su respectivo trabajo en su rama personal y posteriormente lo consolidó en la rama develop, lo que permitió un avance progresivo y sistemático del proyecto en curso. Mientras tanto, seguimos realizando ajustes y progresos en el informe en la rama main. Al culminar el sprint, incorporamos nuevamente los cambios de la rama develop a la rama main para presentar la versión final del proyecto, con todas las funcionalidades implementadas y el informe actualizado en su estado más reciente.  
 
 
 **Segmento de empresas de mudanza/transporte:**
