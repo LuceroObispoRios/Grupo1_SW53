@@ -503,6 +503,19 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 **GitFlow**   
 Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborativo utilizando ramas feature individuales para cada miembro del equipo. Cada integrante llevó a cabo su respectivo trabajo en su rama personal y posteriormente lo consolidó en la rama develop, lo que permitió un avance progresivo y sistemático del proyecto en curso. Mientras tanto, seguimos realizando ajustes y progresos en el informe en la rama main. Al culminar el sprint, incorporamos nuevamente los cambios de la rama develop a la rama main para presentar la versión final del proyecto, con todas las funcionalidades implementadas y el informe actualizado en su estado más reciente.  
 
+## 5.3 Validation Interviews  
+  
+### 5.3.1 Diseño de Entrevistas  
+**Segmento de individuos de 18 a 50 años, peruanos:**
+1. ¿Cómo describirías tu experiencia al navegar en “Carga Sin Estrés”?
+2. ¿Qué características de la aplicación encontraste más útiles para tu proceso de mudanza?
+3. ¿Qué característica o herramienta sentiste que faltaba o que te hubiera gustado ver en “Carga Sin Estrés”?
+4. ¿Consideras que se proporciona suficiente información sobre las empresas de mudanza que desea reservar?¿Considera alguna característica faltante?
+5. ¿Tuvo alguna experiencia negativa o desafío al buscar una herramienta/funcionalidad?. Descríbala.
+6. ¿Considera que la manera de búsqueda de empresas de mudanza mediante tablas, logró satisfacer su búsqueda de manera ágil y satisfactoria?
+7. ¿Cree que es adecuado que la comunicación con las empresas de mudanza sea mediante chat?
+8. ¿Qué recomendaciones nos brindarías para mejorar la experiencia de usuario, de modo que la aplicación sea más fácil de usar? 
+9. ¿Recomendaría “Carga Sin Estrés” a otras personas que desean solicitar el servicio de mudanza?¿Por qué?  
 
 **Segmento de empresas de mudanza/transporte:**
 1. ¿Qué piensa sobre la experiencia de navegación brindada por Carga sin estrés? 
@@ -513,7 +526,7 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 6. ¿Piensa que la característica de mensajería, así como la ve, mejoraría la interacción entre su empresa y sus clientes?
 7. ¿Qué característica de la página encuentra usted más útil en cuanto a contribuir con el crecimiento de su empresa?
 8. ¿Qué otras funcionalidades le gustaría ver o cree podrían mejorar en la aplicación web a futuro?.
-9. ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?
+9. ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
 
 ### 5.3.2 Registro  de Entrevistas  
 ***Representantes de Empresas:*** 
@@ -527,6 +540,200 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 ### 5.3.3 Evaluaciones segu heuristicas  
   
 **UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**  
+
+**Site o App a evaluar**  
+Carga Sin Estrés
+
+**Tareas a evaluar:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:  
+
+
+1. Registro de usuario tipo empresa
+2. Registro de usuario tipo cliente
+3. Inicio de sesión a la aplicación
+4. Edición de los datos de cuenta de empresa
+5. Edición de los datos de cuenta de cliente
+6. Cerrar Sesión en la aplicación
+7. Búsqueda de empresas
+8. Filtrar empresas por servicios, ubicación y nombre de la empresa
+9. Visualizar perfil de empresa
+10. Reserva de un servicio de empresas de mudanzas
+11. Cancelación de una reserva en el Historial de reservas
+12. Agregar mensaje en el chat de una reserva
+13. Realizar un reseña a una empresa
+14. Generar reservas tipo carga rápida
+15. Compra de membresia para empresa
+16. Visualizar boleta por compra de membresia
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:*  
+1. Gestión de tarjetas bancarias para cuenta empresa  
+2. Acceso a redes sociales de la startup  
+
+**Escala de severidad**  
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+
+<table style="border: 1px solid black; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid black;">Nivel</th>
+            <th style="border: 1px solid black;">Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black;">1</td>
+            <td style="border: 1px solid black;">Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>  
+
+
+**Tabla de resumen** 
+
+<table style="border: 1px solid black; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid black;">#</th>
+            <th style="border: 1px solid black;">Problema</th>
+            <th style="border: 1px solid black;">Escala de severidad (1/2/3/4)</th>
+            <th style="border: 1px solid black;">Heurísticas (1/2/3/4)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black;">1</td>
+            <td style="border: 1px solid black;">El botón “cancelar” de las páginas de editar de perfil de empresa y cliente no deshace la acción realizada </td>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Usability: Libertad y control del usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">El precio de las membresías, en la sección membresías, aparece como 0.00 en las 3</td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">En las cartas del historial de reservas no aparece toda la información de la reserva una vez finalizada </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Estando en el perfil de una empresa, no es posible volver de otra forma que no sea retrocediendo manualmente </td>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Usability: Libertad y control del usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">5</td>
+            <td style="border: 1px solid black;">Los links del footer de la página o no funcionan o solo llevan a login </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Consistencia y estándares</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">6</td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">7</td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">8</td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">9</td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">10</td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;"></td>
+        </tr>
+    </tbody>
+</table>
+
+**Descripción de problemas**
+
+**PROBLEMA #1:** El botón “cancelar” de las páginas de editar de perfil de empresa y cliente no deshace la acción realizada  
+**Heurística violada:** Libertad y control del usuario   
+**Problema:** El botón "cancelar" en las páginas de edición de perfil de empresa y cliente no revierte la acción realizada, lo que impide a los usuarios abandonar la página de edición sin aplicar los cambios. Esto limita la capacidad de los usuarios para cancelar sus ediciones y puede generar frustración al no poder salir de la página sin guardar los cambios no deseados.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema1.png?raw=true" alt="imagen problema 1" width="900px">
+</p>
+
+**Recomendación:** Se puede implementar la funcionalidad del botón "cancelar" para salir de la página de edición de perfil sin realizar ninguna acción permanente y que ésta luego muestre la página de búsqueda de empresas.  
+
+---
+
+**PROBLEMA #2:** El precio de las membresías, en la sección membresías, aparece como 0.00 en las 3.   
+**Heurística violada:** Visibilidad del estado del sistema    
+**Problema:** En la sección de membresías, el precio de todas las membresías aparece como 0.00 y dificulta a los usuarios a que comprendan claramente el costo.    
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema2.png?raw=true" alt="imagen problema 1" width="900px">
+</p>
+
+**Recomendación:** Corregir la visualización del precio de las membresías en la sección correspondiente para reflejar con precisión los costos asociados con cada tipo de membresía.  
+
+---
+
+**PROBLEMA #3:** En las cartas del historial de reservas no aparece toda la información de la reserva una vez finalizada.  
+**Heurística violada:**  Visibilidad del estado del sistema   
+**Problema:** En la sección de “historial de reservas” la información completa de la reserva no se muestra una vez que la reserva ha sido finalizada.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema3.png?raw=true" alt="imagen problema 1" width="400px">
+</p>
+
+**Recomendación:** Asegurarse de que todos los detalles relevantes de la reserva finalizada estén claramente visibles en la tarjeta de historial. Se podría incluir la hora de la mudanza.  
+
+---
+
+**PROBLEMA #4:** Estando en el perfil de una empresa, no es posible volver de otra forma que no sea retrocediendo manualmente. 
+**Heurística violada:** Control y libertad del usuario.   
+**Problema:** En el perfil de empresa, no se proporciona una opción para retroceder a la sección de búsqueda de empresa.    
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema4.png?raw=true" alt="imagen problema 1" width="900px">
+</p>
+
+**Recomendación:**  Se podría añadir un botón para regresar al listado empresas.  
+
+---
+
+**PROBLEMA #5:** Los links del footer de la página o no funcionan o solo llevan a login.  
+**Heurística violada:** Consistencia y estándares    
+**Problema:** los enlaces del footer de la página no funcionan correctamente o solo redirigen a la página de inicio de sesión.     
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema5.png?raw=true" alt="imagen problema 1" width="900px">
+</p>
+
+**Recomendación:** Revisar y corregir los enlaces del pie de página para asegurarse de que estén correctamente configurados y funcionen de acuerdo con las expectativas de los usuarios.  
+
+
 
 ## 5.4 Video About-the-Product 
   
