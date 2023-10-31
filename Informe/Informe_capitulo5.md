@@ -531,7 +531,7 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 2. [https://youtu.be/L5YV1R7sKcQ]
 3.
 ***Individuos de 18 a 50 años***
-1. 
+1. [https://youtu.be/g81ypeZfkoA]
 2. 
 3.
 ### 5.3.3 Evaluaciones segu heuristicas  
