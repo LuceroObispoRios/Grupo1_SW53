@@ -440,7 +440,11 @@ En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de fun
 
 <div style="text-align:center;">
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true" alt="Development Evidence - parte 1" width="400">
+</div>
+<div style="text-align:center;">
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true" alt="Development Evidence - parte 2" width="400">
+</div>
+<div style="text-align:center;">
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true" alt="Development Evidence - parte 3" width="400">
 </div>
 
