@@ -448,10 +448,10 @@ En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de fun
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true" alt="Development Evidence - parte 3" width="400">
 </div>
 <div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-4.png?raw=true" alt="Development Evidence - parte 3" width="400">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-4.png?raw=true" alt="Development Evidence - parte 4" width="400">
 </div>
 <div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-5.png?raw=true" alt="Development Evidence - parte 3" width="400">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-5.png?raw=true" alt="Development Evidence - parte 5" width="400">
 </div>
 
 
@@ -491,7 +491,6 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 
 **feature 19** 
 <div style="text-align:center;">
-    <p><strong>feature 19</strong></p>
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint3.png?raw=true" alt="Feature 19" width="600px">
 </div>
   
