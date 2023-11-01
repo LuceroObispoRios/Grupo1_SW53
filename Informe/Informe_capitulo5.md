@@ -692,7 +692,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 **Heurística violada:** Visibilidad del estado del sistema    
 **Problema:** En la sección de membresías, el precio de todas las membresías aparece como 0.00 y dificulta a los usuarios a que comprendan claramente el costo.    
 <p align="center">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema2.png?raw=true" alt="imagen problema 1" width="900px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema2.png?raw=true" alt="imagen problema 2" width="900px">
 </p>
 
 **Recomendación:** Corregir la visualización del precio de las membresías en la sección correspondiente para reflejar con precisión los costos asociados con cada tipo de membresía.  
@@ -703,7 +703,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 **Heurística violada:**  Visibilidad del estado del sistema   
 **Problema:** En la sección de “historial de reservas” la información completa de la reserva no se muestra una vez que la reserva ha sido finalizada.   
 <p align="center">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema3.png?raw=true" alt="imagen problema 1" width="400px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema3.png?raw=true" alt="imagen problema 3" width="400px">
 </p>
 
 **Recomendación:** Asegurarse de que todos los detalles relevantes de la reserva finalizada estén claramente visibles en la tarjeta de historial. Se podría incluir la hora de la mudanza.  
@@ -714,7 +714,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 **Heurística violada:** Control y libertad del usuario.   
 **Problema:** En el perfil de empresa, no se proporciona una opción para retroceder a la sección de búsqueda de empresa.    
 <p align="center">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema4.png?raw=true" alt="imagen problema 1" width="900px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema4.png?raw=true" alt="imagen problema 4" width="900px">
 </p>
 
 **Recomendación:**  Se podría añadir un botón para regresar al listado empresas.  
@@ -725,12 +725,64 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 **Heurística violada:** Consistencia y estándares    
 **Problema:** los enlaces del footer de la página no funcionan correctamente o solo redirigen a la página de inicio de sesión.     
 <p align="center">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema5.png?raw=true" alt="imagen problema 1" width="900px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema5.png?raw=true" alt="imagen problema 5" width="900px">
 </p>
 
 **Recomendación:** Revisar y corregir los enlaces del pie de página para asegurarse de que estén correctamente configurados y funcionen de acuerdo con las expectativas de los usuarios.  
 
+---
 
+**PROBLEMA #6:** Si una empresa tiene 0 reseñas, falla el despliegue de los paneles que muestran la reseñas y el formulario para registrar una reserva.  
+**Heurística violada:** Usability: Visibilidad del estado del sistema 
+**Problema:** Al visualizar el perfil en una empresa y desplazarse hacia las reseñas propia de esta empresa y esta no tenga alguna, el falla el despliegue de los paneles de los formularios que permiten realizar una reseña y el de reserva. Por tanto no se puede realizar ninguna de estas acciones.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema6.png?raw=true" alt="imagen problema 6" width="900px">
+</p>
+
+**Recomendación:** La recomendación sería proporcionar un mensaje o indicación que explique por qué no se muestran reseñas y ofrecer una ruta clara para que los usuarios puedan realizar otras acciones, como escribir una nueva reseña o ver más detalles sobre la empresa.
+
+---
+**PROBLEMA #7:** Existe el botón “Carga Rápida” en el toolbar de cliente que no lleva a nada. 
+**Heurística violada:** Usability: Prevención de errores   
+**Problema:** En el toolbar existe un botón de “Carga Rápida” el cual no realiza ninguna acción al interactuar con este.  
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema7.png?raw=true" alt="imagen problema 7" width="900px">
+</p>
+
+**Recomendación:** Implementar, a este botón, alguna responsabilidad. 
+
+---
+**PROBLEMA #8:** El diálogo de Carga Rápida una vez generado la reserva, se guarda en la base de datos pero no se muestra en el historial de reservas del cliente  
+**Heurística violada:** Usability: Visibilidad del estado del sistema  
+**Problema:** Una vez realizada una reserva, esta no se muestra en el historial de reservas del cliente. Sin embargo, esta reserva es almacenada en la base de datos.  
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema8.png?raw=true" alt="imagen problema 8" width="900px">
+</p>
+
+**Recomendación:** Asegurar de que una reserva generada se muestre inmediatamente en el historial de reservas del cliente para proporcionar retroalimentación y consistencia
+
+---
+**PROBLEMA #9:** Los botones del diálogo carga rápida una vez generada la reserva no te lleva a historial de reserva.  
+**Heurística violada:** Usability: Libertad y Control de usuario   
+**Problema:** Después de generar una reserva mediante el diálogo de carga rápida, los botones en ese diálogo no proporcionan a los usuarios una opción clara para ir al historial de reservas, lo que limita su libertad y control sobre su navegación en la aplicación.     
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema9.png?raw=true" alt="imagen problema 9" width="900px">
+</p>
+
+**Recomendación:** Proporcionar a los usuarios una forma fácil y clara de acceder al historial de reservas una vez que han generado una reserva. Esto podría implicar la inclusión de un botón o enlace en el diálogo de carga rápida que les permita ir directamente al historial de reservas. 
+
+---
+
+**PROBLEMA #10:** Faltan validaciones de datos para el formulario de edición de cuenta y realización de una reserva 
+**Heurística violada:** Usability: Prevención de errores
+**Problema:** En el contexto de la edición de cuentas y la realización de reservas, la falta de validaciones de datos puede conducir a errores, como datos incompletos, incorrectos o incoherentes.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema10.png?raw=true" alt="imagen problema 10" width="900px">
+</p>
+
+**Recomendación:** Implementar validaciones adecuadas en los formularios para garantizar que los usuarios ingresen datos válidos y completos. Esto incluye verificar campos obligatorios, formatos de datos, rangos válidos y cualquier otra restricción necesaria.
+
+---
 
 ## 5.4 Video About-the-Product 
   
