@@ -644,33 +644,33 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
         </tr>
         <tr>
             <td style="border: 1px solid black;">6</td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;">Si una empresa tiene 0 reseñas, falla el despliegue de los paneles que muestran la reseñas y el formulario para registrar una reserva</td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">7</td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;">Existe el botón “Carga Rápida” en el toolbar de cliente que no lleva a nada </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Prevención de errores</td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">8</td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;">El diálogo de Carga Rápida una vez generado la reserva, se guarda en la base de datos pero no se muestra en el historial de reservas del cliente </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">9</td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;">Los botones del diálogo carga rápida una vez generada la reserva no te lleva a historial de reserva. </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Libertad y Control de usuario</td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">10</td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
-            <td style="border: 1px solid black;"></td>
+            <td style="border: 1px solid black;">Faltan validaciones de datos para el formulario de edición de cuenta y realización de una reserva </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Prevención de errores</td>
         </tr>
     </tbody>
 </table>
