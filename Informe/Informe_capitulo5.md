@@ -439,10 +439,10 @@ En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de fun
 |----------------------|-----------------------------|---------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------|-------------------------|----------------------|
 |     User   Story     |                             |     Work –   Item/Task    |                                                        |                                                                                             |                   |                         |                      |
 |     Id               |     Título                  |     Id                    |     Título                                             |     Descripción                                                                             |     Estimación    |     Asignado   a        |     Estado           |
-|     < >   |     < >      |     < >                  |     < >                 |     < >         |     < >            |     < >       |     < >    |
-|     < >   |     < >      |     < >                  |     < >                 |     < >         |     < >            |     < >       |     < >    |
-|     < >   |     < >      |     < >                  |     < >                 |     < >         |     < >            |     < >       |     < >    |
-|     < >   |     < >      |     < >                  |     < >                 |     < >         |     < >            |     < >       |     < >    |
+|     < >   |     < >      |     < >                  |     Backend: Booking History                 |     Implementar lo relacionado a Booking History en la aplicación Spring Boot de CargaSinEstres         |     4            |     Eric Cuevas       |     Done    |
+|     < >   |     < >      |     < >                  |     Backend: Company                 |     Implementar lo relacionado a Company en la aplicación Spring Boot de CargaSinEstres         |     4            |     Javier Sebastian       |     Done    |
+|     < >   |     < >      |     < >                  |     Backend: Client                 |     Implementar lo relacionado a Client en la aplicación Spring Boot de CargaSinEstres         |     4            |     Lucero Obispo       |     Done    |
+|     < >   |     < >      |     < >                  |     Backend: Review                 |     Implementar lo relacionado a Review en la aplicación Spring Boot de CargaSinEstres         |     4            |     Andrea O'higgins       |     Done    |
 |     < >   |     < >      |     < >                  |     < >                 |     < >         |     < >            |     < >       |     < >    |
 
 
