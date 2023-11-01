@@ -7,5 +7,11 @@ import java.util.List;
 
 public interface BookingHistoryRepository extends JpaRepository<BookingHistory, Long>{
 
-    List<BookingHistory> findById(String id);
+    List<BookingHistory> findByClientId(String ClientId);
+
+    List<BookingHistory> findByCompanyId(String CompanyId);
+
+    Boolean existsByPickupAdressAndDestinationAdress(String pickupAdress, String destinationAdress);
+
+
 }

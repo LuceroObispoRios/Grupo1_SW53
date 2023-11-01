@@ -236,6 +236,10 @@ Para este **primer** avance, el cual abarcaba la landing page, asi como el regis
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ***Primer Sprint***  
 Durante el primer sprint, el equipo optó por dividir los puntos entre todos los integrantes por cada capítulo para completar el informe. También, se optó por dividir las páginas por integrante teniendo en cuenta que estas deberán ser responsive y funcionales. Para asegurar que todo esté realizado correctamente, se organizaron reuniones constantes que se llevaron a cabo a través de Google Meet, donde se logró completar el informe y el código de las páginas landing page, registro para cuenta de empresa, registro para cuenta de cliente, inicio de sesión y la página de búsqueda de empresas.  
+
+**GitFlow** 
+Durante el primer sprint, nos enfocamos en establecer una base sólida para el proyecto. Trabajamos en la rama main, donde nos dedicamos a la elaboración del informe y la creación de la landing page. Una vez que finalizamos estos elementos, procedimos a realizar el despliegue en GitHub Pages, trasladando específicamente el proyecto de la landing page a una rama llamada deployment para su implementación.  
+
 A continuación, se presentan screenshots que reflejan el trabajo realizado durante este sprint.  
 
 ![team collaboration](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/teamcollaboration_sprint1.png?raw=true)   
@@ -297,44 +301,28 @@ Para este Sprint se desarrolló el Frontend de la plataforma.
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
-
-![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true) 
-
-![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true)  
-
-![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true)  
-
-![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true)  
-
-![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true)  
-
-![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true)  
-
-![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true)  
-
-![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true)  
-
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true)  
-
-![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true)  
-
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true)  
-
-![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true)  
-
-![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true)  
-
-![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true)  
-
-![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true)  
-
-![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true)  
-
-![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true)  
-
-![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true)  
-
-![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true)  
+  
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true" alt="Feature 1" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true" alt="Feature 2" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true" alt="Feature 3" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true" alt="Feature 4" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true" alt="Feature 5" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true" alt="Feature 6" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true" alt="Feature 7" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true" alt="Feature 8" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true" alt="Feature 9" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true" alt="Feature 10" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true" alt="Feature 11" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true" alt="Feature 12" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true" alt="Feature 13" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true" alt="Feature 14" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true" alt="Feature 15" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true" alt="Feature 16" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true" alt="Feature 17" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true" alt="Feature 18" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true" alt="Feature 19" width="600px">
+</div>
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
@@ -418,7 +406,9 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
   
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-**GitFlow**    
+**GitFlow**   
+En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de funcionalidades. Cada miembro del equipo creó y trabajó en ramas individuales denominadas nombre-del-integrante/feature para desarrollar diversas funcionalidades utilizando Angular. Luego, fusionamos estos avances en la rama develop para consolidar el progreso general del proyecto. Simultáneamente, continuamos avanzando con el informe en la rama main. Al finalizar el sprint, unimos todos los cambios de la rama develop a la rama main para presentar una versión unificada del trabajo realizado.  
+
 ![network 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network1.png?raw=true)
 ![network 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network2.png?raw=true)
 **Contribuitors**    
@@ -427,25 +417,375 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3  
+  
+| **Sprint 3** | |
+|:---: | :---| 
+| | **Sprint planning background** |   
+| Date | 2/10/23 |
+| Time | 10:00 PM |
+| Location | Discord - Virtual Meeting |
+| Prepared by | Cuevas, Eric |
+| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Sebastian, Javier |
+| Sprint 2 Review Summary | Se realizo el sprint 2, se mejoro el codigo y se trato de terminar el aspecto front-end de la aplicación |
+| Sprint 2 Retrospective Summary | Se trabajo fluidamente, participando todos por igual en la realización del proyecto, más en la opinión del grupo creemos que pudimos haber terminado más partes del front-end. |
+| | **Sprint Goal & User Stories** |
+| Sprint & Goal | El objetivo del Sprint 3 sera terminar Frontend de la applicación, asi como avanzar el back-end hasta un punto funcional que podamos completar el siguiente sprint. |
+| Sprint & Velocity | Debido al alcanze establecido para este sprint, el Velocity establecido para este sprint es XX. |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es XX. |  
+
+#### 5.2.3.1. Sprint Backlog 3 
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
 
-![Development Evidence - parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true) 
-![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true) 
-![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true) 
+
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true" alt="Development Evidence - parte 1" width="400">
+</div>
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true" alt="Development Evidence - parte 2" width="400">
+</div>
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true" alt="Development Evidence - parte 3" width="400">
+</div>
+
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
 
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint3.png?raw=true)   
-![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint3.png?raw=true)   
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint3.png?raw=true)   
-![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint3.png?raw=true)  
-![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint3.png?raw=true)  
-![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint3.png?raw=true)  
-![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint3.png?raw=true)  
+**feature 9**   
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint3.png?raw=true" alt="Feature 9" width="600px">
+</div>
 
+**feature 10** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint3.png?raw=true" alt="Feature 10" width="600px">
+</div>
+
+**feature 11** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint3.png?raw=true" alt="Feature 11" width="600px">
+</div>
+
+**feature 16**
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint3.png?raw=true" alt="Feature 16" width="600px">
+</div>
+
+**feature 17** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint3.png?raw=true" alt="Feature 17" width="600px">
+</div>
+
+**feature 18** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint3.png?raw=true" alt="Feature 18" width="600px">
+</div>
+
+**feature 19** 
+<div style="text-align:center;">
+    <p><strong>feature 19</strong></p>
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint3.png?raw=true" alt="Feature 19" width="600px">
+</div>
+  
+#### 5.2.3.5. Execution Evidence for Sprint Review  
+  
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.  
+  
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
+  
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+**GitFlow**   
+Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborativo utilizando ramas feature individuales para cada miembro del equipo. Cada integrante llevó a cabo su respectivo trabajo en su rama personal y posteriormente lo consolidó en la rama develop, lo que permitió un avance progresivo y sistemático del proyecto en curso. Mientras tanto, seguimos realizando ajustes y progresos en el informe en la rama main. Al culminar el sprint, incorporamos nuevamente los cambios de la rama develop a la rama main para presentar la versión final del proyecto, con todas las funcionalidades implementadas y el informe actualizado en su estado más reciente.  
+
+## 5.3 Validation Interviews  
+  
+### 5.3.1 Diseño de Entrevistas  
+**Segmento de individuos de 18 a 50 años, peruanos:**
+1. ¿Cómo describirías tu experiencia al navegar en “Carga Sin Estrés”?
+2. ¿Qué características de la aplicación encontraste más útiles para tu proceso de mudanza?
+3. ¿Qué característica o herramienta sentiste que faltaba o que te hubiera gustado ver en “Carga Sin Estrés”?
+4. ¿Consideras que se proporciona suficiente información sobre las empresas de mudanza que desea reservar?¿Considera alguna característica faltante?
+5. ¿Tuvo alguna experiencia negativa o desafío al buscar una herramienta/funcionalidad?. Descríbala.
+6. ¿Considera que la manera de búsqueda de empresas de mudanza mediante tablas, logró satisfacer su búsqueda de manera ágil y satisfactoria?
+7. ¿Cree que es adecuado que la comunicación con las empresas de mudanza sea mediante chat?
+8. ¿Qué recomendaciones nos brindarías para mejorar la experiencia de usuario, de modo que la aplicación sea más fácil de usar? 
+9. ¿Recomendaría “Carga Sin Estrés” a otras personas que desean solicitar el servicio de mudanza?¿Por qué?  
+
+**Segmento de empresas de mudanza/transporte:**
+1. ¿Qué piensa sobre la experiencia de navegación brindada por Carga sin estrés? 
+2. ¿Considera que brindamos suficiente información para que las empresas puedan guiarse y entender las funciones de la app?
+3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
+4. ¿Cree que los beneficios brindados por las membresías son útiles para su empresa mientras usa la aplicación?
+5. ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
+6. ¿Piensa que la característica de mensajería, así como la ve, mejoraría la interacción entre su empresa y sus clientes?
+7. ¿Qué característica de la página encuentra usted más útil en cuanto a contribuir con el crecimiento de su empresa?
+8. ¿Qué otras funcionalidades le gustaría ver o cree podrían mejorar en la aplicación web a futuro?.
+9. ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
+
+### 5.3.2 Registro  de Entrevistas  
+***Representantes de Empresas:*** 
+1. [https://youtu.be/v5w_iTNg54s]  
+2. [https://youtu.be/L5YV1R7sKcQ]
+3.
+***Individuos de 18 a 50 años***
+1. [https://youtu.be/g81ypeZfkoA]
+2. 
+3.
+### 5.3.3 Evaluaciones segu heuristicas  
+  
+**UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**  
+
+**Site o App a evaluar**  
+Carga Sin Estrés
+
+**Tareas a evaluar:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:  
+
+
+1. Registro de usuario tipo empresa
+2. Registro de usuario tipo cliente
+3. Inicio de sesión a la aplicación
+4. Edición de los datos de cuenta de empresa
+5. Edición de los datos de cuenta de cliente
+6. Cerrar Sesión en la aplicación
+7. Búsqueda de empresas
+8. Filtrar empresas por servicios, ubicación y nombre de la empresa
+9. Visualizar perfil de empresa
+10. Reserva de un servicio de empresas de mudanzas
+11. Cancelación de una reserva en el Historial de reservas
+12. Agregar mensaje en el chat de una reserva
+13. Realizar un reseña a una empresa
+14. Generar reservas tipo carga rápida
+15. Compra de membresia para empresa
+16. Visualizar boleta por compra de membresia
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:*  
+1. Gestión de tarjetas bancarias para cuenta empresa  
+2. Acceso a redes sociales de la startup  
+
+**Escala de severidad**  
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+
+<table style="border: 1px solid black; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid black;">Nivel</th>
+            <th style="border: 1px solid black;">Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black;">1</td>
+            <td style="border: 1px solid black;">Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>  
+
+
+**Tabla de resumen** 
+
+<table style="border: 1px solid black; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid black;">#</th>
+            <th style="border: 1px solid black;">Problema</th>
+            <th style="border: 1px solid black;">Escala de severidad (1/2/3/4)</th>
+            <th style="border: 1px solid black;">Heurísticas (1/2/3/4)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black;">1</td>
+            <td style="border: 1px solid black;">El botón “cancelar” de las páginas de editar de perfil de empresa y cliente no deshace la acción realizada </td>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Usability: Libertad y control del usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">El precio de las membresías, en la sección membresías, aparece como 0.00 en las 3</td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">En las cartas del historial de reservas no aparece toda la información de la reserva una vez finalizada </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Estando en el perfil de una empresa, no es posible volver de otra forma que no sea retrocediendo manualmente </td>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Usability: Libertad y control del usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">5</td>
+            <td style="border: 1px solid black;">Los links del footer de la página o no funcionan o solo llevan a login </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Consistencia y estándares</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">6</td>
+            <td style="border: 1px solid black;">Si una empresa tiene 0 reseñas, falla el despliegue de los paneles que muestran la reseñas y el formulario para registrar una reserva</td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">7</td>
+            <td style="border: 1px solid black;">Existe el botón “Carga Rápida” en el toolbar de cliente que no lleva a nada </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Prevención de errores</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">8</td>
+            <td style="border: 1px solid black;">El diálogo de Carga Rápida una vez generado la reserva, se guarda en la base de datos pero no se muestra en el historial de reservas del cliente </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">9</td>
+            <td style="border: 1px solid black;">Los botones del diálogo carga rápida una vez generada la reserva no te lleva a historial de reserva. </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Libertad y Control de usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">10</td>
+            <td style="border: 1px solid black;">Faltan validaciones de datos para el formulario de edición de cuenta y realización de una reserva </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Prevención de errores</td>
+        </tr>
+    </tbody>
+</table>
+
+**Descripción de problemas**
+
+**PROBLEMA #1:** El botón “cancelar” de las páginas de editar de perfil de empresa y cliente no deshace la acción realizada  
+**Heurística violada:** Libertad y control del usuario   
+**Problema:** El botón "cancelar" en las páginas de edición de perfil de empresa y cliente no revierte la acción realizada, lo que impide a los usuarios abandonar la página de edición sin aplicar los cambios. Esto limita la capacidad de los usuarios para cancelar sus ediciones y puede generar frustración al no poder salir de la página sin guardar los cambios no deseados.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema1.png?raw=true" alt="imagen problema 1" width="900px">
+</p>
+
+**Recomendación:** Se puede implementar la funcionalidad del botón "cancelar" para salir de la página de edición de perfil sin realizar ninguna acción permanente y que ésta luego muestre la página de búsqueda de empresas.  
+
+---
+
+**PROBLEMA #2:** El precio de las membresías, en la sección membresías, aparece como 0.00 en las 3.   
+**Heurística violada:** Visibilidad del estado del sistema    
+**Problema:** En la sección de membresías, el precio de todas las membresías aparece como 0.00 y dificulta a los usuarios a que comprendan claramente el costo.    
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema2.png?raw=true" alt="imagen problema 2" width="900px">
+</p>
+
+**Recomendación:** Corregir la visualización del precio de las membresías en la sección correspondiente para reflejar con precisión los costos asociados con cada tipo de membresía.  
+
+---
+
+**PROBLEMA #3:** En las cartas del historial de reservas no aparece toda la información de la reserva una vez finalizada.  
+**Heurística violada:**  Visibilidad del estado del sistema   
+**Problema:** En la sección de “historial de reservas” la información completa de la reserva no se muestra una vez que la reserva ha sido finalizada.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema3.png?raw=true" alt="imagen problema 3" width="400px">
+</p>
+
+**Recomendación:** Asegurarse de que todos los detalles relevantes de la reserva finalizada estén claramente visibles en la tarjeta de historial. Se podría incluir la hora de la mudanza.  
+
+---
+
+**PROBLEMA #4:** Estando en el perfil de una empresa, no es posible volver de otra forma que no sea retrocediendo manualmente. 
+**Heurística violada:** Control y libertad del usuario.   
+**Problema:** En el perfil de empresa, no se proporciona una opción para retroceder a la sección de búsqueda de empresa.    
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema4.png?raw=true" alt="imagen problema 4" width="900px">
+</p>
+
+**Recomendación:**  Se podría añadir un botón para regresar al listado empresas.  
+
+---
+
+**PROBLEMA #5:** Los links del footer de la página o no funcionan o solo llevan a login.  
+**Heurística violada:** Consistencia y estándares    
+**Problema:** los enlaces del footer de la página no funcionan correctamente o solo redirigen a la página de inicio de sesión.     
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema5.png?raw=true" alt="imagen problema 5" width="900px">
+</p>
+
+**Recomendación:** Revisar y corregir los enlaces del pie de página para asegurarse de que estén correctamente configurados y funcionen de acuerdo con las expectativas de los usuarios.  
+
+---
+
+**PROBLEMA #6:** Si una empresa tiene 0 reseñas, falla el despliegue de los paneles que muestran la reseñas y el formulario para registrar una reserva.  
+**Heurística violada:** Usability: Visibilidad del estado del sistema 
+**Problema:** Al visualizar el perfil en una empresa y desplazarse hacia las reseñas propia de esta empresa y esta no tenga alguna, el falla el despliegue de los paneles de los formularios que permiten realizar una reseña y el de reserva. Por tanto no se puede realizar ninguna de estas acciones.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema6.png?raw=true" alt="imagen problema 6" width="900px">
+</p>
+
+**Recomendación:** La recomendación sería proporcionar un mensaje o indicación que explique por qué no se muestran reseñas y ofrecer una ruta clara para que los usuarios puedan realizar otras acciones, como escribir una nueva reseña o ver más detalles sobre la empresa.
+
+---
+**PROBLEMA #7:** Existe el botón “Carga Rápida” en el toolbar de cliente que no lleva a nada. 
+**Heurística violada:** Usability: Prevención de errores   
+**Problema:** En el toolbar existe un botón de “Carga Rápida” el cual no realiza ninguna acción al interactuar con este.  
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema7.png?raw=true" alt="imagen problema 7" width="900px">
+</p>
+
+**Recomendación:** Implementar, a este botón, alguna responsabilidad. 
+
+---
+**PROBLEMA #8:** El diálogo de Carga Rápida una vez generado la reserva, se guarda en la base de datos pero no se muestra en el historial de reservas del cliente  
+**Heurística violada:** Usability: Visibilidad del estado del sistema  
+**Problema:** Una vez realizada una reserva, esta no se muestra en el historial de reservas del cliente. Sin embargo, esta reserva es almacenada en la base de datos.  
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema8.png?raw=true" alt="imagen problema 8" width="900px">
+</p>
+
+**Recomendación:** Asegurar de que una reserva generada se muestre inmediatamente en el historial de reservas del cliente para proporcionar retroalimentación y consistencia
+
+---
+**PROBLEMA #9:** Los botones del diálogo carga rápida una vez generada la reserva no te lleva a historial de reserva.  
+**Heurística violada:** Usability: Libertad y Control de usuario   
+**Problema:** Después de generar una reserva mediante el diálogo de carga rápida, los botones en ese diálogo no proporcionan a los usuarios una opción clara para ir al historial de reservas, lo que limita su libertad y control sobre su navegación en la aplicación.     
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema9.png?raw=true" alt="imagen problema 9" width="900px">
+</p>
+
+**Recomendación:** Proporcionar a los usuarios una forma fácil y clara de acceder al historial de reservas una vez que han generado una reserva. Esto podría implicar la inclusión de un botón o enlace en el diálogo de carga rápida que les permita ir directamente al historial de reservas. 
+
+---
+
+**PROBLEMA #10:** Faltan validaciones de datos para el formulario de edición de cuenta y realización de una reserva 
+**Heurística violada:** Usability: Prevención de errores
+**Problema:** En el contexto de la edición de cuentas y la realización de reservas, la falta de validaciones de datos puede conducir a errores, como datos incompletos, incorrectos o incoherentes.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema10.png?raw=true" alt="imagen problema 10" width="900px">
+</p>
+
+**Recomendación:** Implementar validaciones adecuadas en los formularios para garantizar que los usuarios ingresen datos válidos y completos. Esto incluye verificar campos obligatorios, formatos de datos, rangos válidos y cualquier otra restricción necesaria.
+
+---
+
+## 5.4 Video About-the-Product 
+  
 
 **Bibliografia**
 --
