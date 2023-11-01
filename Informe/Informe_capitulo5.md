@@ -534,9 +534,46 @@ Por ultimo, los metodos POST bookingHistory, GET booking History con parametro i
 |  /bookingHistory/company/{id}  |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id company (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/company/1)  |
 
 
-Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres)
-Link del swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html ) 
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres)   
+Link del swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html )  
 
+**Capturas de interaccion con datos de prueba**  
+- Registrar empresa (POST)
+El usuario agrega una nueva empresa a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para registrar su empresa Transporte y Mudanzas Rapi2
+Una vez que se haya registrado la empresa, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).
+
+- Registrar cliente (POST)
+El usuario agrega un nuevo cliente a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario Lucero ha colocado todos datos necesarios para registrar su cuenta personal
+Una vez que se haya registrado el cliente, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).
+
+- Registrar reserva (POST)
+El usuario agrega una nueva reserva para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para solicitar una reserva.
+Una vez que se solicitado la reserva, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).
+
+- Registrar reseña (POST)
+El usuario agrega una nueva reseña a la base de datos para calificar el servicio brindado por una empresa. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para publicar su reseña.
+Una vez que se haya creado la reseña, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).
+
+- Obtener lista de todas las empresas (GET)
+Los usuarios desean consultar una lista de todas las empresas registradas en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET. A continuación, se presenta un ejemplo en el que un cliente solicita la lista de todas las empresas disponibles.
+  
+- Obtener empresa por su id (GET)
+Los usuarios desean consultar la información de una empresa específica en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que un cliente solicita la información de una empresa por su ID.
+
+- Obtener cliente por su id (GET)
+Los usuarios desean consultar su información personal, por eso se brinda el id del cliente. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de un cliente por su ID.
+
+- Obtener cliente por email y contraseña (GET)
+Esta funcionalidad permite la consulta de información de un cliente utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo cliente. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles del cliente correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información del cliente por correo electrónico y contraseña.
+
+- Obtener reseñas por el id de la empresa (GET)
+Esta funcionalidad permite obtener reseñas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de una reseña en función del identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una reseña por el ID de la empresa.
+
+- Obtener reserva por id cliente (GET)
+Esta funcionalidad permite obtener reservas específicas asociada a un cliente. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID del cliente.
+
+- Obtener reserva por id empresa (GET)
+Esta funcionalidad permite obtener reservas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID de la empresa.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
   
