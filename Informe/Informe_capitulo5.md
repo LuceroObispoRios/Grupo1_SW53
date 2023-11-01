@@ -345,7 +345,7 @@ Durante este sprint, nos enfocamos en terminar con la sección de manejo de usua
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.  
 
-**Introducion:**  
+**Introduccion:**  
 Para este segundo sprint se ha logrado implementar 12 endpoints, los cuales han sido exitosamente logrados y documentados.  
 Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
 Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
@@ -508,7 +508,36 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 #### 5.2.3.5. Execution Evidence for Sprint Review  
   
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.  
-  
+
+**Introduccion:**  
+Para este tercer sprint se ha logrado implementar 11 endpoints, los cuales han sido exitosamente logrados y documentados.  
+Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
+Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
+Los metodos GET all companies y GET companies con parametro de id, estan relacionados a la pantalla de Busqueda de Empresas, donde el usuario puede ver la lista completa de empresa, y cuando le da click a una fila puede acceder a la informacion de una empresa en especifica.  
+Los metodos GET all reviews y GET reviews con parametro de id, estan relacionados a la pantalla de Informacion de Empresa porque aqui se visualizaran las reseñas que recibe una empresa en especifica, mientras que en la pantalla Historial de Reservas se podrá crear una reseña, una vez la reserva tenga como estado finalizado.
+Por ultimo, los metodos POST bookingHistory, GET booking History con parametro id cliente o empresa, permiten al usuario crear una reserva como visualizar el historia de reservas de una empresa o cliente en especifico.
+
+**Tabla:**  
+
+|     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
+|--------|----------|--------|-------|
+|  /companies                    |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  | [http://localhost:8080/companies](http://localhost:8080/companies)  |
+|  /companies/{id}               |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') | [http://localhost:8080/companies/1](http://localhost:8080/companies/1)     |
+|  /companies                    |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             | [http://localhost:8080/companies](http://localhost:8080/companies)     |
+|  /clients/login                |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             | [http://localhost:8080/clients/login](http://localhost:8080/clients/login)  |
+|  /clients                      |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              | [http://localhost:8080/clients](http://localhost:8080/clients) |
+|  /clients/{id}                 |       PUT       | 200 OK: Retorna información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1')    | [http://localhost:8080/clients/1](http://localhost:8080/clients/1) |
+|  /reviews                      |       POST      | 201 Created: Indica que la reseña ha sido creada exitosamente                                               | [http://localhost:8080/reviews](http://localhost:8080/reviews) |
+|  /reviews/copmany/{companyId}  |       GET       | 200 OK: Retorna información de la reseña correspondiente al copmanyID (parametro: companyId, ejemplo: '1')  | [http://localhost:8080/companies/1](http://localhost:8080/reviews/1)     |
+|  /bookingHistory               |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              | [http://localhost:8080/bookingHistory](http://localhost:8080/bookingHistory)       |
+|  /bookingHistory/client/{id}   |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id cliente (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/bookingHistory/client/1)  |
+|  /bookingHistory/copmany/{id}  |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id company (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/bookingHistory/company/1)  |
+
+
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres)
+Link del swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html ) 
+
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
   
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
@@ -571,7 +600,7 @@ Si porque es sencillo, rapido y amigable. Tambien, te va a ayudar a brindar mayo
 1. [https://youtu.be/g81ypeZfkoA]
 2. 
 3.
-### 5.3.3 Evaluaciones segu heuristicas  
+### 5.3.3 Evaluaciones segun heuristicas  
   
 **UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**  
 
