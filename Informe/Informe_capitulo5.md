@@ -236,6 +236,10 @@ Para este **primer** avance, el cual abarcaba la landing page, asi como el regis
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 ***Primer Sprint***  
 Durante el primer sprint, el equipo optó por dividir los puntos entre todos los integrantes por cada capítulo para completar el informe. También, se optó por dividir las páginas por integrante teniendo en cuenta que estas deberán ser responsive y funcionales. Para asegurar que todo esté realizado correctamente, se organizaron reuniones constantes que se llevaron a cabo a través de Google Meet, donde se logró completar el informe y el código de las páginas landing page, registro para cuenta de empresa, registro para cuenta de cliente, inicio de sesión y la página de búsqueda de empresas.  
+
+**GitFlow** 
+Durante el primer sprint, nos enfocamos en establecer una base sólida para el proyecto. Trabajamos en la rama main, donde nos dedicamos a la elaboración del informe y la creación de la landing page. Una vez que finalizamos estos elementos, procedimos a realizar el despliegue en GitHub Pages, trasladando específicamente el proyecto de la landing page a una rama llamada deployment para su implementación.  
+
 A continuación, se presentan screenshots que reflejan el trabajo realizado durante este sprint.  
 
 ![team collaboration](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/teamcollaboration_sprint1.png?raw=true)   
@@ -297,44 +301,28 @@ Para este Sprint se desarrolló el Frontend de la plataforma.
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
-
-![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true) 
-
-![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true)  
-
-![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true)  
-
-![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true)  
-
-![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true)  
-
-![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true)  
-
-![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true)  
-
-![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true)  
-
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true)  
-
-![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true)  
-
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true)  
-
-![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true)  
-
-![feature 13](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true)  
-
-![feature 14](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true)  
-
-![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true)  
-
-![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true)  
-
-![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true)  
-
-![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true)  
-
-![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true)  
+  
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true" alt="Feature 1" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true" alt="Feature 2" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true" alt="Feature 3" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true" alt="Feature 4" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true" alt="Feature 5" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true" alt="Feature 6" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true" alt="Feature 7" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true" alt="Feature 8" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true" alt="Feature 9" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true" alt="Feature 10" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true" alt="Feature 11" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true" alt="Feature 12" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true" alt="Feature 13" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true" alt="Feature 14" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true" alt="Feature 15" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true" alt="Feature 16" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true" alt="Feature 17" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true" alt="Feature 18" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true" alt="Feature 19" width="600px">
+</div>
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
@@ -357,7 +345,7 @@ Durante este sprint, nos enfocamos en terminar con la sección de manejo de usua
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.  
 
-**Introducion:**  
+**Introduccion:**  
 Para este segundo sprint se ha logrado implementar 12 endpoints, los cuales han sido exitosamente logrados y documentados.  
 Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
 Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
@@ -418,7 +406,9 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
   
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
-**GitFlow**    
+**GitFlow**   
+En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de funcionalidades. Cada miembro del equipo creó y trabajó en ramas individuales denominadas nombre-del-integrante/feature para desarrollar diversas funcionalidades utilizando Angular. De esta forma, cada uno de nosotros tenía su propia rama personalizada, lo que nos permitió trabajar de manera eficiente y llevar un registro claro de nuestras contribuciones al proyecto. Luego, fusionamos estos avances en la rama develop para consolidar el progreso general del proyecto. Simultáneamente, continuamos avanzando con el informe en la rama main. Al finalizar el sprint, unimos todos los cambios de la rama develop a la rama main para presentar una versión unificada del trabajo realizado.
+
 ![network 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network1.png?raw=true)
 ![network 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Network2.png?raw=true)
 **Contribuitors**    
@@ -427,24 +417,485 @@ más para su correcto funcionamiento, se necesita desplegar el servidor json-ser
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3  
+  
+| **Sprint 3** | |
+|:---: | :---| 
+| | **Sprint planning background** |   
+| Date | 2/10/23 |
+| Time | 10:00 PM |
+| Location | Discord - Virtual Meeting |
+| Prepared by | Cuevas, Eric |
+| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Sebastian, Javier |
+| Sprint 2 Review Summary | Se realizo el sprint 2, se mejoro el codigo y se trato de terminar el aspecto front-end de la aplicación |
+| Sprint 2 Retrospective Summary | Se trabajo fluidamente, participando todos por igual en la realización del proyecto, más en la opinión del grupo creemos que pudimos haber terminado más partes del front-end. |
+| | **Sprint Goal & User Stories** |
+| Sprint & Goal | El objetivo del Sprint 3 sera terminar Frontend de la applicación, asi como avanzar el back-end hasta un punto funcional que podamos completar el siguiente sprint. |
+| Sprint & Velocity | Debido al alcanze establecido para este sprint, el Velocity establecido para este sprint es XX. |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es XX. |  
+
+#### 5.2.3.1. Sprint Backlog 3 
+
+|     Sprint #         |     Sprint 3                |                           |                                                        |                                                                                             |                   |                         |                      |
+|----------------------|-----------------------------|---------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------|-------------------------|----------------------|
+|     User   Story     |                             |     Work –   Item/Task    |                                                        |                                                                                             |                   |                         |                      |
+|     Id               |     Título                  |     Id                    |     Título                                             |     Descripción                                                                             |     Estimación    |     Asignado   a        |     Estado           |
+|     < >   |     < >      |     < >                  |     Backend: Booking History                 |     Implementar lo relacionado a Booking History en la aplicación Spring Boot de CargaSinEstres         |     4            |     Eric Cuevas       |     Done    |
+|     < >   |     < >      |     < >                  |     Backend: Company                 |     Implementar lo relacionado a Company en la aplicación Spring Boot de CargaSinEstres         |     4            |     Javier Sebastian       |     Done    |
+|     < >   |     < >      |     < >                  |     Backend: Client                 |     Implementar lo relacionado a Client en la aplicación Spring Boot de CargaSinEstres         |     4            |     Lucero Obispo       |     Done    |
+|     < >   |     < >      |     < >                  |     Backend: Review                 |     Implementar lo relacionado a Review en la aplicación Spring Boot de CargaSinEstres         |     4            |     Andrea O'higgins       |     Done    |
+|     < >   |     < >      |     < >                  |     < >                 |     < >         |     < >            |     < >       |     < >    |
+
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
 
-![Development Evidence - parte 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true) 
-![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true) 
-![Development Evidence - parte 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true) 
+
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true" alt="Development Evidence - parte 1" width="400">
+</div>
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true" alt="Development Evidence - parte 2" width="400">
+</div>
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true" alt="Development Evidence - parte 3" width="400">
+</div>
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-4.png?raw=true" alt="Development Evidence - parte 4" width="400">
+</div>
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-5.png?raw=true" alt="Development Evidence - parte 5" width="400">
+</div>
+
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
 
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint3.png?raw=true)   
-![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint3.png?raw=true)   
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint3.png?raw=true)   
-![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint3.png?raw=true)  
-![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint3.png?raw=true)  
-![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint3.png?raw=true)  
-![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint3.png?raw=true)  
+**feature 9**   
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint3.png?raw=true" alt="Feature 9" width="600px">
+</div>
+
+**feature 10** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint3.png?raw=true" alt="Feature 10" width="600px">
+</div>
+
+**feature 11** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint3.png?raw=true" alt="Feature 11" width="600px">
+</div>
+
+**feature 16**
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint3.png?raw=true" alt="Feature 16" width="600px">
+</div>
+
+**feature 17** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint3.png?raw=true" alt="Feature 17" width="600px">
+</div>
+
+**feature 18** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint3.png?raw=true" alt="Feature 18" width="600px">
+</div>
+
+**feature 19** 
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint3.png?raw=true" alt="Feature 19" width="600px">
+</div>
+  
+#### 5.2.3.5. Execution Evidence for Sprint Review  
+  
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.  
+
+**Introduccion:**  
+Para este tercer sprint se ha logrado implementar 11 endpoints, los cuales han sido exitosamente logrados y documentados.  
+Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
+Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
+Los metodos GET all companies y GET companies con parametro de id, estan relacionados a la pantalla de Busqueda de Empresas, donde el usuario puede ver la lista completa de empresa, y cuando le da click a una fila puede acceder a la informacion de una empresa en especifica.  
+Los metodos GET all reviews y GET reviews con parametro de id, estan relacionados a la pantalla de Informacion de Empresa porque aqui se visualizaran las reseñas que recibe una empresa en especifica, mientras que en la pantalla Historial de Reservas se podrá crear una reseña, una vez la reserva tenga como estado finalizado.
+Por ultimo, los metodos POST bookingHistory, GET booking History con parametro id cliente o empresa, permiten al usuario crear una reserva como visualizar el historia de reservas de una empresa o cliente en especifico.
+
+**Tabla:**  
+
+|     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
+|--------|----------|--------|-------|
+|  /companies                    |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  | [http://localhost:8080/companies](http://localhost:8080/api/v1/companies)  |
+|  /companies/{id}               |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') | [http://localhost:8080/companies/1](http://localhost:8080/api/v1/companies/1)     |
+|  /companies                    |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             | [http://localhost:8080/companies](http://localhost:8080/api/v1/companies)     |
+|  /clients/login                |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             | [http://localhost:8080/clients/login](http://localhost:8080/api/v1/clients/login)  |
+|  /clients                      |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              | [http://localhost:8080/clients](http://localhost:8080/api/v1/clients) |
+|  /clients/{id}                 |       PUT       | 200 OK: Retorna información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1')    | [http://localhost:8080/clients/1](http://localhost:8080/api/v1/clients/1) |
+|  /reviews                      |       POST      | 201 Created: Indica que la reseña ha sido creada exitosamente                                               | [http://localhost:8080/reviews](http://localhost:8080/api/v1/reviews) |
+|  /reviews/company/{companyId}  |       GET       | 200 OK: Retorna información de la reseña correspondiente al copmanyID (parametro: companyId, ejemplo: '1')  | [http://localhost:8080/companies/1](http://localhost:8080/api/v1/reviews/1)     |
+|  /bookingHistory               |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              | [http://localhost:8080/bookingHistory](http://localhost:8080/api/v1/bookingHistory)       |
+|  /bookingHistory/client/{id}   |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id cliente (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/client/1)  |
+|  /bookingHistory/company/{id}  |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id company (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/company/1)  |
+
+
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres)   
+Link del swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html )  
+
+**Capturas de interaccion con datos de prueba**  
+- Registrar empresa (POST)   
+El usuario agrega una nueva empresa a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para registrar su empresa Transporte y Mudanzas Rapi2
+Una vez que se haya registrado la empresa, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services1_3.JPG?raw=true)   
+- Registrar cliente (POST)   
+El usuario agrega un nuevo cliente a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario Lucero ha colocado todos datos necesarios para registrar su cuenta personal
+Una vez que se haya registrado el cliente, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services2_3.JPG?raw=true)   
+- Registrar reserva (POST)   
+El usuario agrega una nueva reserva para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para solicitar una reserva.
+Una vez que se solicitado la reserva, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_3.JPG?raw=true)    
+- Registrar reseña (POST)   
+El usuario agrega una nueva reseña a la base de datos para calificar el servicio brindado por una empresa. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para publicar su reseña.
+Una vez que se haya creado la reseña, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_3.JPG?raw=true)   
+- Obtener lista de todas las empresas (GET)   
+Los usuarios desean consultar una lista de todas las empresas registradas en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET. A continuación, se presenta un ejemplo en el que un cliente solicita la lista de todas las empresas disponibles.  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_3.JPG?raw=true)  
+- Obtener empresa por su id (GET)  
+Los usuarios desean consultar la información de una empresa específica en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que un cliente solicita la información de una empresa por su ID.    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_3.JPG?raw=true)   
+- Obtener cliente por su id (GET)
+Los usuarios desean consultar su información personal, por eso se brinda el id del cliente. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de un cliente por su ID.  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services7_3.JPG?raw=true)  
+- Obtener cliente por email y contraseña (GET)
+Esta funcionalidad permite la consulta de información de un cliente utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo cliente. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles del cliente correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información del cliente por correo electrónico y contraseña.  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_3.JPG?raw=true)   
+- Obtener reseñas por el id de la empresa (GET)   
+Esta funcionalidad permite obtener reseñas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de una reseña en función del identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una reseña por el ID de la empresa.   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_3.JPG?raw=true)   
+- Obtener reserva por id cliente (GET)   
+Esta funcionalidad permite obtener reservas específicas asociada a un cliente. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID del cliente.    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services10_3.JPG?raw=true)     
+- Obtener reserva por id empresa (GET)   
+Esta funcionalidad permite obtener reservas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID de la empresa.   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services11_3.JPG?raw=true)
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
+  
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+**GitFlow**   
+Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborativo utilizando ramas feature individuales para cada miembro del equipo. De esa forma, se logra garantizar que cada integrante tuviera su propio espacio para trabajar de manera efectiva y mantener un registro claro de sus aportaciones al proyecto en un entorno de colaboración sin problemas. Posteriormente, cada integrante consolida su trabajo en la rama develop en cuanto a la programación del frontend y backend del proyecto, lo que permitió un avance progresivo y sistemático de este. Mientras tanto, seguimos realizando ajustes y progresos en el informe en la rama main. Al culminar el sprint, incorporamos nuevamente los cambios de la rama develop a la rama main para presentar la versión final del proyecto, con todas las funcionalidades implementadas y el informe actualizado en su estado más reciente.  
+
+## 5.3 Validation Interviews  
+  
+### 5.3.1 Diseño de Entrevistas  
+**Segmento de individuos de 18 a 50 años, peruanos:**
+1. ¿Cómo describirías tu experiencia al navegar en “Carga Sin Estrés”?
+2. ¿Qué características de la aplicación encontraste más útiles para tu proceso de mudanza?
+3. ¿Qué característica o herramienta sentiste que faltaba o que te hubiera gustado ver en “Carga Sin Estrés”?
+4. ¿Consideras que se proporciona suficiente información sobre las empresas de mudanza que desea reservar?¿Considera alguna característica faltante?
+5. ¿Tuvo alguna experiencia negativa o desafío al buscar una herramienta/funcionalidad?. Descríbala.
+6. ¿Considera que la manera de búsqueda de empresas de mudanza mediante tablas, logró satisfacer su búsqueda de manera ágil y satisfactoria?
+7. ¿Cree que es adecuado que la comunicación con las empresas de mudanza sea mediante chat?
+8. ¿Qué recomendaciones nos brindarías para mejorar la experiencia de usuario, de modo que la aplicación sea más fácil de usar? 
+9. ¿Recomendaría “Carga Sin Estrés” a otras personas que desean solicitar el servicio de mudanza?¿Por qué?  
+
+**Segmento de empresas de mudanza/transporte:**
+1. ¿Qué piensa sobre la experiencia de navegación brindada por Carga sin estrés? 
+2. ¿Considera que brindamos suficiente información para que las empresas puedan guiarse y entender las funciones de la app?
+3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
+4. ¿Cree que los beneficios brindados por las membresías son útiles para su empresa mientras usa la aplicación?
+5. ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
+6. ¿Piensa que la característica de mensajería, así como la ve, mejoraría la interacción entre su empresa y sus clientes?
+7. ¿Qué característica de la página encuentra usted más útil en cuanto a contribuir con el crecimiento de su empresa?
+8. ¿Qué otras funcionalidades le gustaría ver o cree podrían mejorar en la aplicación web a futuro?.
+9. ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
+
+### 5.3.2 Registro  de Entrevistas  
+***Representantes de Empresas:*** 
+1. [https://youtu.be/v5w_iTNg54s]  
+2. [https://youtu.be/L5YV1R7sKcQ]
+
+3. TERCERA ENTREVISTA:  
+Nombre y apellido: Alfredo Lozano    
+Edad: 45  
+Distrito: San Martin de Porres  
+Duración: 19:07 min  
+Link de la entrevista: [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/EYnpA4FPj5lOkNYC5ByyRXIBmEVomLBoKrCNIGyFuCud2g?e=3NXLeC) 
+![EntrevistaValidation-3-company](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevistaValidation3-company.JPG?raw=true)
+
+08:00 - 3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
+La empresa deberia dar el contacto del cliente, asi que en el historial de reservas deberia ser agregada los datos del cliente para que todos los trabajadores que atiendan esa reserva pueda contactarse directamente con el cliente, como el numero de contanto. O mejorar el chat, para que no solo se comunique la empresa con el cliente, sino tambien los trabajadores con el cliente.
+
+13:00 - ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
+“En cualquier rubro, en cualquier empresa, el historial es importante. Entonces hay mas confianza. Si tienes un historial automaticamente, ya ves la calidad tanto de la empresa o del cliente para ver si la empresa es confiable. Si la primera y segunda vez ha llegado y estuvo todo en orden, entonces formas un historial y te da garantia seguir trabajando con esa empresa”
+
+16:22 - ¿Cómo comunica y mantiene informados a sus clientes durante todo el proceso de mudanza?
+Lo veo todo a la orden. Pero el que mas lo encuentro util es el historial de reservas, porque es un medio para comunicarte con tus clientes, asi como avisar y ensenar todos los datos de su reserva. Es mas, se parece a un medio de propaganda porque aparece el logo de la empresa. Asimsimo, refleja mayor seguridad y confianza al trabajo de la empresa. 
+
+18:00 - ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
+Si porque es sencillo, rapido y amigable. Tambien, te va a ayudar a brindar mayor seguridad, para ambos lados, del servicio ofrecido. Ademas, tenia un costo dentro de las posibilidades para poder adquirir la membresia.
+
+
+***Individuos de 18 a 50 años***
+1. [https://youtu.be/g81ypeZfkoA]
+2. 
+3.
+### 5.3.3 Evaluaciones segun heuristicas  
+  
+**UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**  
+
+**Site o App a evaluar**  
+Carga Sin Estrés
+
+**Tareas a evaluar:**  
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:  
+
+
+1. Registro de usuario tipo empresa
+2. Registro de usuario tipo cliente
+3. Inicio de sesión a la aplicación
+4. Edición de los datos de cuenta de empresa
+5. Edición de los datos de cuenta de cliente
+6. Cerrar Sesión en la aplicación
+7. Búsqueda de empresas
+8. Filtrar empresas por servicios, ubicación y nombre de la empresa
+9. Visualizar perfil de empresa
+10. Reserva de un servicio de empresas de mudanzas
+11. Cancelación de una reserva en el Historial de reservas
+12. Agregar mensaje en el chat de una reserva
+13. Realizar un reseña a una empresa
+14. Generar reservas tipo carga rápida
+15. Compra de membresia para empresa
+16. Visualizar boleta por compra de membresia
+
+*No están incluidas en esta versión de la evaluación las siguientes tareas:*  
+1. Gestión de tarjetas bancarias para cuenta empresa  
+2. Acceso a redes sociales de la startup  
+
+**Escala de severidad**  
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+
+<table style="border: 1px solid black; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid black;">Nivel</th>
+            <th style="border: 1px solid black;">Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black;">1</td>
+            <td style="border: 1px solid black;">Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>  
+
+
+**Tabla de resumen** 
+
+<table style="border: 1px solid black; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid black;">#</th>
+            <th style="border: 1px solid black;">Problema</th>
+            <th style="border: 1px solid black;">Escala de severidad (1/2/3/4)</th>
+            <th style="border: 1px solid black;">Heurísticas (1/2/3/4)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black;">1</td>
+            <td style="border: 1px solid black;">El botón “cancelar” de las páginas de editar de perfil de empresa y cliente no deshace la acción realizada </td>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Usability: Libertad y control del usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">El precio de las membresías, en la sección membresías, aparece como 0.00 en las 3</td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">En las cartas del historial de reservas no aparece toda la información de la reserva una vez finalizada </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Estando en el perfil de una empresa, no es posible volver de otra forma que no sea retrocediendo manualmente </td>
+            <td style="border: 1px solid black;">2</td>
+            <td style="border: 1px solid black;">Usability: Libertad y control del usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">5</td>
+            <td style="border: 1px solid black;">Los links del footer de la página o no funcionan o solo llevan a login </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Consistencia y estándares</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">6</td>
+            <td style="border: 1px solid black;">Si una empresa tiene 0 reseñas, falla el despliegue de los paneles que muestran la reseñas y el formulario para registrar una reserva</td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">7</td>
+            <td style="border: 1px solid black;">Existe el botón “Carga Rápida” en el toolbar de cliente que no lleva a nada </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Prevención de errores</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">8</td>
+            <td style="border: 1px solid black;">El diálogo de Carga Rápida una vez generado la reserva, se guarda en la base de datos pero no se muestra en el historial de reservas del cliente </td>
+            <td style="border: 1px solid black;">3</td>
+            <td style="border: 1px solid black;">Usability: Visibilidad del estado del sistema</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">9</td>
+            <td style="border: 1px solid black;">Los botones del diálogo carga rápida una vez generada la reserva no te lleva a historial de reserva. </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Libertad y Control de usuario</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">10</td>
+            <td style="border: 1px solid black;">Faltan validaciones de datos para el formulario de edición de cuenta y realización de una reserva </td>
+            <td style="border: 1px solid black;">4</td>
+            <td style="border: 1px solid black;">Usability: Prevención de errores</td>
+        </tr>
+    </tbody>
+</table>
+
+**Descripción de problemas**
+
+**PROBLEMA #1:** El botón “cancelar” de las páginas de editar de perfil de empresa y cliente no deshace la acción realizada  
+**Heurística violada:** Libertad y control del usuario   
+**Problema:** El botón "cancelar" en las páginas de edición de perfil de empresa y cliente no revierte la acción realizada, lo que impide a los usuarios abandonar la página de edición sin aplicar los cambios. Esto limita la capacidad de los usuarios para cancelar sus ediciones y puede generar frustración al no poder salir de la página sin guardar los cambios no deseados.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema1.png?raw=true" alt="imagen problema 1" width="900px">
+</p>
+
+**Recomendación:** Se puede implementar la funcionalidad del botón "cancelar" para salir de la página de edición de perfil sin realizar ninguna acción permanente y que ésta luego muestre la página de búsqueda de empresas.  
+
+---
+
+**PROBLEMA #2:** El precio de las membresías, en la sección membresías, aparece como 0.00 en las 3.   
+**Heurística violada:** Visibilidad del estado del sistema    
+**Problema:** En la sección de membresías, el precio de todas las membresías aparece como 0.00 y dificulta a los usuarios a que comprendan claramente el costo.    
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema2.png?raw=true" alt="imagen problema 2" width="900px">
+</p>
+
+**Recomendación:** Corregir la visualización del precio de las membresías en la sección correspondiente para reflejar con precisión los costos asociados con cada tipo de membresía.  
+
+---
+
+**PROBLEMA #3:** En las cartas del historial de reservas no aparece toda la información de la reserva una vez finalizada.  
+**Heurística violada:**  Visibilidad del estado del sistema   
+**Problema:** En la sección de “historial de reservas” la información completa de la reserva no se muestra una vez que la reserva ha sido finalizada.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema3.png?raw=true" alt="imagen problema 3" width="400px">
+</p>
+
+**Recomendación:** Asegurarse de que todos los detalles relevantes de la reserva finalizada estén claramente visibles en la tarjeta de historial. Se podría incluir la hora de la mudanza.  
+
+---
+
+**PROBLEMA #4:** Estando en el perfil de una empresa, no es posible volver de otra forma que no sea retrocediendo manualmente. 
+**Heurística violada:** Control y libertad del usuario.   
+**Problema:** En el perfil de empresa, no se proporciona una opción para retroceder a la sección de búsqueda de empresa.    
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema4.png?raw=true" alt="imagen problema 4" width="900px">
+</p>
+
+**Recomendación:**  Se podría añadir un botón para regresar al listado empresas.  
+
+---
+
+**PROBLEMA #5:** Los links del footer de la página o no funcionan o solo llevan a login.  
+**Heurística violada:** Consistencia y estándares    
+**Problema:** los enlaces del footer de la página no funcionan correctamente o solo redirigen a la página de inicio de sesión.     
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/problema5.png?raw=true" alt="imagen problema 5" width="900px">
+</p>
+
+**Recomendación:** Revisar y corregir los enlaces del pie de página para asegurarse de que estén correctamente configurados y funcionen de acuerdo con las expectativas de los usuarios.  
+
+---
+
+**PROBLEMA #6:** Si una empresa tiene 0 reseñas, falla el despliegue de los paneles que muestran la reseñas y el formulario para registrar una reserva.  
+**Heurística violada:** Usability: Visibilidad del estado del sistema 
+**Problema:** Al visualizar el perfil en una empresa y desplazarse hacia las reseñas propia de esta empresa y esta no tenga alguna, el falla el despliegue de los paneles de los formularios que permiten realizar una reseña y el de reserva. Por tanto no se puede realizar ninguna de estas acciones.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema6.png?raw=true" alt="imagen problema 6" width="900px">
+</p>
+
+**Recomendación:** La recomendación sería proporcionar un mensaje o indicación que explique por qué no se muestran reseñas y ofrecer una ruta clara para que los usuarios puedan realizar otras acciones, como escribir una nueva reseña o ver más detalles sobre la empresa.
+
+---
+**PROBLEMA #7:** Existe el botón “Carga Rápida” en el toolbar de cliente que no lleva a nada. 
+**Heurística violada:** Usability: Prevención de errores   
+**Problema:** En el toolbar existe un botón de “Carga Rápida” el cual no realiza ninguna acción al interactuar con este.  
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema7.png?raw=true" alt="imagen problema 7" width="900px">
+</p>
+
+**Recomendación:** Implementar, a este botón, alguna responsabilidad. 
+
+---
+**PROBLEMA #8:** El diálogo de Carga Rápida una vez generado la reserva, se guarda en la base de datos pero no se muestra en el historial de reservas del cliente  
+**Heurística violada:** Usability: Visibilidad del estado del sistema  
+**Problema:** Una vez realizada una reserva, esta no se muestra en el historial de reservas del cliente. Sin embargo, esta reserva es almacenada en la base de datos.  
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema8.png?raw=true" alt="imagen problema 8" width="900px">
+</p>
+
+**Recomendación:** Asegurar de que una reserva generada se muestre inmediatamente en el historial de reservas del cliente para proporcionar retroalimentación y consistencia
+
+---
+**PROBLEMA #9:** Los botones del diálogo carga rápida una vez generada la reserva no te lleva a historial de reserva.  
+**Heurística violada:** Usability: Libertad y Control de usuario   
+**Problema:** Después de generar una reserva mediante el diálogo de carga rápida, los botones en ese diálogo no proporcionan a los usuarios una opción clara para ir al historial de reservas, lo que limita su libertad y control sobre su navegación en la aplicación.     
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema9.png?raw=true" alt="imagen problema 9" width="900px">
+</p>
+
+**Recomendación:** Proporcionar a los usuarios una forma fácil y clara de acceder al historial de reservas una vez que han generado una reserva. Esto podría implicar la inclusión de un botón o enlace en el diálogo de carga rápida que les permita ir directamente al historial de reservas. 
+
+---
+
+**PROBLEMA #10:** Faltan validaciones de datos para el formulario de edición de cuenta y realización de una reserva 
+**Heurística violada:** Usability: Prevención de errores
+**Problema:** En el contexto de la edición de cuentas y la realización de reservas, la falta de validaciones de datos puede conducir a errores, como datos incompletos, incorrectos o incoherentes.   
+<p align="center">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Problema10.png?raw=true" alt="imagen problema 10" width="900px">
+</p>
+
+**Recomendación:** Implementar validaciones adecuadas en los formularios para garantizar que los usuarios ingresen datos válidos y completos. Esto incluye verificar campos obligatorios, formatos de datos, rangos válidos y cualquier otra restricción necesaria.
+
+---
+
+## 5.4 Video About-the-Product 
+
+# Conclusiones
+- Durante el segundo sprint, hemos implementado componentes de búsqueda de empresas e información de empresa en nuestra plataforma, lo que permitirá a nuestros usuarios encontrar y contactar rápidamente empresas de mudanza y carga para realizar reservas de servicios, ya que se puede hacer uso de los distintos filtros agregados, como buscar por nombre de empresa, servicios, ubicación del usuario, ubicación ingresada, y a través de la opción carga rápida. Asismismo, hemos empleado elementos como tarjetas, tablas, paneles y formularios en Angular para crear una página web dinámica. Además, hemos utilizado los verbos HTTP GET y POST para obtener información específica de empresas y realizar reservas, respectivamente. Esta implementación mejorará significativamente la experiencia de nuestros usuarios al hacer que la búsqueda de empresas y reserva de sus servicios sea más rápida y eficiente. 
+
+- El desarrollo colaborativo en los sprints fue fundamental para poder integrar las distintas partes de nuestro proyecto, realizadas por cada uno de los integrantes, garantizando así que éste funcionara de manera óptima. Además, durante este proceso, verificamos con atención que cumpliera con las características definidas en nuestras historias de usuario y se ajustara a los diseños de los wireframes y mockups previamente establecidos.
+
+- Concluyendo nuestra integración de equipo en el proyecto "Carga sin Estrés" de la startup de mudanzas, hemos completado con éxito dos sprints, con el segundo sprint representando nuestra última entrega parcial. Durante este período, utilizamos herramientas como Visual Studio Code y lenguajes como Angular y Typescript, entre otros, para desarrollar componentes clave que mejoran la experiencia de nuestros usuarios al buscar empresas de mudanza y realizar reservas de servicios.
 
 
 **Bibliografia**

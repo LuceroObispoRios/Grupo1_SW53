@@ -11,24 +11,287 @@
 
 ## 3.2. User Stories
   
-![User Story 01](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US01.png)
-![User Story 02](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US02.png)
-![User Story 03](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US03.png)
-![User Story 04](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US04.png)
-![User Story 05](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US05.png)
-![User Story 06](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US06.png)
-![User Story 07](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US07.png)
-![User Story 08](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US08.png)
-![User Story 09-10](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US09-10.png)
-![User Story 11](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US11.png)
-![User Story 12](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US12.png)
-![User Story 13](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US13.png)
-![User Story 14](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US14.png)
-![User Story 15](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US15.png)
-![User Story 16](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US16.png)
-![User Story 17](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US17.png)
-![User Story 18](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US18.png)
-![User Story 19](https://raw.githubusercontent.com/LuceroObispoRios/Grupo1_SW53/Andrea/feature/Informe/Imagenes/US19.png)
+<table>
+    <tr>
+        <th>Epic/Story ID</th>
+        <th>Título</th>
+        <th>Descripción</th>
+        <th>Criterios de Aceptación</th>
+        <th>Relacionado con (Epic ID)</th>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Registro de Empresa de Mudanzas</td>
+        <td>Como empresario, quiero poder registrar mi empresa de mudanza en la plataforma para que esté disponible y así poder realizar servicios de mudanza a los clientes.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario ingresa al formulario de registro de empresa. DADO  QUE soy un representante autorizado de una empresa de mudanzas, CUANDO acceda a la página de registro Y seleccione la opción cuenta de empresa de mudanza o carga, ENTONCES aparece un formulario de registro que solicita información de la empresa, incluyendo username, email, ubicación, número de contacto, contraseña, los servicios que ofrece y una descripción corta de la empresa.</li>
+                <li><strong>Escenario 2:</strong> El usuario registra sus datos de empresa correctamente. DADO  QUE, estoy completando el registro de mi empresa de mudanzas, CUANDO ingreso la información requerida, Y presiono el botón “Registrar Empresa”, ENTONCES recibo una confirmación en pantalla de que la empresa se ha registrado correctamente.</li>
+            </ul>
+        </td>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Registro de Cliente</td>
+        <td>Como usuario nuevo de Carga sin estrés, deseo registrarme en la plataforma para poder solicitar servicios de mudanza cuando los necesite.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario ingresa al formulario de registro de cliente. DADO QUE soy un cliente interesado en utilizar el servicio de mudanzas, CUANDO acceda a la página de registro de clientes, Y seleccione la opción cuenta de cliente, ENTONCES puedo ver un formulario de registro que solicita información básica.</li>
+                <li><strong>Escenario 2:</strong> El usuario registra sus datos de cliente correctamente. DADO QUE estoy completando el registro como cliente, CUANDO ingreso la información requerida como son los campos nombre, apellido materno, apellido paterno, celular, dirección, correo electrónico, contraseña, Y presiono el botón “Registrar”, ENTONCES recibo una confirmación en pantalla de que mi registro se ha completado con éxito.</li>
+            </ul>
+        </td>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Iniciar Sesión en la plataforma</td>
+        <td>Como usuario registrado de Carga sin estrés, quiero poder iniciar sesión en mi cuenta para acceder a mis opciones según mi tipo de cuenta.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario cliente inicia sesión. DADO QUE, soy un usuario tipo cliente registrado en la plataforma, CUANDO ingreso mi dirección de correo electrónico o usuario, y contraseña en el formulario de inicio de sesión, ENTONCES soy redirigido a la página de búsqueda de empresas.</li>
+                <li><strong>Escenario 2:</strong> El usuario empresa inicia sesión. DADO QUE, soy un usuario tipo empresa registrado en la plataforma, CUANDO ingreso mi dirección de correo electrónico o usuario, y contraseña en el formulario de inicio de sesión, ENTONCES soy redirigido a la página de mi perfil.</li>
+                <li><strong>Escenario 3:</strong> El usuario inicia sesión con datos incorrectos. DADO QUE, ingresé datos incorrectos al intentar iniciar sesión, CUANDO presiono el botón de inicio de sesión, ENTONCES recibo un mensaje de error que indique que la cuenta no existe.</li>
+            </ul>
+        </td>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Ajustes de cuenta de cliente</td>
+        <td>Como cliente registrado en Carga sin estrés, quiero ajustar los datos de mi cuenta para que refleje mis datos actuales.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario modifica sus datos satisfactoriamente. DADO QUE soy un cliente que haya iniciado sesión en Carga sin estrés, Y seleccione la opción de “Editar Perfil”, CUANDO llene los datos en el formulario, nombre, apellido materno, apellido paterno, celular, dirección y confirme el correo electrónico y su contraseña, Y seleccione el botón de “Guardar cambios” , ENTONCES, la aplicación validará y modificará los datos actuales.</li>
+                <li><strong>Escenario 2:</strong> El usuario ya no desea modificar sus datos. DADO QUE soy un cliente que haya iniciado sesión en Carga sin estrés , Y seleccione la opción de “Editar Perfil”, Y desee salir de la página de edición de datos, CUANDO, seleccione el botón “Cancelar” entonces se mostrará la página de búsqueda de empresas. </li>
+                <li><strong>Escenario 3:</strong> El usuario modifica sus datos y coloca datos erróneos. DADO QUE soy un cliente que haya iniciado sesión en Carga sin estrés, , CUANDO llene los datos en el formulario, Y llene con datos erróneos el campo de correo electrónico y contraseña, CUANDO selecciono el botón “Guardar cambios”, ENTONCES, la página no permitirá actualizar los datos.</li>
+            </ul>
+        </td>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Ajustes de cuenta de empresa</td>
+        <td>Como empresa usuaria de Carga sin estrés, quiero ajustar los datos de la cuenta de empresa para que reflejen el estado actual de esta.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario modifica sus datos satisfactoriamente. DADO QUE el usuario haya iniciado sesión en Carga sin estrés, Y seleccione la opción de “Editar Perfil”, CUANDO llene los datos en el formulario, nombre de empresa, correo, dirección, teléfono, descripción, Y marque las opciones de servicio que ofrece dentro de la lista que se muestra,  Y su contraseña, Y seleccione el botón de “Guardar cambios” , ENTONCES, la aplicación validará y modificará los datos actuales.</li>
+                <li><strong>Escenario 2:</strong> El usuario ya no desea modificar sus datos. DADO QUE, que el usuario haya iniciado sesión en Carga sin estrés , Y seleccione la opción de “Editar Perfil”, Y desee salir de la página de edición de datos, CUANDO, seleccione el botón “Cancelar” entonces se mostrará la página de principal de empresas. </li>
+                <li><strong>Escenario 3:</strong> El usuario modifica sus datos y coloca datos erróneos. DADO QUE,  el usuario haya iniciado sesión en Carga sin estrés, , CUANDO llene los datos en el formulario, Y llene con datos erróneos el campo de correo electrónico y contraseña, CUANDO selecciono el botón “Guardar cambios”, ENTONCES, la página no permitirá actualizar los datos.</li>
+            </ul>
+        </td>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Cerrar Sesión</td>
+        <td>Como usuario quiero cerrar la sesión de la cuenta empresarial para mantener la seguridad de la cuenta.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario empresa cierra sesión. DADO QUE, soy un usuario con tipo de cuenta empresa autenticado en la plataforma, CUANDO hago clic en la opción "Cerrar Sesión" en cualquier página, ENTONCES soy redirigido a la landing page, Y mi sesión se cierra con éxito.</li>
+                <li><strong>Escenario 2:</strong> El usuario cliente cierra sesión. DADO QUE, soy un usuario con tipo de cuenta cliente autenticado en la plataforma, CUANDO hago clic en la opción "Cerrar Sesión" en cualquier página, ENTONCES soy redirigido a la landing page, Y mi sesión se cierra con éxito.</li>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Elección de membresía de empresa</td>
+        <td>Como usuario empresa quiero una opción que permita aumentar mi visibilidad dentro de la plataforma para captar clientes.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza los planes de membresía. DADO QUE, soy un representante autorizado de una empresa de mudanzas, CUANDO accedo a la sección de elección de membresía en mi perfil, ENTONCES puedo visualizar los diferentes planes de membresía disponibles.</li>
+                <li><strong>Escenario 2:</strong> El usuario selecciona un plan de membresía. DADO QUE soy un representante autorizado de una empresa de mudanzas, CUANDO selecciono un plan de membresía, ya sea de 3 meses, 6 meses o 1 año, Y presiono el botón “Adquirir Membresía”, ENTONCES se muestra la página de pago.</li>
+        </td>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Manejo de Usuario</td>
+        <td>Pago de membresía</td>
+        <td>Como usuario empresa quiero poder ingresar los detalles de mi tarjeta para pagar la membresía.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario paga la membresía que eligió. DADO QUE estoy en la página de procesamiento de pagos para un plan de membresía premium, CUANDO elija el método de pago Y coloque la información de mi tarjeta Y presione "Pagar", ENTONCES el sistema procesa la transacción de manera segura y exitosa.</li>
+                <li><strong>Escenario 2:</strong> El usuario ingresa datos incorrectos en el sistema de pago. DADO QUE soy un representante autorizado de una empresa de mudanzas, CUANDO el sistema detecta un problema durante el procesamiento del pago, como datos incorrectos, ENTONCES los campos que necesitan una corrección son sombreados de color rojo indicando alerta.</li>
+                <li><strong>Escenario 3:</strong> El usuario visualiza los beneficios de la membresía que eligió. DADO QUE, he realizado con éxito el pago de la membresía premium, CUANDO vuelvo a mi perfil de empresa, ENTONCES se aplican los beneficios de la membresía premium de manera inmediata.</li>
+            </ul>
+        </td>
+        <td>#1</td>
+    </tr>
+    <tr>
+        <td>Métodos de pago</td>
+        <td>Pago para reserva de servicio</td>
+        <td>Como usuario cliente quiero poder elegir entre diferentes métodos de pago al reservar el servicio de mudanza para elegir el que más se acomode a mi preferencia y pueda pagar el servicio exitosamente.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> Registro seguro de la tarjeta al momento de la reserva. DADO QUE, el usuario está en el proceso de reserva de servicio de mudanza o carga. CUANDO, introduce los detalles de su tarjeta ENTONCES  se guardan los datos de manera segura y protegida, utilizando un formulario de pago encriptado y confiable.</li>
+                <li><strong>Escenario 2:</strong> Cobro automático al finalizar el servicio. DADO QUE, el servicio de mudanza o carga ha sido completado con éxito según la reserva. CUANDO, la plataforma indica la finalización del servicio. ENTONCES se procederá a cobrar automáticamente el importe acordado previamente de la tarjeta registrada al realizar la reserva.</li>
+            </ul>
+        </td>
+        <td>#2</td>
+    </tr>
+    <tr>
+        <td>Métodos de pago</td>
+        <td>Detalles de pago</td>
+        <td>Como usuario cliente quiero poder revisar los detalles de pago de todas mis reservas para poder ver los costos de los servicios contratados.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza su historial de pagos. DADO QUE, el usuario cliente se encuentra en la página de su perfil. CUANDO, selecciona “Historial de pagos” Y haya realizado pagos anteriormente. ENTONCES, se muestra en forma de lista el historial de pagos los cuales contienen información detallada.</li>
+                <li><strong>Escenario 2:</strong> El usuario visualiza su historial de pagos sin ningún registro. DADO QUE, el usuario cliente se encuentra en la página de su perfil. CUANDO, selecciona “Historial de pagos” Y no haya realizado pagos anteriormente. ENTONCES, se muestra el mensaje “No existen pagos registrados hasta la fecha”.</li>
+            </ul>
+        </td>
+        <td>#2</td>
+    </tr>
+    <tr>
+        <td>Búsqueda de empresas</td>
+        <td>Búsqueda de empresas cercanas</td>
+        <td>Como usuario cliente quiero poder buscar empresas que ofrezcan servicios de mudanza o carga cercanos a mi ubicación actual para asegurarme que el servicio sea conveniente.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario ingresa su ubicación para buscar empresas. DADO QUE, el usuario está en el landing page logueado con su cuenta personal. CUANDO, presione el botón de “Búsqueda”. ENTONCES aparece un campo donde puedo ingresar mi ubicación actual. </li>
+                <li><strong>Escenario 2:</strong> El usuario visualiza las empresas de acuerdo a su ubicación. DADO QUE, he ingresado mi ubicación. CUANDO, presione el botón de “Buscar”. ENTONCES, me aparece una página que muestra una lista de empresas que ofrecen servicios de mudanza o carga que estén dentro de un radio definido de mi ubicación.</li>
+                <li><strong>Escenario 3:</strong> El usuario modifica la ubicación de búsqueda de empresas. DADO QUE, estoy viendo la lista de empresas cercanas. CUANDO, modifique mi ubicación o ajuste el radio de búsqueda. ENTONCES, los resultados de la búsqueda se actualizan.</li>
+            </ul>
+        </td>
+        <td>#3</td>
+    </tr>
+    <tr>
+        <td>Búsqueda de empresas</td>
+        <td>Filtrar por servicios ofrecidos</td>
+        <td>Como usuario cliente quiero poder filtrar las empresas por los servicios que ofrecen para encontrar aquellas que ofrecen el servicio que deseo.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza la opción de búsqueda por servicios. DADO QUE soy un usuario logueado con su cuenta personal y está en el landing page. CUANDO, me dirija a la página de búsqueda de empresas”. ENTONCES, aparece un input en el cual se puede buscar por nombre de servicios.</li>
+                <li><strong>Escenario 2:</strong> El usuario realiza la opción de búsqueda por servicios seleccionados. DADO QUE, estoy viendo el buscador CUANDO, escriba las letras del nombre del servicio que quiero. ENTONCES, se muestran las filas con las empresas que tienen ese tipo de servicio.</li>
+            </ul>
+        </td>
+        <td>#3</td>
+    </tr>
+    <tr>
+        <td>Búsqueda de empresas</td>
+        <td>Filtrar por calificación</td>
+        <td>Como usuario cliente quiero poder ordenar a las empresas de acuerdo por la cantidad de estrellas promedio y número de reseñas para tener la seguridad de encontrar calidad y confiabilidad en el servicio.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza las opciones de filtro de ordenamiento de las empresas. DADO QUE, me encuentro en el landing page y estoy logueado con mi cuenta personal. CUANDO, presione el botón de “Búsqueda”. ENTONCES, se muestra la opción “Ordenar por calificación” y la opción “Ordenar por número de reseñas”</li>
+                <li><strong>Escenario 2:</strong> El usuario selecciona el filtro de ordenamiento por calificación. DADO QUE, el usuario está viendo la lista de empresas. CUANDO, selecciona la opción de “Ordenar por calificación”. ENTONCES, la plataforma reorganiza los resultados para mostrar primero las empresas con las calificaciones más altas, es decir los ordena de 5 estrellas a 0 estrellas.</li>
+                <li><strong>Escenario 3:</strong> El usuario selecciona el filtro de ordenamiento por reseñas. DADO QUE, el usuario está viendo la lista de empresas. CUANDO, selecciona la opción de “Ordenar por número de reseñas”, ENTONCES, la plataforma reorganiza los resultados para mostrar primero las empresas con los números de reseñas más altos.</li>
+            </ul>
+        </td>
+        <td>#3</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Visualizar perfil de empresa</td>
+        <td>Como usuario cliente quiero poder visualizar el perfil de cada empresa para conocer su información detallada y así tomar una decisión informada y confiable al seleccionar la empresa adecuada para mis necesidades.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario selecciona una empresa para ver su información. DADO QUE, estoy viendo la lista de empresas disponibles. CUANDO, haga clic en una fila de una tabla que guarda información específica de una empresa. ENTONCES, el sistema me redirige a la página del perfil de esa empresa. </li>
+                <li><strong>Escenario 2:</strong> El usuario visualiza la información detallada de una empresa. DADO QUE, estoy en el perfil de la empresa. CUANDO, me desplace hacia abajo. ENTONCES, la página muestra una breve descripción, su ubicación, logo, calificación promedio, reseñas anteriores, teléfono disponibilidad y servicios ofrecidos, así como el botón de “Reserva”. </li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Envío de información sobre la posible reserva</td>
+        <td>Como cliente quiero hacer una reserva sobre los servicios que ofrece la empresa de mudanza para que estos tengan más detalle de la reserva que quiero.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza el formulario de reservación de servicio. DADO QUE, el cliente esté viendo los servicios ofrecidos por una empresa, CUANDO, presione “Reservar”, ENTONCES, se muestra un formulario para reservar los servicios de esa empresa.</li>
+                <li><strong>Escenario 2:</strong> El usuario realiza la reserva del servicio. DADO QUE, el cliente se encuentra en el formulario de reserva de servicios de una empresa, CUANDO, rellene los campos fecha de hoy, servicios, dirección de entrega, dirección de destino, fecha cuando el servicio se lleva a cabo, hora cuando el servicio se lleva a cabo., Y presione “Realizar reserva”, ENTONCES se guarda la reserva en el historial de reservas. </li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Acordar un precio por servicio reservado</td>
+        <td>Como empresa quiero acordar horarios y precio por los servicios tras conversar con el cliente para realizar la mudanza.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> Los usuarios visualizan la opción para editar los detalles del servicio. DADO QUE, el cliente y un trabajador de la empresa de mudanza están en chat en vivo, CUANDO, terminen de definir detalles, ENTONCES, el usuario empresa se dirige a la pantalla de historial de reservas para editar los detalles de la reserva.</li>
+                <li><strong>Escenario 2:</strong> El usuario cliente visualiza la opción de pago de servicio. DADO QUE, el usuario empresa se encuentra en la pantalla de historial de reservas, CUANDO, edite los campos precios, fecha y hora de la reserva Y presione el icono de editar, ENTONCES, se pone visible el botón de pagar para el usuario cliente.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Visualizar historial de reservas</td>
+        <td>Como usuario cliente quiero poder ver los servicios de mudanza contratados para tener control y seguimiento de mis transacciones dentro de la aplicación.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario ingresa a reservas. DADO QUE el usuario ingresa a la sección de reservas, CUANDO, seleccione el botón ver historial de reservas. ENTONCES, aparecerá la página del historial. </li>
+                <li><strong>Escenario 2:</strong> El usuario visualiza su historial de reservas. DADO QUE el usuario se encuentra en la página del historial de reservas. CUANDO, el usuario haga scroll. ENTONCES, la página le permitirá ver más reservas hechas anteriormente. </li>
+                <li><strong>Escenario 3:</strong> El usuario busca una reserva anterior. DADO QUE el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza un paginador con botones con flechas hacia adelante y atrás. CUANDO, el usuario seleccione uno de los botones. ENTONCES, la página le permitirá ver sus reservas anteriores o posteriores. </li>
+                <li><strong>Escenario 4:</strong> El usuario visualiza sus últimas reservas. DADO QUE el usuario ingresa a la sección de reservas. CUANDO, la plataforma carga la página. ENTONCES, las últimas reservas se visualizarán primero y las más antiguas al último.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Visualizar varias reservas en una página</td>
+        <td>Como usuario cliente quiero visualizar varias reservas en una sola página para que pueda tener una vista panorámica de todos mis servicios de mudanza contratados de manera fácil y rápida.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario cambia la cantidad de reservas que se visualiza en una página. DADO QUE el usuario se encuentra en la página del historial de reservas Y se ubica en la parte inferior de la página Y se visualiza el paginador Y al lado derecho se encuentra la opción desplegable, CUANDO, el usuario seleccione esta opción. ENTONCES, se visualizará el desplegable con las opciones de visualización de 4, 8 y 12 páginas. </li>
+                <li><strong>Escenario 2:</strong> El usuario selecciona el número de reservas para visualizarse en la página. DADO QUE el usuario seleccionó el desplegable del paginador,  CUANDO,el usuario seleccione el número de reservas que se visualizará 4, 8 o 12. ENTONCES, la página mostrará la cantidad de reservas que eligió el usuario.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Comunicación mediante chat con la empresa</td>
+        <td>Como usuario cliente quiero comunicarme con la empresa que reservé para poder coordinar los detalles de la mudanza.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario ingresa al chat. DADO QUE, el usuario ingresa a su historial de reservas. Y en su última reserva aparece como estado “En curso”, Y se mostrará en el recuadro de su última reserva un botón “Chat”, CUANDO seleccione el botón, ENTONCES se desplegará un diálogo con un chat, este contendrá un campo donde ingresar el mensaje y en la parte inferior el botón de “Enviar mensaje”.</li>
+                <li><strong>Escenario 2:</strong> El usuario envía mensaje. DADO QUE, el usuario seleccione el botón “Chat”, Y se muestre el diálogo del chat, Y se muestra dentro del diálogo el título “Chat”, Y el usuario escriba el mensaje en el recuadro. CUANDO,  seleccione el botón “Enviar mensaje” que está en la parte inferior. ENTONCES, se guardará el mensaje.</li>
+                <li><strong>Escenario 3:</strong> El usuario cancela el envío del mensaje. DADO QUE, el usuario seleccione el botón “Chat”, Y se muestre el diálogo del chat, Y se muestra dentro del diálogo el título “Chat” y el nombre de la empresa a enviar mensaje, Y el usuario escriba el mensaje en el recuadro. CUANDO,  seleccione el botón “X”  está en la parte superior. ENTONCES, el diálogo de chat se cerrará.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Servicio de carga rápida</td>
+        <td>Como usuario cliente, quiero poder realizar reservas de servicios de mudanza o carga para el mismo día de manera rápida y sin complicaciones, para poder programar y asegurar el servicio de forma inmediata y conveniente según mis necesidades de última hora.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario selecciona el servicio de carga rápida. DADO QUE, el usuario está en la página de “búsqueda de empresas”, Y visualiza el botón de “carga rápida”, CUANDO seleccione el botón “carga rápida”, ENTONCES se mostrará una ventana indicando que se buscará un servicio de carga rápida.</li>
+                <li><strong>Escenario 2:</strong> El usuario busca  carga rápida. DADO QUE, el usuario visualiza la ventana de carga rápida, CUANDO, haga click en el botón “Buscar carga rápida”, ENTONCES se registrará inmediatamente una reserva.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reseñas</td>
+        <td>Escribir reseñas sobre el servicio</td>
+        <td>Como usuario cliente, quiero poder escribir reseñas sobre el servicio de mudanza o carga recibido para compartir mi experiencia con otros usuarios.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario escribe una reseña. DADO QUE he completado un servicio de mudanza o carga con la empresa, CUANDO acceda a la sección de historial de reservas, Y seleccione el botón de “Review”, ENTONCES puedo calificar a la empresa y redactar una reseña que describa mi experiencia general con el servicio.</li>
+                <li><strong>Escenario 2:</strong> El usuario decide cancelar la redacción de una reseña. DADO QUE, el usuario ha accedido a la sección de reseñas después de completar un servicio de mudanza o carga con la empresa, CUANDO el usuario comienza a redactar una reseña detallada pero decide cancelarla o ya no desea continuar con la redacción. ENTONCES selecciona el botón 'x' ubicado en la esquina superior derecha de la ventana. Y la ventana se cierra de inmediato sin guardar ningún contenido.</li>
+            </ul>
+        </td>
+        <td>#5</td>
+    </tr>
+    <tr>
+        <td>Reseñas</td>
+        <td>Visualizar reseñas de las empresas</td>
+        <td>Como usuario cliente, quiero poder visualizar reseñas y comentarios sobre las empresas de mudanza o carga para evaluar la calidad de los servicios antes de tomar una decisión.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza la sección de reseñas. DADO QUE, el usuario está explorando las empresas de mudanza o carga, CUANDO acceda a la página de perfil de una empresa, ENTONCES veo en la parte inferior un desplegable  de las reseñas de la empresa.</li>
+                <li><strong>Escenario 2:</strong> El usuario visualiza todas las reseñas de las compañia. DADO QUE, el usuario está visualizando los detalles de  la empresa de mudanza o carga CUANDO seleccione el desplegable de las reseñas, ENTONCES mostrará las comentarios de otros usuarios sobre la empresa y sus servicios.</li>
+            </ul>
+        </td>
+        <td>#5</td>
+    </tr>
+</table>
+
+
 
 ## 3.3. Impact Mapping
 
@@ -294,4 +557,4 @@ El diagrama de clases se realizo con la pagina Lucidchart, este es el enlace del
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagram.
-![Database](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/Carga_sin_estres_DB.png?raw=true)  
+![Database](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/Carga_sin_estresDB.png?raw=true)  
