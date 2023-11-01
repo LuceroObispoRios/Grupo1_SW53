@@ -550,20 +550,20 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 Nombre y apellido: Alfredo Lozano    
 Edad: 45  
 Distrito: San Martin de Porres  
-Duración: 19:19 min  
+Duración: 19:07 min  
 Link de la entrevista: [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/EYnpA4FPj5lOkNYC5ByyRXIBmEVomLBoKrCNIGyFuCud2g?e=3NXLeC) 
 ![EntrevistaValidation-3-company](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevistaValidation3-company.JPG?raw=true)
 
-0:22 - 3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
+08:00 - 3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
 La empresa deberia dar el contacto del cliente, asi que en el historial de reservas deberia ser agregada los datos del cliente para que todos los trabajadores que atiendan esa reserva pueda contactarse directamente con el cliente, como el numero de contanto. O mejorar el chat, para que no solo se comunique la empresa con el cliente, sino tambien los trabajadores con el cliente.
 
-0:51 - ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
+13:00 - ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
 “En cualquier rubro, en cualquier empresa, el historial es importante. Entonces hay mas confianza. Si tienes un historial automaticamente, ya ves la calidad tanto de la empresa o del cliente para ver si la empresa es confiable. Si la primera y segunda vez ha llegado y estuvo todo en orden, entonces formas un historial y te da garantia seguir trabajando con esa empresa”
 
 16:22 - ¿Cómo comunica y mantiene informados a sus clientes durante todo el proceso de mudanza?
 Lo veo todo a la orden. Pero el que mas lo encuentro util es el historial de reservas, porque es un medio para comunicarte con tus clientes, asi como avisar y ensenar todos los datos de su reserva. Es mas, se parece a un medio de propaganda porque aparece el logo de la empresa. Asimsimo, refleja mayor seguridad y confianza al trabajo de la empresa. 
 
-02:51 - ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
+18:00 - ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
 Si porque es sencillo, rapido y amigable. Tambien, te va a ayudar a brindar mayor seguridad, para ambos lados, del servicio ofrecido. Ademas, tenia un costo dentro de las posibilidades para poder adquirir la membresia.
 
 
