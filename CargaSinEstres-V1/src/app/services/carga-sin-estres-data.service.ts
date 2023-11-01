@@ -5,6 +5,7 @@ import { environment } from '../../environments/environment';
 import { BookingHistory } from '../models/booking-history.model';
 import { Subscription } from '../models/subscription.model';
 import { Review } from '../models/review.model';
+import { map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -98,7 +99,15 @@ export class CargaSinEstresDataService {
     return this.http.post<Subscription>(`${this.base_url}/subscriptions`, subscriptionData, this.httpOptions)
       .pipe(retry(2),catchError(this.handleError));
   }
-
+  
+  //Memberships
+  searchExistingMembership(companyId: any): Observable<boolean> {
+    return this.http.get<any[]>(`${this.base_url}/subscriptions`)
+      .pipe(
+        map((subscriptions: any[]) => subscriptions.some(subscription => subscription.idCompany === companyId))
+      );
+  }
+  
   //Reviews
   addReview(companyId: any, review: any): Observable<Review> {
     review.companyId = companyId;

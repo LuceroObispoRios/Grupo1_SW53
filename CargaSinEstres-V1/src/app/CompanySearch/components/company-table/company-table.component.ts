@@ -12,6 +12,8 @@ import { BookingHistory } from 'src/app/models/booking-history.model';
 
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
+import { forkJoin } from 'rxjs';
+
 @Component({
   selector: 'app-company-table',
   templateUrl: './company-table.component.html',
@@ -51,9 +53,34 @@ export class CompanyTableComponent{
     this.companyDataService.getAllCompanies().subscribe((res: any) => {
       this.originalData = res;
       this.dataSource_company.data = res;
-      this.searchBySelectedServices();
-      this.searchByLocation();
-    })
+  
+      const observables = this.dataSource_company.data.map((company: any) => {
+        return this.companyDataService.searchExistingMembership(company.id);
+      });
+  
+      forkJoin(observables).subscribe((results: boolean[]) => {
+        this.dataSource_company.data.forEach((company: any, index: number) => {
+          const hasMembership = results[index];
+          company.hasMembership = hasMembership;
+          company.rowStyle = hasMembership ? 'golden-background' : 'default-background';
+        });
+  
+        // Ahora que se han completado todas las llamadas
+        this.dataSource_company.data.sort((a: any, b: any) => {
+          if (a.hasMembership && !b.hasMembership) {
+            return -1; // a viene antes que b
+          } else if (!a.hasMembership && b.hasMembership) {
+            return 1; // b viene antes que a
+          }
+          return 0; // sin cambios en el orden
+        });
+  
+        this.searchBySelectedServices();
+        this.searchByLocation();
+        console.log('dataSource:', this.dataSource_company);
+      });
+    });
+
   }
 
 
@@ -207,7 +234,7 @@ export class CargaRapidaDialog {
 
     //generar reserva a partir de randCompany
     this.reservation.idCompany = randCompany.id;
-    this.reservation.idClient = this.data;
+    this.reservation.idClient = this.userId;
     this.reservation.hiredCompany.name = randCompany.name;
     this.reservation.hiredCompany.logo = randCompany.photo;
     console.log('name:', randCompany.name);
@@ -216,8 +243,9 @@ export class CargaRapidaDialog {
     this.reservation.status = "En curso";
     this.reservation.payment.totalAmount = 0;
     this.reservation.payment.paymentMethod = "Por definir";
-    this.reservation.bookingDate = now;
-    this.reservation.movingDate = now;
+    this.reservation.bookingDate = now.getDate()+"-"+now.getMonth()+"-"+now.getFullYear();
+    this.reservation.movingDate = now.getDate()+"-"+now.getMonth()+"-"+now.getFullYear();
+    this.reservation.movingTime = now.getHours() + ":" + now.getMinutes();
     //se genera la reserva con company random y fecha actual
     this.companyDataService.createReservation(this.reservation).subscribe(
       (res: any) => 
