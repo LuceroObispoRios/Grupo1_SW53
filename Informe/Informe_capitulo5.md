@@ -345,7 +345,7 @@ Durante este sprint, nos enfocamos en terminar con la sección de manejo de usua
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.  
 
-**Introducion:**  
+**Introduccion:**  
 Para este segundo sprint se ha logrado implementar 12 endpoints, los cuales han sido exitosamente logrados y documentados.  
 Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
 Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
@@ -508,7 +508,74 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 #### 5.2.3.5. Execution Evidence for Sprint Review  
   
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.  
-  
+
+**Introduccion:**  
+Para este tercer sprint se ha logrado implementar 11 endpoints, los cuales han sido exitosamente logrados y documentados.  
+Los metodos GET clients y companies con parametro de id estan relacionados a la pantalla de Login, para verificar que el usuario existe en la base de datos json.  
+Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
+Los metodos GET all companies y GET companies con parametro de id, estan relacionados a la pantalla de Busqueda de Empresas, donde el usuario puede ver la lista completa de empresa, y cuando le da click a una fila puede acceder a la informacion de una empresa en especifica.  
+Los metodos GET all reviews y GET reviews con parametro de id, estan relacionados a la pantalla de Informacion de Empresa porque aqui se visualizaran las reseñas que recibe una empresa en especifica, mientras que en la pantalla Historial de Reservas se podrá crear una reseña, una vez la reserva tenga como estado finalizado.
+Por ultimo, los metodos POST bookingHistory, GET booking History con parametro id cliente o empresa, permiten al usuario crear una reserva como visualizar el historia de reservas de una empresa o cliente en especifico.
+
+**Tabla:**  
+
+|     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
+|--------|----------|--------|-------|
+|  /companies                    |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  | [http://localhost:8080/companies](http://localhost:8080/api/v1/companies)  |
+|  /companies/{id}               |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') | [http://localhost:8080/companies/1](http://localhost:8080/api/v1/companies/1)     |
+|  /companies                    |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             | [http://localhost:8080/companies](http://localhost:8080/api/v1/companies)     |
+|  /clients/login                |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             | [http://localhost:8080/clients/login](http://localhost:8080/api/v1/clients/login)  |
+|  /clients                      |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              | [http://localhost:8080/clients](http://localhost:8080/api/v1/clients) |
+|  /clients/{id}                 |       PUT       | 200 OK: Retorna información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1')    | [http://localhost:8080/clients/1](http://localhost:8080/api/v1/clients/1) |
+|  /reviews                      |       POST      | 201 Created: Indica que la reseña ha sido creada exitosamente                                               | [http://localhost:8080/reviews](http://localhost:8080/api/v1/reviews) |
+|  /reviews/company/{companyId}  |       GET       | 200 OK: Retorna información de la reseña correspondiente al copmanyID (parametro: companyId, ejemplo: '1')  | [http://localhost:8080/companies/1](http://localhost:8080/api/v1/reviews/1)     |
+|  /bookingHistory               |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              | [http://localhost:8080/bookingHistory](http://localhost:8080/api/v1/bookingHistory)       |
+|  /bookingHistory/client/{id}   |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id cliente (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/client/1)  |
+|  /bookingHistory/company/{id}  |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id company (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/company/1)  |
+
+
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres)   
+Link del swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html )  
+
+**Capturas de interaccion con datos de prueba**  
+- Registrar empresa (POST)   
+El usuario agrega una nueva empresa a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para registrar su empresa Transporte y Mudanzas Rapi2
+Una vez que se haya registrado la empresa, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services1_3.JPG?raw=true)   
+- Registrar cliente (POST)   
+El usuario agrega un nuevo cliente a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario Lucero ha colocado todos datos necesarios para registrar su cuenta personal
+Una vez que se haya registrado el cliente, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services2_3.JPG?raw=true)   
+- Registrar reserva (POST)   
+El usuario agrega una nueva reserva para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para solicitar una reserva.
+Una vez que se solicitado la reserva, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_3.JPG?raw=true)    
+- Registrar reseña (POST)   
+El usuario agrega una nueva reseña a la base de datos para calificar el servicio brindado por una empresa. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para publicar su reseña.
+Una vez que se haya creado la reseña, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_3.JPG?raw=true)   
+- Obtener lista de todas las empresas (GET)   
+Los usuarios desean consultar una lista de todas las empresas registradas en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET. A continuación, se presenta un ejemplo en el que un cliente solicita la lista de todas las empresas disponibles.  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_3.JPG?raw=true)  
+- Obtener empresa por su id (GET)  
+Los usuarios desean consultar la información de una empresa específica en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que un cliente solicita la información de una empresa por su ID.    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_3.JPG?raw=true)   
+- Obtener cliente por su id (GET)
+Los usuarios desean consultar su información personal, por eso se brinda el id del cliente. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de un cliente por su ID.  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services7_3.JPG?raw=true)  
+- Obtener cliente por email y contraseña (GET)
+Esta funcionalidad permite la consulta de información de un cliente utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo cliente. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles del cliente correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información del cliente por correo electrónico y contraseña.  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_3.JPG?raw=true)   
+- Obtener reseñas por el id de la empresa (GET)   
+Esta funcionalidad permite obtener reseñas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de una reseña en función del identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una reseña por el ID de la empresa.   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_3.JPG?raw=true)   
+- Obtener reserva por id cliente (GET)   
+Esta funcionalidad permite obtener reservas específicas asociada a un cliente. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID del cliente.    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services10_3.JPG?raw=true)     
+- Obtener reserva por id empresa (GET)   
+Esta funcionalidad permite obtener reservas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID de la empresa.   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services11_3.JPG?raw=true)
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
   
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
@@ -550,20 +617,20 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 Nombre y apellido: Alfredo Lozano    
 Edad: 45  
 Distrito: San Martin de Porres  
-Duración: 19:19 min  
+Duración: 19:07 min  
 Link de la entrevista: [link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111465_upc_edu_pe/EYnpA4FPj5lOkNYC5ByyRXIBmEVomLBoKrCNIGyFuCud2g?e=3NXLeC) 
 ![EntrevistaValidation-3-company](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevistaValidation3-company.JPG?raw=true)
 
-0:22 - 3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
+08:00 - 3. ¿Qué tipo de información adicional le gustaría que estuviera disponible en las descripciones de las empresas de mudanza?
 La empresa deberia dar el contacto del cliente, asi que en el historial de reservas deberia ser agregada los datos del cliente para que todos los trabajadores que atiendan esa reserva pueda contactarse directamente con el cliente, como el numero de contanto. O mejorar el chat, para que no solo se comunique la empresa con el cliente, sino tambien los trabajadores con el cliente.
 
-0:51 - ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
+13:00 - ¿Cómo considera que la función de historial de reservas podría mejorar su capacidad de seguimiento y gestión de mudanzas?
 “En cualquier rubro, en cualquier empresa, el historial es importante. Entonces hay mas confianza. Si tienes un historial automaticamente, ya ves la calidad tanto de la empresa o del cliente para ver si la empresa es confiable. Si la primera y segunda vez ha llegado y estuvo todo en orden, entonces formas un historial y te da garantia seguir trabajando con esa empresa”
 
 16:22 - ¿Cómo comunica y mantiene informados a sus clientes durante todo el proceso de mudanza?
 Lo veo todo a la orden. Pero el que mas lo encuentro util es el historial de reservas, porque es un medio para comunicarte con tus clientes, asi como avisar y ensenar todos los datos de su reserva. Es mas, se parece a un medio de propaganda porque aparece el logo de la empresa. Asimsimo, refleja mayor seguridad y confianza al trabajo de la empresa. 
 
-02:51 - ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
+18:00 - ¿Recomendarían nuestra aplicación web “Carga Sin Estrés” a otras empresas de mudanza? ¿Por qué?  
 Si porque es sencillo, rapido y amigable. Tambien, te va a ayudar a brindar mayor seguridad, para ambos lados, del servicio ofrecido. Ademas, tenia un costo dentro de las posibilidades para poder adquirir la membresia.
 
 
@@ -571,7 +638,7 @@ Si porque es sencillo, rapido y amigable. Tambien, te va a ayudar a brindar mayo
 1. [https://youtu.be/g81ypeZfkoA]
 2. 
 3.
-### 5.3.3 Evaluaciones segu heuristicas  
+### 5.3.3 Evaluaciones segun heuristicas  
   
 **UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**  
 
