@@ -102,7 +102,7 @@ Ahora, para inicializar el despliegue:
 ![Paso6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando6.JPG?raw=true)  
   
 Con esto nuestra aplicación fue desplegada y se puede encontrar en el siguiente link:  
-[https://carga-sin-estres.web.app](https://carga-sin-estres.web.app)
+[https://carga-sin-estres.web.app](https://cargasinestres-tb2.web.app)
 
 *Para que funcione correctamente se tiene que hacer json-server --watch db.json a nuestra db en json
 
