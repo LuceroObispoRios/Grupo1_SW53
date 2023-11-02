@@ -400,7 +400,7 @@ Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo
   
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 La aplicación desplegada se encuentra en el siguiente enlace  
-[https://carga-sin-estres.web.app](https://carga-sin-estres.web.app),  
+[https://cargasinestres-tb2.web.app](https://cargasinestres-tb2.web.app),  
 más para su correcto funcionamiento, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
   
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
