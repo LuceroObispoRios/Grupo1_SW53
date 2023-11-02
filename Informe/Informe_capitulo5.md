@@ -672,13 +672,13 @@ Link de la entrevista: [link](https://youtu.be/i57dhFpCM44)
 
 Timings:  
 04:55 - ¿Consideras que se proporciona suficiente información sobre las empresas de mudanza que desea reservar?¿Considera alguna característica faltante?  
-Sí, tiene suficiente información, pero habría sido útil tener más detalles sobre los costos como mencioné antes. Y también, con respecto a la seguridad, sería bueno que se puedan ver las certificaciones y licencias de las empresas de mudanza, para que sepamos que verdaderamente nuestros bienes están seguros.
+"Sí, tiene suficiente información, pero habría sido útil tener más detalles sobre los costos como mencioné antes. Y también, con respecto a la seguridad, sería bueno que se puedan ver las certificaciones y licencias de las empresas de mudanza, para que sepamos que verdaderamente nuestros bienes están seguros."
 
 05:45 - ¿Considera que la manera de búsqueda de empresas de mudanza mediante tablas, logró satisfacer su búsqueda de manera ágil y satisfactoria?  
-Sí, se puede visualizar y buscar a las empresas facilmente. Se ve bastante ordenado.También al utilizar los filtros, la busqueda de empresas se ve bien y nada complejo.
+"Sí, se puede visualizar y buscar a las empresas facilmente. Se ve bastante ordenado.También al utilizar los filtros, la busqueda de empresas se ve bien y nada complejo."
 
 06:44 - ¿Recomendaría “Carga Sin Estrés” a otras personas que desean solicitar el servicio de mudanza?¿Por qué?  
-Sí recomendaría, me parece que la plataforma en general puede facilitar el proceso de mudanza y tiene una buena distribución.
+"Sí recomendaría, me parece que la plataforma en general puede facilitar el proceso de mudanza y tiene una buena distribución."
 
 3. TERCERA ENTREVISTA:
 Edad: 22   
@@ -692,7 +692,7 @@ Timings:
 "Me gusta el tipo de información que han brindado sobre las empresas. Creo que tal vez podría ser como una pequeña descripción, más que su número de contacto. Porque, ¿qué pasa si es que yo entro y digo, "Ah, ya sé que empresas hacen los servicios, ya no reservo por su web de ustedes, sino yo lo llamo aparte"? ¿Me entiendes? Y ya esa, esa venta o esa, esa ratio de conversión que yo podría ser como cliente online, simplemente voy directo hacia la empresa, ¿no? En todo caso, en lugar de poner su número telefónico, creo que tal vez para mí sería un poco más valioso ver cuántos años llevo en el mercado."
 
 10:47 - ¿Considera que la manera de búsqueda de empresas de mudanza mediante tablas, logró satisfacer su búsqueda de manera ágil y satisfactoria?  
-Sí, me gusta muchísimo el hecho de poder buscar los servicios mediante filtros, me parecen muy bueno, ubicaciones. Me hubiese gustado el hecho de poder poner origen y destino, cosa que más o menos, no digo que sea el precio real, pero que la página bote un aprox entre 30 a 100 soles, no sé. No es lo mismo llevarlo de San Miguel a Magdalena como de llevarlo, no sé, del norte al sur de Lima.
+"Sí, me gusta muchísimo el hecho de poder buscar los servicios mediante filtros, me parecen muy bueno, ubicaciones. Me hubiese gustado el hecho de poder poner origen y destino, cosa que más o menos, no digo que sea el precio real, pero que la página bote un aprox entre 30 a 100 soles, no sé. No es lo mismo llevarlo de San Miguel a Magdalena como de llevarlo, no sé, del norte al sur de Lima."
 
 17:15 - ¿Recomendaría “Carga Sin Estrés” a otras personas que desean solicitar el servicio de mudanza?¿Por qué?  
 "Ah, sí, me parece una aplicación que tiene bastante valor agregado al poder ser un intermediario entre lo que son los servicios de mudanza. Creo que hay mucha desconfianza con eso y muy poco esto. Hay muy pocas confianza y, en verdad, esto nunca sabes por qué le estás confiando tus cosas, tu casa, por decirlo, tu hogar."  
