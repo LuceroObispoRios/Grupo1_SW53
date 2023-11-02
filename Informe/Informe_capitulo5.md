@@ -521,20 +521,21 @@ Por ultimo, los metodos POST bookingHistory, GET booking History con parametro i
 
 |     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
 |--------|----------|--------|-------|
-|  /companies                    |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  | [http://localhost:8080/companies](http://localhost:8080/api/v1/companies)  |
-|  /companies/{id}               |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') | [http://localhost:8080/companies/1](http://localhost:8080/api/v1/companies/1)     |
-|  /companies                    |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             | [http://localhost:8080/companies](http://localhost:8080/api/v1/companies)     |
-|  /clients/login                |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             | [http://localhost:8080/clients/login](http://localhost:8080/api/v1/clients/login)  |
-|  /clients                      |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              | [http://localhost:8080/clients](http://localhost:8080/api/v1/clients) |
-|  /clients/{id}                 |       PUT       | 200 OK: Retorna información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1')    | [http://localhost:8080/clients/1](http://localhost:8080/api/v1/clients/1) |
-|  /reviews                      |       POST      | 201 Created: Indica que la reseña ha sido creada exitosamente                                               | [http://localhost:8080/reviews](http://localhost:8080/api/v1/reviews) |
-|  /reviews/company/{companyId}  |       GET       | 200 OK: Retorna información de la reseña correspondiente al copmanyID (parametro: companyId, ejemplo: '1')  | [http://localhost:8080/companies/1](http://localhost:8080/api/v1/reviews/1)     |
-|  /bookingHistory               |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              | [http://localhost:8080/bookingHistory](http://localhost:8080/api/v1/bookingHistory)       |
-|  /bookingHistory/client/{id}   |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id cliente (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/client/1)  |
-|  /bookingHistory/company/{id}  |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id company (parametro: id, ejemplo: '1')  | [http://localhost:8080/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/company/1)  |
+|  /companies                    |       GET       | 200 OK: Retorna la lista de todas las empresas registradas                                                  | [http://localhost:8080/api/v1/companies](http://localhost:8080/api/v1/companies)  |
+|  /companies/{id}               |       GET       | 200 OK: Retorna información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1') | [http://localhost:8080/api/v1/companies/1](http://localhost:8080/api/v1/companies/1)     |
+|  /companies                    |       POST      | 201 Created: Indica que la compañía ha sido creada exitosamente                                             | [http://localhost:8080/api/v1/companies](http://localhost:8080/api/v1/companies)     |
+|  /clients/login                |       GET       | 200 OK: Retorna la información del cliente si el email y contrasena son válidas                             | [http://localhost:8080/api/v1/clients/login](http://localhost:8080/api/v1/clients/login)  |
+|  /companies/login              |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válidas                           | [http://localhost:8080/api/v1/companies/login](http://localhost:8080/api/v1/companies/login)  |
+|  /clients                      |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              | [http://localhost:8080/api/v1/clients](http://localhost:8080/api/v1/clients) |
+|  /clients/{id}                 |       PUT       | 200 OK: Retorna información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1')    | [http://localhost:8080/api/v1/clients/1](http://localhost:8080/api/v1/clients/1) |
+|  /reviews                      |       POST      | 201 Created: Indica que la reseña ha sido creada exitosamente                                               | [http://localhost:8080/api/v1/reviews](http://localhost:8080/api/v1/reviews) |
+|  /reviews/company/{companyId}  |       GET       | 200 OK: Retorna información de la reseña correspondiente al copmanyID (parametro: companyId, ejemplo: '1')  | [http://localhost:8080/api/v1/companies/1](http://localhost:8080/api/v1/reviews/1)     |
+|  /bookingHistory               |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              | [http://localhost:8080/api/v1/bookingHistory](http://localhost:8080/api/v1/bookingHistory)       |
+|  /bookingHistory/client/{id}   |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id cliente (parametro: id, ejemplo: '1')  | [http://localhost:8080/api/v1/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/client/1)  |
+|  /bookingHistory/company/{id}  |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id company (parametro: id, ejemplo: '1')  | [http://localhost:8080/api/v1/bookingHistory/client/1](http://localhost:8080/api/v1/bookingHistory/company/1)  |
 
 
-Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/main/TB2-backend/cargaSinEstres)   
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres ](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres)  
 Link del swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html )  
 
 **Capturas de interaccion con datos de prueba**  
@@ -574,7 +575,11 @@ Esta funcionalidad permite obtener reservas específicas asociada a un cliente. 
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services10_3.JPG?raw=true)     
 - Obtener reserva por id empresa (GET)   
 Esta funcionalidad permite obtener reservas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID de la empresa.   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services11_3.JPG?raw=true)
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services11_3.JPG?raw=true)   
+- Obtener empresa por email y contraseña (GET)  
+Esta funcionalidad permite la consulta de información de una empresa utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo empresa. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles de la empresa correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información de la empresa por correo electrónico y contraseña.   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services12_3.JPG?raw=true)   
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
   
@@ -582,6 +587,12 @@ Esta funcionalidad permite obtener reservas específicas asociada a una empresa.
 
 **GitFlow**   
 Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborativo utilizando ramas feature individuales para cada miembro del equipo. De esa forma, se logra garantizar que cada integrante tuviera su propio espacio para trabajar de manera efectiva y mantener un registro claro de sus aportaciones al proyecto en un entorno de colaboración sin problemas. Posteriormente, cada integrante consolida su trabajo en la rama develop en cuanto a la programación del frontend y backend del proyecto, lo que permitió un avance progresivo y sistemático de este. Mientras tanto, seguimos realizando ajustes y progresos en el informe en la rama main. Al culminar el sprint, incorporamos nuevamente los cambios de la rama develop a la rama main para presentar la versión final del proyecto, con todas las funcionalidades implementadas y el informe actualizado en su estado más reciente.  
+![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow1_3.JPG?raw=true)   
+![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow2_3.JPG?raw=true)   
+![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow3_3.JPG?raw=true)   
+![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow4_3.JPG?raw=true)   
+![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow5_3.JPG?raw=true)   
+![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow6_3.JPG?raw=true)   
 
 ## 5.3 Validation Interviews  
   
