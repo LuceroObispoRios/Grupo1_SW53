@@ -621,10 +621,23 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 
 ### 5.3.2 Registro  de Entrevistas  
 ***Representantes de Empresas:*** 
-1. [https://youtu.be/v5w_iTNg54s]  
-2. [https://youtu.be/L5YV1R7sKcQ]
+1. Primera Entrevista:  
+   Entrevistado: Felix Bianchi   
+   Residencia: Chorrillos, Lima  
+   Ocupación: Trabajador de empresa de mudanzas  
+   Entrevistador: Eric Cuevas  
+   Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)  
+   ![Entrevista-1]()[]  
 
-3. TERCERA ENTREVISTA:  
+3. Segunda Entrevista:  
+   Entrevistado:  Jorge Rosales  
+   Residencia: Los Olivos, Lima  
+   Ocupación: Trabajador de empresa de mudanzas  
+   Entrevistador: Eric Cuevas  
+   Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)  
+   ![Entrevista-2]()[]  
+
+4. TERCERA ENTREVISTA:  
 Nombre y apellido: Alfredo Lozano    
 Edad: 45  
 Distrito: San Martin de Porres  
