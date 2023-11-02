@@ -651,8 +651,17 @@ Nombre y apellido: Italo Mendoza
 Edad: 20    
 Duración: 05:53 min  
 Link de la entrevista: [link](https://youtu.be/g81ypeZfkoA) 
-![EntrevistaValidation-1-client](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ValidationInterview-1-client.png?raw=true)
-   
+![EntrevistaValidation-1-client](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/ValidationInterview-1-client.png?raw=true)  
+
+Timings:  
+02:24 - ¿Considera que se proporciona suficiente información sobre la empresa de mudanza y considera alguna característica que desea ver alguna característica que nota que falte bien en este caso   “En general, la información proporcionada sobre las empresas de mudanzas es adecuada. También podría ser útil tener más detalles específicos sobre los posibles servicios adicionales que puedan ofrecer y también un por así decir una cotización por ejemplo de Cuánto puede costar el servicio preliminarmente”
+
+03:34 - ¿Considera que la manera de búsqueda de empresas en este caso mediante una tabla logró satisfacer su búsqueda de manera ágil y satisfactoria?  
+“Sí, la búsqueda mediante las tablas fue efectiva y permitía una comparación rápida de las empresas. Además fue de encontrar información que yo he necesitado”
+
+05:11 - en caso conozca alguna persona que desea solicitar ese servicio de mudanza recomendaría carga sin estrés? Y ¿por qué?  
+“Sí, recomendaría carga sin estrés a otras personas que buscan un servicio de mudanza ya que la plataforma simplifica los procesos de búsqueda y comparación lo que ahorra tiempo y facilita la toma de decisiones informadas y esto hace que las mudanzas sean menos estresantes y más eficientes”
+
 3. 
 4.
 ### 5.3.3 Evaluaciones segun heuristicas  
