@@ -622,20 +622,39 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 ### 5.3.2 Registro  de Entrevistas  
 ***Representantes de Empresas:*** 
 1. Primera Entrevista:  
-   Entrevistado: Felix Bianchi   
-   Residencia: Chorrillos, Lima  
-   Ocupación: Trabajador de empresa de mudanzas  
-   Entrevistador: Eric Cuevas  
-   Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)  
-   ![Entrevista-1]()[]  
+Entrevistado: Felix Bianchi   
+Residencia: Chorrillos, Lima  
+Ocupación: Trabajador de empresa de mudanzas  
+Entrevistador: Eric Cuevas  
+Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)  
+![Entrevista-1]()[]  
+     
+Resumen de entrevista:
+06:25 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
+      
+      
+07:18 - ¿Que otras funcionalidades le gustaria ver o cree pueden mejorar en la aplicación a futuro?
+      
+      
+08:07 - ¿Recomendaria nuestra aplicación web "Carga Sin estrés" a otras empresas de mudanza?
 
-3. Segunda Entrevista:  
-   Entrevistado:  Jorge Rosales  
-   Residencia: Los Olivos, Lima  
-   Ocupación: Trabajador de empresa de mudanzas  
-   Entrevistador: Eric Cuevas  
-   Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)  
-   ![Entrevista-2]()[]  
+
+2. Segunda Entrevista:  
+Entrevistado:  Jorge Rosales
+Residencia: Los Olivos, Lima  
+Ocupación: Trabajador de empresa de mudanzas  
+Entrevistador: Eric Cuevas  
+Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)  
+![Entrevista-2]()[]
+
+Resumen de entrevista:
+07:10 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
+
+      
+07:39 - ¿Que otras funcionalidades le gustaria ver o cree pueden mejorar en la aplicación a futuro?
+      
+      
+08:20 - ¿Recomendaria nuestra aplicación web "Carga Sin estrés" a otras empresas de mudanza?
 
 4. TERCERA ENTREVISTA:  
 Nombre y apellido: Alfredo Lozano    
