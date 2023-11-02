@@ -646,9 +646,15 @@ Si porque es sencillo, rapido y amigable. Tambien, te va a ayudar a brindar mayo
 
 
 ***Individuos de 18 a 50 años***
-1. [https://youtu.be/g81ypeZfkoA]
-2. 
-3.
+1. Entrevista
+Nombre y apellido: Italo Mendoza    
+Edad: 20    
+Duración: 05:53 min
+Link de la entrevista: [link](https://youtu.be/g81ypeZfkoA) 
+![EntrevistaValidation-1-client](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevistaValidation3-company.JPG?raw=true)
+   
+3. 
+4.
 ### 5.3.3 Evaluaciones segun heuristicas  
   
 **UX Heuristics & Principles Evaluation Usability – Inclusive Design – Information Architecture**  
