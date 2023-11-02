@@ -666,7 +666,7 @@ Timings:
 Nombre y apellido: Sergio Leandro  
 Edad: 19  
 Distrito: Lima   
-Duración: 03:24  
+Duración: 07:04  
 Link de la entrevista: [link](https://youtu.be/i57dhFpCM44) 
 ![EntrevistaValidation-2-client](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion2-client.png?raw=true)  
 
@@ -683,7 +683,7 @@ Sí recomendaría, me parece que la plataforma en general puede facilitar el pro
 3. TERCERA ENTREVISTA:
 Edad: 22   
 Distrito: Lima  
-Duración: 07:54  
+Duración: 18:48  
 Link de la entrevista: [link](https://youtu.be/ewe0bl-S-Ms) 
 ![EntrevistaValidation-3-client](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion3-client.png?raw=true)
 
