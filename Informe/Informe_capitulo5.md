@@ -472,7 +472,7 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 
 **feature 9**   
 <div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint3.png?raw=true" alt="Feature 9" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature9-sprint3.png?raw=true" alt="Feature 9" width="600px">
 </div>
 
 **feature 10** 
@@ -506,7 +506,19 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 </div>
   
 #### 5.2.3.5. Execution Evidence for Sprint Review  
-  
+
+Durante el Tercer Sprint, logramos implementar diversas funcionalidades en el front-end, estas incluyen la incorporación de filtros para una búsqueda de empresas por nombre, servicios y ubicación, a través de la ubicación ingresada por el usuario o su ubicación actual. Además, hemos agregado la función de carga rápida, que permite la generación instantánea de reservas. Agregamos la visualización destacada para las empresas con membresía, y hemos habilitado la función de reseñas y chat en la sección de historial de reservas. Asimismo, creamos vistas diferenciadas para clientes y empresas, cada uno tiene su historial de reservas. Por otro lado, en el backend, hemos desarrollado los servicios para las entidades clave, incluyendo cliente, empresa, historial de reservas, chat, reseñas, pago y empresa contratada, junto con la implementación del DTO y Model Mapper.   
+
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-busqueda%20-empresas.png?raw=true" alt="busqueda de empresas" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-chat.png?raw=true" alt="chat reserva" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-carga-rapida.png?raw=true" alt="carga rapida" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-rese%C3%B1a.png?raw=true" alt="escribir reseña" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-visualizacion-rese%C3%B1a.png?raw=true" alt="visualizar reseña" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-boleta-membresia.png?raw=true" alt="boleta membresía" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-filtro-ubicacion.png?raw=true" alt="filtro ubicación" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-filtro-servicios.png?raw=true" alt="filtro servicios" width="600px">
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.  
 
 **Introduccion:**  
