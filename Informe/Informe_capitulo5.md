@@ -582,6 +582,12 @@ Esta funcionalidad permite la consulta de información de una empresa utilizando
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.  
+
+La aplicación desplegada se encuentra en el siguiente enlace  
+[https://cargasinestres-tb2.web.app](https://cargasinestres-tb2.web.app),  
+más para su correcto funcionamiento, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
+
+En cuanto al backend:
   
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
