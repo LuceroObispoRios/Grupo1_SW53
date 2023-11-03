@@ -195,14 +195,20 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "¡Hola! Reservé una mudanza con ustedes para la próxima semana y quería coordinar algunos detalles antes del día del traslado.",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "¡Perfecto! Estamos listos para ayudarte. ¿Hay algo específico que te preocupe o que quieras confirmar antes del día de la mudanza?",
           "dateTime": "2023-08-10 10:07:50"
+        },
+        {
+          "id":3,
+          "user": "client",
+          "message": "Sí, me gustaría asegurarme de que el equipo de mudanza esté al tanto de algunos artículos frágiles que requieren un manejo especial durante el traslado.",
+          "dateTime": "2023-08-10 10:10:50"
         }
       ]
     },
@@ -229,13 +235,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, tengo algunas antigüedades frágiles que necesitan un manejo delicado. ¿Cómo manejan esos artículos durante el proceso de mudanza?",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Entendemos lo importante que son tus pertenencias. Utilizamos materiales de embalaje de alta calidad y técnicas especiales para asegurar una protección óptima. ¿Hay algo más en lo que pueda ayudarte?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
@@ -263,13 +269,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, quisiera saber si se puede llevar electrodomésticos",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Claro que sí, ¿cuántos electrodomésticos son?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
@@ -297,14 +303,20 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "¡Hola! Reservé una mudanza con ustedes para la próxima semana y quería coordinar algunos detalles antes del día del traslado.",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "¡Perfecto! Estamos listos para ayudarte. ¿Hay algo específico que te preocupe o que quieras confirmar antes del día de la mudanza?",
           "dateTime": "2023-08-10 10:07:50"
+        },
+        {
+          "id":3,
+          "user": "client",
+          "message": "Sí, me gustaría asegurarme de que el equipo de mudanza esté al tanto de algunos artículos frágiles que requieren un manejo especial durante el traslado.",
+          "dateTime": "2023-08-10 10:10:50"
         }
       ]
     },
@@ -331,13 +343,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, tengo algunas antigüedades frágiles que necesitan un manejo delicado. ¿Cómo manejan esos artículos durante el proceso de mudanza?",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Entendemos lo importante que son tus pertenencias. Utilizamos materiales de embalaje de alta calidad y técnicas especiales para asegurar una protección óptima. ¿Hay algo más en lo que pueda ayudarte?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
@@ -365,13 +377,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, quisiera saber si se puede llevar electrodomésticos",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Claro que sí, ¿cuántos electrodomésticos son?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
