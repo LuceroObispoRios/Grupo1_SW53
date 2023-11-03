@@ -104,7 +104,7 @@ export class ClientSettingsComponent {
   }
 
   cancelar(){
-    this.router.navigate(['/company-table']);
+    this.router.navigate(['/client', this.id, 'company-table']);
   }
 
 }
