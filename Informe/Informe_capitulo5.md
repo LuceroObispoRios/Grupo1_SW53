@@ -600,7 +600,7 @@ La aplicación desplegada se encuentra en el siguiente enlace
 Asu vez, tambien se ha desplegado el backend por medio de zeabur  
 [https://cargasinestres.zeabur.app/swagger-ui/index.html](https://cargasinestres.zeabur.app/swagger-ui/index.html)  
 El cual utiliza una base de datos desplegada en railway, y cuyo repositorio desde el que se toman los archivos de despliege es el siguiente :  
-[Repositorio de despliegue backend - Carga Sin Estres](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git)  
+[Repositorio de despliegue backend - Carga Sin Estres](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main)  
   
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
@@ -1069,4 +1069,4 @@ Video About the product de la TB2 en Youtube: [https://youtu.be/rvHWon44WEw](htt
 Video About the team de la TB2 en Youtube: [https://youtu.be/tLl2RB2Y-zI](https://youtu.be/tLl2RB2Y-zI)  
   
 Repositorio del Trabajo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git](https://github.com/LuceroObispoRios/Grupo1_SW53.git)  
-Repositorio del backend desplegado: [https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git)  
+Repositorio del backend desplegado: [https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main)  
