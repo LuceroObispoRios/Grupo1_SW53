@@ -427,7 +427,7 @@ En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de fun
 | Sprint 2 Retrospective Summary | Se trabajo fluidamente, participando todos por igual en la realización del proyecto, más en la opinión del grupo creemos que pudimos haber terminado más partes del front-end. |
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 3 sera terminar Frontend de la applicación, asi como avanzar el back-end hasta un punto funcional que podamos completar el siguiente sprint. |
-| Sprint & Velocity | Debido al alcanze establecido para este sprint, el Velocity establecido para este sprint es XX. |
+| Sprint & Velocity | Debido al alcanze establecido para este sprint, el Velocity establecido para este sprint es 30. |
 | Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 26. |  
 
 #### 5.2.3.1. Sprint Backlog 3 
