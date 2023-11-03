@@ -1011,14 +1011,18 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
   
 # Conclusiones
 
-#### About the team  
+### About the team  
 Link al video en Microsoft Stream: [Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EVGoLK3h9HVFswyLAlH2eawBdssg7f1jwY_MddGs8WRqKQ?e=EbZjLJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)  
   
 Link al video en Youtube: [https://youtu.be/tLl2RB2Y-zI](https://youtu.be/tLl2RB2Y-zI)  
   
-[]()  
-
-tabla  
+| **Tiempo** | **Seccion** |
+|----|----|
+| 00:01 | Narración de Lucero |
+| 01:00 | Narración de Eric |
+| 01:54 | Narración de Andrea |
+| 03:04 | Narración de Javier |
+| 04:13 | Testimonios de los miembros del equipo |  
 
 - La creación exitosa de la base de datos y la implementación de servicios de backend se vieron beneficiadas significativamente por el uso de Spring Boot, ModelMapper y DTOs. ModelMapper facilitó la transferencia eficiente de datos entre objetos de dominio y objetos de transferencia de datos, agilizando así la gestión de información crucial para nuestro servicio. Los DTOs desempeñaron un papel clave al estructurar los datos específicamente para las solicitudes HTTP, lo que resultó en un rendimiento óptimo y una mayor seguridad en la transmisión de información. Spring Boot, con su sólida arquitectura y configuración automática, simplificó la implementación de servicios para registrar y obtener datos relacionados con empresas, clientes, reseñas y reservas. Además, facilitó la autenticación y autorización, asegurando un inicio de sesión seguro tanto para cuentas de empresa como de cliente. En resumen, esta combinación de tecnologías fue fundamental para lograr un backend eficiente, escalable y seguro que cumplió con éxito los requisitos de nuestra aplicación de empresas de mudanzas. 
 
