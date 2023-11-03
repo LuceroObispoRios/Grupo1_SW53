@@ -595,9 +595,12 @@ Esta funcionalidad permite la consulta de información de una empresa utilizando
 
 La aplicación desplegada se encuentra en el siguiente enlace  
 [https://cargasinestres-tb2.web.app](https://cargasinestres-tb2.web.app),  
-más para su correcto funcionamiento, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
-
-En cuanto al backend:
+*más para su correcto funcionamiento para este entrega, se necesita desplegar el servidor json-server de nustro archivo db.json, en cual se encuentra en el siguiente enlace [https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/CargaSinEstres-V1/src/assets/db.json)  
+  
+Asu vez, tambien se ha desplegado el backend por medio de zeabur  
+[https://cargasinestres.zeabur.app/swagger-ui/index.html](https://cargasinestres.zeabur.app/swagger-ui/index.html)  
+El cual utiliza una base de datos desplegada en railway, y cuyo repositorio desde el que se toman los archivos de despliege es el siguiente :  
+[Repositorio de despliegue backend - Carga Sin Estres](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git)  
   
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
