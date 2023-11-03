@@ -448,11 +448,11 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo mÃ
 ### 2.3.1 User Personas
 **User Persona Ciudadano**  
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true" alt="User Persona Ciudadano" width="700px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true" alt="User Persona Ciudadano" width="900px">
 
 **User Persona Empresa**  
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true" alt="User Persona Empresa" width="700px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true" alt="User Persona Empresa" width="900px">  
 
 ### 2.3.2 User Task Matrix
 **User Task Matrix Ciudadano**
@@ -475,16 +475,16 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo mÃ
 ### 2.3.4 Empathy Mapping
 **Empathy Mapping Ciudadano**
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Ciudadano.png?raw=true" alt="Empathy map ciudadano" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Ciudadano.png?raw=true" alt="Empathy map ciudadano" width="900px">
 
 **Empathy Mapping Empresa**
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Empresa.png?raw=true" alt="Empathy map empresa" width="600px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Empresa.png?raw=true" alt="Empathy map empresa" width="900px">
 
 ### 2.3.5 As-is Scenario Mapping
 **As Is Ciudadano**  
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Ciudadano.png?raw=true" alt="As Is Ciudadano" width="700px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Ciudadano.png?raw=true" alt="As Is Ciudadano" width="800px">
 
 **As Is Empresa**  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true" alt="As Is Empresa" width="700px">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true" alt="As Is Empresa" width="900px">
