@@ -999,7 +999,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ## 5.4 Video About-the-Product  
 <p align="center">
-    <img src="#" alt="imagen video about the product" width="900px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/aboutTheProduct-image.JPG?raw=true" alt="imagen video about the product" width="900px">
 </p>
   
 [Link al video About-the-product en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EeOm5uXXDDhHvL3XpsDDTU4BxeZiL_o6Ws3b_5kh_IcAfA?e=l13QUn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)  
@@ -1040,16 +1040,16 @@ W3Schools. (s.f.). HTML5 Syntax. Recuperado de: https://www.w3schools.com/html/h
   
 **Anexos**  
 --
-Video de exposición de la TB1 en microsoft stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EcuOzspz92lJtcUlIxN4FJYBjM7FOt5j5CsGr0Is2BjP-A?e=ntodCg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EcuOzspz92lJtcUlIxN4FJYBjM7FOt5j5CsGr0Is2BjP-A?e=ntodCg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19) 
-
-Video de exposición de la TB1 en google Drive: [https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing](https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing)  
-  
+Video de exposición de la TB1 en microsoft stream: [link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EcuOzspz92lJtcUlIxN4FJYBjM7FOt5j5CsGr0Is2BjP-A?e=ntodCg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)  
+Video de exposición de la TB1 en google Drive: [link al video](https://drive.google.com/file/d/1gKQx1xwyCOQVTSQv06VfBQyTDzoMN6fh/view?usp=sharing)  
+    
 Video de exposición de la TB2 en microsoft stream: [Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EdiYGT-eoo9GlDsXRfungpIBh6tiUY0OL6lv6SKnCfyCHg?e=ZfaIsh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)  
 Video About the product de la TB2 en microsoft stream: [Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EeOm5uXXDDhHvL3XpsDDTU4BxeZiL_o6Ws3b_5kh_IcAfA?e=baxfA5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)  
 Video About the team de la TB2 en microsoft stream: [Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112766_upc_edu_pe/EVGoLK3h9HVFswyLAlH2eawBdssg7f1jwY_MddGs8WRqKQ?e=EbZjLJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)  
+  
 Video de exposición de la TB2 en Youtube: [https://youtu.be/Rn_sE9KaEqk](https://youtu.be/Rn_sE9KaEqk)  
 Video About the product de la TB2 en Youtube: [https://youtu.be/rvHWon44WEw](https://youtu.be/rvHWon44WEw)  
 Video About the team de la TB2 en Youtube: [https://youtu.be/tLl2RB2Y-zI](https://youtu.be/tLl2RB2Y-zI)  
   
-Repositorio del Trabajo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git](https://github.com/LuceroObispoRios/Grupo1_SW53.git)
-Repositorio del backend desplegado: [https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git)
+Repositorio del Trabajo: [https://github.com/LuceroObispoRios/Grupo1_SW53.git](https://github.com/LuceroObispoRios/Grupo1_SW53.git)  
+Repositorio del backend desplegado: [https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main.git)  
