@@ -645,34 +645,35 @@ Residencia: Chorrillos, Lima
 Ocupación: Trabajador de empresa de mudanzas  
 Entrevistador: Eric Cuevas  
 Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)  
-![Entrevista-1]()[]  
+![Entrevista-1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa1.JPG?raw=true)  
      
-Resumen de entrevista:
+Resumen de entrevista:  
 06:25 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
-      
+La posibilidad de que sea una plataforma lo más amplia posible, en el sentido de que yo creo seria interesenate poruqe nos permitiria acercarnos a los clientes potenciales, pero sobre todo yo creo que nos permitira trabajar de una manera ordenada, brindar un servicio competitivo y mejorar el servicio con la información que dan.
       
 07:18 - ¿Que otras funcionalidades le gustaria ver o cree pueden mejorar en la aplicación a futuro?
-      
+Yo creo que una funcionalidad importante seria hacer que esta pagina pudiera brindar información tanto a la empresa como al cliente respecto al traslado de los sus productos, hacer un seguimiento al traslado de su carga.
       
 08:07 - ¿Recomendaria nuestra aplicación web "Carga Sin estrés" a otras empresas de mudanza?
-
-
+Yo creo que seria una buena oportunidad para trabajar de una manera organizada, una manera de acercar nuestro servicio a los clientes.
+  
 2. Segunda Entrevista:  
 Entrevistado:  Jorge Rosales
 Residencia: Los Olivos, Lima  
 Ocupación: Trabajador de empresa de mudanzas  
 Entrevistador: Eric Cuevas  
 Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)  
-![Entrevista-2]()[]
+![Entrevista-2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa2.JPG?raw=true)
 
 Resumen de entrevista:
 07:10 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
-
+La información de todas las empresas que estan en nuestro rubro, lo que nos permite saber cual es la oferta existente en el mercado, y adicionalmente la parte de detalle de la reserva, que es para nosotros importante. 
       
 07:39 - ¿Que otras funcionalidades le gustaria ver o cree pueden mejorar en la aplicación a futuro?
-      
+Pienso que la pagina seria más completa si hubiera una calificación final que el usuario hiciera a la empresa por los servicios recibidos, y que esas calificaciones se pudieran visualizar al momento de hacer la consulta.
       
 08:20 - ¿Recomendaria nuestra aplicación web "Carga Sin estrés" a otras empresas de mudanza?
+Por supuesto, yo creo que nos permitira a nosotros las empresas poder mejorar constantemente, tener contacto rapido con los clientes, saber como va la competencia, etc...
 
 4. TERCERA ENTREVISTA:  
 Nombre y apellido: Alfredo Lozano    
