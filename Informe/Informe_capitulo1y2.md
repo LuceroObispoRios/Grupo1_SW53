@@ -446,22 +446,22 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m√
 ## 2.3 Needfinding
 
 ### 2.3.1 User Personas
-**User Persona Ciudadano**
+**User Persona Ciudadano**  
 
-![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true" alt="User Persona Ciudadano" width="700px">
 
-**User Persona Empresa**
+**User Persona Empresa**  
 
-![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true" alt="User Persona Empresa" width="700px">  
 
 ### 2.3.2 User Task Matrix
 **User Task Matrix Ciudadano**
 
-![User Task Matrix Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_ciudadano.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_ciudadano.png?raw=true" alt="User Task Matrix Ciudadano" width="600px">  
 
 **User Task Matrix Empresa**
 
-![User Task Matrix Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_empresa.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_empresa.png?raw=true" alt="User Task Matrix Empresa" width="600px"> 
 
 ### 2.3.3 User Journey Mapping
 **User Journey Mapping Ciudadano**
@@ -475,17 +475,16 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m√
 ### 2.3.4 Empathy Mapping
 **Empathy Mapping Ciudadano**
 
-![Empathy Mapping ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Ciudadano.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Ciudadano.png?raw=true" alt="Empathy map ciudadano" width="600px">
 
 **Empathy Mapping Empresa**
 
-![Empathy Mapping empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Empresa.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Empresa.png?raw=true" alt="Empathy map empresa" width="600px">
 
 ### 2.3.5 As-is Scenario Mapping
-**As Is Ciudadano**
+**As Is Ciudadano**  
 
-![as is segmento ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Ciudadano.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Ciudadano.png?raw=true" alt="As Is Ciudadano" width="700px">
 
-**As Is Empresa**
-
-![as is segmento empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true)
+**As Is Empresa**  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true" alt="As Is Empresa" width="700px">
