@@ -383,15 +383,19 @@ Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo
 ![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3.JPG?raw=true)  
 
 *Realizar una reserva*  
-- Antes de realizar una reserva  
-![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4.JPG?raw=true)  
+- Antes de realizar una reserva
+<div style="text-align:center;">
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4.JPG?raw=true" alt="servicio ejemplos" width="600px">
+</div>
 
 - Mediante la sintaxis POST /bookingHistory. Se crea una reserva y se almacena el db.json, se puede ver en la consola la informacion de la nueva reserva.
 ![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services5.JPG?raw=true)  
 
 **Editar datos de un cliente**  
-- Antes de presionar el boton de guardar cambios, se puede ver en la consola que la informacion del cliente actual es la informacion de Eric.  
-![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services6.JPG?raw=true)
+- Antes de presionar el boton de guardar cambios, se puede ver en la consola que la informacion del cliente actual es la informacion de Eric.
+<div style="text-align:center;">
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services6.JPG?raw=true" alt="servicio ejemplos" width="600px">
+</div>
 
 - Mediante la sintaxis PUT /clients/{id}. Se edita los datos cliente Eric, y son reemplazados por la del cliente Celia  
 ![servicios-ejemplos](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/develop/Informe/Imagenes/services7.JPG?raw=true)  
@@ -445,25 +449,15 @@ En el segundo sprint, adoptamos un enfoque más centrado en el desarrollo de fun
 
 
 #### 5.2.3.3. Development Evidence for Sprint Review.
-
-
+  
 <div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true" alt="Development Evidence - parte 1" width="400">
-</div>
-<div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true" alt="Development Evidence - parte 2" width="400">
-</div>
-<div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true" alt="Development Evidence - parte 3" width="400">
-</div>
-<div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-4.png?raw=true" alt="Development Evidence - parte 4" width="400">
-</div>
-<div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-5.png?raw=true" alt="Development Evidence - parte 5" width="400">
-</div>
-
-
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-1.png?raw=true" alt="Development Evidence - parte 1" width="450">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-2.png?raw=true" alt="Development Evidence - parte 2" width="450">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-3.png?raw=true" alt="Development Evidence - parte 3" width="450">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-4.png?raw=true" alt="Development Evidence - parte 4" width="450">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint3-5.png?raw=true" alt="Development Evidence - parte 5" width="450">  
+</div>  
+  
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review.
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
@@ -507,14 +501,16 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 
 Durante el Tercer Sprint, logramos implementar diversas funcionalidades en el front-end, estas incluyen la incorporación de filtros para una búsqueda de empresas por nombre, servicios y ubicación, a través de la ubicación ingresada por el usuario o su ubicación actual. Además, hemos agregado la función de carga rápida, que permite la generación instantánea de reservas. Agregamos la visualización destacada para las empresas con membresía, y hemos habilitado la función de reseñas y chat en la sección de historial de reservas. Asimismo, creamos vistas diferenciadas para clientes y empresas, cada uno tiene su historial de reservas. Por otro lado, en el backend, hemos desarrollado los servicios para las entidades clave, incluyendo cliente, empresa, historial de reservas, chat, reseñas, pago y empresa contratada, junto con la implementación del DTO y Model Mapper.   
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-busqueda%20-empresas.png?raw=true" alt="busqueda de empresas" width="600px">
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-chat.png?raw=true" alt="chat reserva" width="600px">
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-carga-rapida.png?raw=true" alt="carga rapida" width="600px">
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-rese%C3%B1a.png?raw=true" alt="escribir reseña" width="600px">
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-visualizacion-rese%C3%B1a.png?raw=true" alt="visualizar reseña" width="600px">
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-boleta-membresia.png?raw=true" alt="boleta membresía" width="600px">
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-filtro-ubicacion.png?raw=true" alt="filtro ubicación" width="600px">
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-filtro-servicios.png?raw=true" alt="filtro servicios" width="600px">
+<div style="text-align:center;">
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-busqueda%20-empresas.png?raw=true" alt="busqueda de empresas" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-chat.png?raw=true" alt="chat reserva" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-carga-rapida.png?raw=true" alt="carga rapida" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-rese%C3%B1a.png?raw=true" alt="escribir reseña" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-visualizacion-rese%C3%B1a.png?raw=true" alt="visualizar reseña" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-boleta-membresia.png?raw=true" alt="boleta membresía" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-filtro-ubicacion.png?raw=true" alt="filtro ubicación" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/execution-filtro-servicios.png?raw=true" alt="filtro servicios" width="600px">  
+</div>
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.  
@@ -576,10 +572,14 @@ Los usuarios desean consultar su información personal, por eso se brinda el id 
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services7_3.JPG?raw=true)  
 - Obtener cliente por email y contraseña (GET)
 Esta funcionalidad permite la consulta de información de un cliente utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo cliente. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles del cliente correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información del cliente por correo electrónico y contraseña.  
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_3.JPG?raw=true)   
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_3.JPG?raw=true" alt="services" width="600px">   
+</div>  
 - Obtener reseñas por el id de la empresa (GET)   
 Esta funcionalidad permite obtener reseñas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de una reseña en función del identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una reseña por el ID de la empresa.   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_3.JPG?raw=true)   
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_3.JPG?raw=true" alt="services" width="600px">   
+</div>   
 - Obtener reserva por id cliente (GET)   
 Esta funcionalidad permite obtener reservas específicas asociada a un cliente. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID del cliente.    
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services10_3.JPG?raw=true)     
@@ -606,13 +606,16 @@ El cual utiliza una base de datos desplegada en railway, y cuyo repositorio desd
 
 **GitFlow**   
 Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborativo utilizando ramas feature individuales para cada miembro del equipo. De esa forma, se logra garantizar que cada integrante tuviera su propio espacio para trabajar de manera efectiva y mantener un registro claro de sus aportaciones al proyecto en un entorno de colaboración sin problemas. Posteriormente, cada integrante consolida su trabajo en la rama develop en cuanto a la programación del frontend y backend del proyecto, lo que permitió un avance progresivo y sistemático de este. Mientras tanto, seguimos realizando ajustes y progresos en el informe en la rama main. Al culminar el sprint, incorporamos nuevamente los cambios de la rama develop a la rama main para presentar la versión final del proyecto, con todas las funcionalidades implementadas y el informe actualizado en su estado más reciente.  
-![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow1_3.JPG?raw=true)   
-![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow2_3.JPG?raw=true)   
-![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow3_3.JPG?raw=true)   
-![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow4_3.JPG?raw=true)   
-![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow5_3.JPG?raw=true)   
-![gitflow](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow6_3.JPG?raw=true)   
 
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow1_3.JPG?raw=true" alt="gitflow" width="600px">   
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow2_3.JPG?raw=true" alt="gitflow" width="600px">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow3_3.JPG?raw=true" alt="gitflow" width="600px">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow4_3.JPG?raw=true" alt="gitflow" width="600px">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow5_3.JPG?raw=true" alt="gitflow" width="600px">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow6_3.JPG?raw=true" alt="gitflow" width="600px">  
+</div>   
+  
 ## 5.3 Validation Interviews  
   
 ### 5.3.1 Diseño de Entrevistas  
@@ -645,8 +648,10 @@ Entrevistado: Felix Bianchi
 Residencia: Chorrillos, Lima  
 Ocupación: Trabajador de empresa de mudanzas  
 Entrevistador: Eric Cuevas  
-Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)  
-![Entrevista-1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa1.JPG?raw=true)  
+Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa1.JPG?raw=true" alt="entrevista1" width="800px">   
+</div> 
      
 Resumen de entrevista:  
 06:25 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
@@ -663,8 +668,10 @@ Entrevistado:  Jorge Rosales
 Residencia: Los Olivos, Lima  
 Ocupación: Trabajador de empresa de mudanzas  
 Entrevistador: Eric Cuevas  
-Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)  
-![Entrevista-2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa2.JPG?raw=true)
+Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa2.JPG?raw=true" alt="entrevista1" width="800px">   
+</div>  
 
 Resumen de entrevista:
 07:10 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
@@ -719,8 +726,10 @@ Nombre y apellido: Sergio Leandro
 Edad: 19  
 Distrito: Lima   
 Duración: 07:04  
-Link de la entrevista: [link](https://youtu.be/i57dhFpCM44) 
-![EntrevistaValidation-2-client](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion2-client.png?raw=true)  
+Link de la entrevista: [link](https://youtu.be/i57dhFpCM44)
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion2-client.png?raw=true" alt="EntrevistaValidation-2-client" width="800px">   
+</div>  
 
 Timings:  
 04:55 - ¿Consideras que se proporciona suficiente información sobre las empresas de mudanza que desea reservar?¿Considera alguna característica faltante?  
