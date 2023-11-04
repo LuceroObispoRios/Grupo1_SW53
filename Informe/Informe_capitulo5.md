@@ -577,17 +577,24 @@ Esta funcionalidad permite la consulta de información de un cliente utilizando 
 </div>  
 - Obtener reseñas por el id de la empresa (GET)   
 Esta funcionalidad permite obtener reseñas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de una reseña en función del identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una reseña por el ID de la empresa.   
+  
 <div style="text-align:center;">  
-  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_3.JPG?raw=true" alt="services" width="600px">   
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_3.JPG?raw=true" alt="services" width="500px">   
 </div>   
+  
 - Obtener reserva por id cliente (GET)   
 Esta funcionalidad permite obtener reservas específicas asociada a un cliente. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID del cliente.    
+  
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services10_3.JPG?raw=true)     
+  
 - Obtener reserva por id empresa (GET)   
-Esta funcionalidad permite obtener reservas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID de la empresa.   
+Esta funcionalidad permite obtener reservas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID de la empresa.
+  
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services11_3.JPG?raw=true)   
+  
 - Obtener empresa por email y contraseña (GET)  
 Esta funcionalidad permite la consulta de información de una empresa utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo empresa. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles de la empresa correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información de la empresa por correo electrónico y contraseña.   
+
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services12_3.JPG?raw=true)   
 
 
