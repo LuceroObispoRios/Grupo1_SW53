@@ -153,27 +153,27 @@ El objetivo del Sprint 1 sera terminar la Landing Page, asi como los sistemas de
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 Acceptance Tests de los User Stories, archivos .feature utilizando el lenguaje Gherkin
 
-![feature 1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint1.png?raw=true)   
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint1.png?raw=true" alt="feature 1">   
 
-![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint1.png?raw=true)   
+![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint1.png?raw=true)     
 
-![feature 3](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint1.png?raw=true)   
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint1.png?raw=true" alt="feature 3">  
 
-![feature 4](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint1.png?raw=true)   
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint1.png?raw=true" alt="feature 4">  
 
 ![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint1.png?raw=true)   
 
-![feature 6](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint1.png?raw=true)   
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint1.png?raw=true" alt="feature 6">    
 
 ![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint1.png?raw=true)   
 
-![feature 8](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint1.png?raw=true)   
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint1.png?raw=true" alt="feature 8">  
 
 ![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint1.png?raw=true)   
 
-![feature 10](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint1.png?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint1.png?raw=true" alt="feature 10">  
 
-![feature 11](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint1.png?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint1.png?raw=true" alt="feature 11">   
 
 ![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint1.jpg?raw=true)  
 
@@ -183,17 +183,17 @@ Acceptance Tests de los User Stories, archivos .feature utilizando el lenguaje G
 
 ![feature 15](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint1.jpg?raw=true)  
 
-![feature 16](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint1.jpg?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint1.jpg?raw=true" alt="feature 16">  
 
 ![feature 17](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint1.jpg?raw=true)  
 
 ![feature 18](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint1.jpg?raw=true)  
 
-![feature 19](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint1.jpg?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint1.jpg?raw=true" alt="feature 19">  
 
-![feature 20](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint1.jpg?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint1.jpg?raw=true" alt="feature 20">  
 
-![feature 21](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature21-sprint1.jpg?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature21-sprint1.jpg?raw=true" alt="feature 21">
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.  
