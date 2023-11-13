@@ -627,7 +627,7 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
   
 #### 5.2.4.1. Sprint Planning 4.  
   
-| **Sprint 3** | |
+| **Sprint 4** | |
 |:---: | :---| 
 | | **Sprint planning background** |   
 | Date | 13/11/23 |
@@ -635,8 +635,8 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 | Location | Discord - Virtual Meeting |
 | Prepared by | Cuevas, Eric |
 | Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Sebastian, Javier |
-| Sprint 2 Review Summary | Se realizo el sprint 3, se comenzo con el backend y se mejoraron otros aspectos de la app.|
-| Sprint 2 Retrospective Summary | Se trabajo de manera ordenada, en la opinión del equipo creemos que pudimos haber avanzado más rapido el desarrollo del backend y front-end.  |
+| Sprint 3 Review Summary | Se realizo el sprint 3, se comenzo con el backend y se mejoraron otros aspectos de la app.|
+| Sprint 3 Retrospective Summary | Se trabajo de manera ordenada, en la opinión del equipo creemos que pudimos haber avanzado más rapido el desarrollo del backend y front-end.  |
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 4 sera terminar el backend de la applicación, asi como conectarlo con el front-end para tener asi la versión entregable de la app final. |
 | Sprint & Velocity | Debido al alcance establecido para este sprint, el Velocity establecido para este sprint es XX. |
