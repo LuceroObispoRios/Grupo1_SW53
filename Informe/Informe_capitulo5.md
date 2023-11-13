@@ -622,6 +622,40 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow5_3.JPG?raw=true" alt="gitflow" width="600px">  
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow6_3.JPG?raw=true" alt="gitflow" width="600px">  
 </div>   
+
+### 5.2.4. Sprint 4  
+  
+#### 5.2.4.1. Sprint Planning 4.  
+  
+| **Sprint 3** | |
+|:---: | :---| 
+| | **Sprint planning background** |   
+| Date | 13/11/23 |
+| Time | 10:00 PM |
+| Location | Discord - Virtual Meeting |
+| Prepared by | Cuevas, Eric |
+| Attendees to meeting | Obispo, Lucero / O´Higgins, Andrea / Sebastian, Javier |
+| Sprint 2 Review Summary | Se realizo el sprint 3, se comenzo con el backend y se mejoraron otros aspectos de la app.|
+| Sprint 2 Retrospective Summary | Se trabajo de manera ordenada, en la opinión del equipo creemos que pudimos haber avanzado más rapido el desarrollo del backend y front-end.  |
+| | **Sprint Goal & User Stories** |
+| Sprint & Goal | El objetivo del Sprint 4 sera terminar el backend de la applicación, asi como conectarlo con el front-end para tener asi la versión entregable de la app final. |
+| Sprint & Velocity | Debido al alcance establecido para este sprint, el Velocity establecido para este sprint es XX. |
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es XX. |  
+  
+#### 5.2.4.2. Sprint Backlog 4.  
+  
+#### 5.2.4.3. Development Evidence for Sprint Review.  
+  
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review.  
+  
+#### 5.2.4.5. Execution Evidence for Sprint Review.  
+  
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
+  
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.  
+  
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+  
   
 ## 5.3 Validation Interviews  
   
