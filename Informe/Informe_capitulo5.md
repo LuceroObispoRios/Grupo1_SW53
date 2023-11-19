@@ -658,6 +658,13 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
   
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.  
+La aplicación frontend desplegada se encuentra en el siguiente enlace  
+[https://cargasinestres-tb2.web.app](https://cargasinestres-tb2.web.app),  
+  
+Asu vez, tambien se ha desplegado el backend por medio de zeabur  
+[https://cargasinestres.zeabur.app/swagger-ui/index.html](https://cargasinestres.zeabur.app/swagger-ui/index.html)  
+El cual utiliza una base de datos desplegada en railway, y cuyo repositorio desde el que se toman los archivos de despliege es el siguiente :  
+[Repositorio de despliegue backend - Carga Sin Estres](https://github.com/Ericcuevas03/grupo1-backend-openSource-V2/tree/main)  
   
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
   
