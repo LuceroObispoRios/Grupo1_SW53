@@ -137,7 +137,12 @@ export class CompanyDetailComponent implements OnInit {
     }
 
     getStars(rating: number): number[] {
+      rating = Math.round(rating);
       return Array(rating).fill(0);
+    }
+
+    ReturnToCompanyTable(){
+      this.router.navigateByUrl(`client/${this.userId}/company-table`);
     }
 }
 

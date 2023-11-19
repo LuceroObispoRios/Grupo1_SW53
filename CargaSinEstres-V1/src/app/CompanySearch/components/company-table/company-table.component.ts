@@ -121,7 +121,7 @@ export class CompanyTableComponent{
 
 
   /* FILTER: SEARCH BY LOCATION */
-  searchMethod: string = 'noFilter'; // Opción predeterminada
+  searchMethod: string = 'noFilter'; // Opción predeterminada <----------------//Membreship
   manualLocation: string = ''; // Ubicación manual ingresada por el usuario
   userLocation: string = ''; // Ubicación del usuario
 
@@ -162,7 +162,9 @@ export class CompanyTableComponent{
 
   openDialog(){
     const dialogRef = this.dialog.open(CargaRapidaDialog, {
-      data:{userId:this.userId}
+      data:{
+        userId: parseInt(this.userId),
+      }
     });
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
@@ -186,7 +188,7 @@ export class CargaRapidaDialog {
   reservation: BookingHistory = {
     id: undefined,
     idCompany: '',
-    idClient: '',
+    idClient: undefined,
     bookingDate: undefined,
     pickupAddress: undefined,
     destinationAddress: undefined,
@@ -205,10 +207,12 @@ export class CargaRapidaDialog {
     chat: {id: undefined, user: undefined, message: undefined, dateTime: undefined}
   };
 
-  userId: string = '';
-  constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService, @Inject(MAT_DIALOG_DATA) public data: any) {
-    this.userId = data;
-    console.log('userId is: ', this.data);
+  userId: number = 0;
+  constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService, public router:Router, @Inject(MAT_DIALOG_DATA) public data: any) {
+    
+    this.userId = this.data.userId;
+    console.log('userId is: ', this.userId);
+    console.log('data is: ', this.userId.valueOf());
   }
 
   closeDialog(): void {
@@ -231,7 +235,6 @@ export class CargaRapidaDialog {
 
     let randCompanyIndex = Math.floor(Math.random() * this.companies.length); //index al azar
     let randCompany = this.companies[randCompanyIndex]; //company al azar
-
     //generar reserva a partir de randCompany
     this.reservation.idCompany = randCompany.id;
     this.reservation.idClient = this.userId;
@@ -243,8 +246,8 @@ export class CargaRapidaDialog {
     this.reservation.status = "En curso";
     this.reservation.payment.totalAmount = 0;
     this.reservation.payment.paymentMethod = "Por definir";
-    this.reservation.bookingDate = now.getDate()+"-"+now.getMonth()+"-"+now.getFullYear();
-    this.reservation.movingDate = now.getDate()+"-"+now.getMonth()+"-"+now.getFullYear();
+    this.reservation.bookingDate = now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate();
+    this.reservation.movingDate = now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate();
     this.reservation.movingTime = now.getHours() + ":" + now.getMinutes();
     //se genera la reserva con company random y fecha actual
     this.companyDataService.createReservation(this.reservation).subscribe(
@@ -259,6 +262,8 @@ export class CargaRapidaDialog {
       }
     );
 
+    this.router.navigateByUrl(`client/${this.userId}/history-cards`);
+    this.closeDialog();
   }
 
 }

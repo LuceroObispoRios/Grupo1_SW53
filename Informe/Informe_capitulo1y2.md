@@ -4,7 +4,7 @@ Ingenieria de Sistemas y Comunicaciones | Ingenieria de Software
 
 Para el curso de Desarrollo de Aplicaciones Open Source  
 SW53 - Elio Jefferson Navarrete Vilca  
-# Course Project - Final Report TP  
+# Course Project - Final Report TF   
 
 Integrantes:
 - Cuevas Rios, Eric Fernando
@@ -26,10 +26,14 @@ Ciclo 2023-02
  TP | 05/09/23 - 26/09/23  | Andrea O'Higgins| Se añadió el historial de reserva y el chat en la app, se diseñaron los wireframes y mockups. Se actualizó los user stories y features, y se agregó para el sprint2 el development evidence y testing suite evidence.
  TP | 05/09/23 - 26/09/23  | Eric Cuevas| Se desarrollo las partes de registro, login y ajustes de usuario de la app, se añadieron wireframes y mockups, se corrigio partes del sprint 1 asi como historias de Usuario, realize el deployment de la app y los puntos relazcionados a este.
  TP | 05/09/23 - 26/09/23  | Javier Sebastian| Se desarrollo la parte de las membresías y el formulario de suscripción de membresía. Se actualizó los wireframes y mock-ups según las variaciones de estilos realizados en código. Se corrigió el impact map y actualizó el product backlog. 
- TB2 | 29/09/23 - 02/11/23  | Eric Cuevas|  Se desarrollo ...
+ TB2 | 29/09/23 - 02/11/23  | Eric Cuevas|  Se realizo arreglos al Frontend basados en la evaluación de heuristicas además de los features de Carga Rapida y arreglo de los formularios de los usuarios. Se participo en las heuristicas y se realizo el deployment de la nueva versión del front-end y del avance del back-end. Para el sprint 3, se realizo el Sprint Planning y el Deployment Evidence. Tambien actualice las conclusiones y realice 2 entrevistas de validación.
  TB2 | 29/09/23 - 02/11/23  | Lucero Obispo| Para el sprint 3, se realizo el services documentation y team collaboration insights. En el frontend, se hizo los filtros de la pagina busqueda de empresa en relacion a la busqueda por nombre, servicios, ubicacion ingresada, ubicacion del usuario. En el backend, se apoyo con el model mapper y dto, asi como el controller, repository, services de la entidad cliente.
- TB2 | 29/09/23 - 02/11/23  | Andrea O'Higgins| Se desarrollo ....
- TB2 | 29/09/23 - 02/11/23  | Damaris Tasayco| Se desarrollo ...
+ TB2 | 29/09/23 - 02/11/23  | Andrea O'Higgins| Se desarrollo los user stories y features. Se añadió para el sprint 3 el development, testing y execution evidence, y se realizó 2 entrevistas al segmento de ciudadanos. En el frontend, se arregló el chat y mensajes, y para el backend se avanzó con las reseñas.
+ TB2 | 29/09/23 - 02/11/23  | Javier Sebastian| Se añadió entrevista de validación y Sprint Backlog 3. Se corrigieron los Sprint Backlog 1 y 2 según las indicaciones para la mejora continua. En el Backend, se realizó la implementación de la entidad company, incluyendo su model, controller, repository y services. De la misma forma, se colaboró con la implementación de dto y el uso del Model Mapper en las entidades existentes.
+ TF  | 03/11/23 - 18/11/23  | Eric Cuevas|  <  >
+ TF  | 03/11/23 - 18/11/23  | Lucero Obispo| <  >
+ TF  | 03/11/23 - 18/11/23  | Andrea O'Higgins| <  >
+ TF  | 03/11/23 - 18/11/23  | Javier Sebastian| <  >
 ---
 1. Capitulo 1: Introducción  
    1.1 Startup Profile     
@@ -105,7 +109,7 @@ Ciclo 2023-02
    5.2.1.5. Execution Evidence for Sprint Review.  
    5.2.1.6. Services Documentation Evidence for Sprint Review.  
    5.2.1.7. Software Deployment Evidence for Sprint Review.  
-   5.2.1.8. Team Collaboration Insights during Sprint.
+   5.2.1.8. Team Collaboration Insights during Sprint.  
    5.2.2. Sprint 2  
    5.2.2.1. Sprint Planning 2.  
    5.2.2.2. Sprint Backlog 2.  
@@ -124,6 +128,15 @@ Ciclo 2023-02
    5.2.3.6. Services Documentation Evidence for Sprint Review.  
    5.2.3.7. Software Deployment Evidence for Sprint Review.   
    5.2.3.8. Team Collaboration Insights during Sprint.  
+   5.2.4. Sprint 4  
+   5.2.4.1. Sprint Planning 4.  
+   5.2.4.2. Sprint Backlog 4.  
+   5.2.4.3. Development Evidence for Sprint Review.  
+   5.2.4.4. Testing Suite Evidence for Sprint Review.  
+   5.2.4.5. Execution Evidence for Sprint Review.  
+   5.2.4.6. Services Documentation Evidence for Sprint Review.  
+   5.2.4.7. Software Deployment Evidence for Sprint Review.   
+   5.2.4.8. Team Collaboration Insights during Sprint.  
    5.3. Validation Interviews.  
    5.3.1. Diseño de Entrevistas.  
    5.3.2. Registro de Entrevistas.  
@@ -134,8 +147,8 @@ Ciclo 2023-02
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 |---------|---------|---------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se realizó una entrevista donde donde el entrevistado recibió información sobre el proyecto. Además, se realizaron meetings con el equipo<br><br> *Eric Fernando Cuevas* <br> Se realizó dos entrevistas al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica los resultados del informe. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizó una entrevista al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica la ejecucion del pagina web. <br><br> *Andrea Namie O´Higgins* <br> - Se realizó dos entrevistas a ciudadanos. Además, se realizaron meetings con el equipo <br><br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se realizaron meetings con el equipo <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo una presentación en video que explica los resultados del codigo.  Se realizaron meetings con el equipo. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizaron meetings con el equipo. <br><br> *Andrea Namie O´Higgins* <br> - Se realizaron meetings con el equipo. <br><br><br> **TB2** <br> *Javier Sebastian Tasayco* <br> - <     > <br><br> *Eric Fernando Cuevas* <br> - <     > <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizaron meetings con el equipo y se entrevista a un trabajador de una empresa de mudanzas <br><br> *Andrea Namie O´Higgins* <br> - <     > | < conclusion > |. 
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el analisis competitivo, el product backlog, historias de usuario, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo los procesos de Lean UX , historias de Usuario, diagramas de modelado, entre otras cosas. <br>  <br> *Lucero Abigail Obispo* <br> - Se desarrollo los procesos de Lean UX, historias de usuario, digrama de clases, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo los as-is y to-be scenario mapping, diagramas c4, historias de usuario, entre otros <br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el impact mapping, product backlog, team collaboration insigths, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo el modelo de la base de datos, execution evidence, sprint plannign, entre otras cosas. <br><br> *Lucero Abigail Obispo* <br> - Se desarrollo historias de usuario, digrama de clases, services documentation, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo diagramas c4, development evidence, testing envidence, entre otros <br><br> **TB2** <br> *Javier Sebastian Tasayco* <br> - <     > <br><br> *Eric Fernando Cuevas* <br> - <     > <br><br> *Lucero Abigail Obispo* <br> - Se desarrollo el services documentation, el team collaboration insigths, entre otros <br><br> *Andrea Namie O´Higgins* <br> - <     > | < conclusion> |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se realizó una entrevista donde donde el entrevistado recibió información sobre el proyecto. Además, se realizaron meetings con el equipo<br><br> *Eric Fernando Cuevas* <br> Se realizó dos entrevistas al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica los resultados del informe. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizó una entrevista al segmento de trabajadores de empresa. Se desarrollo una presentación en video que explica la ejecucion del pagina web. <br><br> *Andrea Namie O´Higgins* <br> - Se realizó dos entrevistas a ciudadanos. Además, se realizaron meetings con el equipo <br><br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se realizaron meetings con el equipo <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo una presentación en video que explica los resultados del codigo.  Se realizaron meetings con el equipo. <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizaron meetings con el equipo. <br><br> *Andrea Namie O´Higgins* <br> - Se realizaron meetings con el equipo. <br><br><br> **TB2** <br> *Javier Sebastian Tasayco* <br> - Se realizaron meetings con el equipo y se entrevistó a un integrante del segmento individuo de 18 a 50 años <br><br> *Eric Fernando Cuevas* <br> Se realizaron meetings con el equipo y se entrevista a dos trabajadores de empresas de mudanzas <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizaron meetings con el equipo y se entrevista a un trabajador de una empresa de mudanzas <br><br> *Andrea Namie O´Higgins* <br> - Se realizó dos entrevistas de validación a ciudadanos. Además, se realizaron meetings con el equipo <br><br><br> **TF** <br> *Javier Sebastian Tasayco* <br> - Se realizaron ........ <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo ...... <br>  <br> *Lucero Abigail Obispo* <br>  - Se realizaron ..... <br><br> *Andrea Namie O´Higgins* <br> - ...... | < conclusion > |. 
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el analisis competitivo, el product backlog, historias de usuario, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo los procesos de Lean UX , historias de Usuario, diagramas de modelado, entre otras cosas. <br>  <br> *Lucero Abigail Obispo* <br> - Se desarrollo los procesos de Lean UX, historias de usuario, digrama de clases, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo los as-is y to-be scenario mapping, diagramas c4, historias de usuario, entre otros <br><br> **TP** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el impact mapping, product backlog, team collaboration insigths, entre otros <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo el modelo de la base de datos, execution evidence, sprint plannign, entre otras cosas. <br><br> *Lucero Abigail Obispo* <br> - Se desarrollo historias de usuario, digrama de clases, services documentation, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo diagramas c4, development evidence, testing envidence, entre otros <br><br> **TB2** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo el Sprint Backlog 3 y se corrigió los Sprint Backlogs de las entregas anteriores.  <br><br> *Eric Fernando Cuevas* <br> Se desarrollo el avance del informe en relación al desarrollo del sprint 3 para backend y frontend <br><br> *Lucero Abigail Obispo* <br> - Se desarrollo el services documentation, el team collaboration insigths, entre otros <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo las historias de usuario, development, testing y execution evidence. <br><br> **TF** <br> *Javier Sebastian Tasayco* <br> - Se desarrollo ...... <br><br> *Eric Fernando Cuevas* <br> - Se desarrollo ...... <br><br> *Lucero Abigail Obispo* <br> - Se desarrollo ...... <br><br> *Andrea Namie O´Higgins* <br> - Se desarrollo ...... | < conclusion> |
 
 
 
@@ -446,22 +459,22 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m�
 ## 2.3 Needfinding
 
 ### 2.3.1 User Personas
-**User Persona Ciudadano**
+**User Persona Ciudadano**  
 
-![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_ciudadano.png?raw=true" alt="User Persona Ciudadano" width="900px">
 
-**User Persona Empresa**
+**User Persona Empresa**  
 
-![User Persona Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserPersona_empresa.png?raw=true" alt="User Persona Empresa" width="900px">  
 
 ### 2.3.2 User Task Matrix
 **User Task Matrix Ciudadano**
 
-![User Task Matrix Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_ciudadano.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_ciudadano.png?raw=true" alt="User Task Matrix Ciudadano" width="600px">  
 
 **User Task Matrix Empresa**
 
-![User Task Matrix Ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_empresa.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/UserTaskMatrix_empresa.png?raw=true" alt="User Task Matrix Empresa" width="600px"> 
 
 ### 2.3.3 User Journey Mapping
 **User Journey Mapping Ciudadano**
@@ -475,17 +488,16 @@ Seguridad y facilidades para desmontar o montar inmuebles, creo que eso es lo m�
 ### 2.3.4 Empathy Mapping
 **Empathy Mapping Ciudadano**
 
-![Empathy Mapping ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Ciudadano.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Ciudadano.png?raw=true" alt="Empathy map ciudadano" width="900px">
 
 **Empathy Mapping Empresa**
 
-![Empathy Mapping empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Empresa.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/EmpathyMap_Empresa.png?raw=true" alt="Empathy map empresa" width="900px">
 
 ### 2.3.5 As-is Scenario Mapping
-**As Is Ciudadano**
+**As Is Ciudadano**  
 
-![as is segmento ciudadano](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Ciudadano.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Ciudadano.png?raw=true" alt="As Is Ciudadano" width="800px">
 
-**As Is Empresa**
-
-![as is segmento empresa](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true)
+**As Is Empresa**  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/As-is_Empresa.png?raw=true" alt="As Is Empresa" width="900px">

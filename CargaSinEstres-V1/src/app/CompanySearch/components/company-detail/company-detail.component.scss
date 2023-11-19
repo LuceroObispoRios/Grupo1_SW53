@@ -1,5 +1,17 @@
 /*TITLE */
 
+.container-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.return{
+    margin-left: 30px;
+    margin-top: -1px;
+    background-color: #FDAE39;
+}
+
 .title {
     color: #FDAE39;
     font-weight: bold;

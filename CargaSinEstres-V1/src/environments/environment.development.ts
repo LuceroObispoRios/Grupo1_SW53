@@ -1,6 +1,6 @@
 export const environment = {
     development: false,
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://cargasinestres.zeabur.app/api/v1',
 
     firebaseConfig: {
         apiKey: "AIzaSyA0d_Pt39uLmE3H01_5DwrkYuryIK9fjw0",

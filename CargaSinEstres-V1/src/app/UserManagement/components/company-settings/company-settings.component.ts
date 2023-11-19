@@ -121,7 +121,7 @@ export class CompanySettingsComponent {
   }
 
   cancelar(){
-    this.router.navigate(['/membership']);
+    this.router.navigate(['/company', this.id, 'membership']);
   }
 
 }
