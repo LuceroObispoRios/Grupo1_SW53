@@ -31,7 +31,7 @@ Ciclo 2023-02
  TB2 | 29/09/23 - 02/11/23  | Andrea O'Higgins| Se desarrollo los user stories y features. Se añadió para el sprint 3 el development, testing y execution evidence, y se realizó 2 entrevistas al segmento de ciudadanos. En el frontend, se arregló el chat y mensajes, y para el backend se avanzó con las reseñas.
  TB2 | 29/09/23 - 02/11/23  | Javier Sebastian| Se añadió entrevista de validación y Sprint Backlog 3. Se corrigieron los Sprint Backlog 1 y 2 según las indicaciones para la mejora continua. En el Backend, se realizó la implementación de la entidad company, incluyendo su model, controller, repository y services. De la misma forma, se colaboró con la implementación de dto y el uso del Model Mapper en las entidades existentes.
  TF  | 03/11/23 - 18/11/23  | Eric Cuevas|  <  >
- TF  | 03/11/23 - 18/11/23  | Lucero Obispo| <  >
+ TF  | 03/11/23 - 18/11/23  | Lucero Obispo| Para el sprint 4, se apoyo en el desarrollo del backend en relacion al booking history, tambien en la integracion entre el backend y frontend del programa en general y se realizo el services documentation.
  TF  | 03/11/23 - 18/11/23  | Andrea O'Higgins| <  >
  TF  | 03/11/23 - 18/11/23  | Javier Sebastian| <  >
 ---
