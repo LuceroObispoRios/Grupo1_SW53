@@ -702,7 +702,70 @@ Durante el Cuarto Sprint arreglamos detalles y revisamos la coherencia entre las
   </div>  
     
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
-  
+**Introduccion:**  
+En total se realizaron 23 endpoints. Para este tercer sprint, se han agregado 11 endpoints de ellos, los cuales han sido exitosamente logrados y documentados.  
+Los metodos PUT clients y companies con parametro de id estan relacionados a la pantalla de Settings, para actualizar la informacion para ese tipo de usuario.  
+Asmismo, los metodos POST subscriptions y subscriptions estan relacionados a la pantalla Membresia del frontend para que el usuario adquiera una membresia, y posteriormente obtener esa membresia para colocar la empresa al inicio de la busqueda.    
+Los metodos PATCH status, payment, asi como POST chats con parametro de id booking, estan relacionados a la pantalla Historial de Reservas, para editar detalles de esta y poder comunicarse a traves del chat.  
+Por ultimo, se ha implementado los metodos de registro, logeo, obtener y eliminar cuenta administrador.
+
+**Tabla:**  
+
+|     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
+|--------|----------|--------|-------|
+|  /api/v1/companies/{id}   |       PUT       | 200 OK: Actualiza la información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1')| [https://cargasinestres.zeabur.app/api/v1/companies/1](https://cargasinestres.zeabur.app/api/v1/companies/1)  |
+|  /api/v1/clients/{id}     |       PUT       | 200 OK: Actualiza la información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1') |  [https://cargasinestres.zeabur.app/api/v1/clients/1](https://cargasinestres.zeabur.app/api/v1/clients/1)   |
+|  /api/v1/subscriptions/{idCompany}   |       POST      | 200 Created: Indica que la subscripcion ha sido creado exitosamente  de la empresa correspondiente  (parametro: id, ejemplo: '1')   |  [https://cargasinestres.zeabur.app/api/v1/subscriptions/1](https://cargasinestres.zeabur.app/api/v1/subscriptions/1)   |
+|  /api/v1/subscriptions/{companyId}   |       GET       | 200 OK: Retorna la información de la subscripcion de la empresa correspondiente  (parametro: id, ejemplo: '1')      |  [https://cargasinestres.zeabur.app/api/v1/subscriptions/1](https://cargasinestres.zeabur.app/api/v1/subscriptions/1)    |
+|  /api/v1/bookingHistory/{id}/status    |       PATCH       | 200 OK: Actualiza la información del estado de una reserva en especifico (parametro: id, ejemplo: '1')      | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/status](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/status) |
+|  /api/v1/bookingHistory/{id}/payment     |       PATCH      | 200 OK: Actualiza la información del pago de una reserva en especifico  (parametro: id, ejemplo: '1')     | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/payment](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/payment)|
+|  /api/v1/bookingHistory/{id}/chat     |       POST       | 201 Created: Indica que el mensaje del chat ha sido creada exitosamente de la reserva especificada (parametro: id, ejemplo: '1')    | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/chat](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/chat) |
+|  /api/v1/auth/register     |       POST      | 201 Created: Indica que el usuario administrador ha sido creada exitosamente   | [https://cargasinestres.zeabur.app/api/v1/auth/register](https://cargasinestres.zeabur.app/api/v1/auth/register) |
+|  /api/v1/auth/login  |       POST       | 201 Created: Indica que el usuario administrador se ha logeado exitosamente  | [https://cargasinestres.zeabur.app/api/v1/auth/login](https://cargasinestres.zeabur.app/api/v1/auth/login)  |
+|  /api/v1/user/profile/{userId}    |       GET      | 200 OK: Retorna la información del usuario administrador segun id (parametro: id, ejemplo: '1') |  [https://cargasinestres.zeabur.app/api/v1/user/profile/1](https://cargasinestres.zeabur.app/api/v1/user/profile/1) |
+|  /api/v1/user/delete/{userId}   |       DELETE       | 204 No Content: Elimina el tipo de usuario administrador segun id (parametro: id, ejemplo: '1')  | [https://cargasinestres.zeabur.app/api/v1/user/delete/1](https://cargasinestres.zeabur.app/api/v1/user/delete/1)  |
+
+
+Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres ](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres)  
+Link del swagger: [https://cargasinestres.zeabur.app/swagger-ui/index.html#](https://cargasinestres.zeabur.app/swagger-ui/index.html#)
+
+**Capturas de interaccion con datos de prueba**  
+- Actualizar empresa (PUT)   
+El usuario actualiza la informacion de su empresa. Esta operación se realiza mediante una solicitud HTTP PUT. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para actualizar su empresa 
+Una vez que se haya actualizado la empresa, el servidor enviará una respuesta a la empresa que realizó la solicitud PUT. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services1_4.JPG?raw=true)   
+- Actualizar cliente (PUT)   
+El usuario actualiza la informacion de su cliente. Esta operación se realiza mediante una solicitud HTTP PUT. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para actualizar su datos de su cuenta 
+Una vez que se haya actualizado la informacion del cliente, el servidor enviará una respuesta al cliente que realizó la solicitud PUT. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services2_4.JPG?raw=true)   
+- Registrar suscripcion (POST)   
+El usuario agrega una nueva suscripcion para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para comprar una suscripcion.
+Una vez que se ha solicitado la suscripcion, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_4.JPG?raw=true)
+- Obtener suscripcion por su id empresa (GET)  
+Los usuarios desean consultar si una empresa específica cuenta con membresia en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una empresa por su ID.    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_4.JPG?raw=true)
+- Actualizar estado de reserva por id reserva (PATCH)   
+El usuario actualiza el estado de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el estado de la reserva a actualizar.
+Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_4.JPG?raw=true)  
+- Actualizar pago de reserva por id reserva (PATCH)   
+El usuario actualiza el pago de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el pago de la reserva a actualizar.
+Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_4.JPG?raw=true)  
+- Registrar mensaje de chat por id booking y user type (POST)   
+El usuario agrega una nuevo mensaje en el chat de una reserva. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para enviar su mensaje y poder comunicarse
+Una vez que se ha enviado el mensaje, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services7_4.JPG?raw=true)
+- Registrar un nuevo usuario administrador (POST)   
+El usuario registra una cuenta administrador. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para crear su cuenta.
+Una vez que se ha registrado, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_4.JPG?raw=true)
+- Logearse en una cuenta usuario administrador (POST)   
+El usuario se logea con una cuenta administrador. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para logearse en su cuenta.
+Una vez que se ha logeador, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_4.JPG?raw=true)
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.  
 La aplicación frontend desplegada se encuentra en el siguiente enlace  
 [https://cargasinestres-tb2.web.app](https://cargasinestres-tb2.web.app),  
