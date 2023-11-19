@@ -17,10 +17,9 @@ export class CargaSinEstresDataService {
   }
 
   httpOptions = {
-    //token : this.getToken(),
     headers: new HttpHeaders({
       'Content-Type': 'application/json',
-      'Authorization': `Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlQGdtYWlsLmNvbSIsImlhdCI6MTcwMDM3OTI5NywiZXhwIjoxNzA4Njk5Mjk3LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.HQ2diPNUmBJe46fqS_ez5r2_rfIHfM9smdEHJhlsRH8`
+      'Authorization': `Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlQGdtYWlsLmNvbSIsImlhdCI6MTcwMDQwMjcwOSwiZXhwIjoxNzA4NzIyNzA5LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.m9fH1arIYRxUWbpaaZwzu1w-HNDAg7-G6yYH6wQstIM`
     })
   }
 
