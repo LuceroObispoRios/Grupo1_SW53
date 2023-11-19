@@ -688,17 +688,17 @@ Durante el Cuarto Sprint arreglamos detalles y revisamos la coherencia entre las
   
   <div style="text-align:center;">  
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/loginTF-ex.JPG?raw=true" alt="login TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registroEmpresaTF-ex.JPG?raw=true" alt="registroEmpresa TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/editarClienteTF-ex.JPG?raw=true" alt="editar cliente TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/busquedaEmpresasTF-ex.JPG?raw=true" alt="busqueda Empresas TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/cargaRapidaTF-ex.JPG?raw=true" alt="carga Rapida TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/detalleEmpresaTF-ex.JPG?raw=true" alt="detalle Empresa TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/reviewsTF-ex.JPG?raw=true" alt="reviews TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/hacerReservaTF-ex.JPG?raw=true" alt="Hacer Reserva TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/historialReservasTF-ex.JPG?raw=true" alt="historial Reservas TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chatTF-ex.JPG?raw=true" alt="chat TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formularioMembresiaTF-ex.JPG?raw=true" alt="formulario membresia TF" width="600px">   
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boletaTF-ex.JPG?raw=true" alt="boleta TF" width="600px">   
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registroEmpresaTF-ex.JPG?raw=true" alt="registroEmpresa TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/editarClienteTF-ex.JPG?raw=true" alt="editar cliente TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/busquedaEmpresasTF-ex.JPG?raw=true" alt="busqueda Empresas TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/cargaRapidaTF-ex.JPG?raw=true" alt="carga Rapida TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/detalleEmpresaTF-ex.JPG?raw=true" alt="detalle Empresa TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/reviewsTF-ex.JPG?raw=true" alt="reviews TF" width="300px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/hacerReservaTF-ex.JPG?raw=true" alt="Hacer Reserva TF" width="500px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/historialReservasTF-ex.JPG?raw=true" alt="historial Reservas TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chatTF-ex.JPG?raw=true" alt="chat TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formularioMembresiaTF-ex.JPG?raw=true" alt="formulario membresia TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boletaTF-ex.JPG?raw=true" alt="boleta TF" width="600px">
   </div>  
     
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
