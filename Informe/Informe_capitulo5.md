@@ -640,7 +640,7 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 4 sera terminar el backend de la applicación, asi como conectarlo con el front-end para tener asi la versión entregable de la app final. |
 | Sprint & Velocity | Debido al alcance establecido para este sprint, el Velocity establecido para este sprint es XX. |
-| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es XX. |  
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 33. |  
   
 #### 5.2.4.2. Sprint Backlog 4.  
 
