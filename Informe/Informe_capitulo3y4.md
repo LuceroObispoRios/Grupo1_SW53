@@ -289,6 +289,30 @@
         </td>
         <td>#5</td>
     </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Cancelar reserva</td>
+        <td>Como usuario, quiero poder cancelar la reserva en curso para tener la flexibilidad de modificar mis planes según sea necesario.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza el botón de cancelar. DADO QUE, el usuario tenga una reserva con estado ‘En curso’, CUANDO el usuario se dirija a la sección de ‘Reservas’, ENTONCES, visualizará en la reserva más reciente la opción de ‘Cancelar’.</li>
+                <li><strong>Escenario 2:</strong> El usuario cancela la reserva. DADO QUE, el usuario se encuentre en la sección de ‘Reservas, CUANDO seleccione el botón ‘Cancelar’, ENTONCES, el estado de la reserva cambiará automáticamente a ‘Finalizado’.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Editar pago de la reserva</td>
+        <td>Como usuario empresa, después de coordinar los detalles de la mudanza con el cliente, quiero tener la capacidad de editar la información de pago asociada a la reserva para reflejar cambios en los costos acordados.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza la edición del pago. DADO QUE, el usuario tenga una reserva con estado ‘En curso’, Y se dirija en la sección de ‘Historial de reservas’  CUANDO seleccione el botón de editar ENTONCES, se visualizará un campo para ingresar el monto del pago y botones ‘Guardar’ y ‘Cancelar’.</li>
+                <li><strong>Escenario 2:</strong> El usuario edita el pago. DADO QUE, el usuario se encuentre editando el pago, CUANDO ingrese el monto solicitado y seleccione el botón de ‘Guardar’ ENTONCES se visualizará el cambio del pago en la reserva.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
 </table>
 
 

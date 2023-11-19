@@ -640,18 +640,47 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 4 sera terminar el backend de la applicación, asi como conectarlo con el front-end para tener asi la versión entregable de la app final. |
 | Sprint & Velocity | Debido al alcance establecido para este sprint, el Velocity establecido para este sprint es XX. |
-| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es XX. |  
+| Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 33. |  
   
 #### 5.2.4.2. Sprint Backlog 4.  
+
+|     Sprint #         |     Sprint 4         |          |          |          |          |          |          |
+|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+|     User   Story     |         |     Work –   Item/Task    |         |         |         |         |         |
+|     Id               |     Título      |     Id     |     Título      |     Descripción       |     Estimación    |     Asignado   a        |     Estado           |
+|     US01   |     Registro de Empresa de Mudanzas      |     WT01                |     Comunicar el Backend con el Frontend para registro de cuenta empresa            |     Realizar la actualización del componente "company-form" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     3            |    Erick Cuevas    |     Done    |
+|     US02   |     Registro de Cliente      |     WT02                |     Comunicar el Backend con el Frontend para registro de cuenta cliente            |     Realizar la actualización del componente "client-form" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     2            |    Erick Cuevas    |     Done    |
+|     US03   |     Iniciar Sesión en la plataforma      |     WT03                |     Comunicar el Backend con el Frontend para el inicio de sesión            |     Realizar la actualización del componente "login-form" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     3            |    Erick Cuevas    |     Done    |
+|     US04   |     Ajustes de cuenta de cliente      |     WT04                  |     Comunicar el Backend con el Frontend para edicion de cuenta cliente            |     Realizar la actualización del componente "client-settings" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.       |     2            |    Javier Sebastian    |     Done    |
+|     US05   |     Ajustes de cuenta de empresa      |     WT05                  |     Comunicar el Backend con el Frontend para edicion de cuenta empresa            |     Realizar la actualización del componente "company-settings" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.       |     3            |    Javier Sebastian    |     Done    |
+|     US08   |     Pago de membresía      |     WT06                |     Comunicar el Backend con el Frontend para subscripcion            |     Realizar la actualización del componente "payment-form" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     3            |    Javier Sebastian    |     Done    |
+|     US14   |     Visualizar perfil de empresa      |     WT07                |     Comunicar el Backend con el Frontend para perfil de empresa            |     Realizar la actualización del componente "company-detail" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     2            |    Lucero Obispo    |     Done    |
+|     US14   |     Visualizar perfil de empresa      |     WT08                |     Comunicar el Backend con el Frontend para las reseñas de una empresa            |     Realizar la actualización del componente "company-detail" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     2            |    Lucero Obispo    |     Done    |
+|     US16 & US19   |     Comunicación mediante chat con la empresa      |     WT09                |     Comunicar el Backend con el Frontend para el chat            |     Realizar la actualización del componente "chat-dialog" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     5            |    Andrea O'higgins    |     Done    |
+|     US17 & US18   |      Visualizar historial de reservas      |     WT10                |     Comunicar el Backend con el Frontend para historial de reservas           |     Realizar la actualización del componente "history-cards" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     5            |    Lucero Obispo    |     Done    |
+|     US11 & US12   |      Filtrado para búsqueda de empresas      |     WT11                |     Comunicar el Backend con el Frontend para listado de empresas           |     Realizar la actualización del componente "company-table" y los servicios en el frontend para acceder a la ruta del backend y realizar la operación.         |     3            |    Andrea O'higgins    |     Done  |
+|     US00   |           |     WT12                  |     Implementar Spring Security            |     Implementar spring security en el proyecto CargaSinEstres         |     5            |    Erick Cuevas, Lucero Obispo, Andrea O'higgins, Javier Sebastian    |     Done    |
   
 #### 5.2.4.3. Development Evidence for Sprint Review.  
-
-<div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-1.png?raw=true" alt="Development Evidence - parte 1" width="450">  
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-2.png?raw=true" alt="Development Evidence - parte 2" width="450"> 
-</div> 
   
-#### 5.2.4.4. Testing Suite Evidence for Sprint Review.  
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-1.png?raw=true" alt="Development Evidence - parte 1" width="450"><br>  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-2.png?raw=true" alt="Development Evidence - parte 2" width="450"> 
+</div>   
+  
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review. 
+
+Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.  
+
+**feature 20**   
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint4.png?raw=true" alt="Feature 20" width="600px">
+</div>  
+
+**feature 21**   
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature21-sprint4.png?raw=true" alt="Feature 21" width="600px">
+</div>
   
 #### 5.2.4.5. Execution Evidence for Sprint Review.  
   
@@ -668,6 +697,19 @@ El cual utiliza una base de datos desplegada en railway, y cuyo repositorio desd
   
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
   
+**GitFlow**  
+En el cuarto sprint, continuamos con nuestra metodología colaborativa y utilizamos ramas separadas para cada miembro del equipo.
+Esto permite que cada miembro tenga su propio espacio para trabajar de manera eficiente y registrar claramente sus contribuciones al proyecto en un ambiente colaborativo armonioso.
+Luego, cada miembro consolidó el trabajo de la rama de desarrollo en la programación front-end y back-end del proyecto, lo que permitió que el proyecto avanzara de manera incremental y sistemática.
+Mientras tanto, continuaremos haciendo ajustes e informando el progreso en la rama principal.
+Al final del sprint, integramos los cambios de la rama de desarrollo nuevamente en la rama principal y presentamos la versión final del proyecto con todas las características implementadas e informes actualizados con el estado más reciente.  
+
+*Debido a que la mayor parte colaborativa se realizó por herramientas como LiveShare y CodeWithMe, el NetWork Graph no demuestra por completo la labor colaborativa realizada*
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/networkSprint4.png?raw=true" alt="gitflow" width="600px">
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/commitsSprint4.png?raw=true" alt="gitflow" width="600px">
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitClonesSprint4.png?raw=true" alt="gitflow" width="600px">
+</div> 
   
 ## 5.3 Validation Interviews  
   
