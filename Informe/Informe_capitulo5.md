@@ -683,7 +683,20 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 </div>
   
 #### 5.2.4.5. Execution Evidence for Sprint Review.  
-  
+  <div style="text-align:center;">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/loginTF-ex.JPG?raw=true" alt="login TF" max-width="700px">
+    <img src="" alt="registroEmpresa TF" max-width="700px">   
+    <img src="" alt="editar cliente TF" max-width="700px">   
+    <img src="" alt="busqueda Empresas TF" max-width="700px">   
+    <img src="" alt="carga Rapida TF" max-width="700px">   
+    <img src="" alt="detalle Empresa TF" max-width="700px">   
+    <img src="" alt="reviews TF" max-width="700px">   
+    <img src="" alt="Hacer Reserva TF" max-width="700px">   
+    <img src="" alt="historial Reservas TF" max-width="700px">   
+    <img src="" alt="chat TF" max-width="700px">   
+    <img src="" alt="formulario membresia TF" max-width="700px">   
+    <img src="" alt="boleta TF" max-width="700px">   
+  </div> 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
   
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.  
