@@ -744,7 +744,7 @@ Una vez que se ha solicitado la suscripcion, el servidor enviará una respuesta 
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_4.png?raw=true)
 - Obtener suscripcion por su id empresa (GET)  
 Los usuarios desean consultar si una empresa específica cuenta con membresia en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una empresa por su ID.    
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_4.JPG?raw=true)
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_4.png?raw=true)
 - Actualizar estado de reserva por id reserva (PATCH)   
 El usuario actualiza el estado de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el estado de la reserva a actualizar.
 Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
@@ -752,7 +752,7 @@ Una vez que se haya actualizado, el servidor enviará una respuesta que realizó
 - Actualizar pago de reserva por id reserva (PATCH)   
 El usuario actualiza el pago de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el pago de la reserva a actualizar.
 Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_4.JPG.pngraw=true)  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_4.png.pngraw=true)  
 - Registrar mensaje de chat por id booking y user type (POST)   
 El usuario agrega una nuevo mensaje en el chat de una reserva. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para enviar su mensaje y poder comunicarse
 Una vez que se ha enviado el mensaje, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
