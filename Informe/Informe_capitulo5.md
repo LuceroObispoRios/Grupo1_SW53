@@ -704,10 +704,10 @@ Luego, cada miembro consolidó el trabajo de la rama de desarrollo en la program
 Mientras tanto, continuaremos haciendo ajustes e informando el progreso en la rama principal.
 Al final del sprint, integramos los cambios de la rama de desarrollo nuevamente en la rama principal y presentamos la versión final del proyecto con todas las características implementadas e informes actualizados con el estado más reciente.  
 
-**Network**  
-
-**Commits**  
-![commits](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/commitsSprint4.png?raw=true)  
+<div style="text-align:center;">  
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/commitsSprint4.png?raw=true" alt="gitflow" width="600px">
+  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitClonesSprint4.png?raw=true" alt="gitflow" width="600px">
+</div> 
   
 ## 5.3 Validation Interviews  
   
