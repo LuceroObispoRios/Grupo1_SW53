@@ -688,8 +688,8 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 **Introduccion:**  
 En total se realizaron 23 endpoints. Para este tercer sprint, se han agregado 11 endpoints de ellos, los cuales han sido exitosamente logrados y documentados.  
 Los metodos PUT clients y companies con parametro de id estan relacionados a la pantalla de Settings, para actualizar la informacion para ese tipo de usuario.  
-Asmismo, los metodos POST companies y clientes estan relacionados a las pantallas de Register Client y Register Company para registrar la informacion tanto del cliente como de la empresa.  
-Los metodos GET all companies y GET companies con parametro de id, estan relacionados a la pantalla de Busqueda de Empresas, donde el usuario puede ver la lista completa de empresa, y cuando le da click a una fila puede acceder a la informacion de una empresa en especifica.  
+Asmismo, los metodos POST subscriptions y subscriptions estan relacionados a la pantalla Membresia del frontend para que el usuario adquiera una membresia, y posteriormente obtener esa membresia para colocar la empresa al inicio de la busqueda.    
+Los metodos PATCH status, payment, asi como POST chats con parametro de id booking, estan relacionados a la pantalla Historial de Reservas, para editar detalles de esta y poder comunicarse a traves del chat.  
 Los metodos GET all reviews y GET reviews con parametro de id, estan relacionados a la pantalla de Informacion de Empresa porque aqui se visualizaran las reseñas que recibe una empresa en especifica, mientras que en la pantalla Historial de Reservas se podrá crear una reseña, una vez la reserva tenga como estado finalizado.
 Por ultimo, los metodos POST bookingHistory, GET booking History con parametro id cliente o empresa, permiten al usuario crear una reserva como visualizar el historia de reservas de una empresa o cliente en especifico.
 
@@ -700,9 +700,9 @@ Por ultimo, los metodos POST bookingHistory, GET booking History con parametro i
 |  /api/v1/companies/{id}        |       PUT       | 200 OK: Actualiza la información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1')| [https://cargasinestres.zeabur.app/api/v1/companies/1](https://cargasinestres.zeabur.app/api/v1/companies/1)  |
 |  /api/v1/clients/{id}          |       PUT       | 200 OK: Actualiza la información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1') |  [https://cargasinestres.zeabur.app/api/v1/clients/1](https://cargasinestres.zeabur.app/api/v1/clients/1)   |
 |  /api/v1/subscriptions/{idCompany}   |       POST      | 200 Created: Indica que la subscripcion ha sido creado exitosamente                                              |     |
-|  /api/v1/subscriptions/{companyId}   |       GET       | 200 OK: Retorna la información de la subscripcion de la empresa correspondiente  (parametro: id, ejemplo: '1')         |   |
-|  /companies/login              |       GET       | 200 OK: Retorna la información de la empresa si el email y contrasena son válidas                           |  |
-|  /clients                      |       POST      | 201 Created: Indica que el cliente ha sido creado exitosamente                                              | |
+|  /api/v1/subscriptions/{companyId}   |       GET       | 200 OK: Retorna la información de la subscripcion de la empresa correspondiente  (parametro: id, ejemplo: '1')      |   |
+|  /api/v1/bookingHistory/{id}/status    |       PATCH       | 200 OK: Actualiza la información del estado de una reserva en especifico (parametro: id, ejemplo: '1')      |  |
+|  /api/v1/bookingHistory/{id}/payment     |       PATCH      | 200 OK: Actualiza la información del pago de una reserva en especifico  (parametro: id, ejemplo: '1')     | |
 |  /clients/{id}                 |       PUT       | 200 OK: Retorna información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1')    ||
 |  /reviews                      |       POST      | 201 Created: Indica que la reseña ha sido creada exitosamente                                               |  |
 |  /reviews/company/{companyId}  |       GET       | 200 OK: Retorna información de la reseña correspondiente al copmanyID (parametro: companyId, ejemplo: '1')  |   |
