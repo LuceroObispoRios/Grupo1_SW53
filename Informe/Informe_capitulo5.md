@@ -639,7 +639,7 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 | Sprint 3 Retrospective Summary | Se trabajo de manera ordenada, en la opinión del equipo creemos que pudimos haber avanzado más rapido el desarrollo del backend y front-end.  |
 | | **Sprint Goal & User Stories** |
 | Sprint & Goal | El objetivo del Sprint 4 sera terminar el backend de la applicación, asi como conectarlo con el front-end para tener asi la versión entregable de la app final. |
-| Sprint & Velocity | Debido al alcance establecido para este sprint, el Velocity establecido para este sprint es XX. |
+| Sprint & Velocity | Debido al alcance establecido para este sprint, el Velocity establecido para este sprint es 34. |
 | Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es 33. |  
   
 #### 5.2.4.2. Sprint Backlog 4.  
@@ -684,6 +684,23 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
   
 #### 5.2.4.5. Execution Evidence for Sprint Review.  
   
+Durante el Cuarto Sprint arreglamos detalles y revisamos la coherencia entre las funcionalidades del front-end y back-end, logrando conectar ambos depliegues.
+  
+  <div style="text-align:center;">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/loginTF-ex.JPG?raw=true" alt="login TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registroEmpresaTF-ex.JPG?raw=true" alt="registroEmpresa TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/editarClienteTF-ex.JPG?raw=true" alt="editar cliente TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/busquedaEmpresasTF-ex.JPG?raw=true" alt="busqueda Empresas TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/cargaRapidaTF-ex.JPG?raw=true" alt="carga Rapida TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/detalleEmpresaTF-ex.JPG?raw=true" alt="detalle Empresa TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/reviewsTF-ex.JPG?raw=true" alt="reviews TF" width="300px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/hacerReservaTF-ex.JPG?raw=true" alt="Hacer Reserva TF" width="500px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/historialReservasTF-ex.JPG?raw=true" alt="historial Reservas TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chatTF-ex.JPG?raw=true" alt="chat TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formularioMembresiaTF-ex.JPG?raw=true" alt="formulario membresia TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boletaTF-ex.JPG?raw=true" alt="boleta TF" width="600px">
+  </div>  
+    
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
 **Introduccion:**  
 En total se realizaron 23 endpoints. Para este tercer sprint, se han agregado 11 endpoints de ellos, los cuales han sido exitosamente logrados y documentados.  
