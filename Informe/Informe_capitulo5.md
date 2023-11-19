@@ -733,38 +733,38 @@ Link del swagger: [https://cargasinestres.zeabur.app/swagger-ui/index.html#](htt
 - Actualizar empresa (PUT)   
 El usuario actualiza la informacion de su empresa. Esta operación se realiza mediante una solicitud HTTP PUT. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para actualizar su empresa 
 Una vez que se haya actualizado la empresa, el servidor enviará una respuesta a la empresa que realizó la solicitud PUT. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services1_4.JPG?raw=true)   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services1_4.png?raw=true)   
 - Actualizar cliente (PUT)   
 El usuario actualiza la informacion de su cliente. Esta operación se realiza mediante una solicitud HTTP PUT. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para actualizar su datos de su cuenta 
 Una vez que se haya actualizado la informacion del cliente, el servidor enviará una respuesta al cliente que realizó la solicitud PUT. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services2_4.JPG?raw=true)   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services2_4.png?raw=true)   
 - Registrar suscripcion (POST)   
 El usuario agrega una nueva suscripcion para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para comprar una suscripcion.
 Una vez que se ha solicitado la suscripcion, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_4.JPG?raw=true)
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_4.png?raw=true)
 - Obtener suscripcion por su id empresa (GET)  
 Los usuarios desean consultar si una empresa específica cuenta con membresia en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una empresa por su ID.    
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_4.JPG?raw=true)
 - Actualizar estado de reserva por id reserva (PATCH)   
 El usuario actualiza el estado de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el estado de la reserva a actualizar.
 Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_4.JPG?raw=true)  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_4.png?raw=true)  
 - Actualizar pago de reserva por id reserva (PATCH)   
 El usuario actualiza el pago de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el pago de la reserva a actualizar.
 Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_4.JPG?raw=true)  
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_4.JPG.pngraw=true)  
 - Registrar mensaje de chat por id booking y user type (POST)   
 El usuario agrega una nuevo mensaje en el chat de una reserva. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para enviar su mensaje y poder comunicarse
 Una vez que se ha enviado el mensaje, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services7_4.JPG?raw=true)
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services7_4.png?raw=true)
 - Registrar un nuevo usuario administrador (POST)   
 El usuario registra una cuenta administrador. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para crear su cuenta.
 Una vez que se ha registrado, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_4.JPG?raw=true)
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_4.png?raw=true)
 - Logearse en una cuenta usuario administrador (POST)   
 El usuario se logea con una cuenta administrador. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para logearse en su cuenta.
 Una vez que se ha logeador, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_4.JPG?raw=true)
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_4.png?raw=true)
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.  
 La aplicación frontend desplegada se encuentra en el siguiente enlace  
