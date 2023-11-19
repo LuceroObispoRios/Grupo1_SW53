@@ -185,29 +185,16 @@ export class CargaRapidaDialog {
 
   companies: any[] = [];
 
-  reservation: BookingHistory = {
-    id: undefined,
-    idCompany: '',
-    idClient: undefined,
-    bookingDate: undefined,
+  reservation: any = {
     pickupAddress: undefined,
     destinationAddress: undefined,
     movingDate: undefined,
     movingTime: undefined,
-    status: 'En curso',
     services: undefined,
-    hiredCompany: {
-      name: '',
-      logo: ''
-    },
-    payment: {
-      totalAmount: 0,
-      paymentMethod: 'Por definir'
-    },
-    chat: {id: undefined, user: undefined, message: undefined, dateTime: undefined}
   };
 
   userId: number = 0;
+
   constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService, public router:Router, @Inject(MAT_DIALOG_DATA) public data: any) {
     
     this.userId = this.data.userId;
@@ -235,22 +222,17 @@ export class CargaRapidaDialog {
 
     let randCompanyIndex = Math.floor(Math.random() * this.companies.length); //index al azar
     let randCompany = this.companies[randCompanyIndex]; //company al azar
-    //generar reserva a partir de randCompany
-    this.reservation.idCompany = randCompany.id;
-    this.reservation.idClient = this.userId;
-    this.reservation.hiredCompany.name = randCompany.name;
-    this.reservation.hiredCompany.logo = randCompany.photo;
     console.log('name:', randCompany.name);
+    
     this.reservation.pickupAddress = "Locación actual";
     this.reservation.destinationAddress = "Por Definir";
-    this.reservation.status = "En curso";
-    this.reservation.payment.totalAmount = 0;
-    this.reservation.payment.paymentMethod = "Por definir";
     this.reservation.bookingDate = now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate();
     this.reservation.movingDate = now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate();
     this.reservation.movingTime = now.getHours() + ":" + now.getMinutes();
+    this.reservation.services = "Carga";
+    console.log('reservation:', this.reservation);
     //se genera la reserva con company random y fecha actual
-    this.companyDataService.createReservation(this.reservation).subscribe(
+    this.companyDataService.createReservation(this.userId, randCompany.id ,this.reservation).subscribe(
       (res: any) => 
       {
         console.log("Reservation created:");
@@ -262,7 +244,7 @@ export class CargaRapidaDialog {
       }
     );
 
-    this.router.navigateByUrl(`client/${this.userId}/history-cards`);
+    //this.router.navigateByUrl(`client/${this.userId}/history-cards`);
     this.closeDialog();
   }
 

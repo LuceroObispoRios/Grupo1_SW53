@@ -16,6 +16,10 @@ export class CompanyDetailComponent implements OnInit {
     reservationForm!: NgForm;
 
     company: any = '';
+    client: any = '';
+
+    companyId: any = '';
+    clientId: any = '';
 
     reviews: any = [];
     averageRating: any = null;
@@ -26,42 +30,32 @@ export class CompanyDetailComponent implements OnInit {
     CVV: string = '';
     fechaVencimiento: string = '';
 
-    reservation: BookingHistory = {
-      id: undefined,
-      idCompany: '',
-      idClient: '',
-      bookingDate: undefined,
+    reservation: any = {
+      //company: undefined,
+      //client: undefined, 
       pickupAddress: undefined,
       destinationAddress: undefined,
       movingDate: undefined,
       movingTime: undefined,
-      status: 'En curso',
       services: undefined,
-      hiredCompany: {
-        name: '',
-        logo: ''
-      },
-      payment: {
-        totalAmount: 0,
-        paymentMethod: 'Por definir'
-      },
-      chat:{id:undefined,user: undefined, message: undefined, dateTime: undefined}
     };
 
     userId: string = '';
-    constructor(private companyDataService: CargaSinEstresDataService, private activatedRoute: ActivatedRoute, private router: Router, private snackBar: MatSnackBar) { 
+    constructor(private api: CargaSinEstresDataService, private activatedRoute: ActivatedRoute, private router: Router, private snackBar: MatSnackBar) { 
       this.activatedRoute.params.subscribe(
         params => {
+          this.companyId = params['id'];
           this.getCompany(params['id']);
-          this.reservation.idCompany = params['id'];
+          console.log('Company id: ', params['id']);
         }
       );
 
         // Obtiene el id del usuario
       this.activatedRoute.pathFromRoot[1].url.subscribe(
         url => {
-          console.log('url: ', url);
+          //console.log('url: ', url);
           this.userId = url[1].path;
+          this.clientId = parseInt(this.userId);
           console.log('User id:' + this.userId);
         }
       ); 
@@ -69,6 +63,7 @@ export class CompanyDetailComponent implements OnInit {
   
     ngOnInit(): void {
       this.fetchReviews();
+      console.log('Reviews en HTML', this.reviews);
     }
 
     openSnackBar(message: string) {
@@ -81,11 +76,24 @@ export class CompanyDetailComponent implements OnInit {
     }
   
     getCompany(id: any) {
-      this.companyDataService.getCompanyById(id).subscribe(
+      this.api.getCompanyById(id).subscribe(
         (res: any) => 
         {
-          console.log("Company detail:", (res[id-1]));
-          this.company = res[id-1];
+          console.log("Company detail:", (res));
+          this.company = res;
+        },
+        err => {
+          console.log("Error:", err);
+        }
+      );
+    }
+
+    getClient(id: any){
+      this.api.getClientById(id).subscribe(
+        (res: any) => 
+        {
+          console.log("Client detail:", (res));
+          this.client = res;
         },
         err => {
           console.log("Error:", err);
@@ -95,15 +103,10 @@ export class CompanyDetailComponent implements OnInit {
 
 
     addReservation() {
-      this.reservation.idCompany = this.company.id;
-      this.reservation.hiredCompany.name = this.company.name;
       console.log('name:', this.company.name);
-      this.reservation.hiredCompany.logo = this.company.photo;
-      this.reservation.status="En curso";
-      this.reservation.payment.totalAmount=0;
-      this.reservation.payment.paymentMethod="Por definir";
-      this.reservation.idClient = this.userId;
-      this.companyDataService.createReservation(this.reservation).subscribe(
+      //this.reservation.status="En curso";
+      //this.reservation.payment=0;
+      this.api.createReservation(this.clientId, this.companyId,this.reservation).subscribe(
         (res: any) => 
         {
           console.log("Reservation created:", res);
@@ -123,10 +126,11 @@ export class CompanyDetailComponent implements OnInit {
     }
 
     fetchReviews() {
-      this.companyDataService.getReviewsByCompanyId(this.reservation.idCompany).subscribe((res: any) => 
+      this.api.getReviewsByCompanyId(this.companyId).subscribe((res: any) => 
         {
-          console.log("Reviews:", res);
+          
           this.reviews = res;
+          console.log("Reviews:", this.reviews);
           this.averageRating = this.reviews.reduce((acc: any, review: any) => acc + review.rating, 0) / this.reviews.length;
           this.averageRating = Math.round(this.averageRating);
         },
@@ -137,8 +141,14 @@ export class CompanyDetailComponent implements OnInit {
     }
 
     getStars(rating: number): number[] {
+      if(!rating ){
+        return Array(0).fill(0);
+      }
+      else{
       rating = Math.round(rating);
+      console.log(rating);
       return Array(rating).fill(0);
+      }
     }
 
     ReturnToCompanyTable(){
