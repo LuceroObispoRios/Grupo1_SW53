@@ -4,11 +4,5 @@ export interface Subscription {
     idCompany: any;
     subscriptionDate: any;
     subscriptionType: any;
-    payment: {
-      paymentMethod: any;
-    };
-    hiredCompany: {
-      name: any;
-      logo: any;
-    };
+    paymentMethod: any;
   }
