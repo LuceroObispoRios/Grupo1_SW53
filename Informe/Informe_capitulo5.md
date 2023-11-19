@@ -643,6 +643,17 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 | Sum of Story Point | La suma de Story points que el equipo estara desarrollando este sprint es XX. |  
   
 #### 5.2.4.2. Sprint Backlog 4.  
+
+|     Sprint #         |     Sprint 4         |          |          |          |          |          |          |
+|----------------------|-----------------------------|---------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------|-------------------|-------------------------|----------------------|
+|     User   Story     |                             |     Work –   Item/Task    |                                                        |                                                                                             |                   |                         |                      |
+|     Id               |     Título                  |     Id                    |     Título                                             |     Descripción                                                                             |     Estimación    |     Asignado   a        |     Estado           |
+|     US00   |     < >      |     WT01                  |     <  >            |     < >         |     < >            |    < >    |     Done    |
+|     US00   |     < >      |     WT02                  |     <  >            |     < >         |     < >            |    < >    |     Done    |
+|     US00   |     < >      |     WT03                  |     <  >            |     < >         |     < >            |    < >    |     Done    |
+|     US00   |     < >      |     WT04                  |     <  >            |     < >         |     < >            |    < >    |     Done    |
+|     US00   |     < >      |     WT05                  |     <  >            |     < >         |     < >            |    < >    |     Done    |
+|     US00   |     < >      |     WT06                  |     <  >            |     < >         |     < >            |    < >    |     Done    |
   
 #### 5.2.4.3. Development Evidence for Sprint Review.  
 
