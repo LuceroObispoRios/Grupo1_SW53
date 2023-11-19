@@ -289,6 +289,18 @@
         </td>
         <td>#5</td>
     </tr>
+    <tr>
+        <td>Reserva de servicios</td>
+        <td>Cancelar reserva</td>
+        <td>Como usuario, quiero poder cancelar la reserva en curso para tener la flexibilidad de modificar mis planes según sea necesario.</td>
+        <td>
+            <ul>
+                <li><strong>Escenario 1:</strong> El usuario visualiza el botón de cancelar. DADO QUE, el usuario tenga una reserva con estado ‘En curso’, CUANDO el usuario se dirija a la sección de ‘Reservas’, ENTONCES, visualizará en la reserva más reciente la opción de ‘Cancelar’.</li>
+                <li><strong>Escenario 2:</strong> El usuario cancela la reserva. DADO QUE, el usuario se encuentre en la sección de ‘Reservas, CUANDO seleccione el botón ‘Cancelar’, ENTONCES, el estado de la reserva cambiará automáticamente a ‘Finalizado’.</li>
+            </ul>
+        </td>
+        <td>#4</td>
+    </tr>
 </table>
 
 
