@@ -658,11 +658,13 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 #### 5.2.4.3. Development Evidence for Sprint Review.  
   
 <div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-1.png?raw=true" alt="Development Evidence - parte 1" width="450">   
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-1.png?raw=true" alt="Development Evidence - parte 1" width="450"><br>  
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-2.png?raw=true" alt="Development Evidence - parte 2" width="450"> 
 </div>   
   
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review. 
+
+Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.  
 
 **feature 20**   
 <div style="text-align:center;">
