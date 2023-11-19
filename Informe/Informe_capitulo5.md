@@ -704,7 +704,7 @@ Durante el Cuarto Sprint arreglamos detalles y revisamos la coherencia entre las
     
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
 **Introduccion:**  
-En total se realizaron 23 endpoints. Para este tercer sprint, se han agregado 11 endpoints de ellos, los cuales han sido exitosamente logrados y documentados.  
+En total se realizaron 23 endpoints. Para este cuarto sprint, se han agregado 11 endpoints de ellos, los cuales han sido exitosamente logrados y documentados.  
 Los metodos PUT clients y companies con parametro de id estan relacionados a la pantalla de Settings, para actualizar la informacion para ese tipo de usuario.  
 Asmismo, los metodos POST subscriptions y subscriptions estan relacionados a la pantalla Membresia del frontend para que el usuario adquiera una membresia, y posteriormente obtener esa membresia para colocar la empresa al inicio de la busqueda.    
 Los metodos PATCH status, payment, asi como POST chats con parametro de id booking, estan relacionados a la pantalla Historial de Reservas, para editar detalles de esta y poder comunicarse a traves del chat.  
