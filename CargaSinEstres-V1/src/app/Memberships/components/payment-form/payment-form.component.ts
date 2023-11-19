@@ -26,7 +26,6 @@ export class PaymentFormComponent {
   CVV: string = '';
   fechaVencimiento: string = '';
 
-  //para mostrar el mensaje de confirmacion
   confirmacionVisible: boolean = false;
   //para desactivar el boton de confirmacion (no hacer spam de subscripciones)
   botonDesactivado: boolean = false;
@@ -101,7 +100,7 @@ export class PaymentFormComponent {
 
   validarDatos(): boolean {
 
-    if (!this.correo || !this.contrasenia || !this.ruc || !this.direccion || !this.vigenciaSuscripcion) {
+    if (!this.nombre || !this.apellidos || !this.ruc || !this.direccion || !this.vigenciaSuscripcion || !this.numeroTarjeta || !this.CVV || !this.fechaVencimiento) {
       return false;
     }
 

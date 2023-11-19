@@ -289,6 +289,7 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 |     HU017 & HU018      |    Visualizar historial de reservas     |     WT14                  |     Listar todas las reservas realizadas por un usuario cliente            |     Hacer uso de HTML y JavaScript para listar todas las reservas realizadas por un usuario cliente en cards.                 |     2h            |     Eric Cuevas         |     In Process    |
 |     HU016 & HU019   |     Acordar un precio por servicio reservado & Comunicación mediante chat con la empresa      |     WT15                  |     Implementar un chat entre cliente y miembro de la empresa                 |     Hacer uso de HTML, CSS y JavaScript para implementar la comunicación del servicio mediante chat         |     4h            |     Lucero Obispo       |     In Process    |
 
+
 #### 5.2.2.3. Development Evidence for Sprint Review.
 
 Para este Sprint se desarrolló el Frontend de la plataforma.

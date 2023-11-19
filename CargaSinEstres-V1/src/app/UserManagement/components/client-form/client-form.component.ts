@@ -61,7 +61,7 @@ export class ClientFormComponent {
         direccion: formData.direccion,
         email: formData.email,
         password: formData.password,
-        userType: 'client',
+        userType: 'client'
       }
       console.log(clientData);
       this.api.createClient(clientData).subscribe((clientResponse: any) => {

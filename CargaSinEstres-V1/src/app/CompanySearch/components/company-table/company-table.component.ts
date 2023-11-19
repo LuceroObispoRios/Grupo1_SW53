@@ -14,6 +14,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 import { forkJoin } from 'rxjs';
 
+
 @Component({
   selector: 'app-company-table',
   templateUrl: './company-table.component.html',
@@ -166,13 +167,12 @@ export class CompanyTableComponent{
         userId: parseInt(this.userId),
       }
     });
+
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
   }
-
 }
-
 
 @Component({
   selector: 'cargaRapida-dialog',
@@ -185,10 +185,12 @@ export class CargaRapidaDialog {
 
   companies: any[] = [];
 
+
   reservation: BookingHistory = {
     id: undefined,
     idCompany: '',
     idClient: undefined,
+
     bookingDate: undefined,
     pickupAddress: undefined,
     destinationAddress: undefined,
@@ -215,6 +217,7 @@ export class CargaRapidaDialog {
     console.log('data is: ', this.userId.valueOf());
   }
 
+
   closeDialog(): void {
     this.dialogRef.close();
   }
@@ -238,6 +241,7 @@ export class CargaRapidaDialog {
     //generar reserva a partir de randCompany
     this.reservation.idCompany = randCompany.id;
     this.reservation.idClient = this.userId;
+
     this.reservation.hiredCompany.name = randCompany.name;
     this.reservation.hiredCompany.logo = randCompany.photo;
     console.log('name:', randCompany.name);
