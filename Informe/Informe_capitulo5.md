@@ -293,38 +293,39 @@ A continuación, se presentan screenshots que reflejan el trabajo realizado dura
 
 Para este Sprint se desarrolló el Frontend de la plataforma.
 
-![Development Evidence](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint2-os.png?raw=true) 
+![Development Evidence](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint2-os.png?raw=true)  
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review.
 
 Acceptance Tests actualizados de los User Stories, archivos .feature utilizando el lenguaje Gherkin.
   
 <div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true" alt="Feature 1" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true" alt="Feature 2" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true" alt="Feature 3" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true" alt="Feature 4" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true" alt="Feature 5" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true" alt="Feature 6" width="600px">  
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true" alt="Feature 7" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true" alt="Feature 8" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true" alt="Feature 9" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true" alt="Feature 10" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true" alt="Feature 11" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true" alt="Feature 12" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true" alt="Feature 13" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true" alt="Feature 14" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true" alt="Feature 15" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true" alt="Feature 16" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true" alt="Feature 17" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true" alt="Feature 18" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true" alt="Feature 19" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint2.png?raw=true" alt="Feature 1" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint2.png?raw=true" alt="Feature 2" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint2.png?raw=true" alt="Feature 3" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint2.png?raw=true" alt="Feature 4" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint2.png?raw=true" alt="Feature 5" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint2.png?raw=true" alt="Feature 6" width="600px">    
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint2.png?raw=true" alt="Feature 7" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint2.png?raw=true" alt="Feature 8" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint2.png?raw=true" alt="Feature 9" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint2.png?raw=true" alt="Feature 10" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint2.png?raw=true" alt="Feature 11" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint2.png?raw=true" alt="Feature 12" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature13-sprint2.png?raw=true" alt="Feature 13" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature14-sprint2.png?raw=true" alt="Feature 14" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature15-sprint2.png?raw=true" alt="Feature 15" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature16-sprint2.png?raw=true" alt="Feature 16" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature17-sprint2.png?raw=true" alt="Feature 17" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature18-sprint2.png?raw=true" alt="Feature 18" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature19-sprint2.png?raw=true" alt="Feature 19" width="600px">  
 </div>
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
 ***Segundo Sprint***  
-Durante este sprint, nos enfocamos en terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.   
+Durante este sprint, nos enfocamos en terminar con la sección de manejo de usuario, lo cual engloba el registro y ajuste de datos de ambos tipos de usuario, asi como el inicio de sesión de la app, y tambien con la busqueda de empresas, vista principal del cliente. A su vez se avanzaran la vista de membresias para empresas, del historial de reservas del cliente, asi como los servicios y componentes del dominio Public.  
+ 
 ![Login-sprint2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-login.JPG?raw=true)  
 ![Registrar-cliente](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-registrarCliente.JPG?raw=true)   
 ![registrar-empresa1](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/SP2-RegistrarEmpresa1.JPG?raw=true)  
