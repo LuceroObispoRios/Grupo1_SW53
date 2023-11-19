@@ -15,7 +15,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 export class ChatDialogComponent {
 
   chatData!: Chat;
-  messages!: Chat[];
+  messages!: any[];
   historyDialog!: HistoryCardsComponent;
   elementData!: any[];
   history!: any[];
@@ -27,7 +27,7 @@ export class ChatDialogComponent {
 
   constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute
               , @Inject(MAT_DIALOG_DATA) public data: any){
-    this.chatData = {} as Chat;
+    this.chatData = {} as any;
     this.messages = [];
     this.elementData = [];
     this.history = [];
@@ -35,9 +35,8 @@ export class ChatDialogComponent {
   }
 
   ngOnInit(): void {
-    console.log('data is: ');
-    console.log(this.data);
-    this.messages = this.data.element.chat;
+    console.log('data que se recibe: ', this.data);
+    this.messages = this.data.element.chats;
     this.userType = this.data.userType;
     this.userId = this.data.userId;
   }
@@ -45,22 +44,22 @@ export class ChatDialogComponent {
   //add
   sendMessage(){
     this.chatData.user = this.userType;
-    this.chatData.id;
-    this.chatData.dateTime = new Date().toLocaleDateString();
-    console.log('this chatData: ', this.chatData);
-    this.messages.push(this.chatData);
-    this.data.element.chat = this.messages;
 
-    this.companyDataService.updateBookingHistoryMessage(this.data.element.id, this.data.element).subscribe((response: any) => {
-      console.log('response: ', response);
-      this.data.element.map((o: any) => {
-        if (o.id === response.id) {
-          o = response;
-        }
-        return o;
-      })
-    });
-    this.messages = this.data.element.chat;
+    this.chatData.dateTime = new Date().toLocaleDateString();
+    console.log('chatData a actualizar: ', this.chatData);
+    
+    const newMensaje = {
+      message : this.chatData.message
+    }
+    console.log("new mensaje: ", newMensaje);
+    this.companyDataService.updateBookingHistoryMessage(this.data.element.id, this.userType,newMensaje).subscribe((response: any) => {
+
+      //se actualiza el arreglo de mensajes
+      this.messages.push(response);
+    }, (error: any) => {
+      console.log('Error al enviar mensaje: ', error);
+    }
+    );
     this.chatForm.reset();
   }
 
