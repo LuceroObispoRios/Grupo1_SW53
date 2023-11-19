@@ -713,57 +713,33 @@ Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo
 Link del swagger: [https://cargasinestres.zeabur.app/swagger-ui/index.html#](https://cargasinestres.zeabur.app/swagger-ui/index.html#)
 
 **Capturas de interaccion con datos de prueba**  
-- Registrar empresa (POST)   
-El usuario agrega una nueva empresa a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para registrar su empresa Transporte y Mudanzas Rapi2
-Una vez que se haya registrado la empresa, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services1_3.JPG?raw=true)   
-- Registrar cliente (POST)   
-El usuario agrega un nuevo cliente a la base de datos para registrarse. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario Lucero ha colocado todos datos necesarios para registrar su cuenta personal
-Una vez que se haya registrado el cliente, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).    
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services2_3.JPG?raw=true)   
-- Registrar reserva (POST)   
-El usuario agrega una nueva reserva para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para solicitar una reserva.
-Una vez que se solicitado la reserva, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_3.JPG?raw=true)    
-- Registrar reseña (POST)   
-El usuario agrega una nueva reseña a la base de datos para calificar el servicio brindado por una empresa. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para publicar su reseña.
-Una vez que se haya creado la reseña, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_3.JPG?raw=true)   
-- Obtener lista de todas las empresas (GET)   
-Los usuarios desean consultar una lista de todas las empresas registradas en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET. A continuación, se presenta un ejemplo en el que un cliente solicita la lista de todas las empresas disponibles.  
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_3.JPG?raw=true)  
-- Obtener empresa por su id (GET)  
-Los usuarios desean consultar la información de una empresa específica en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que un cliente solicita la información de una empresa por su ID.    
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_3.JPG?raw=true)   
-- Obtener cliente por su id (GET)
-Los usuarios desean consultar su información personal, por eso se brinda el id del cliente. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de un cliente por su ID.  
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services7_3.JPG?raw=true)  
-- Obtener cliente por email y contraseña (GET)
-Esta funcionalidad permite la consulta de información de un cliente utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo cliente. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles del cliente correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información del cliente por correo electrónico y contraseña.  
-<div style="text-align:center;">  
-  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services8_3.JPG?raw=true" alt="services" width="600px">   
-</div>  
-- Obtener reseñas por el id de la empresa (GET)   
-Esta funcionalidad permite obtener reseñas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de una reseña en función del identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una reseña por el ID de la empresa.   
+- Actualizar empresa (PUT)   
+El usuario actualiza la informacion de su empresa. Esta operación se realiza mediante una solicitud HTTP PUT. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para actualizar su empresa 
+Una vez que se haya actualizado la empresa, el servidor enviará una respuesta a la empresa que realizó la solicitud PUT. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services1_4.JPG?raw=true)   
+- Actualizar cliente (PUT)   
+El usuario actualiza la informacion de su cliente. Esta operación se realiza mediante una solicitud HTTP PUT. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para actualizar su datos de su cuenta 
+Una vez que se haya actualizado la informacion del cliente, el servidor enviará una respuesta al cliente que realizó la solicitud PUT. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services2_4.JPG?raw=true)   
+- Registrar suscripcion (POST)   
+El usuario agrega una nueva suscripcion para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para comprar una suscripcion.
+Una vez que se solicitado la suscripcion, el servidor enviará una respuesta a la empresa que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_4.JPG?raw=true)
+- Obtener suscripcion por su id empresa (GET)  
+Los usuarios desean consultar si una empresa específica cuenta con membresia en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET utilizando el identificador único (ID) de la empresa. A continuación, se presenta un ejemplo en el que se solicita la información de una empresa por su ID.    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_4.JPG?raw=true)
+- Actualizar estado de reserva por id reserva (PATCH)   
+El usuario actualiza el estado de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el estado de la reserva a actualizar.
+Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_4.JPG?raw=true)  
+- Actualizar pago de reserva por id reserva (PATCH)   
+El usuario actualiza el pago de la reserva. Esta operación se realiza mediante una solicitud HTTP PATCH. En este ejemplo vemos que el usuario ha colocodo el pago de la reserva a actualizar.
+Una vez que se haya actualizado, el servidor enviará una respuesta que realizó la solicitud PATCH. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 200 - Ok) o si hubo algún error (por ejemplo, código 400 - Error de solicitud). 
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services6_4.JPG?raw=true)  
   
-<div style="text-align:center;">  
-  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services9_3.JPG?raw=true" alt="services" width="500px">   
-</div>   
-  
-- Obtener reserva por id cliente (GET)   
-Esta funcionalidad permite obtener reservas específicas asociada a un cliente. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID del cliente.    
-  
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services10_3.JPG?raw=true)     
-  
-- Obtener reserva por id empresa (GET)   
-Esta funcionalidad permite obtener reservas específicas asociada a una empresa. Se realiza una solicitud HTTP GET para recuperar los detalles de la reserva en función del identificador único (ID) del cliente. A continuación, se presenta un ejemplo en el que se solicita la información de una reserva por el ID de la empresa.
-  
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services11_3.JPG?raw=true)   
-  
-- Obtener empresa por email y contraseña (GET)  
-Esta funcionalidad permite la consulta de información de una empresa utilizando su dirección de correo electrónico y contraseña. Esta funcionalidad ayuda a poder logearse en la aplicacion como usuario tipo empresa. Se realiza una solicitud HTTP GET para verificar la identidad y obtener detalles de la empresa correspondiente al correo electrónico y contraseña proporcionados. A continuación, se presenta un ejemplo en el que se solicita la información de la empresa por correo electrónico y contraseña.   
 
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services12_3.JPG?raw=true)   
+
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.  
 La aplicación frontend desplegada se encuentra en el siguiente enlace  
 [https://cargasinestres-tb2.web.app](https://cargasinestres-tb2.web.app),  
