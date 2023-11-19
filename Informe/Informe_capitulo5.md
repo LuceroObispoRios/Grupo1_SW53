@@ -696,21 +696,21 @@ Por ultimo, se ha implementado los metodos de registro, logeo, obtener y elimina
 
 |     **Endpoint**    | **Metodo HTTP** |           **Acciones (Explicacion del response)**                                                           | **Enlace** | 
 |--------|----------|--------|-------|
-|  /api/v1/companies/{id}        |       PUT       | 200 OK: Actualiza la información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1')| [https://cargasinestres.zeabur.app/api/v1/companies/1](https://cargasinestres.zeabur.app/api/v1/companies/1)  |
-|  /api/v1/clients/{id}          |       PUT       | 200 OK: Actualiza la información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1') |  [https://cargasinestres.zeabur.app/api/v1/clients/1](https://cargasinestres.zeabur.app/api/v1/clients/1)   |
-|  /api/v1/subscriptions/{idCompany}   |       POST      | 200 Created: Indica que la subscripcion ha sido creado exitosamente                                              |  [https://cargasinestres.zeabur.app/api/v1/subscriptions/1](https://cargasinestres.zeabur.app/api/v1/subscriptions/1)   |
+|  /api/v1/companies/{id}   |       PUT       | 200 OK: Actualiza la información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1')| [https://cargasinestres.zeabur.app/api/v1/companies/1](https://cargasinestres.zeabur.app/api/v1/companies/1)  |
+|  /api/v1/clients/{id}     |       PUT       | 200 OK: Actualiza la información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1') |  [https://cargasinestres.zeabur.app/api/v1/clients/1](https://cargasinestres.zeabur.app/api/v1/clients/1)   |
+|  /api/v1/subscriptions/{idCompany}   |       POST      | 200 Created: Indica que la subscripcion ha sido creado exitosamente  de la empresa correspondiente  (parametro: id, ejemplo: '1')   |  [https://cargasinestres.zeabur.app/api/v1/subscriptions/1](https://cargasinestres.zeabur.app/api/v1/subscriptions/1)   |
 |  /api/v1/subscriptions/{companyId}   |       GET       | 200 OK: Retorna la información de la subscripcion de la empresa correspondiente  (parametro: id, ejemplo: '1')      |  [https://cargasinestres.zeabur.app/api/v1/subscriptions/1](https://cargasinestres.zeabur.app/api/v1/subscriptions/1)    |
 |  /api/v1/bookingHistory/{id}/status    |       PATCH       | 200 OK: Actualiza la información del estado de una reserva en especifico (parametro: id, ejemplo: '1')      | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/status](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/status) |
 |  /api/v1/bookingHistory/{id}/payment     |       PATCH      | 200 OK: Actualiza la información del pago de una reserva en especifico  (parametro: id, ejemplo: '1')     | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/payment](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/payment)|
 |  /api/v1/bookingHistory/{id}/chat     |       POST       | 201 Created: Indica que el mensaje del chat ha sido creada exitosamente de la reserva especificada (parametro: id, ejemplo: '1')    | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/chat](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/chat) |
 |  /api/v1/auth/register     |       POST      | 201 Created: Indica que el usuario administrador ha sido creada exitosamente   | [https://cargasinestres.zeabur.app/api/v1/auth/register](https://cargasinestres.zeabur.app/api/v1/auth/register) |
 |  /api/v1/auth/login  |       POST       | 201 Created: Indica que el usuario administrador se ha logeado exitosamente  | [https://cargasinestres.zeabur.app/api/v1/auth/login](https://cargasinestres.zeabur.app/api/v1/auth/login)  |
-|  /api/v1/user/profile/{userId}            |       GET      | 200 OK: Retorna la información del usuario    |  [https://cargasinestres.zeabur.app/api/v1/user/profile/1](https://cargasinestres.zeabur.app/api/v1/user/profile/1) |
-|  /api/v1/user/delete/{userId}   |       DELETE       | 204 No Content: Elimina el tipo de usario segun id (parametro: id, ejemplo: '1')  | [https://cargasinestres.zeabur.app/api/v1/user/delete/1](https://cargasinestres.zeabur.app/api/v1/user/delete/1)  |
+|  /api/v1/user/profile/{userId}    |       GET      | 200 OK: Retorna la información del usuario administrador segun id (parametro: id, ejemplo: '1') |  [https://cargasinestres.zeabur.app/api/v1/user/profile/1](https://cargasinestres.zeabur.app/api/v1/user/profile/1) |
+|  /api/v1/user/delete/{userId}   |       DELETE       | 204 No Content: Elimina el tipo de usuario administrador segun id (parametro: id, ejemplo: '1')  | [https://cargasinestres.zeabur.app/api/v1/user/delete/1](https://cargasinestres.zeabur.app/api/v1/user/delete/1)  |
 
 
 Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres ](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres)  
-Link del swagger: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html )  
+Link del swagger: [https://cargasinestres.zeabur.app/swagger-ui/index.html#](https://cargasinestres.zeabur.app/swagger-ui/index.html#)
 
 **Capturas de interaccion con datos de prueba**  
 - Registrar empresa (POST)   
