@@ -656,17 +656,22 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 |     US00   |     < >      |     WT06                  |     <  >            |     < >         |     < >            |    < >    |     Done    |
   
 #### 5.2.4.3. Development Evidence for Sprint Review.  
-
+  
 <div style="text-align:center;">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-1.png?raw=true" alt="Development Evidence - parte 1" width="450">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-1.png?raw=true" alt="Development Evidence - parte 1" width="450">   
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-2.png?raw=true" alt="Development Evidence - parte 2" width="450"> 
-</div> 
+</div>   
   
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review. 
 
 **feature 20**   
 <div style="text-align:center;">
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint4.png?raw=true" alt="Feature 20" width="600px">
+</div>  
+
+**feature 21**   
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature21-sprint4.png?raw=true" alt="Feature 21" width="600px">
 </div>
   
 #### 5.2.4.5. Execution Evidence for Sprint Review.  
