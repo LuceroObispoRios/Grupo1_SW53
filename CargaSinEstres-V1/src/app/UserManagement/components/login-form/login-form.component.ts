@@ -50,35 +50,25 @@ export class LoginFormComponent {
         this.api.getClientsForLogin(this.emailVerify, this.passwordVerify)
           .subscribe((clientResponse: any) => {
             console.log("Client Response", clientResponse)
-            if (clientResponse && clientResponse.length > 0) {
+            if (clientResponse != null) {
               // Las credenciales son válidas para un cliente, redirigir a la página correspondiente
-              this.router.navigate(['client/'+ clientResponse[0].id + '/client-settings']);
-            } 
-            else {
-              // Intentamos buscar en empresas si no encontramos en clientes
-              this.api.getCompaniesForLogin(this.emailVerify, this.passwordVerify)
-                .subscribe((companyResponse: any) => {
-                  console.log("Company Response", companyResponse)
-                  if (companyResponse && companyResponse.length > 0) {
-                    // Las credenciales son válidas para una empresa, redirigir a la página correspondiente
-                    this.router.navigate(['company/'+ companyResponse[0].id + '/company-settings']);
-                  } else {
-                    // Ninguna coincidencia, mostramos mensaje de error
-                    this.errorMessage = 'Credenciales incorrectas. Intente nuevamente.';
-                  }
-                }, (error: any) => {
-                  console.error(error);
-                  this.errorMessage = 'Ocurrió un error al iniciar sesión. Intente nuevamente.';
-                });
+              this.router.navigate(['client/'+ clientResponse.id + '/client-settings']);
             }
-          }, (error: any) => {
-            console.error(error);
-            this.errorMessage = 'Ocurrió un error al iniciar sesión. Intente nuevamente.';
-          });
+          }
+        );
+        this.api.getCompaniesForLogin(this.emailVerify, this.passwordVerify).subscribe((companyResponse: any) => {
+          console.log("Company Response", companyResponse)
+          if (companyResponse != null) {
+            this.router.navigate(['company/'+ companyResponse.id + '/company-settings']);
+          } else {
+            this.errorMessage = 'Credenciales incorrectas. Intente nuevamente.';
+          }
+        }
+      );   
       } catch (error) {
         console.error(error);
         this.errorMessage = 'Ocurrió un error al iniciar sesión. Intente nuevamente.';
-      }
+      } 
     }
   
   }

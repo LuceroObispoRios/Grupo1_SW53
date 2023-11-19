@@ -101,7 +101,7 @@ export class CompanySettingsComponent {
         montaje: formData.montaje,
         desmontaje: formData.desmontaje,
         description: formData.description,
-        id: this.id
+        //id: this.id
       }
       console.log('Nuevos ajustes validos: ', newCompanySettings)
 

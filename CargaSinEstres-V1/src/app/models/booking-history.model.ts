@@ -1,7 +1,7 @@
 export interface BookingHistory {
     id: any;
-    idCompany: any;
-    idClient: any;
+    company: any;
+    client: any;
     bookingDate: any;
     pickupAddress: any;
     destinationAddress: any;
@@ -9,7 +9,6 @@ export interface BookingHistory {
     movingTime: any;
     services: any;
     status: any;
-    payment: {totalAmount: any, paymentMethod: any};
-    hiredCompany: { name: any, logo: any};
+    payment: any;
     chat: {id: any, user: any, message: any, dateTime: any};
 }

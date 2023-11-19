@@ -84,7 +84,6 @@ export class ClientSettingsComponent {
         direccion: formData.direccion,
         email: formData.email,
         password: formData.password,
-        id: this.id
       }
       console.log('Nuevos ajustes validos: ', newClientSettings)
 
