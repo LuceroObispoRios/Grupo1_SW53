@@ -47,13 +47,13 @@ export class PaymentFormComponent {
             const companyData = CompanyArray[0];
 
             const nuevaSuscripcion: Subscription = {
-              id: 0,
+              id: undefined,
               firma: this.firma,
               idCompany: companyData.id,
               subscriptionDate: new Date().toISOString(), 
               subscriptionType: this.vigenciaSuscripcion, 
               payment: {
-                paymentMethod: "Por definir",
+                paymentMethod: this.numeroTarjeta,
               },
               hiredCompany: {
                 name: companyData.name, 

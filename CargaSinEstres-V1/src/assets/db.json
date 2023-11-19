@@ -195,14 +195,20 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "¡Hola! Reservé una mudanza con ustedes para la próxima semana y quería coordinar algunos detalles antes del día del traslado.",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "¡Perfecto! Estamos listos para ayudarte. ¿Hay algo específico que te preocupe o que quieras confirmar antes del día de la mudanza?",
           "dateTime": "2023-08-10 10:07:50"
+        },
+        {
+          "id":3,
+          "user": "client",
+          "message": "Sí, me gustaría asegurarme de que el equipo de mudanza esté al tanto de algunos artículos frágiles que requieren un manejo especial durante el traslado.",
+          "dateTime": "2023-08-10 10:10:50"
         }
       ]
     },
@@ -229,13 +235,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, tengo algunas antigüedades frágiles que necesitan un manejo delicado. ¿Cómo manejan esos artículos durante el proceso de mudanza?",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Entendemos lo importante que son tus pertenencias. Utilizamos materiales de embalaje de alta calidad y técnicas especiales para asegurar una protección óptima. ¿Hay algo más en lo que pueda ayudarte?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
@@ -263,13 +269,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, quisiera saber si se puede llevar electrodomésticos",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Claro que sí, ¿cuántos electrodomésticos son?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
@@ -297,14 +303,20 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "¡Hola! Reservé una mudanza con ustedes para la próxima semana y quería coordinar algunos detalles antes del día del traslado.",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "¡Perfecto! Estamos listos para ayudarte. ¿Hay algo específico que te preocupe o que quieras confirmar antes del día de la mudanza?",
           "dateTime": "2023-08-10 10:07:50"
+        },
+        {
+          "id":3,
+          "user": "client",
+          "message": "Sí, me gustaría asegurarme de que el equipo de mudanza esté al tanto de algunos artículos frágiles que requieren un manejo especial durante el traslado.",
+          "dateTime": "2023-08-10 10:10:50"
         }
       ]
     },
@@ -331,13 +343,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, tengo algunas antigüedades frágiles que necesitan un manejo delicado. ¿Cómo manejan esos artículos durante el proceso de mudanza?",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Entendemos lo importante que son tus pertenencias. Utilizamos materiales de embalaje de alta calidad y técnicas especiales para asegurar una protección óptima. ¿Hay algo más en lo que pueda ayudarte?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
@@ -365,13 +377,13 @@
         {
           "id": 1,
           "user": "client",
-          "message": "Primer mensaje",
+          "message": "Hola, quisiera saber si se puede llevar electrodomésticos",
           "dateTime": "2023-08-10 10:02:30"
         },
         {
           "id": 2,
           "user": "company",
-          "message": "Segundo mensaje",
+          "message": "Claro que sí, ¿cuántos electrodomésticos son?",
           "dateTime": "2023-08-10 10:07:50"
         }
       ]
@@ -379,12 +391,13 @@
     {
       "idCompany": 3,
       "idClient": {
-        "userId": "2"
+        "userId": "1"
       },
-      "bookingDate": "2023-10-17T03:57:48.306Z",
+      "bookingDate": "25-9-2023",
       "pickupAddress": "Locación actual",
       "destinationAddress": "Por Definir",
-      "movingDate": "2023-10-17T03:57:48.306Z",
+      "movingDate": "25-9-2023",
+      "movingTime": "17:25",
       "status": "En curso",
       "hiredCompany": {
         "name": "J&G Transporte y mudanzas",
@@ -419,6 +432,74 @@
       "email": "a@gmail.com",
       "password": "0123456",
       "userType": "client",
+      "id": 2
+    }
+  ],
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "¡Una experiencia excepcional! Entrega puntual y atención al cliente sobresaliente.",
+      "companyId": 2,
+      "id": 3
+    },
+    {
+      "rating": 3,
+      "comment": "El servicio cumplió con lo esperado, sin destacar positiva ni negativamente.",
+      "companyId": 3,
+      "id": 3
+    },
+    {
+      "rating": 5,
+      "comment": "Muy satisfecho con el servicio, superó mis expectativas.",
+      "companyId": 7,
+      "id": 4
+    },
+    {
+      "rating": 4,
+      "comment": "Buen servicio",
+      "companyId": 8,
+      "id": 5
+    },
+    {
+      "rating": 3,
+      "comment": "El servicio fue promedio, nada espectacular pero tampoco terrible.",
+      "companyId": 7,
+      "id": 6
+    },
+    {
+      "rating": 4,
+      "comment": "Buen servicio en general, pero hubo un pequeño retraso en la entrega.",
+      "companyId": 6,
+      "id": 7
+    }
+  ],
+  "subscriptions": [
+    {
+      "firma": "m84pWq",
+      "idCompany": 1,
+      "subscriptionDate": "2023-10-25T21:39:09.364Z",
+      "subscriptionType": "6 month plan",
+      "payment": {
+        "paymentMethod": "1234253576585352"
+      },
+      "hiredCompany": {
+        "name": "Transporte y mudanzas Rapi2",
+        "logo": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logotipo-transporte-y-mudanzas-design-template-8ee4abec6c3d27c285e676c71f18c550_screen.jpg?ts=1626998647"
+      },
+      "id": 1
+    },
+    {
+      "firma": "nPCqDy",
+      "idCompany": 7,
+      "subscriptionDate": "2023-10-25T21:56:58.044Z",
+      "subscriptionType": "12 month plan",
+      "payment": {
+        "paymentMethod": "7365463847592716"
+      },
+      "hiredCompany": {
+        "name": "Mudanzas Jurado",
+        "logo": "https://www.mudanzasjurado.com/uploads/UFOLSqyA/353x0_387x0/logo.jpg"
+      },
       "id": 2
     }
   ]

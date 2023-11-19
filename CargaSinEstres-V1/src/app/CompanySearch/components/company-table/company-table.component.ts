@@ -12,10 +12,8 @@ import { BookingHistory } from 'src/app/models/booking-history.model';
 
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
-import {MatDialog, MatDialogModule,MatDialogRef} from '@angular/material/dialog';
-import { MatButtonModule } from '@angular/material/button'; 
-import { MatIconModule } from '@angular/material/icon';
-import { BookingHistory } from 'src/app/models/booking-history.model';
+import { forkJoin } from 'rxjs';
+
 
 @Component({
   selector: 'app-company-table',
@@ -56,9 +54,34 @@ export class CompanyTableComponent{
     this.companyDataService.getAllCompanies().subscribe((res: any) => {
       this.originalData = res;
       this.dataSource_company.data = res;
-      this.searchBySelectedServices();
-      this.searchByLocation();
-    })
+  
+      const observables = this.dataSource_company.data.map((company: any) => {
+        return this.companyDataService.searchExistingMembership(company.id);
+      });
+  
+      forkJoin(observables).subscribe((results: boolean[]) => {
+        this.dataSource_company.data.forEach((company: any, index: number) => {
+          const hasMembership = results[index];
+          company.hasMembership = hasMembership;
+          company.rowStyle = hasMembership ? 'golden-background' : 'default-background';
+        });
+  
+        // Ahora que se han completado todas las llamadas
+        this.dataSource_company.data.sort((a: any, b: any) => {
+          if (a.hasMembership && !b.hasMembership) {
+            return -1; // a viene antes que b
+          } else if (!a.hasMembership && b.hasMembership) {
+            return 1; // b viene antes que a
+          }
+          return 0; // sin cambios en el orden
+        });
+  
+        this.searchBySelectedServices();
+        this.searchByLocation();
+        console.log('dataSource:', this.dataSource_company);
+      });
+    });
+
   }
 
 
@@ -99,7 +122,7 @@ export class CompanyTableComponent{
 
 
   /* FILTER: SEARCH BY LOCATION */
-  searchMethod: string = 'noFilter'; // Opción predeterminada
+  searchMethod: string = 'noFilter'; // Opción predeterminada <----------------//Membreship
   manualLocation: string = ''; // Ubicación manual ingresada por el usuario
   userLocation: string = ''; // Ubicación del usuario
 
@@ -140,7 +163,9 @@ export class CompanyTableComponent{
 
   openDialog(){
     const dialogRef = this.dialog.open(CargaRapidaDialog, {
-      data:{userId:this.userId}
+      data:{
+        userId: parseInt(this.userId),
+      }
     });
 
     dialogRef.afterClosed().subscribe(result => {
@@ -164,7 +189,7 @@ export class CargaRapidaDialog {
   reservation: BookingHistory = {
     id: undefined,
     idCompany: '',
-    idClient: '',
+    idClient: undefined,
 
     bookingDate: undefined,
     pickupAddress: undefined,
@@ -184,10 +209,12 @@ export class CargaRapidaDialog {
     chat: {id: undefined, user: undefined, message: undefined, dateTime: undefined}
   };
 
-  userId: string = '';
-  constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService, @Inject(MAT_DIALOG_DATA) public data: any) {
-    this.userId = data;
-    console.log('userId is: ', this.data);
+  userId: number = 0;
+  constructor(public dialogRef: MatDialogRef<CargaRapidaDialog>, private companyDataService: CargaSinEstresDataService, public router:Router, @Inject(MAT_DIALOG_DATA) public data: any) {
+    
+    this.userId = this.data.userId;
+    console.log('userId is: ', this.userId);
+    console.log('data is: ', this.userId.valueOf());
   }
 
 
@@ -211,10 +238,9 @@ export class CargaRapidaDialog {
 
     let randCompanyIndex = Math.floor(Math.random() * this.companies.length); //index al azar
     let randCompany = this.companies[randCompanyIndex]; //company al azar
-
     //generar reserva a partir de randCompany
     this.reservation.idCompany = randCompany.id;
-    this.reservation.idClient = this.data;
+    this.reservation.idClient = this.userId;
 
     this.reservation.hiredCompany.name = randCompany.name;
     this.reservation.hiredCompany.logo = randCompany.photo;
@@ -224,8 +250,9 @@ export class CargaRapidaDialog {
     this.reservation.status = "En curso";
     this.reservation.payment.totalAmount = 0;
     this.reservation.payment.paymentMethod = "Por definir";
-    this.reservation.bookingDate = now;
-    this.reservation.movingDate = now;
+    this.reservation.bookingDate = now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate();
+    this.reservation.movingDate = now.getFullYear()+"-"+now.getMonth()+"-"+now.getDate();
+    this.reservation.movingTime = now.getHours() + ":" + now.getMinutes();
     //se genera la reserva con company random y fecha actual
     this.companyDataService.createReservation(this.reservation).subscribe(
       (res: any) => 
@@ -239,6 +266,8 @@ export class CargaRapidaDialog {
       }
     );
 
+    this.router.navigateByUrl(`client/${this.userId}/history-cards`);
+    this.closeDialog();
   }
 
 }

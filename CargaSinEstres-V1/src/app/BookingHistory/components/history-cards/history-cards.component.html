@@ -43,6 +43,12 @@
                   Chat
               </button>
             </ng-container>
+            <ng-container *ngIf="element.status == 'Finalizado' && userType === 'client'">
+              <button mat-button class="btn-chat" (click)="openDialogReview(element)">
+                <mat-icon> rate_review</mat-icon>
+                  Review
+              </button>
+            </ng-container>
           </mat-dialog-actions>
         </div>
         <div>
@@ -60,6 +66,6 @@
   </div>
       <mat-paginator [length]="this.elementData.length" [pageSize]="4" [pageSizeOptions]="[4, 8, 12]" 
                      (page)="onPageChange($event)"
-                     aria-label="Select page of list of movies">
+                     aria-label="Select page of list of Bookings">
       </mat-paginator>
       <br><br><br>
