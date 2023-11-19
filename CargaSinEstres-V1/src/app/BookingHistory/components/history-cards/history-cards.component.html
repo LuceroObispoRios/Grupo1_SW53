@@ -22,7 +22,7 @@
               </p>
             </div>
           </mat-card-subtitle>
-          <img src="{{element.hiredCompany.logo}}" alt="element.hiredCompany.name" class="logo-companies">
+          <img src="{{element.company.photo}}" alt="element.company.photo" class="logo-companies">
         </mat-card-title-group>
   
       </mat-card-header>
@@ -30,9 +30,29 @@
           
           <div><span class="bold">Dirección de recojo :  </span><span>{{element.pickupAddress}}</span></div>
           <div><p><span class="bold">Dirección de entrega : </span><span>{{element.destinationAddress}}</span></p></div>
-          
-          <div><p><span class="bold">Pago total: </span><span> S/.{{element.payment.totalAmount}}</span></p></div>
-          <div><p><span class="bold">Empresa contratada: </span><span>{{element.hiredCompany.name}}</span></p></div>
+          <!------------------------------------------ Pago ------------------------------------>
+          <div>
+            <p><span class="bold">Pago total: </span>
+              <span> S/.{{element.payment}}
+              <button mat-icon-button color="primary" (click)="editItem(element)" *ngIf="userType == 'company'">
+                <mat-icon>edit</mat-icon>
+              </button>
+            </span></p>
+          </div>
+          <ng-container *ngIf="element.isEditMode == true && userType == 'company'">
+            <form (submit)="onSubmit(element)" [formGroup]="paymentForm">
+              <mat-form-field>
+                <input matInput placeholder="Payment" name="payment" formControlName="payment" required>
+              </mat-form-field>
+              <br>
+              <button mat-raised-button color="primary"  type="submit">Guardar</button>&nbsp;
+              <button mat-raised-button color="warn" (click)="cancelEdit(element)">Cancelar</button>
+              <br><br>
+            </form>
+          </ng-container>
+         <!------------------------------------------------------------------------------>
+
+          <div><p><span class="bold">Empresa contratada: </span><span>{{element.company.name}}</span></p></div>
       </mat-card-content>
       <div class="btn-group">
         <div >
@@ -49,15 +69,15 @@
                   Review
               </button>
             </ng-container>
+            <ng-container *ngIf="element.status != 'Finalizado'">
+              <button mat-button class="btn-cancel" (click)="cancelBooking(element)">
+                <mat-icon>cancel</mat-icon>
+                  Cancelar 
+              </button>
+            </ng-container>
           </mat-dialog-actions>
         </div>
         <div>
-          <div>
-            <button mat-button class="btn-details">
-                <mat-icon>add_circle</mat-icon>
-                Ver detalle
-            </button>
-          </div>
         </div>
       </div>
       

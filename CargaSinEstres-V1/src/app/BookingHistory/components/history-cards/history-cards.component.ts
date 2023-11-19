@@ -8,6 +8,7 @@ import { ChatDialogComponent } from '../chat-dialog/chat-dialog.component';
 import { ReviewDialogComponent } from '../review-dialog/review-dialog.component';
 import { ActivatedRoute } from '@angular/router';
 import { CargaSinEstresDataService } from 'src/app/services/carga-sin-estres-data.service';
+import { Form, NgForm, FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-history-cards',
@@ -28,11 +29,19 @@ export class HistoryCardsComponent implements OnInit {
 
   userId: string = '';
   userType: string = '';
-  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private dialog: MatDialog, private route: ActivatedRoute) {
-    this.bookingData = {} as BookingHistory;
+  company: any;
+  client: any;
+
+  paymentForm: FormGroup;
+
+  constructor(private companyDataService: CargaSinEstresDataService, private router: Router, private dialog: MatDialog, private route: ActivatedRoute, private fb: FormBuilder) {
+    this.bookingData = {} as any;
     this.pageSlice = [];
     this.elementData = [];
     this.messages = [];
+    this.paymentForm = this.fb.group({
+       payment: ['', Validators.required]
+    });
 
     this.route.pathFromRoot[1].url.subscribe(
       url => {
@@ -63,25 +72,47 @@ export class HistoryCardsComponent implements OnInit {
     this.getBookingHistoryById(this.userId);
   }
 
+  getCompany(id: any) {
+    this.companyDataService.getCompanyById(id).subscribe(
+      (res: any) => 
+      {
+        console.log("Company detail:", (res));
+        this.company = res;
+        console.log('company: ', this.company);
+      },
+      err => {
+        console.log("Error:", err);
+      }
+    );
+  }
+
   getBookingHistoryById(id: any) {  
     if(this.userType == 'client'){
       this.companyDataService.getBookingHistoryById(id).subscribe((response: any) => {
-        this.elementData = response;
-        console.log('data client: ', response);
+        this.elementData = response; //booking history obtained
+        console.log('reservas del cliente: ', response);
+
         this.elementData.forEach((element, index) => {
           element.counter = index + 1;
+          element.isEditMode = false;
         });
         this.elementData.reverse();
+
         console.log('data user id: ');
         console.log(this.elementData);
+
         this.pageSlice = this.elementData.slice(0, 4);
       })
-    }else if(this.userType == 'company'){
+    }else 
+    
+    if(this.userType == 'company'){
+      
       this.companyDataService.getBookingHistoryByCompanyId(id).subscribe((response: any) => {
-        this.elementData = response;
-        console.log('data company: ', response);
+        this.elementData = response; //obtained booking history
+        console.log('reservas de la empresa: ', response);
         this.elementData.forEach((element, index) => {
           element.counter = index + 1;
+          element.isEditMode = false;
         });
         this.elementData.reverse();
         console.log('data user id: ');
@@ -91,26 +122,76 @@ export class HistoryCardsComponent implements OnInit {
     }
   }
 
-  openDialog(element: BookingHistory) {
-    console.log('opening dialog element: ', element);
+  openDialog(element: any) {
     this.dialog.open(ChatDialogComponent, {
       width: '600px',
-      data:{userId:this.userId, userType: this.userType, element}
-    });
-  }
-
-
-  openDialogReview(element: BookingHistory) {
-    console.log('opening review dialog element: ', element);
-    console.log('idCompany: ', element.idCompany );
-    this.dialog.open(ReviewDialogComponent, {
-      width: '600px',
-      data: {
-        userId: this.userId,
-        userType: this.userType,
+      data:{
+        userId:this.userId, 
+        userType: this.userType, 
         element
       }
     });
   }
 
+  
+  openDialogReview(element: any) {
+    this.dialog.open(ReviewDialogComponent, {
+      width: '600px',
+      data: {
+        userId: this.userId,
+        userType: this.userType,
+        company: element,
+      }
+    });
+  }
+
+  /* editar payment */
+
+  isEditMode = false;
+  paymentData!: any;
+
+  editItem(element: any){
+    this.paymentData = element.payment;
+    element.isEditMode = true;
+  }
+
+  cancelEdit(element: any){
+    element.isEditMode = false;
+    //this.paymentForm.resetForm();
+  }
+
+  onSubmit(element: any){
+    const payment = this.paymentForm.value.payment;
+    console.log('valid');
+    if(element.isEditMode){
+      console.log('payment in edit mode');
+      this.updatePayment(element, payment);
+    }
+    //this.cancelEdit(element);
+
+  }
+
+  updatePayment(element: any, newPayment: any){
+    console.log('booking id: ', element.id);
+    console.log('Payment data:', this.paymentData);
+    const data = {
+      payment: newPayment
+    }
+    console.log('data: ', data);
+    this.companyDataService.updateBookingHistoryPayment(element.id, data).subscribe((response: any)=>{
+      console.log('response update payment: ', response);
+      this.getBookingHistoryById(this.userId);
+      
+    })
+  }
+
+  cancelBooking(element: any){
+    const cancelStatus = 'Finalizado';
+    this.companyDataService.updateBookingHistoryStatus(element.id, cancelStatus).subscribe((response: any)=>{
+      console.log('response cancel booking: ', response);
+      this.getBookingHistoryById(this.userId);
+    });
+  }
+    
 }
+

@@ -14,10 +14,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class ReviewDialogComponent {
   reviewForm: FormGroup;
-  reviewData!: Review;
-  historyDialog!: HistoryCardsComponent;
-  elementData!: any[];
-  history!: any[];
+  reviewData!: any;
   companyId!: any;
   rating: number = 0;
 
@@ -25,11 +22,10 @@ export class ReviewDialogComponent {
   userType: string = '';
   nameCompany: any;
   logoCompany: any;
+  company: any;
 
   constructor(private fb: FormBuilder, private companyDataService: CargaSinEstresDataService, private router: Router, private route: ActivatedRoute,@Inject(MAT_DIALOG_DATA) public data: any){
-    this.reviewData = {} as Review;
-    this.elementData = [];
-    this.history = [];
+    this.reviewData = {} as any;
 
     this.reviewForm = this.fb.group({
       rating: [null, Validators.required],
@@ -39,16 +35,22 @@ export class ReviewDialogComponent {
 
 
   ngOnInit(): void {
-    this.companyId = this.data.element.idCompany;
+    console.log('data is: ', this.data);
+    this.companyId = this.data.company.company.id;
+    
     this.userType = this.data.userType;
     this.userId = this.data.userId;
+    console.log("USER companyId DE DIALOGO", this.companyId);
+
     this.getInitialValues();
   }
 
   getInitialValues(){
-    this.companyDataService.getCompanyById2(this.companyId).subscribe((response: any) => {
+    this.companyDataService.getCompanyById(this.companyId).subscribe((response: any) => {
+      console.log('Company RESPONSE: ', response);
       this.nameCompany = response.name;
       this.logoCompany = response.photo;
+      this.company=response;
     });
   }
 
@@ -61,8 +63,8 @@ export class ReviewDialogComponent {
     const reviewData = {
       rating: ratingValue,
       comment: commentValue,
-      companyId: this.companyId,
     }
+    console.log('reviewData a actualizar: ', reviewData);
   
     this.companyDataService.addReview(this.companyId, reviewData).subscribe((response: any) => {
       if (!Array.isArray(this.data.element)) {
@@ -78,7 +80,5 @@ export class ReviewDialogComponent {
   
     this.reviewForm.reset();
   }
-  
-  
 
 }
