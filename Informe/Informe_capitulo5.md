@@ -697,6 +697,14 @@ El cual utiliza una base de datos desplegada en railway, y cuyo repositorio desd
   
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
   
+**GitFlow**
+En el cuarto sprint, continuamos con nuestra metodología colaborativa y utilizamos ramas separadas para cada miembro del equipo.
+Esto permite que cada miembro tenga su propio espacio para trabajar de manera eficiente y registrar claramente sus contribuciones al proyecto en un ambiente colaborativo armonioso.
+Luego, cada miembro consolidó el trabajo de la rama de desarrollo en la programación front-end y back-end del proyecto, lo que permitió que el proyecto avanzara de manera incremental y sistemática.
+Mientras tanto, continuaremos haciendo ajustes e informando el progreso en la rama principal.
+Al final del sprint, integramos los cambios de la rama de desarrollo nuevamente en la rama principal y presentamos la versión final del proyecto con todas las características implementadas e informes actualizados con el estado más reciente.
+
+
   
 ## 5.3 Validation Interviews  
   
