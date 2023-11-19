@@ -651,7 +651,12 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/development-evidence-sprint4-2.png?raw=true" alt="Development Evidence - parte 2" width="450"> 
 </div> 
   
-#### 5.2.4.4. Testing Suite Evidence for Sprint Review.  
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review. 
+
+**feature 20**   
+<div style="text-align:center;">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature20-sprint4.png?raw=true" alt="Feature 20" width="600px">
+</div>
   
 #### 5.2.4.5. Execution Evidence for Sprint Review.  
   
