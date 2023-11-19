@@ -32,7 +32,7 @@ Ciclo 2023-02
  TB2 | 29/09/23 - 02/11/23  | Javier Sebastian| Se añadió entrevista de validación y Sprint Backlog 3. Se corrigieron los Sprint Backlog 1 y 2 según las indicaciones para la mejora continua. En el Backend, se realizó la implementación de la entidad company, incluyendo su model, controller, repository y services. De la misma forma, se colaboró con la implementación de dto y el uso del Model Mapper en las entidades existentes.
  TF  | 03/11/23 - 18/11/23  | Eric Cuevas|  Para el sprint 4, se participo en el desarrolo del backend y actualización del frontend para la integración de ambos, se realizo partes del sprint 4 sprint planning y execution evidence, prticipo en la actualización de conclusiones.
  TF  | 03/11/23 - 18/11/23  | Lucero Obispo| Para el sprint 4, se apoyo en el desarrollo del backend en relacion al booking history, tambien en la integracion entre el backend y frontend del programa en general y se realizo el services documentation.
- TF  | 03/11/23 - 18/11/23  | Andrea O'Higgins| <  >
+ TF  | 03/11/23 - 18/11/23  | Andrea O'Higgins| Para el sprint 4, se participo en el desarrolo del backend y actualización del frontend. Además , en el informe, se añadió el development evidence.
  TF  | 03/11/23 - 18/11/23  | Javier Sebastian| Para el sprint 4, se participo en la construcción del backend y la comunicación de este con el frontend. Por otro lado, en el informe, se adicionó el sprint backlog y team collaboration insight.
 ---
 1. Capitulo 1: Introducción  
