@@ -690,8 +690,7 @@ En total se realizaron 23 endpoints. Para este tercer sprint, se han agregado 11
 Los metodos PUT clients y companies con parametro de id estan relacionados a la pantalla de Settings, para actualizar la informacion para ese tipo de usuario.  
 Asmismo, los metodos POST subscriptions y subscriptions estan relacionados a la pantalla Membresia del frontend para que el usuario adquiera una membresia, y posteriormente obtener esa membresia para colocar la empresa al inicio de la busqueda.    
 Los metodos PATCH status, payment, asi como POST chats con parametro de id booking, estan relacionados a la pantalla Historial de Reservas, para editar detalles de esta y poder comunicarse a traves del chat.  
-Los metodos GET all reviews y GET reviews con parametro de id, estan relacionados a la pantalla de Informacion de Empresa porque aqui se visualizaran las reseñas que recibe una empresa en especifica, mientras que en la pantalla Historial de Reservas se podrá crear una reseña, una vez la reserva tenga como estado finalizado.
-Por ultimo, los metodos POST bookingHistory, GET booking History con parametro id cliente o empresa, permiten al usuario crear una reserva como visualizar el historia de reservas de una empresa o cliente en especifico.
+Por ultimo, se ha implementado los metodos de registro, logeo, obtener y eliminar cuenta administrador.
 
 **Tabla:**  
 
@@ -699,16 +698,15 @@ Por ultimo, los metodos POST bookingHistory, GET booking History con parametro i
 |--------|----------|--------|-------|
 |  /api/v1/companies/{id}        |       PUT       | 200 OK: Actualiza la información de la compañía correspondiente al ID especificado (parametro: id, ejemplo: '1')| [https://cargasinestres.zeabur.app/api/v1/companies/1](https://cargasinestres.zeabur.app/api/v1/companies/1)  |
 |  /api/v1/clients/{id}          |       PUT       | 200 OK: Actualiza la información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1') |  [https://cargasinestres.zeabur.app/api/v1/clients/1](https://cargasinestres.zeabur.app/api/v1/clients/1)   |
-|  /api/v1/subscriptions/{idCompany}   |       POST      | 200 Created: Indica que la subscripcion ha sido creado exitosamente                                              |     |
-|  /api/v1/subscriptions/{companyId}   |       GET       | 200 OK: Retorna la información de la subscripcion de la empresa correspondiente  (parametro: id, ejemplo: '1')      |   |
-|  /api/v1/bookingHistory/{id}/status    |       PATCH       | 200 OK: Actualiza la información del estado de una reserva en especifico (parametro: id, ejemplo: '1')      |  |
-|  /api/v1/bookingHistory/{id}/payment     |       PATCH      | 200 OK: Actualiza la información del pago de una reserva en especifico  (parametro: id, ejemplo: '1')     | |
-|  /clients/{id}                 |       PUT       | 200 OK: Retorna información del cliente correspondiente al ID especificado (parametro: id, ejemplo: '1')    ||
-|  /reviews                      |       POST      | 201 Created: Indica que la reseña ha sido creada exitosamente                                               |  |
-|  /reviews/company/{companyId}  |       GET       | 200 OK: Retorna información de la reseña correspondiente al copmanyID (parametro: companyId, ejemplo: '1')  |   |
-|  /bookingHistory               |       POST      | 201 Created: Indica que la reserva ha sido creada exitosamente                                              |  |
-|  /bookingHistory/client/{id}   |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id cliente (parametro: id, ejemplo: '1')  | |
-|  /bookingHistory/company/{id}  |       GET       | 200 OK: Retorna todas las reservas de historial registradas segun id company (parametro: id, ejemplo: '1')  | |
+|  /api/v1/subscriptions/{idCompany}   |       POST      | 200 Created: Indica que la subscripcion ha sido creado exitosamente                                              |  [https://cargasinestres.zeabur.app/api/v1/subscriptions/1](https://cargasinestres.zeabur.app/api/v1/subscriptions/1)   |
+|  /api/v1/subscriptions/{companyId}   |       GET       | 200 OK: Retorna la información de la subscripcion de la empresa correspondiente  (parametro: id, ejemplo: '1')      |  [https://cargasinestres.zeabur.app/api/v1/subscriptions/1](https://cargasinestres.zeabur.app/api/v1/subscriptions/1)    |
+|  /api/v1/bookingHistory/{id}/status    |       PATCH       | 200 OK: Actualiza la información del estado de una reserva en especifico (parametro: id, ejemplo: '1')      | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/status](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/status) |
+|  /api/v1/bookingHistory/{id}/payment     |       PATCH      | 200 OK: Actualiza la información del pago de una reserva en especifico  (parametro: id, ejemplo: '1')     | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/payment](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/payment)|
+|  /api/v1/bookingHistory/{id}/chat     |       POST       | 201 Created: Indica que el mensaje del chat ha sido creada exitosamente de la reserva especificada (parametro: id, ejemplo: '1')    | [https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/chat](https://cargasinestres.zeabur.app/api/v1/bookingHistory/1/chat) |
+|  /api/v1/auth/register     |       POST      | 201 Created: Indica que el usuario administrador ha sido creada exitosamente   | [https://cargasinestres.zeabur.app/api/v1/auth/register](https://cargasinestres.zeabur.app/api/v1/auth/register) |
+|  /api/v1/auth/login  |       POST       | 201 Created: Indica que el usuario administrador se ha logeado exitosamente  | [https://cargasinestres.zeabur.app/api/v1/auth/login](https://cargasinestres.zeabur.app/api/v1/auth/login)  |
+|  /api/v1/user/profile/{userId}            |       GET      | 200 OK: Retorna la información del usuario    |  [https://cargasinestres.zeabur.app/api/v1/user/profile/1](https://cargasinestres.zeabur.app/api/v1/user/profile/1) |
+|  /api/v1/user/delete/{userId}   |       DELETE       | 204 No Content: Elimina el tipo de usario segun id (parametro: id, ejemplo: '1')  | [https://cargasinestres.zeabur.app/api/v1/user/delete/1](https://cargasinestres.zeabur.app/api/v1/user/delete/1)  |
 
 
 Link del Repositorio de Web Services: [https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres ](https://github.com/LuceroObispoRios/Grupo1_SW53/tree/develop/Backend/CargaSinEstres)  
