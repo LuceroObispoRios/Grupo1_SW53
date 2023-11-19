@@ -15,10 +15,10 @@ import { ToolbarClientComponent } from './Public/components/toolbar-client/toolb
 import { ToolbarCompanyComponent } from './Public/components/toolbar-company/toolbar-company.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
   {path: 'login', component: LoginFormComponent},
   {path: 'landing-page', component: LandingPageComponent},
-
+  {path: 'client-form', component: ClientFormComponent},
+  {path: 'company-form', component: CompanyFormComponent},
   // Rutas para el cliente
   {
     path: 'client/:id', component: ToolbarClientComponent,
@@ -40,8 +40,8 @@ const routes: Routes = [
       {path: 'payment-form', component: PaymentFormComponent}
     ]
   },
-  {path: 'client-form', component: ClientFormComponent},
-  {path: 'company-form', component: CompanyFormComponent},
+  {path: '', redirectTo: '/login', pathMatch: 'full' },
+  {path: '**', redirectTo: '/landing-page', pathMatch: 'full'}
 ];
 
 @NgModule({
