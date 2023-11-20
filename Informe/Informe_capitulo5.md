@@ -844,11 +844,9 @@ Entrevistado:  Jorge Rosales
 Residencia: Los Olivos, Lima  
 Ocupación: Trabajador de empresa de mudanzas  
 Entrevistador: Eric Cuevas  
-Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)
-<div style="text-align:center;">  
-  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa2.JPG?raw=true" alt="entrevista1" width="800px">   
-</div>  
-
+Enlace: [https://youtu.be/L5YV1R7sKcQ](https://youtu.be/L5YV1R7sKcQ)  
+![entrevista 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa2.JPG?raw=true)   
+  
 Resumen de entrevista:
 07:10 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
 La información de todas las empresas que estan en nuestro rubro, lo que nos permite saber cual es la oferta existente en el mercado, y adicionalmente la parte de detalle de la reserva, que es para nosotros importante. 
