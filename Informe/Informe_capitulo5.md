@@ -33,7 +33,7 @@ la instalación, la cual es guiada e intuitiva.
 Una vez descargado el ejecutable, teniendo en cuenta el sistema operativo del usuario, se procede a 
 la instalación, la cual es guiada e intuitiva.
 
-![Extensión vscode-style-components](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitLogo.png?raw=true)
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitLogo.png?raw=true" alt="git Logo" widht="700px">
 
 **Github**: GitHub es la herramienta perfecta para nuestro equipo. En primer lugar, nos permite  mantener un control preciso de cada cambio en nuestro código, lo que facilita la colaboración  en tiempo real y minimiza los conflictos. Además, es posible realizar revisiones de código,  abrir problemas y fusionar solicitudes de extracción de manera fluida hace que nuestro  trabajo en equipo sea más eficiente y efectivo. En resumen, GitHub se ha convertido en el  núcleo de nuestra estrategia de desarrollo.
 
@@ -85,18 +85,18 @@ El despliegue de la aplicación se realiza primero creando una cuenta en [https:
 
 Para realizar el despliegue en si, se tiene que ejecutar los siguientes comandos en orden :  
 <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando1.JPG?raw=true" alt="paso 1" width="500px">  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando2.JPG?raw=true" alt="paso 2" width="500px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando2.JPG?raw=true" alt="paso 2" width="300px">  
 <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando3.JPG?raw=true" alt="paso 3" width="500px">  
   
 En este punto se generara la carpeta dist   
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/carpeta-dist.JPG?raw=true" alt="carpeta dist" width="500px">     
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/carpeta-dist.JPG?raw=true" alt="carpeta Dist" width="600px">     
   
 Y se tendra que colocar las variables de entorno en environment.prod.ts  
 <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/variables-entorno.JPG?raw=true" alt="variables" width="500px">  
   
 Ahora, para inicializar el despliegue:  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando4.JPG?raw=true" alt="paso 4" width="500px">  
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando5.JPG?raw=true" alt="paso 5" width="500px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando4.JPG?raw=true" alt="paso 4" width="600px">  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando5.JPG?raw=true" alt="paso 5" width="700px">  
 <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/comando6.JPG?raw=true" alt="paso 6" width="500px">  
   
 Con esto nuestra aplicación fue desplegada y se puede encontrar en el siguiente link:  
@@ -153,27 +153,27 @@ El objetivo del Sprint 1 sera terminar la Landing Page, asi como los sistemas de
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review.
 Acceptance Tests de los User Stories, archivos .feature utilizando el lenguaje Gherkin
 <div style="text-align:center;" >
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint1.png?raw=true" alt="feature 1" width="600px">   
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature01-sprint1.png?raw=true" alt="feature 1" width="600px">   
 
-![feature 2](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint1.png?raw=true)     
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature02-sprint1.png?raw=true" alt="feature 2" width="600px">  
+   
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint1.png?raw=true" alt="feature 3" width="600px">  
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature03-sprint1.png?raw=true" alt="feature 3" width="600px">  
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint1.png?raw=true" alt="feature 4" width="600px">  
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature04-sprint1.png?raw=true" alt="feature 4" width="600px">  
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint1.png?raw=true" alt="feature 5" width="600px">  
 
-![feature 5](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature05-sprint1.png?raw=true)   
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint1.png?raw=true" alt="feature 6" width="600px">    
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature06-sprint1.png?raw=true" alt="feature 6" width="600px">    
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint1.png?raw=true" alt="feature 7" width="600px">  
 
-![feature 7](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature07-sprint1.png?raw=true)   
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint1.png?raw=true" alt="feature 8" width="600px">  
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature08-sprint1.png?raw=true" alt="feature 8" width="600px">  
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint1.png?raw=true" alt="feature 9" width="600px">  
 
-![feature 9](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature09-sprint1.png?raw=true)   
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint1.png?raw=true" alt="feature 10" width="600px">  
 
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature10-sprint1.png?raw=true" alt="feature 10" width="600px">  
-
-<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint1.png?raw=true" alt="feature 11" width="600px">   
+   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature11-sprint1.png?raw=true" alt="feature 11" width="600px">   
 
 ![feature 12](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/feature12-sprint1.jpg?raw=true)  
 
