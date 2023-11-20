@@ -557,11 +557,11 @@ Una vez que se haya registrado el cliente, el servidor enviará una respuesta al
 - Registrar reserva (POST)   
 El usuario agrega una nueva reserva para solicitar servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario colocado todos datos necesarios para solicitar una reserva.
 Una vez que se solicitado la reserva, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_3.JPG?raw=true)    
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services3_3.JPG?raw=true)  
 - Registrar reseña (POST)   
 El usuario agrega una nueva reseña a la base de datos para calificar el servicio brindado por una empresa. Esta operación se realiza mediante una solicitud HTTP POST. En este ejemplo vemos que el usuario ha colocado todos datos necesarios para publicar su reseña.
 Una vez que se haya creado la reseña, el servidor enviará una respuesta al cliente que realizó la solicitud POST. Esta respuesta generalmente incluirá un código de estado HTTP para indicar si la operación se realizó con éxito (por ejemplo, código 201 - Creado) o si hubo algún error (por ejemplo, código 400 - Error de solicitud).   
-![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_3.JPG?raw=true)   
+![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services4_3.JPG?raw=true)  
 - Obtener lista de todas las empresas (GET)   
 Los usuarios desean consultar una lista de todas las empresas registradas en la plataforma de búsqueda de servicios de mudanza. Esta operación se realiza mediante una solicitud HTTP GET. A continuación, se presenta un ejemplo en el que un cliente solicita la lista de todas las empresas disponibles.  
 ![services](https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/services5_3.JPG?raw=true)  
@@ -617,10 +617,15 @@ Durante el tercer sprint, continuamos nuestra metodología de trabajo colaborati
 
 <div style="text-align:center;">  
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow1_3.JPG?raw=true" alt="gitflow" width="600px">   
+    
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow2_3.JPG?raw=true" alt="gitflow" width="600px">  
+    
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow3_3.JPG?raw=true" alt="gitflow" width="600px">  
+    
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow4_3.JPG?raw=true" alt="gitflow" width="600px">  
+    
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow5_3.JPG?raw=true" alt="gitflow" width="600px">  
+    
   <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/gitflow6_3.JPG?raw=true" alt="gitflow" width="600px">  
 </div>   
 
@@ -688,18 +693,18 @@ Acceptance Tests actualizados de los User Stories, archivos .feature utilizando 
 Durante el Cuarto Sprint arreglamos detalles y revisamos la coherencia entre las funcionalidades del front-end y back-end, logrando conectar ambos depliegues.
   
   <div style="text-align:center;">  
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/loginTF-ex.JPG?raw=true" alt="login TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registroEmpresaTF-ex.JPG?raw=true" alt="registroEmpresa TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/editarClienteTF-ex.JPG?raw=true" alt="editar cliente TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/busquedaEmpresasTF-ex.JPG?raw=true" alt="busqueda Empresas TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/cargaRapidaTF-ex.JPG?raw=true" alt="carga Rapida TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/loginTF-ex.JPG?raw=true" alt="login TF" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/registroEmpresaTF-ex.JPG?raw=true" alt="registroEmpresa TF" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/editarClienteTF-ex.JPG?raw=true" alt="editar cliente TF" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/busquedaEmpresasTF-ex.JPG?raw=true" alt="busqueda Empresas TF" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/cargaRapidaTF-ex.JPG?raw=true" alt="carga Rapida TF" width="600px">  
     <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/detalleEmpresaTF-ex.JPG?raw=true" alt="detalle Empresa TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/reviewsTF-ex.JPG?raw=true" alt="reviews TF" width="300px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/hacerReservaTF-ex.JPG?raw=true" alt="Hacer Reserva TF" width="500px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/historialReservasTF-ex.JPG?raw=true" alt="historial Reservas TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chatTF-ex.JPG?raw=true" alt="chat TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formularioMembresiaTF-ex.JPG?raw=true" alt="formulario membresia TF" width="600px">
-    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boletaTF-ex.JPG?raw=true" alt="boleta TF" width="600px">
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/reviewsTF-ex.JPG?raw=true" alt="reviews TF" width="300px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/hacerReservaTF-ex.JPG?raw=true" alt="Hacer Reserva TF" width="500px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/historialReservasTF-ex.JPG?raw=true" alt="historial Reservas TF" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/chatTF-ex.JPG?raw=true" alt="chat TF" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/formularioMembresiaTF-ex.JPG?raw=true" alt="formulario membresia TF" width="600px">  
+    <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/boletaTF-ex.JPG?raw=true" alt="boleta TF" width="600px">  
   </div>  
     
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.  
@@ -824,10 +829,8 @@ Entrevistado: Felix Bianchi
 Residencia: Chorrillos, Lima  
 Ocupación: Trabajador de empresa de mudanzas  
 Entrevistador: Eric Cuevas  
-Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)
-<div style="text-align:center;">  
-  <img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa1.JPG?raw=true" alt="entrevista1" width="800px">   
-</div> 
+Enlace: [https://youtu.be/v5w_iTNg54s](https://youtu.be/v5w_iTNg54s)  
+<img src="https://github.com/LuceroObispoRios/Grupo1_SW53/blob/main/Informe/Imagenes/entrevista-validacion-empresa1.JPG?raw=true" alt="entrevista1" width="800px">   
      
 Resumen de entrevista:  
 06:25 - ¿Que caracteristica de la pagina encuentra usted más util en cuanto a contribuir con el crecimiento de su empresa?
