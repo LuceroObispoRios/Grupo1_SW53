@@ -349,6 +349,7 @@
 | 22| HU22   | Visualizar reseñas de las empresas | Como usuario cliente, quiero poder visualizar reseñas y comentarios sobre las empresas de mudanza o carga para evaluar la calidad de los servicios antes de tomar una decisión.   | 3|
 | 23| HU23   | Cancelar reserva | Como usuario, quiero poder cancelar la reserva en curso para tener la flexibilidad de modificar mis planes según sea necesario.   | 3|
 | 24| HU24   | Editar pago de la reserva | Como usuario empresa, después de coordinar los detalles de la mudanza con el cliente, quiero tener la capacidad de editar la información de pago asociada a la reserva para reflejar cambios en los costos acordados.   | 3|
+| 25| HU25   | Privacidad y seguridad de información sensible | Como usuario, quiero tener la garantía de que mi información sensible esté protegida y que solo las personas autorizadas tengan acceso a ella, para salvaguardar mi privacidad y asegurarme de que la aplicación cumple con los estándares de seguridad, evitando el acceso no autorizado a datos sensibles.   | 5|
 
 # Capítulo 4: Product Design
 
