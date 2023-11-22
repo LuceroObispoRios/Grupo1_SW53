@@ -344,7 +344,11 @@
 | 17| HU17   | Visualizar historial de reservas | Como usuario cliente quiero poder ver los servicios de mudanza contratados para tener control y seguimiento de mis transacciones dentro de la aplicación.  | 5|
 | 18| HU18   | Visualizar varias reservas en una página | Como usuario cliente quiero visualizar varias reservas en una sola página para que pueda tener una vista panorámica de todos mis servicios de mudanza contratados de manera fácil y rápida.  | 3|
 | 19| HU19   | Comunicación mediante chat con la empresa | Como usuario cliente quiero comunicarme con la empresa que reservé para poder coordinar los detalles de la mudanza.   | 5|
-
+| 20| HU20   | Servicio de carga rápida | Como usuario cliente, quiero poder realizar reservas de servicios de mudanza o carga para el mismo día de manera rápida y sin complicaciones, para poder programar y asegurar el servicio de forma inmediata y conveniente según mis necesidades de última hora.   | 5|
+| 21| HU21   | Escribir reseñas sobre el servicio | Como usuario cliente, quiero poder escribir reseñas sobre el servicio de mudanza o carga recibido para compartir mi experiencia con otros usuarios.   | 3|
+| 22| HU22   | Visualizar reseñas de las empresas | Como usuario cliente, quiero poder visualizar reseñas y comentarios sobre las empresas de mudanza o carga para evaluar la calidad de los servicios antes de tomar una decisión.   | 3|
+| 23| HU23   | Cancelar reserva | Como usuario, quiero poder cancelar la reserva en curso para tener la flexibilidad de modificar mis planes según sea necesario.   | 3|
+| 24| HU24   | Editar pago de la reserva | Como usuario empresa, después de coordinar los detalles de la mudanza con el cliente, quiero tener la capacidad de editar la información de pago asociada a la reserva para reflejar cambios en los costos acordados.   | 3|
 
 # Capítulo 4: Product Design
 
