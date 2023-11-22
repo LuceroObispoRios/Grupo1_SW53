@@ -143,7 +143,7 @@ Una vez que se ha logeador, el servidor enviará una respuesta a la empresa que 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.  
 La aplicación frontend desplegada se encuentra en el siguiente enlace  
-[https://cargasinestres-tb2.web.app](https://cargasinestres-tb2.web.app),  
+[https://cargasinestres-open-tf.web.app](https://cargasinestres-open-tf.web.app),  
   
 Asu vez, tambien se ha desplegado el backend por medio de zeabur  
 [https://cargasinestres.zeabur.app/swagger-ui/index.html](https://cargasinestres.zeabur.app/swagger-ui/index.html)  
